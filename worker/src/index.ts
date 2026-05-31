@@ -19,7 +19,6 @@ export interface Env {
 }
 
 const FINGERPRINT_RE = /^[^/]+\/[^/]+\/[^/:]+:[^/]+\/[^/]+\/[^:]+:[^/]+\/[^/]+$/;
-const SEG_RE = /^[A-Za-z0-9._-]+$/;
 
 function json(status: number, body: unknown): Response {
   return new Response(JSON.stringify(body), {
@@ -30,6 +29,20 @@ function json(status: number, body: unknown): Response {
 
 function sanitize(v: unknown): string {
   return String(v ?? "").trim();
+}
+
+/**
+ * Path-safe slug for a brand/model directory segment. The raw value is kept in
+ * getprop.json; only the on-disk path is slugged. Must match the identical
+ * normalization in the app (Kotlin archiveChain + Dart OtaArchive) so reads and
+ * writes line up. e.g. "Pixel 8 Pro" -> "Pixel_8_Pro".
+ */
+function pathSeg(v: unknown): string {
+  return sanitize(v).replace(/[^A-Za-z0-9._-]+/g, "_");
+}
+
+function validSeg(s: string): boolean {
+  return s.length > 0 && !/^\.+$/.test(s); // non-empty, not "." / ".."
 }
 
 async function rateLimit(env: Env, ip: string): Promise<boolean> {
@@ -85,14 +98,14 @@ export default {
     }
 
     const fingerprint = sanitize(props["ro.build.fingerprint"]);
-    const brand = sanitize(props["ro.product.brand"]);
-    const model = sanitize(props["ro.product.model"]);
+    const brand = pathSeg(props["ro.product.brand"]);
+    const model = pathSeg(props["ro.product.model"]);
     const utc = sanitize(props["ro.build.date.utc"]);
 
     if (!FINGERPRINT_RE.test(fingerprint)) {
       return json(400, { error: "invalid ro.build.fingerprint" });
     }
-    if (!SEG_RE.test(brand) || !SEG_RE.test(model) || !/^\d+$/.test(utc)) {
+    if (!validSeg(brand) || !validSeg(model) || !/^\d+$/.test(utc)) {
       return json(400, { error: "invalid brand/model/ro.build.date.utc" });
     }
 

@@ -4,3 +4,4 @@ __pycache__/
 worker/node_modules/
 worker/.wrangler/
 /tmp/
+secrets.txt
