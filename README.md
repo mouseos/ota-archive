@@ -49,8 +49,9 @@ Put that endpoint URL into the app.
 - (`GITHUB_TOKEN` is automatic; the workflow already has `permissions: contents: write`.)
 
 ### 3. archive.org
-Create an account; generate S3 keys (above). Item id scheme:
-`ota-google-{brand}-{model}-{postTimestamp}`.
+Create an account; generate S3 keys (above). One item per device —
+`ota-google-{brand}-{model}` — with each firmware stored inside under its
+original package filename.
 
 ### 4. App
 - Set the Worker endpoint URL.

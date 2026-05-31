@@ -35,8 +35,10 @@ def main():
     brand, model = parts[-4], parts[-3]
     post_ts = fw["postTimestamp"]
     url = fw["otaUrl"]
+    # One archive.org item per device; each firmware is stored inside it keeping the
+    # original package filename, so versions for the same device stay grouped.
     filename = url.split("?")[0].rsplit("/", 1)[-1] or f"{post_ts}.zip"
-    identifier = sanitize_id(f"ota-google-{brand}-{model}-{post_ts}")
+    identifier = sanitize_id(f"ota-google-{brand}-{model}")
 
     access = os.environ["IA_ACCESS_KEY"]
     secret = os.environ["IA_SECRET_KEY"]
@@ -60,8 +62,8 @@ def main():
                 "x-amz-auto-make-bucket": "1",
                 "x-archive-meta-mediatype": "data",
                 "x-archive-meta-collection": "opensource",
-                "x-archive-meta-title": f"OTA {brand} {model} {fw.get('postBuild', post_ts)}",
-                "x-archive-meta-fingerprint": fw.get("fingerprint", ""),
+                "x-archive-meta-title": f"OTA {brand} {model}",
+                "x-archive-meta-subject": f"{brand};{model};android-ota",
             },
             timeout=3600,
         )
