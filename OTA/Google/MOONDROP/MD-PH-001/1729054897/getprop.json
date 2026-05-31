@@ -1,0 +1,10 @@
+{
+  "ro.build.fingerprint": "MOONDROP/MD_PH_001_GL/MD_PH_001:14/UP1A.231005.007/1729054323:user/release-keys",
+  "ro.product.brand": "MOONDROP",
+  "ro.product.model": "MD-PH-001",
+  "ro.product.device": "MD_PH_001",
+  "ro.product.name": "MD_PH_001_GL",
+  "ro.build.version.sdk": "34",
+  "ro.build.version.security_patch": "2024-08-05",
+  "ro.build.date.utc": "1729054897"
+}

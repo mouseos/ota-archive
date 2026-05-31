@@ -1,0 +1,20 @@
+name = "ota-getprop"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# --- required ---
+# Set the data repo here, then deploy with `wrangler deploy`.
+[vars]
+GH_REPO = "mouseos/ota-archive"
+GH_BRANCH = "main"
+
+# GH_TOKEN is a SECRET (do not put it here):
+#   wrangler secret put GH_TOKEN
+# (fine-grained PAT, Contents: Read and write on GH_REPO)
+
+# --- optional: per-IP rate limit (60 posts/hour) ---
+# 1) wrangler kv namespace create RL
+# 2) paste the printed id below and uncomment:
+# [[kv_namespaces]]
+# binding = "RL"
+# id = "<kv-namespace-id>"
