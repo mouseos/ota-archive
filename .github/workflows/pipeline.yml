@@ -1,0 +1,80 @@
+name: OTA pipeline
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ota-pipeline
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    outputs:
+      pending: ${{ steps.pending.outputs.list }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - name: Regenerate timestamps and resolve firmware chains
+        run: |
+          python scripts/regen_timestamps.py
+          python scripts/resolve.py OTA/Google
+          python scripts/regen_timestamps.py
+      - name: Commit metadata
+        run: |
+          git config user.name "ota-bot"
+          git config user.email "ota-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Resolve firmware + regen timestamps [skip ci]" || echo "no changes"
+          git pull --rebase --autostash || true
+          git push || true
+      - name: Purge jsDelivr for changed json
+        run: |
+          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'timestamps\.json|index\.json' | while read -r f; do
+            curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${{ github.ref_name }}/$f" > /dev/null || true
+          done
+      - name: Collect pending uploads
+        id: pending
+        run: echo "list=$(python scripts/list_pending.py)" >> "$GITHUB_OUTPUT"
+
+  upload:
+    needs: resolve
+    if: ${{ needs.resolve.outputs.pending != '[]' && needs.resolve.outputs.pending != '' }}
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 2          # politeness + avoid push storms
+      fail-fast: false
+      matrix:
+        path: ${{ fromJson(needs.resolve.outputs.pending) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: |
+          sudo apt-get update && sudo apt-get install -y aria2
+          pip install requests
+      - name: Download + upload to archive.org
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: python scripts/ia_upload.py "${{ matrix.path }}"
+      - name: Commit archiveUrls (rebase-retry for concurrent jobs)
+        run: |
+          git config user.name "ota-bot"
+          git config user.email "ota-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Archive ${{ matrix.path }} [skip ci]" || { echo "no changes"; exit 0; }
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((RANDOM % 10 + 3))
+          done
+          echo "push failed after retries" >&2; exit 1
