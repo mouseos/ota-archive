@@ -1,0 +1,6 @@
+{
+  "ro.product.model": "bullhead",
+  "ro.build.fingerprint": "google/bullhead/bullhead:8.1.0/OPM1.171019.011/4448085:user/release-keys",
+  "ro.product.brand": "google",
+  "ro.product.device": "bullhead"
+}
