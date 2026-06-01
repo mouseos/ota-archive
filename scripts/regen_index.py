@@ -106,8 +106,11 @@ def main():
             if not os.path.isdir(mp):
                 continue
             summary, s = regen_model(group, model, mp)
-            groups.setdefault(group, []).append(summary)
-            search.append(s)
+            # per-model index.json is always written (the app precheck uses builds[]),
+            # but the browse catalog/search only list models that actually have firmware.
+            if summary["firmwareCount"] > 0:
+                groups.setdefault(group, []).append(summary)
+                search.append(s)
             print(f"regen {mp}: {summary['firmwareCount']} firmware")
     catalog = {"groups": [{"group": g, "models": groups[g]} for g in sorted(groups)]}
     json.dump(catalog, open(os.path.join(ROOT, "catalog.json"), "w", encoding="utf-8"),
