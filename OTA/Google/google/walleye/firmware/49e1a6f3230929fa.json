@@ -11,5 +11,7 @@
   "title": "Android 11",
   "description": "This is the final software update containing improvements and bug fixes for Pixel 2 and Pixel 2 XL devices. For more information on your device’s ongoing support go to: https://g.co/pixel/updates",
   "otaType": "incremental",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-walleye/b51fd72c9692db2e96e9316bd51063807391756c.zip"
+  ]
 }
