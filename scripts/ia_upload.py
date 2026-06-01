@@ -12,6 +12,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 import requests
 
@@ -52,23 +53,34 @@ def main():
     )
 
     upload_url = f"{IA_S3}/{identifier}/{filename}"
+    headers = {
+        "authorization": f"LOW {access}:{secret}",
+        "x-amz-auto-make-bucket": "1",
+        "x-archive-meta-mediatype": "data",
+        "x-archive-meta-collection": "opensource",
+        "x-archive-meta-title": f"OTA {group} {model}",
+        "x-archive-meta-subject": f"{group};{model};android-ota",
+    }
     print(f"uploading -> {upload_url}")
-    with open(local, "rb") as f:
-        r = requests.put(
-            upload_url,
-            data=f,
-            headers={
-                "authorization": f"LOW {access}:{secret}",
-                "x-amz-auto-make-bucket": "1",
-                "x-archive-meta-mediatype": "data",
-                "x-archive-meta-collection": "opensource",
-                "x-archive-meta-title": f"OTA {group} {model}",
-                "x-archive-meta-subject": f"{group};{model};android-ota",
-            },
-            timeout=3600,
-        )
-    if r.status_code not in (200, 201):
-        raise RuntimeError(f"IA upload failed: HTTP {r.status_code} {r.text[:300]}")
+    # archive.org returns transient 409/5xx ("short term bucket lock") while an item is
+    # being created or written concurrently (matrix). Retry with backoff before failing.
+    last = ""
+    for attempt in range(6):
+        with open(local, "rb") as f:
+            r = requests.put(upload_url, data=f, headers=headers, timeout=3600)
+        if r.status_code in (200, 201):
+            break
+        last = f"HTTP {r.status_code} {r.text[:200]}"
+        transient = r.status_code in (409, 500, 502, 503, 504, 429) \
+            or "bucket lock" in r.text.lower() or "try again" in r.text.lower() \
+            or "slow down" in r.text.lower() or "cannot" in r.text.lower()
+        if not transient:
+            raise RuntimeError(f"IA upload failed: {last}")
+        wait = 10 * (attempt + 1)
+        print(f"  IA transient ({last}); retry {attempt + 1}/6 in {wait}s")
+        time.sleep(wait)
+    else:
+        raise RuntimeError(f"IA upload failed after retries: {last}")
 
     fw["archiveUrls"] = [f"https://archive.org/download/{identifier}/{filename}"]
     json.dump(fw, open(fw_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
