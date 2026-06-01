@@ -1,0 +1,15 @@
+{
+  "preBuild": "google/walleye/walleye:11/RP1A.200720.009/6720564:user/release-keys",
+  "postBuild": "google/walleye/walleye:11/RP1A.201005.004/6782484:user/release-keys",
+  "postTimestamp": 1598037664,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_walleye_walleye/1427dbe7cc2ba0451cc41869ca98534827b31ae2.zip",
+  "sizeBytes": 9195131,
+  "securityPatch": "2020-10-05",
+  "sdk": "30",
+  "device": "walleye",
+  "checkinDevice": "walleye",
+  "title": "Android 11",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Additional charges may apply when updates are downloaded over the cellular network or while roaming.",
+  "otaType": "incremental",
+  "archiveUrls": []
+}

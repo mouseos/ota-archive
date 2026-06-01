@@ -1,0 +1,15 @@
+{
+  "preBuild": "google/bullhead/bullhead:8.1.0/OPM2.171019.029/4657601:user/release-keys",
+  "postBuild": "google/bullhead/bullhead:8.1.0/OPM4.171019.016.A1/4720815:user/release-keys",
+  "postTimestamp": 1523658649,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/google_bullhead_bullhead/7fae74449e9e09cf323130bab70b8c895f6a3759.zip",
+  "sizeBytes": 51388674,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "bullhead",
+  "checkinDevice": "bullhead",
+  "title": "Android 8.1.0",
+  "description": "This update fixes critical bugs and improves the performance and stability of your Nexus 5X. If you download updates over the cellular network or while roaming, additional charges may apply.",
+  "otaType": "incremental",
+  "archiveUrls": []
+}

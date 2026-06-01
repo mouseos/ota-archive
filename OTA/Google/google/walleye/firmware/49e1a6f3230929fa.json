@@ -1,0 +1,15 @@
+{
+  "preBuild": "google/walleye/walleye:11/RP1A.201005.004/6782484:user/release-keys",
+  "postBuild": "google/walleye/walleye:11/RP1A.201005.004.A1/6934943:user/release-keys",
+  "postTimestamp": 1603833891,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/b51fd72c9692db2e96e9316bd51063807391756c.zip",
+  "sizeBytes": 8710924,
+  "securityPatch": "2020-10-05",
+  "sdk": "30",
+  "device": "walleye",
+  "checkinDevice": "walleye",
+  "title": "Android 11",
+  "description": "This is the final software update containing improvements and bug fixes for Pixel 2 and Pixel 2 XL devices. For more information on your device’s ongoing support go to: https://g.co/pixel/updates",
+  "otaType": "incremental",
+  "archiveUrls": []
+}
