@@ -11,5 +11,7 @@
   "title": "System update available",
   "description": "Build number : V37R043A<br>\n*Do not turn off the phone while the installation is running.<br>\nFor more information, visit our website.",
   "otaType": "incremental",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-sbm801fj/c9f20ceaa032c317883fed745768e57921b7aa99.zip"
+  ]
 }
