@@ -11,5 +11,7 @@
   "title": "System update available",
   "description": "Build number : V48R056B<br>\n*Do not turn off the phone while the installation is running.<br>\nFor more information, visit our website.",
   "otaType": "incremental",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-sbm801fj/c83420466e1f02e1a3dc978dde76661bdc259eaa.zip"
+  ]
 }
