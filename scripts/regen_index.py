@@ -21,7 +21,8 @@ import re
 
 ROOT = "OTA/Google"
 FW_FIELDS = ["preBuild", "postBuild", "postTimestamp", "otaUrl", "sizeBytes",
-             "securityPatch", "sdk", "title", "description", "otaType", "archiveUrls"]
+             "securityPatch", "sdk", "title", "description", "otaType", "source",
+             "archiveUrls"]
 _TAG = re.compile(r"<[^>]+>")
 
 

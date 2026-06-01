@@ -29,6 +29,7 @@ import requests
 from checkin_pb2 import AndroidCheckinRequest, AndroidCheckinResponse
 from logs_pb2 import AndroidCheckinProto, AndroidBuildProto
 from range_zip import fetch_ota_metadata
+from sanitize import sanitize_html
 
 ROOT = "OTA/Google"
 CHECKIN_URL = "https://android.clients.google.com/checkin"
@@ -126,9 +127,10 @@ def write_firmware(fw_dir, pre_build, meta, size, url, result, used_dev, device)
         "sdk": meta.get("post-sdk-level"),
         "device": device,
         "checkinDevice": used_dev,
-        "title": result.get("title"),
-        "description": result.get("description"),
+        "title": sanitize_html(result.get("title"), 200),
+        "description": sanitize_html(result.get("description"), 4000),
         "otaType": ota_type(meta),
+        "source": "checkin",
         "archiveUrls": archive_urls,
     }
     json.dump(fw, open(fwp, "w", encoding="utf-8"), indent=2, ensure_ascii=False)

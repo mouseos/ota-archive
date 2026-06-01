@@ -84,69 +84,116 @@ async function ghContents(
   });
 }
 
+// Only official Google OTA hosts may be submitted as otaUrl — this alone blocks the
+// "malicious download link" vector; users only ever receive Google-hosted packages.
+const OTA_HOSTS = new Set(["android.googleapis.com", "ota.googlezip.net", "dl.google.com"]);
+
+function isAllowedOtaUrl(u: string): boolean {
+  try {
+    const url = new URL(u);
+    if (url.protocol !== "https:") return false;
+    const h = url.hostname.toLowerCase();
+    return OTA_HOSTS.has(h) || h.endsWith(".googlezip.net");
+  } catch {
+    return false;
+  }
+}
+
+function b64(s: string): string {
+  return btoa(unescape(encodeURIComponent(s)));
+}
+
+async function readJsonObject(req: Request): Promise<Record<string, unknown> | null> {
+  try {
+    const parsed = await req.json();
+    if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) return null;
+    return parsed as Record<string, unknown>;
+  } catch {
+    return null;
+  }
+}
+
+/** Idempotent GET-then-PUT of a file (skips if it already exists). */
+async function commitIfAbsent(
+  env: Env, path: string, body: string, message: string,
+): Promise<Response> {
+  const head = await ghContents(env, "GET", path);
+  if (head.status === 200) return json(200, { status: "exists", path });
+  if (head.status !== 404) return json(502, { error: "github read failed", code: head.status });
+  const put = await ghContents(env, "PUT", path, {
+    body: { message, content: b64(body), branch: env.GH_BRANCH || "main" },
+  });
+  if (put.status === 201) return json(202, { status: "created", path });
+  if (put.status === 422) return json(200, { status: "exists", path }); // race
+  return json(502, { error: "github write failed", code: put.status });
+}
+
+async function handleGetprop(req: Request, env: Env): Promise<Response> {
+  const props0 = await readJsonObject(req);
+  if (!props0) return json(400, { error: "body must be a JSON object of props" });
+  const props = props0 as Record<string, string>;
+  const fingerprint = sanitize(props["ro.build.fingerprint"]);
+  // Group by OEM (ro.product.manufacturer), falling back to the carrier/marketing
+  // brand when manufacturer is absent. e.g. SBM801FJ -> SHARP, not SBM.
+  const manufacturer = pathSeg(props["ro.product.manufacturer"]);
+  const brand = pathSeg(props["ro.product.brand"]);
+  const group = validSeg(manufacturer) ? manufacturer : brand;
+  const model = pathSeg(props["ro.product.model"]);
+  if (!FINGERPRINT_RE.test(fingerprint)) return json(400, { error: "invalid ro.build.fingerprint" });
+  if (!validSeg(group) || !validSeg(model)) return json(400, { error: "invalid manufacturer/brand/model" });
+  // Key getprop by the fingerprint — the only id present in BOTH the device props
+  // and OTA metadata (as pre-/post-build) — so versions link without ro.build.date.utc.
+  const fpHash = (await sha1hex(fingerprint)).slice(0, 16);
+  const path = `OTA/Google/${group}/${model}/getprop/${fpHash}.json`;
+  return commitIfAbsent(env, path, JSON.stringify(props, null, 2) + "\n",
+    `getprop ${group}/${model} (${fpHash})`);
+}
+
+/**
+ * Records a firmware *submission* — NOT a trusted firmware record. The Worker only
+ * validates that otaUrl is a Google OTA host and the path context is well-formed, then
+ * stores it under submissions/. GitHub Actions later Range-fetches the real package and
+ * derives the authoritative build/patch/sdk/size/otaType (client metadata is ignored)
+ * and sanitizes the notes. So a client cannot inject a malware link (host allowlist),
+ * forge metadata (server re-derives), or XSS (notes sanitized + rendered safely).
+ */
+async function handleFirmware(req: Request, env: Env): Promise<Response> {
+  const body = await readJsonObject(req);
+  if (!body) return json(400, { error: "body must be a JSON object" });
+  const otaUrl = sanitize(body["otaUrl"]);
+  const fingerprint = sanitize(body["fingerprint"]); // device's current build (preBuild context)
+  const manufacturer = pathSeg(body["manufacturer"]);
+  const brand = pathSeg(sanitize(body["brand"]) || fingerprint.split("/")[0]);
+  const group = validSeg(manufacturer) ? manufacturer : brand;
+  const model = pathSeg(body["model"]);
+
+  if (!isAllowedOtaUrl(otaUrl)) return json(400, { error: "otaUrl host not allowed" });
+  if (!FINGERPRINT_RE.test(fingerprint)) return json(400, { error: "invalid fingerprint" });
+  if (!validSeg(group) || !validSeg(model)) return json(400, { error: "invalid manufacturer/model" });
+
+  const submission = {
+    otaUrl,
+    fingerprint,
+    manufacturer: validSeg(manufacturer) ? manufacturer : "",
+    brand,
+    model,
+    title: sanitize(body["title"]).slice(0, 200),
+    description: sanitize(body["description"]).slice(0, 4000),
+  };
+  const hash = (await sha1hex(otaUrl)).slice(0, 16);
+  const path = `submissions/${hash}.json`;
+  return commitIfAbsent(env, path, JSON.stringify(submission, null, 2) + "\n",
+    `submission ${group}/${model} (${hash})`);
+}
+
 export default {
   async fetch(req: Request, env: Env): Promise<Response> {
     const url = new URL(req.url);
-    if (req.method !== "POST" || url.pathname !== "/v1/getprop") {
-      return json(404, { error: "not found" });
-    }
-
+    if (req.method !== "POST") return json(404, { error: "not found" });
     const ip = req.headers.get("cf-connecting-ip") ?? "0.0.0.0";
     if (!(await rateLimit(env, ip))) return json(429, { error: "rate limited" });
-
-    let props: Record<string, string>;
-    try {
-      const parsed = await req.json();
-      if (typeof parsed !== "object" || parsed === null || Array.isArray(parsed)) {
-        return json(400, { error: "body must be a JSON object of props" });
-      }
-      props = parsed as Record<string, string>;
-    } catch {
-      return json(400, { error: "invalid JSON" });
-    }
-
-    const fingerprint = sanitize(props["ro.build.fingerprint"]);
-    // Group by OEM (ro.product.manufacturer), falling back to the carrier/marketing
-    // brand when manufacturer is absent. e.g. SBM801FJ -> SHARP, not SBM.
-    const manufacturer = pathSeg(props["ro.product.manufacturer"]);
-    const brand = pathSeg(props["ro.product.brand"]);
-    const group = validSeg(manufacturer) ? manufacturer : brand;
-    const model = pathSeg(props["ro.product.model"]);
-
-    if (!FINGERPRINT_RE.test(fingerprint)) {
-      return json(400, { error: "invalid ro.build.fingerprint" });
-    }
-    if (!validSeg(group) || !validSeg(model)) {
-      return json(400, { error: "invalid manufacturer/brand/model" });
-    }
-
-    // Key getprop by the fingerprint — the only id present in BOTH the device props
-    // and OTA metadata (as pre-/post-build) — so versions link without ro.build.date.utc,
-    // which trimmed dumps may omit.
-    const fpHash = (await sha1hex(fingerprint)).slice(0, 16);
-    const path = `OTA/Google/${group}/${model}/getprop/${fpHash}.json`;
-
-    // idempotent: skip if it already exists
-    const head = await ghContents(env, "GET", path);
-    if (head.status === 200) {
-      return json(200, { status: "exists", path });
-    }
-    if (head.status !== 404) {
-      return json(502, { error: "github read failed", code: head.status });
-    }
-
-    const content = btoa(
-      unescape(encodeURIComponent(JSON.stringify(props, null, 2) + "\n")),
-    );
-    const put = await ghContents(env, "PUT", path, {
-      body: {
-        message: `getprop ${group}/${model} (${fpHash})`,
-        content,
-        branch: env.GH_BRANCH || "main",
-      },
-    });
-    if (put.status === 201) return json(202, { status: "created", path });
-    if (put.status === 422) return json(200, { status: "exists", path }); // race
-    return json(502, { error: "github write failed", code: put.status });
+    if (url.pathname === "/v1/getprop") return handleGetprop(req, env);
+    if (url.pathname === "/v1/firmware") return handleFirmware(req, env);
+    return json(404, { error: "not found" });
   },
 };
