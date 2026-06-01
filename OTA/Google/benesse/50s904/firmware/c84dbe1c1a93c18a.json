@@ -1,0 +1,16 @@
+{
+  "preBuild": "Benesse/50S904/50S904:15/AP3A.241105.008/20250824:user/release-keys",
+  "postBuild": "Benesse/50S904/50S904:15/AP3A.241105.008/20260414:user/release-keys",
+  "postTimestamp": 1776141273,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/10c63e01f9d7a564194cdf28fdf6e6f225055fc6.zip",
+  "sizeBytes": 93058128,
+  "securityPatch": "2026-03-05",
+  "sdk": "35",
+  "device": "50S904",
+  "checkinDevice": "50S904",
+  "title": "50S904_Benesse_CTL_V02_20250824_update_50S904_Benesse_CTL2_V01_20260414",
+  "description": "From 20250824 to 20260414<p>",
+  "otaType": "incremental",
+  "source": "checkin",
+  "archiveUrls": []
+}
