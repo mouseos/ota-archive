@@ -2,7 +2,7 @@
 """Download a resolved OTA package (aria2c, parallel) and upload it to
 archive.org via the S3-like API, then record the link in firmware.json.
 
-Usage: python ia_upload.py OTA/Google/{brand}/{model}/{ts}/firmware.json
+Usage: python ia_upload.py OTA/Google/{group}/{model}/firmware/{hash}.json
 Env:   IA_ACCESS_KEY, IA_SECRET_KEY   (from https://archive.org/account/s3.php)
 
 Designed for GitHub Actions matrix (1 firmware per job) to fit time/disk limits:
@@ -31,14 +31,14 @@ def main():
         return
 
     parts = fw_path.replace("\\", "/").split("/")
-    # OTA/Google/{brand}/{model}/{ts}/firmware.json
-    brand, model = parts[-4], parts[-3]
-    post_ts = fw["postTimestamp"]
+    # OTA/Google/{group}/{model}/firmware/{hash}.json
+    group, model = parts[-4], parts[-3]
+    post_ts = fw.get("postTimestamp")
     url = fw["otaUrl"]
     # One archive.org item per device; each firmware is stored inside it keeping the
     # original package filename, so versions for the same device stay grouped.
     filename = url.split("?")[0].rsplit("/", 1)[-1] or f"{post_ts}.zip"
-    identifier = sanitize_id(f"ota-google-{brand}-{model}")
+    identifier = sanitize_id(f"ota-google-{group}-{model}")
 
     access = os.environ["IA_ACCESS_KEY"]
     secret = os.environ["IA_SECRET_KEY"]
@@ -62,8 +62,8 @@ def main():
                 "x-amz-auto-make-bucket": "1",
                 "x-archive-meta-mediatype": "data",
                 "x-archive-meta-collection": "opensource",
-                "x-archive-meta-title": f"OTA {brand} {model}",
-                "x-archive-meta-subject": f"{brand};{model};android-ota",
+                "x-archive-meta-title": f"OTA {group} {model}",
+                "x-archive-meta-subject": f"{group};{model};android-ota",
             },
             timeout=3600,
         )

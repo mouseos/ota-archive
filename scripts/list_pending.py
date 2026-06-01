@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Print a JSON array of firmware.json paths that still need archive.org upload
+"""Print a JSON array of firmware/*.json paths that still need archive.org upload
 (archiveUrls empty). Used to build the GitHub Actions upload matrix."""
 import json
 import os
@@ -7,8 +7,12 @@ import os
 ROOT = "OTA/Google"
 pending = []
 for dirpath, _dirs, files in os.walk(ROOT):
-    if "firmware.json" in files:
-        p = os.path.join(dirpath, "firmware.json").replace("\\", "/")
+    if os.path.basename(dirpath) != "firmware":
+        continue
+    for f in sorted(files):
+        if not f.endswith(".json"):
+            continue
+        p = os.path.join(dirpath, f).replace("\\", "/")
         try:
             fw = json.load(open(p, encoding="utf-8"))
         except Exception:

@@ -1,20 +1,25 @@
 # -*- coding: utf-8 -*-
-"""Resolve firmware chains for collected getprop.json files.
+"""Resolve firmware chains from collected getprop, keyed by build fingerprint.
 
-For each model dir under OTA/Google/{brand}/{model}/, find the oldest timestamp
-folder that has getprop.json but no firmware.json, then run a Google checkin
-chain using HTTP-Range metadata, writing firmware.json per discovered version
-(post-timestamp).
+Layout per model:  OTA/Google/{group}/{model}/
+  getprop/{sha1(fingerprint)}.json   # device builds (seeds), written by the Worker
+  firmware/{sha1(postBuild)}.json     # one OTA, identified by the build it PRODUCES
+  index.json                          # regenerated aggregate (regen_index.py)
 
-checkin request includes BOTH fixes used by the app:
-  - ro.build.date.utc as the build timestamp (server returns the correct/latest
-    OTA instead of an older one)
+The chain links by fingerprint, the only id present in BOTH the device props
+(ro.build.fingerprint) and OTA metadata (pre-build/post-build), so resolution works
+even when ro.build.date.utc is missing. A firmware's identity is its post-build (the
+build it installs); pre-build is just the build it updates from.
+
+checkin keeps both fixes used by the app:
+  - ro.build.date.utc as the build timestamp when present (else 0)
   - ro.product.device fallback when ro.product.model yields no update_url
 
 Usage: python resolve.py OTA/Google
-       python resolve.py OTA/Google/MOONDROP/MD-PH-001
+       python resolve.py OTA/Google/SHARP/SBM801FJ
 """
 import gzip
+import hashlib
 import json
 import os
 import sys
@@ -29,11 +34,20 @@ ROOT = "OTA/Google"
 CHECKIN_URL = "https://android.clients.google.com/checkin"
 
 
+def fp_hash(fp):
+    return hashlib.sha1(fp.encode("utf-8")).hexdigest()[:16]
+
+
 def device_from_fp(fp):
     try:
         return fp.split("/")[2].split(":")[0]
     except IndexError:
         return ""
+
+
+def ota_type(meta):
+    # Incremental OTAs carry a pre-build (the specific source); full OTAs do not.
+    return "incremental" if meta.get("pre-build") else "full"
 
 
 def _checkin(fingerprint, device, build_utc):
@@ -89,14 +103,13 @@ def check_with_fallback(fp, model, device, build_utc):
     return None, None
 
 
-def write_firmware(model_dir, fp, pre_ts, meta, size, url, result, used_dev, device):
+def write_firmware(fw_dir, pre_build, meta, size, url, result, used_dev, device):
     post_build = meta.get("post-build")
     post_ts = meta.get("post-timestamp")
-    if not post_build or not post_ts:
+    if not post_build:
         return None
-    out_dir = os.path.join(model_dir, str(post_ts))
-    os.makedirs(out_dir, exist_ok=True)
-    fwp = os.path.join(out_dir, "firmware.json")
+    os.makedirs(fw_dir, exist_ok=True)
+    fwp = os.path.join(fw_dir, fp_hash(post_build) + ".json")
     archive_urls = []
     if os.path.exists(fwp):
         try:
@@ -104,11 +117,9 @@ def write_firmware(model_dir, fp, pre_ts, meta, size, url, result, used_dev, dev
         except Exception:
             pass
     fw = {
-        "fingerprint": fp,
-        "preBuild": meta.get("pre-build"),
-        "preTimestamp": int(pre_ts) if str(pre_ts).isdigit() else None,
-        "postBuild": post_build,
-        "postTimestamp": int(post_ts),
+        "preBuild": pre_build,                          # build this OTA updates FROM
+        "postBuild": post_build,                        # identity: the build it installs
+        "postTimestamp": int(post_ts) if str(post_ts).isdigit() else None,
         "otaUrl": url,
         "sizeBytes": size,
         "securityPatch": meta.get("post-security-patch-level"),
@@ -117,22 +128,24 @@ def write_firmware(model_dir, fp, pre_ts, meta, size, url, result, used_dev, dev
         "checkinDevice": used_dev,
         "title": result.get("title"),
         "description": result.get("description"),
+        "otaType": ota_type(meta),
         "archiveUrls": archive_urls,
     }
     json.dump(fw, open(fwp, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    print(f"  wrote {fwp}  ({post_build})")
+    print(f"  wrote firmware/{os.path.basename(fwp)}  ({fw['otaType']} -> {post_build})")
     return post_build, post_ts
 
 
-def chain_from(model_dir, props):
+def chain_from(model_dir, props, seen):
     fp = props.get("ro.build.fingerprint", "")
     model = props.get("ro.product.model", "")
     device = props.get("ro.product.device", "") or device_from_fp(fp)
-    pre_ts = props.get("ro.build.date.utc", "")
-    seen = set()
+    utc = props.get("ro.build.date.utc", "")
+    build_utc = utc if str(utc).isdigit() else "0"
+    fw_dir = os.path.join(model_dir, "firmware")
     while fp and fp not in seen:
         seen.add(fp)
-        result, used_dev = check_with_fallback(fp, model, device, pre_ts)
+        result, used_dev = check_with_fallback(fp, model, device, build_utc)
         if not result or not result.get("url"):
             print(f"  no further update from {fp}")
             break
@@ -142,41 +155,42 @@ def chain_from(model_dir, props):
         except Exception as e:
             print(f"  metadata fetch failed: {e}")
             break
-        nxt = write_firmware(model_dir, fp, pre_ts, meta, size, url, result, used_dev, device)
+        nxt = write_firmware(fw_dir, fp, meta, size, url, result, used_dev, device)
         if not nxt:
             break
         post_build, post_ts = nxt
         fp = post_build
         device = device_from_fp(fp)
-        pre_ts = post_ts
+        build_utc = str(post_ts) if str(post_ts).isdigit() else "0"
 
 
 def resolve_model(model_dir):
-    ts_dirs = sorted(d for d in os.listdir(model_dir)
-                     if d.isdigit() and os.path.isdir(os.path.join(model_dir, d)))
-    for ts in ts_dirs:
-        gp = os.path.join(model_dir, ts, "getprop.json")
-        fw = os.path.join(model_dir, ts, "firmware.json")
-        if os.path.exists(gp) and not os.path.exists(fw):
-            print(f"resolving {model_dir} from ts={ts}")
-            try:
-                chain_from(model_dir, json.load(open(gp, encoding="utf-8")))
-            except Exception as e:
-                print(f"  resolve error: {e}")
-            return  # one chain per run per model
+    gp_dir = os.path.join(model_dir, "getprop")
+    if not os.path.isdir(gp_dir):
+        return
+    seen = set()  # shared across this model's getprops: never re-walk a known build
+    for name in sorted(os.listdir(gp_dir)):
+        if not name.endswith(".json"):
+            continue
+        try:
+            props = json.load(open(os.path.join(gp_dir, name), encoding="utf-8"))
+        except Exception as e:
+            print(f"  bad getprop {name}: {e}")
+            continue
+        chain_from(model_dir, props, seen)
 
 
 def iter_model_dirs(base):
-    if any(d.isdigit() for d in os.listdir(base)) or \
-       os.path.isfile(os.path.join(base, "timestamps.json")):
+    if os.path.isdir(os.path.join(base, "getprop")) or \
+       os.path.isdir(os.path.join(base, "firmware")):
         yield base
         return
-    for brand in sorted(os.listdir(base)):
-        bp = os.path.join(base, brand)
-        if not os.path.isdir(bp):
+    for group in sorted(os.listdir(base)):
+        gp = os.path.join(base, group)
+        if not os.path.isdir(gp):
             continue
-        for model in sorted(os.listdir(bp)):
-            mp = os.path.join(bp, model)
+        for model in sorted(os.listdir(gp)):
+            mp = os.path.join(gp, model)
             if os.path.isdir(mp):
                 yield mp
 
@@ -187,6 +201,7 @@ def main():
         print(f"no such dir: {target}")
         return
     for model_dir in iter_model_dirs(target):
+        print(f"resolving {model_dir}")
         resolve_model(model_dir)
 
 

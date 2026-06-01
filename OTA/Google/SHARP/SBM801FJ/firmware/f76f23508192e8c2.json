@@ -1,0 +1,15 @@
+{
+  "preBuild": "SBM/SBM801FJ/SBM801FJ:9/V15R057E/SBM801FJ.20190627.171530:user/release-keys",
+  "postBuild": "SBM/SBM801FJ/SBM801FJ:9/V20R062A/SBM801FJ.20200218.115648:user/release-keys",
+  "postTimestamp": 1582001756,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/sbm_sbm801fj_sbm801fj/05e6c3553f8a01e18fadbfc7f928b961de8883eb.zip",
+  "sizeBytes": 676476318,
+  "securityPatch": "2020-03-01",
+  "sdk": "28",
+  "device": "SBM801FJ",
+  "checkinDevice": "SBM801FJ",
+  "title": "System update available",
+  "description": "Build number: V20R062A<br>\n*Do not turn off the phone while the installation is running.<br>\nFor more information, visit our website. \n",
+  "otaType": "incremental",
+  "archiveUrls": []
+}
