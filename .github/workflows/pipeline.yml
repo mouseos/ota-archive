@@ -83,3 +83,33 @@ jobs:
             sleep $((RANDOM % 10 + 3))
           done
           echo "push failed after retries" >&2; exit 1
+
+  finalize:
+    needs: [resolve, upload]
+    if: ${{ always() && needs.resolve.outputs.pending != '[]' && needs.resolve.outputs.pending != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main          # pick up archiveUrls written by the upload matrix
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Regenerate index with archiveUrls
+        run: python scripts/regen_index.py
+      - name: Commit + purge index
+        run: |
+          git config user.name "ota-bot"
+          git config user.email "ota-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Regen index after archive [skip ci]" || { echo "no changes"; exit 0; }
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash && git push; then
+              git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json' | while read -r f; do
+                curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${{ github.ref_name }}/$f" > /dev/null || true
+              done
+              exit 0
+            fi
+            sleep $((RANDOM % 8 + 3))
+          done
+          echo "push failed after retries" >&2; exit 1
