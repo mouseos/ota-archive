@@ -25,6 +25,7 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - name: Resolve firmware chains and regenerate index
         run: |
+          python scripts/process_submissions.py
           python scripts/resolve.py OTA/Google
           python scripts/regen_index.py
       - name: Commit metadata
