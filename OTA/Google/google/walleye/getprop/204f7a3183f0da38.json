@@ -1,0 +1,6 @@
+{
+  "ro.product.model": "walleye",
+  "ro.build.fingerprint": "google/walleye/walleye:9/PQ1A.181205.002/5086253:user/release-keys",
+  "ro.product.brand": "google",
+  "ro.product.device": "walleye"
+}
