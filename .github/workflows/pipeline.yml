@@ -37,7 +37,7 @@ jobs:
           git push || true
       - name: Purge jsDelivr for changed json
         run: |
-          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json|/firmware/' | while read -r f; do
+          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json|/firmware/|catalog\.json|search\.json' | while read -r f; do
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${{ github.ref_name }}/$f" > /dev/null || true
           done
       - name: Collect pending uploads
@@ -105,7 +105,7 @@ jobs:
           git commit -m "Regen index after archive [skip ci]" || { echo "no changes"; exit 0; }
           for i in 1 2 3 4 5; do
             if git pull --rebase --autostash && git push; then
-              git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json' | while read -r f; do
+              git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json|catalog\.json|search\.json' | while read -r f; do
                 curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${{ github.ref_name }}/$f" > /dev/null || true
               done
               exit 0
