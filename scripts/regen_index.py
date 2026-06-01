@@ -134,17 +134,44 @@ def regen_model(group, model, model_dir, dmap):
     marketing_name = official.get("marketingName", "")
     retail_branding = official.get("retailBranding", "")
 
+    # Android release(s) parsed from the fingerprints (brand/product/device:RELEASE/...).
+    def android_rel(fp):
+        p = (fp or "").split("/")
+        return p[2].split(":")[1] if len(p) >= 3 and ":" in p[2] else ""
+    rels = set()
+    for f in firmware:
+        for fp in (f.get("postBuild"), f.get("preBuild")):
+            r = android_rel(fp)
+            if r:
+                rels.add(r)
+    for b in builds:
+        r = android_rel(b)
+        if r:
+            rels.add(r)
+    android_versions = sorted(rels, key=lambda x: [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", x) if t])
+    sdks = sorted({str(f.get("sdk")) for f in firmware if f.get("sdk")},
+                  key=lambda x: (len(x), x))
+    tss = [f.get("postTimestamp") for f in firmware if f.get("postTimestamp")]
+    device_codename = dev_list[0] if dev_list else ""
+    product_name = disp.get("ro.product.name", "")
+    lb = (latest.get("postBuild") or "").split("/")
+    latest_build_id = lb[3] if len(lb) >= 5 else ""
+
     summary = {
         "group": group, "model": model,
         "displayModel": display_model, "manufacturer": manufacturer, "brand": brand,
         "marketingName": marketing_name, "retailBranding": retail_branding,
+        "device": device_codename, "productName": product_name,
+        "androidVersions": android_versions, "sdks": sdks,
         "firmwareCount": len(firmware),
         "archivedCount": sum(1 for f in firmware if f.get("archiveUrls")),
         "otaTypes": sorted({f.get("otaType") for f in firmware if f.get("otaType")}),
         "latestBuild": latest.get("postBuild"),
+        "latestBuildId": latest_build_id,
         "latestSecurityPatch": latest.get("securityPatch"),
         "latestSdk": latest.get("sdk"),
-        "latestTimestamp": latest.get("postTimestamp"),
+        "firstTimestamp": min(tss) if tss else None,
+        "latestTimestamp": max(tss) if tss else None,
     }
 
     parts = [group, model, display_model, manufacturer, brand, marketing_name, retail_branding]
