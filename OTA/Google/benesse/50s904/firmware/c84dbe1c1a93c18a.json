@@ -12,5 +12,7 @@
   "description": "From 20250824 to 20260414<p>",
   "otaType": "incremental",
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-benesse-50s904/10c63e01f9d7a564194cdf28fdf6e6f225055fc6.zip"
+  ]
 }
