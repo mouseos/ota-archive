@@ -11,6 +11,7 @@
   "title": "Android 8.1.0",
   "description": "This update fixes critical bugs and improves the performance and stability of your Nexus 5X. If you download updates over the cellular network or while roaming, additional charges may apply.",
   "otaType": "incremental",
+  "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-bullhead/1be93622202543f982bc5d82467cc689a20c04f8.zip"
   ]

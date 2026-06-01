@@ -8,8 +8,8 @@
   "sdk": "28",
   "device": "SZJ202",
   "checkinDevice": "SZJ202",
-  "title": "",
-  "description": "",
+  "title": "v1.032 update",
+  "description": "1. security patch 2020-09<br>2. stability",
   "otaType": "incremental",
   "source": "app",
   "archiveUrls": []

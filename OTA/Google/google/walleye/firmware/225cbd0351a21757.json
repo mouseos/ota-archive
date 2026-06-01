@@ -9,8 +9,9 @@
   "device": "walleye",
   "checkinDevice": "walleye",
   "title": "Android 10 - Helpful, smart, and simple",
-  "description": "<strong>Introducing Android 10</strong>\n<br>New ways to customize your phone, control your privacy & get things done.\n\n<p>Your device will be updated to Android 10. Learn more at <a href=http://www.android.com/10>android.com/10</a>. \n\n<p>New features include: \n<br>- Dark theme\n<br>- Navigate your phone with gestures\n<br>- Additional controls for privacy & location\n<br>- Quick actions & replies in notifications\n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "description": "<strong>Introducing Android 10</strong>\n<br>New ways to customize your phone, control your privacy & get things done.\n\n<p>Your device will be updated to Android 10. Learn more at android.com/10. \n\n<p>New features include: \n<br>- Dark theme\n<br>- Navigate your phone with gestures\n<br>- Additional controls for privacy & location\n<br>- Quick actions & replies in notifications\n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
   "otaType": "full",
+  "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-walleye/b4f5ad3168f13fc49103a99d497206c7dceb0491.zip"
   ]
