@@ -23,11 +23,10 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
-      - name: Regenerate timestamps and resolve firmware chains
+      - name: Resolve firmware chains and regenerate index
         run: |
-          python scripts/regen_timestamps.py
           python scripts/resolve.py OTA/Google
-          python scripts/regen_timestamps.py
+          python scripts/regen_index.py
       - name: Commit metadata
         run: |
           git config user.name "ota-bot"
@@ -38,7 +37,7 @@ jobs:
           git push || true
       - name: Purge jsDelivr for changed json
         run: |
-          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'timestamps\.json|index\.json|firmware\.json' | while read -r f; do
+          git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json|/firmware/' | while read -r f; do
             curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}@${{ github.ref_name }}/$f" > /dev/null || true
           done
       - name: Collect pending uploads
