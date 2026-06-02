@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/63a7171ec41011e2188d6b64f40b7c649cd9e237.zip",
+  "fingerprint": "KYOCERA/KYV47_jp_kdi/KYV47:10/1.060HA.0124.a/1.060HA.0124.a:user/release-keys",
+  "manufacturer": "",
+  "brand": "kyocera",
+  "model": "kyv47",
+  "title": "ソフトウェア更新",
+  "description": "<br> <br> 新しいソフトウェアに更新します。<br> 内部ストレージに空き容量が必要ですので警告が発生した場合はデータの消去をお願いします。<br> 通信料が発生する場合がありますのでWi-Fi通信での実施をおすすめします。<br> 更新中は緊急呼発信を含め、端末の操作はできません。<br> <br> 以下の事象が改善されます。<br> ・セキュリティ機能が向上し、より安全にお使い頂けます。<br>"
+}
