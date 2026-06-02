@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9d0a690ba7cfbe3bfd178988734c45cdad4f8a23.zip",
+  "fingerprint": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.1fd2bd3_18a9f1_18a3be:user/release-keys",
+  "manufacturer": "",
+  "brand": "oneplus",
+  "model": "op611fl1",
+  "title": "CPH2749_16.0.5.703(EX01) is available",
+  "description": "<h2>New version: CPH2749_16.0.5.703(EX01)</h2><h3>System</h3><p> • Integrates the April 2026 Android security patch to enhance system security.</p><p>Please do not turn off your device while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1</p>"
+}
