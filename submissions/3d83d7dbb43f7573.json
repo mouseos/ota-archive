@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota/molly_release/bf4ca4a77f8ad0bf0f02cb8ff162d3d016f15dbb.zip",
+  "fingerprint": "google/molly/molly:L/LPV79/1236599:user/release-keys",
+  "manufacturer": "",
+  "brand": "google",
+  "model": "molly",
+  "title": "Android 5.0.2 System Update",
+  "description": "This software update will upgrade your ADT-1 to Android 5.0.2, which improves performance and stability and fixes bugs."
+}
