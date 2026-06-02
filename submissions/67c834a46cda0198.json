@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a5068bd12efc839d69060dc35842bab16c161d0f.zip",
+  "fingerprint": "Celero5G/Jupiter/Jupiter:11/RP1A.200720.011/SW_S98119AA1_V067:user/release-keys",
+  "manufacturer": "",
+  "brand": "celero5g",
+  "model": "jupiter",
+  "title": "Critical System Update Available",
+  "description": "A new software update is available for your phone<br>\nVersion: WTCELERO5G_1.17.38<br>\nInstall time: 10-15 minutes<br>\n<br>\nThis release includes:<br>\n<br>\n· Google Security Patch Updates - Jul&Aug&Sep. 2023<br>\n<br>\nWarnings:<br>\n1. Please do not turn off your device while the update is being installed.<br>\n2. Please keep an active internet connection, and Wi-Fi is recommended in order to avoid cellular data charges.<br>\n3. Please ensure battery level at 40% or more, connected to the charger is recommended during the update.<br>\n4. This update will not erase your data, but it is recommended to backup your data.<br>\n5. It is suggested to not use the device during the update to avoid potential failures."
+}
