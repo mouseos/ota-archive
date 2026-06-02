@@ -26,6 +26,9 @@ def sanitize_id(s):
 def main():
     fw_path = sys.argv[1]
     import json
+    if not os.path.exists(fw_path):
+        print(f"file not found (stale matrix entry, skip): {fw_path}")
+        return
     fw = json.load(open(fw_path, encoding="utf-8"))
     if fw.get("archiveUrls"):
         print("already archived; skip")

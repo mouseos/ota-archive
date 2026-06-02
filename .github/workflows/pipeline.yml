@@ -52,8 +52,9 @@ jobs:
           git config user.email "ota-bot@users.noreply.github.com"
           git add -A
           git commit -m "Resolve firmware + regen timestamps [skip ci]" || echo "no changes"
-          git pull --rebase --autostash || true
-          git push || true
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && break || sleep 10
+          done
       - name: Purge jsDelivr for changed json
         run: |
           git diff --name-only HEAD~1 HEAD 2>/dev/null | grep -E 'index\.json|/firmware/|catalog\.json|search\.json' | while read -r f; do
@@ -63,7 +64,12 @@ jobs:
         id: pending
         env:
           UPLOAD_BATCH: ${{ github.event.inputs.upload_batch || vars.UPLOAD_BATCH || '80' }}
-        run: echo "list=$(python scripts/list_pending.py)" >> "$GITHUB_OUTPUT"
+        # Read from origin/main (what was actually pushed) so upload matrix paths
+        # match what the upload jobs will find when they checkout ref: main.
+        run: |
+          git fetch origin main
+          git checkout origin/main -- .
+          echo "list=$(python scripts/list_pending.py)" >> "$GITHUB_OUTPUT"
 
   upload:
     needs: resolve
