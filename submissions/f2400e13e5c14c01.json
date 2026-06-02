@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/becd56b4406aabfb037cfaad3e3aa64561ad7130.zip",
+  "fingerprint": "Xiaomi/dangal/dangal:8.1.0/OPM1.171019.011/1840:user/release-keys",
+  "manufacturer": "",
+  "brand": "xiaomi",
+  "model": "dangal",
+  "title": "Android System Update",
+  "description": "1. [Fixed] YouTube Live Video Stream<br>\n2. [Updated] Android System Security Patch<br>\n3. [Improved] System Performance"
+}
