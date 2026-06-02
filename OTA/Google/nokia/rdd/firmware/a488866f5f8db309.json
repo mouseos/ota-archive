@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/RiddlerWifi_00EEA/RDD:13/TP1A.220624.014/00WW_3_35B:user/release-keys|Nokia/RiddlerWifi_00WW/RDD:13/TP1A.220624.014/00WW_3_35B:user/release-keys|Nokia/Riddler_00EEA/RDD:13/TP1A.220624.014/00WW_3_35B:user/release-keys|Nokia/Riddler_00WW/RDD:13/TP1A.220624.014/00WW_3_35B:user/release-keys",
+  "postBuild": "Nokia/RiddlerWifi_00EEA/RDD:13/TP1A.220624.014/00WW_3_35C:user/release-keys|Nokia/RiddlerWifi_00WW/RDD:13/TP1A.220624.014/00WW_3_35C:user/release-keys|Nokia/Riddler_00EEA/RDD:13/TP1A.220624.014/00WW_3_35C:user/release-keys|Nokia/Riddler_00WW/RDD:13/TP1A.220624.014/00WW_3_35C:user/release-keys",
+  "postTimestamp": 1726024761,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d7c522097578f84c91878fdf5754147fb3fc82ed.zip",
+  "sizeBytes": 40812613,
+  "securityPatch": "2024-09-05",
+  "sdk": "33",
+  "device": "RDD",
+  "checkinDevice": "RDD",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-09<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1004,
+  "archiveUrls": []
+}

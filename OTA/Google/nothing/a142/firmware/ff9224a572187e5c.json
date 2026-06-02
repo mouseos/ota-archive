@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+  "postBuild": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2602251817:user/release-keys",
+  "postTimestamp": 1772014638,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b5aa3a83281b787e766389476743d6fd883b120f.zip",
+  "sizeBytes": 308841605,
+  "securityPatch": "2026-03-01",
+  "sdk": "36",
+  "device": "Pacman",
+  "checkinDevice": "Pacman",
+  "title": "Nothing OS 4.0(Pacman-B4.0-260225-1817-JPN)",
+  "description": "What's New in This Update\n<b>New Features</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⛅ Optimised the Weather widget location permission prompt to reduce disruption.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

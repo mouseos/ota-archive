@@ -1,0 +1,26 @@
+{
+  "preBuild": "Nokia/Drake_02US/DRK:12/SP1A.210812.016/02US_1_040:user/release-keys",
+  "postBuild": "Nokia/Drake_02US/DRK:12/SP1A.210812.016/02US_1_080:user/release-keys",
+  "postTimestamp": 1673854315,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3ffe3d67a0c876e3fa6438957f3f563e75a738b0.zip",
+  "sizeBytes": 628758217,
+  "securityPatch": "2023-01-05",
+  "sdk": "31",
+  "device": "DRK",
+  "checkinDevice": "DRK",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (02US_1_080)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1260,
+  "archiveUrls": []
+}

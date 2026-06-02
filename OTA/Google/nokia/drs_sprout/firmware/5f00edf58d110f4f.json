@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nokia/DoctorStrange_00WW/DRS_sprout:12/SKQ1.220119.001/00WW_3_50B:user/release-keys",
+  "postBuild": "Nokia/DoctorStrange_00WW/DRS_sprout:12/SKQ1.220119.001/00WW_3_50C:user/release-keys",
+  "postTimestamp": 1685451837,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/138dffc8ab00e6eda200343203a8cf5c4c76c0a5.zip",
+  "sizeBytes": 29311966,
+  "securityPatch": "2023-06-01",
+  "sdk": "31",
+  "device": "DRS_sprout",
+  "checkinDevice": "DRS_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-06<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 896,
+  "archiveUrls": []
+}

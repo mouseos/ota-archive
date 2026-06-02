@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_070:user/release-keys",
+  "postBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_080:user/release-keys",
+  "postTimestamp": 1665970214,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2e9125c9265360ae39ecec6b73860fcfc7bf92eb.zip",
+  "sizeBytes": 293097351,
+  "securityPatch": "2022-10-05",
+  "sdk": "29",
+  "device": "YDU",
+  "checkinDevice": "YDU",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.080)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2022-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 40349696,
+  "partitions": [
+    "boot",
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1018,
+  "archiveUrls": []
+}

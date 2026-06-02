@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/fed4b64c333a1249c8eaead2c8e17b81608c1a58.zip",
-  "fingerprint": "google/mustang/mustang:16/CP1A.260105.005/15081906:user/release-keys",
-  "manufacturer": "",
-  "brand": "google",
-  "model": "mustang",
-  "title": "Android 16",
-  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at <a href=\"http://g.co/pixel/community\">g.co/pixel/community</a>. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges."
-}

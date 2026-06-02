@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/BabyGroot_00EEA/BGT_sprout:12/SKQ1.210821.001/00WW_3_49G:user/release-keys",
+  "postBuild": "Nokia/BabyGroot_00EEA/BGT_sprout:12/SKQ1.210821.001/00WW_3_49H:user/release-keys",
+  "postTimestamp": 1689579894,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1ac873a1c2f5e7bcfe7137b5681646f6ad85fdc1.zip",
+  "sizeBytes": 53929699,
+  "securityPatch": "2023-07-01",
+  "sdk": "31",
+  "device": "BGT_sprout",
+  "checkinDevice": "BGT_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-07<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1219,
+  "archiveUrls": []
+}

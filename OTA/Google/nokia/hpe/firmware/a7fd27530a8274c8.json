@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00IN/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_250:user/release-keys",
+  "postBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00IN/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys",
+  "postTimestamp": 1682260973,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ce8b9368ac34d67586ac58c5675fd5f50f1f7acf.zip",
+  "sizeBytes": 13200740,
+  "securityPatch": "2023-03-05",
+  "sdk": "30",
+  "device": "HPE",
+  "checkinDevice": "HPE",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V1.270)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1223,
+  "archiveUrls": []
+}

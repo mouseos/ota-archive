@@ -1,0 +1,28 @@
+{
+  "preBuild": "google/mustang/mustang:16/CP1A.260305.018/14887507:user/release-keys",
+  "postBuild": "google/mustang/mustang:16/CP1A.260505.005/15081906:user/release-keys",
+  "postTimestamp": 1774400050,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/fed4b64c333a1249c8eaead2c8e17b81608c1a58.zip",
+  "sizeBytes": 69115069,
+  "securityPatch": "2026-05-05",
+  "sdk": "36",
+  "device": "mustang",
+  "checkinDevice": "mustang",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

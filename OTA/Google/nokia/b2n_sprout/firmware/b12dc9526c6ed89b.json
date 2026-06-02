@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Onyx_00WW/B2N_sprout:10/QKQ1.190828.002/00WW_4_15I:user/release-keys",
+  "postBuild": "Nokia/Onyx_00WW/B2N_sprout:10/QKQ1.190828.002/00WW_4_15J:user/release-keys",
+  "postTimestamp": 1604050030,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a84e981ad49de286617ce6385dc15696dc121956.zip",
+  "sizeBytes": 41566552,
+  "securityPatch": "2020-11-01",
+  "sdk": "29",
+  "device": "B2N_sprout",
+  "checkinDevice": "B2N_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2020-11<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1084,
+  "archiveUrls": []
+}

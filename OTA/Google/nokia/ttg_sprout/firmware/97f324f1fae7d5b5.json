@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/TheThing_00EEA/TTG_sprout:14/UKQ1.231003.002/00WW_4_17E:user/release-keys|Nokia/TheThing_00WW/TTG_sprout:14/UKQ1.231003.002/00WW_4_17E:user/release-keys",
+  "postBuild": "Nokia/TheThing_00EEA/TTG_sprout:14/UKQ1.231003.002/00WW_4_17F:user/release-keys|Nokia/TheThing_00WW/TTG_sprout:14/UKQ1.231003.002/00WW_4_17F:user/release-keys",
+  "postTimestamp": 1739452700,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/818727c7b8d6a0c6ac593a7ea6830e0dc78d9e3c.zip",
+  "sizeBytes": 37333788,
+  "securityPatch": "2025-02-01",
+  "sdk": "34",
+  "device": "TTG_sprout",
+  "checkinDevice": "TTG_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2025-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1181,
+  "archiveUrls": []
+}

@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00IN/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_200:user/release-keys",
+  "postTimestamp": 1661166936,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5c9f1e406b66768cab5088d16d01cc125f0c9c87.zip",
+  "sizeBytes": 1433835639,
+  "securityPatch": "2022-08-05",
+  "sdk": "30",
+  "device": "HPE",
+  "checkinDevice": "HPE",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V1.200)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2022-08<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1154,
+  "archiveUrls": []
+}

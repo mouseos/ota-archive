@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Falcon_00EEA/FCN_sprout:14/UKQ1.231003.002/00WW_3_22F:user/release-keys|Nokia/Falcon_00WW/FCN_sprout:14/UKQ1.231003.002/00WW_3_22F:user/release-keys",
+  "postBuild": "Nokia/Falcon_00EEA/FCN_sprout:14/UKQ1.231003.002/00WW_3_240:user/release-keys|Nokia/Falcon_00WW/FCN_sprout:14/UKQ1.231003.002/00WW_3_240:user/release-keys",
+  "postTimestamp": 1744626384,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/56ef9602a24355f6d2d62f5b6c3b6ec4679b67d6.zip",
+  "sizeBytes": 582292732,
+  "securityPatch": "2025-04-01",
+  "sdk": "34",
+  "device": "FCN_sprout",
+  "checkinDevice": "FCN_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 14 (V3.240)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2025-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1222,
+  "archiveUrls": []
+}

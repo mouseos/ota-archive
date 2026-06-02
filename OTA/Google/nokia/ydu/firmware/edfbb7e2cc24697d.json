@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_080:user/release-keys",
+  "postBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_100:user/release-keys",
+  "postTimestamp": 1682072330,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3bf1dfe294fb9c86f018e07952f8b00e3ae422e7.zip",
+  "sizeBytes": 65144737,
+  "securityPatch": "2023-02-05",
+  "sdk": "29",
+  "device": "YDU",
+  "checkinDevice": "YDU",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.100)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 36700160,
+  "partitions": [
+    "boot",
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1097,
+  "archiveUrls": []
+}

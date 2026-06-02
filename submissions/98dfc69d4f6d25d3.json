@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d1a4c6895f2b59b0a0af0d7767676fa22ab853ca.zip",
-  "fingerprint": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2512161717:user/release-keys",
-  "manufacturer": "nothing",
-  "brand": "nothing",
-  "model": "a015",
-  "title": "NothingOS 3.2 (Tetris-V3.2-250925-1843)",
-  "description": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🖼️ Photo widget now fills the space when resized to 4×2.<br>\n💿 Fixed album cover and song info display errors in the Media Player and widget.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🛡️ Updated to September security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
-}

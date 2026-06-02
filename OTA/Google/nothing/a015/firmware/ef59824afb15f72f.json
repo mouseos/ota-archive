@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys",
+  "postBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys",
+  "postTimestamp": 1776244169,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a8b9fdc18fdcd81355f9c3dfa8b7c61a584b51f0.zip",
+  "sizeBytes": 158392623,
+  "securityPatch": "2026-04-01",
+  "sdk": "36",
+  "device": "Tetris",
+  "checkinDevice": "Tetris",
+  "title": "NothingOS 4.1 (Tetris-B4.1-260415-1709)",
+  "description": "Nothing OS 4.1\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as Always-on display, notification panel, and the status bar, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n🎮 The Games app is now live, integrating various tap-to-play mini-games for relaxing. Discover it in the app drawer or on the homescreen.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Improved overall camera stability.<br>\n🚗 Improved wired charging compatibility with certain vehicle models.<br>\n📱 Fixed some display errors in the notification panel and Quick Settings.<br>\n⚙️ Enhanced overall system stability and performance.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

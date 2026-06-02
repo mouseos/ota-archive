@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Falcon_00EEA/FCN_sprout:14/UKQ1.231003.002/00WW_3_22D:user/release-keys|Nokia/Falcon_00WW/FCN_sprout:14/UKQ1.231003.002/00WW_3_22D:user/release-keys",
+  "postBuild": "Nokia/Falcon_00EEA/FCN_sprout:14/UKQ1.231003.002/00WW_3_22E:user/release-keys|Nokia/Falcon_00WW/FCN_sprout:14/UKQ1.231003.002/00WW_3_22E:user/release-keys",
+  "postTimestamp": 1739594291,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/16df0efe43612dc5f326ed6997ab2d9c3edcaabe.zip",
+  "sizeBytes": 86057930,
+  "securityPatch": "2025-02-01",
+  "sdk": "34",
+  "device": "FCN_sprout",
+  "checkinDevice": "FCN_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2025-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1080,
+  "archiveUrls": []
+}

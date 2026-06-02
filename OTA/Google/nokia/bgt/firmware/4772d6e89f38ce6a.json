@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/BabyGroot_00RU/BGT:12/SKQ1.210821.001/00WW_3_38F:user/release-keys",
+  "postBuild": "Nokia/BabyGroot_00RU/BGT:12/SKQ1.210821.001/00WW_3_38G:user/release-keys",
+  "postTimestamp": 1663272138,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c90563c605b4aa326cbd41a311402a4a2826f2e6.zip",
+  "sizeBytes": 50137088,
+  "securityPatch": "2022-09-01",
+  "sdk": "31",
+  "device": "BGT",
+  "checkinDevice": "BGT",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2022-09<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1070,
+  "archiveUrls": []
+}

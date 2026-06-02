@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nokia/Magik_00EEA/MGKA_sprout:14/UP1A.231005.007/00WW_3_50E:user/release-keys|Nokia/Magik_00FD/MGKA_sprout:14/UP1A.231005.007/00WW_3_50E:user/release-keys|Nokia/Magik_00WW/MGKA_sprout:14/UP1A.231005.007/00WW_3_50E:user/release-keys",
+  "postBuild": "Nokia/Magik_00EEA/MGKA_sprout:14/UP1A.231005.007/00WW_3_50F:user/release-keys|Nokia/Magik_00FD/MGKA_sprout:14/UP1A.231005.007/00WW_3_50F:user/release-keys|Nokia/Magik_00WW/MGKA_sprout:14/UP1A.231005.007/00WW_3_50F:user/release-keys",
+  "postTimestamp": 1741743904,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f6af4cb897b13adcd57ca87f76ed0b4b0513e0a3.zip",
+  "sizeBytes": 12501589,
+  "securityPatch": "2025-03-05",
+  "sdk": "34",
+  "device": "MGKA_sprout",
+  "checkinDevice": "MGKA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2025-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1155,
+  "archiveUrls": []
+}

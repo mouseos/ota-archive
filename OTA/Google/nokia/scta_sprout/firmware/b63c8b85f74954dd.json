@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/Shadowcat_00EEA/SCTA_sprout:13/TP1A.220624.014/00WW_3_53J:user/release-keys|Nokia/Shadowcat_00EEA/SCT_sprout:13/TP1A.220624.014/00WW_3_53J:user/release-keys|Nokia/Shadowcat_00WW/SCT_sprout:13/TP1A.220624.014/00WW_3_53J:user/release-keys",
+  "postBuild": "Nokia/Shadowcat_00EEA/SCTA_sprout:13/TP1A.220624.014/00WW_3_53K:user/release-keys|Nokia/Shadowcat_00EEA/SCT_sprout:13/TP1A.220624.014/00WW_3_53K:user/release-keys|Nokia/Shadowcat_00WW/SCT_sprout:13/TP1A.220624.014/00WW_3_53K:user/release-keys",
+  "postTimestamp": 1713097324,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a792932b80d8aa250aaff2ecfbd3b51b8c064c16.zip",
+  "sizeBytes": 17960147,
+  "securityPatch": "2024-04-05",
+  "sdk": "33",
+  "device": "SCTA_sprout",
+  "checkinDevice": "SCTA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1178,
+  "archiveUrls": []
+}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/RiddlerWifi_00EEA/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys|Nokia/RiddlerWifi_00RU/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys|Nokia/RiddlerWifi_00WW/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys|Nokia/Riddler_00EEA/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys|Nokia/Riddler_00RU/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys|Nokia/Riddler_00WW/RDD:13/TP1A.220624.014/00WW_3_31E:user/release-keys",
+  "postBuild": "Nokia/RiddlerWifi_00EEA/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys|Nokia/RiddlerWifi_00RU/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys|Nokia/RiddlerWifi_00WW/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys|Nokia/Riddler_00EEA/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys|Nokia/Riddler_00RU/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys|Nokia/Riddler_00WW/RDD:13/TP1A.220624.014/00WW_3_31F:user/release-keys",
+  "postTimestamp": 1711991557,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b81295f02a8f1261fb26b0fd65f0ea8e1aaeeeef.zip",
+  "sizeBytes": 38881680,
+  "securityPatch": "2024-04-05",
+  "sdk": "33",
+  "device": "RDD",
+  "checkinDevice": "RDD",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1088,
+  "archiveUrls": []
+}

@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/TheThing_00EEA/TTG_sprout:14/UKQ1.231003.002/00WW_4_17F:user/release-keys|Nokia/TheThing_00WW/TTG_sprout:14/UKQ1.231003.002/00WW_4_17F:user/release-keys",
+  "postBuild": "Nokia/TheThing_00EEA/TTG_sprout:14/UKQ1.231003.002/00WW_4_200:user/release-keys|Nokia/TheThing_00WW/TTG_sprout:14/UKQ1.231003.002/00WW_4_200:user/release-keys",
+  "postTimestamp": 1742919583,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a8cb980186875d61bc90b917ca93187dddf6febf.zip",
+  "sizeBytes": 540136482,
+  "securityPatch": "2025-03-01",
+  "sdk": "34",
+  "device": "TTG_sprout",
+  "checkinDevice": "TTG_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 14 (V4.200)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2025-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1235,
+  "archiveUrls": []
+}

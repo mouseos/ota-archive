@@ -1,0 +1,26 @@
+{
+  "preBuild": "Nokia/DrakeLite_02US/DKT:12/SP1A.210812.016/02US_1_190:user/release-keys",
+  "postBuild": "Nokia/DrakeLite_02US/DKT:12/SP1A.210812.016/02US_1_270:user/release-keys",
+  "postTimestamp": 1677839221,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/faea183fc315ee54b6ea89174b6dfeececd1cc38.zip",
+  "sizeBytes": 42380903,
+  "securityPatch": "2023-03-05",
+  "sdk": "31",
+  "device": "DKT",
+  "checkinDevice": "DKT",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (02US_1_270)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1270,
+  "archiveUrls": []
+}

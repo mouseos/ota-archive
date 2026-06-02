@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_27E:user/release-keys",
+  "postBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_27H:user/release-keys",
+  "postTimestamp": 1710758661,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5f1fcb8f3c5b48a0c8986f2706d26aa4c07cfafe.zip",
+  "sizeBytes": 12656536,
+  "securityPatch": "2024-03-01",
+  "sdk": "30",
+  "device": "HPE",
+  "checkinDevice": "HPE",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 998,
+  "archiveUrls": []
+}

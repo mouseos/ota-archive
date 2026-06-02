@@ -1,0 +1,28 @@
+{
+  "preBuild": "google/husky/husky:16/CP1A.260305.018/14887507:user/release-keys",
+  "postBuild": "google/husky/husky:16/CP1A.260505.005/15081906:user/release-keys",
+  "postTimestamp": 1774392233,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/0140d7760144fa189e27456f275f6f94e72d41c1.zip",
+  "sizeBytes": 64912347,
+  "securityPatch": "2026-05-05",
+  "sdk": "36",
+  "device": "husky",
+  "checkinDevice": "husky",
+  "title": "Android 16",
+  "description": "このアップデートでは、デバイスの重大なバグの修正、パフォーマンスと安定性の改善が行われています。詳しくは g.co/pixel/community をご覧ください。\n\n<p>モバイル ネットワーク経由で、またはローミング時にアップデートをダウンロードすると、追加料金が発生する場合があります。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
