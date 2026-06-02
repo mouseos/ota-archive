@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6acbb260eb3b61c889f7f4d7ef1933b17e89ee9c.zip",
+  "fingerprint": "Nothing/PacmanProEEA/PacmanPro:15/AP3A.240905.015.A2/2504101524:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "pacmanpro",
+  "title": "NothingOS 3.2(PacmanPro-V3.2-250609-1917-EEA)",
+  "description": "<h3>What's new in this update</h3> \n<b>New Features</b><br>\n🔐 Introducing Privacy space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy space.<br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<b>General improvements and bug fixes</b><br>\n📞 Fixed issue with no sound on Bluetooth headphones during Telegram calls.<br>\n🛠️ Fixed accessibility issues in Launcher, Gallery and other apps.<br>\n🔓 Improved reliability of face and fingerprint unlocking.<br>\n🛡️ Updated to June security patch .<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>"
+}
