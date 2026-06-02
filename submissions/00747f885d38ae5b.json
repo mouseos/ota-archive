@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ded7337c68ece8355e7381f553c174d6b458f729.zip",
+  "fingerprint": "FCNT/M08/fuji:15/V2VH35.58-32-11-109/643876-ac801d:user/release-keys",
+  "manufacturer": "",
+  "brand": "fcnt",
+  "model": "fuji",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：W1VHS36H.80-34-2-2-1-1）<br> \n・セキュリティの向上<br> \n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
