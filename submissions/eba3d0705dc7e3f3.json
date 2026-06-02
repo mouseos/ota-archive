@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a83df4d8e0f6abba0cf12925a701ebf9c0e41072.zip",
+  "fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2503021856:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "asteroids",
+  "title": "NothingOS 3.2(Asteroids-V3.2-251013-1406)",
+  "description": "<h3>What's New in This Update</h3><br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n💡 Fixed the issue where the Glyph Interface didn’t turn off properly after using Flip to Record.<br>\n💬 Optimised the Phone Call Recording Notification to appear only during the first call for a better experience.<br>\n<br>\n<b>Notes:</b><br>\nPhone Call Recording may not be available in all regions due to local regulations.<br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
+}
