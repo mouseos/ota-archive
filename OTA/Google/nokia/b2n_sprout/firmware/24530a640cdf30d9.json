@@ -21,5 +21,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 1000,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-b2n_sprout/efebd3854d428894ad473379dd6e3b246f07af83.zip"
+  ]
 }
