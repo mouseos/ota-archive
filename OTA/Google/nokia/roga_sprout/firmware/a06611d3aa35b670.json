@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1337,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-roga_sprout/4a0346cd03e7542eefc590060c51d27ab5ead7e1.zip"
+  ]
 }
