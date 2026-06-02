@@ -1,0 +1,10 @@
+{
+  "ro.product.model": "XIG05",
+  "ro.build.fingerprint": "Redmi/XIG05_jp_kdi/XIG05:13/UKQ1.231003.002/V816.0.2.0.UNRJPKD:user/release-keys",
+  "ro.product.manufacturer": "Xiaomi",
+  "ro.product.brand": "Redmi",
+  "ro.build.version.sdk": "34",
+  "ro.build.date.utc": "1712991992",
+  "ro.build.version.security_patch": "2024-03-01",
+  "ro.product.device": "XIG05"
+}
