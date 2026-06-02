@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4d82ecba33cb1ec6127426051c95f5f15a531fce.zip",
+  "fingerprint": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "galaga",
+  "title": "Nothing OS 3.2(Galaga-V3.2-251103-2121)",
+  "description": "<h3>What's New in This Update</h3> \n<b>Camera Enhancements</b><br>\n<br> \n🎨 Optimised the HDR algorithm for more balanced tones and improved contrast.<br>\n🔍 Enhanced camera focus accuracy for fingerprint recognition in certain third-party apps.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
+}
