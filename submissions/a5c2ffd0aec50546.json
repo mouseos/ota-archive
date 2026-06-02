@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/904596d74ece1960947b81849914c8e79d0dadc1.zip",
+  "fingerprint": "Xiaomi/ladybird/ladybird:14/UKN1.240806.017/V816.0.25.4.14.3.ULBMIXM:user/release-keys",
+  "manufacturer": "",
+  "brand": "xiaomi",
+  "model": "ladybird",
+  "title": "system update",
+  "description": "1. Improve the system stability<br>"
+}
