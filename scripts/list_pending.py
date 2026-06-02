@@ -1,10 +1,17 @@
 # -*- coding: utf-8 -*-
 """Print a JSON array of firmware/*.json paths that still need archive.org upload
-(archiveUrls empty). Used to build the GitHub Actions upload matrix."""
+(archiveUrls empty). Used to build the GitHub Actions upload matrix.
+
+Capped at UPLOAD_BATCH (default 80) per run so the matrix stays under GitHub's
+256-job limit and a single pipeline run fits the 6h window; the rest are picked up
+by the next scheduled run. Oldest builds first (postTimestamp asc) for steady,
+deterministic progress through a large backlog."""
 import json
 import os
 
 ROOT = "OTA/Google"
+BATCH = int(os.environ.get("UPLOAD_BATCH", "80"))
+
 pending = []
 for dirpath, _dirs, files in os.walk(ROOT):
     if os.path.basename(dirpath) != "firmware":
@@ -18,5 +25,8 @@ for dirpath, _dirs, files in os.walk(ROOT):
         except Exception:
             continue
         if not fw.get("archiveUrls") and fw.get("otaUrl"):
-            pending.append(p)
-print(json.dumps(pending, separators=(",", ":")))
+            pending.append((fw.get("postTimestamp") or 0, p))
+
+pending.sort(key=lambda x: x[0])
+paths = [p for _, p in pending[:BATCH]]
+print(json.dumps(paths, separators=(",", ":")))

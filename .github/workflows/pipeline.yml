@@ -4,6 +4,19 @@ on:
   schedule:
     - cron: "17 */6 * * *"   # every 6 hours
   workflow_dispatch:
+    inputs:
+      otachecker_brands:
+        description: 'otachecker brands to import (comma list, or "all"). Blank = major-brands default.'
+        required: false
+        default: ""
+      otachecker_limit:
+        description: "Max NEW OTAs to discover/analyse this run"
+        required: false
+        default: "150"
+      upload_batch:
+        description: "Max firmware to mirror to archive.org this run"
+        required: false
+        default: "80"
 
 permissions:
   contents: write
@@ -23,6 +36,11 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
+      - name: Import discovered Google OTAs from otachecker
+        env:
+          OTACHECKER_BRANDS: ${{ github.event.inputs.otachecker_brands || vars.OTACHECKER_BRANDS }}
+          OTACHECKER_LIMIT: ${{ github.event.inputs.otachecker_limit || vars.OTACHECKER_LIMIT || '150' }}
+        run: python scripts/import_otachecker.py
       - name: Resolve firmware chains and regenerate index
         run: |
           python scripts/process_submissions.py
@@ -43,6 +61,8 @@ jobs:
           done
       - name: Collect pending uploads
         id: pending
+        env:
+          UPLOAD_BATCH: ${{ github.event.inputs.upload_batch || vars.UPLOAD_BATCH || '80' }}
         run: echo "list=$(python scripts/list_pending.py)" >> "$GITHUB_OUTPUT"
 
   upload:
