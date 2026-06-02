@@ -1,0 +1,31 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/SEI804NK/YYJ:14/UKG3.241022.001/4576:user/release-keys",
+  "postTimestamp": 1753419751,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5c3961bca4579276eedd95bafcf25e3e27248190.zip",
+  "sizeBytes": 1238116198,
+  "securityPatch": "2025-06-01",
+  "sdk": "34",
+  "device": "YYJ",
+  "checkinDevice": "YYJ",
+  "title": "Version update v14.8.4576",
+  "description": "Release Notes – SW v14.8.4576\n\t\t<p>1. Google Security Patch update for enhanced security and privacy</p>\n\t\t<p>2. Improved DVB-T2/S2 Nokia dongle performance</p>\n\t\t<p>3. General bug fixes and performance improvements\n\tNote:\n\t\t<p>During installation, the TV screen may temporarily go black with no information displayed.</p>\n\t\t<p>Please ensure the device remains connected to the power supply and do not disconnect it until the Home screen reappears, and the update is complete.</p>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1833,
+  "archiveUrls": []
+}

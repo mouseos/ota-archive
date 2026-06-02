@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/xiaomi_tissotsprout_tissot/85b8d41fe3eaab3155ab04a46db95d981ffb4ed1.zip",
-  "fingerprint": "xiaomi/tissot/tissot_sprout:7.1.2/N2G47H/7.11.18:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "tissot_sprout",
-  "title": "Android System Update (Dec 2017)",
-  "description": "Fortify your Android One phone with the December 2017 security update from Google, which improves security and fixes bugs. This update improves the stability of your device and optimizes its performance. Downloading updates over a mobile network or while roaming may cause additional charges"
-}

@@ -11,10 +11,6 @@
   "title": "GM_T2006-T2013",
   "description": "1. Update the Android security patches to enhance device security. <br>\n2. Optimize system performance for smoother operation. <br>\n3. Improve the operational stability of the Audio Console app. <br>\n4. Enhance the overall stability across the app.",
   "otaType": "incremental",
-  "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-moondrop-md-ph-001/c41b056761003be3407250c142e0dcae3ddd4b52.zip"
-  ],
   "abType": "AB",
   "requiredCacheBytes": 0,
   "partitions": [
@@ -24,5 +20,9 @@
     "vendor"
   ],
   "hasFirmware": false,
-  "hasApex": true
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-moondrop-md-ph-001/c41b056761003be3407250c142e0dcae3ddd4b52.zip"
+  ]
 }

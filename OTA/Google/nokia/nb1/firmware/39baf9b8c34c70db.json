@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/TA-1004_00WW/NB1:9/PPR1.180610.011/00WW_5_15K:user/release-keys",
+  "postTimestamp": 1600765551,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/nokia_nb1_ta100400ww/7d40ba2f22a9c03e337fdbf7de36fdb7dd430d03.zip",
+  "sizeBytes": 1635777971,
+  "securityPatch": "2020-10-01",
+  "sdk": "28",
+  "device": "NB1",
+  "checkinDevice": "NB1",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2020-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1556,
+  "archiveUrls": []
+}

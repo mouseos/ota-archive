@@ -1,0 +1,31 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/SEI804NK/YYJ:14/UKG3.250803.001/7475:user/release-keys",
+  "postTimestamp": 1770879381,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8f331b7dc10a3097f644a30fb3370e81e1bf9a81.zip",
+  "sizeBytes": 1253857732,
+  "securityPatch": "2026-01-05",
+  "sdk": "34",
+  "device": "YYJ",
+  "checkinDevice": "YYJ",
+  "title": "New SW version - 7475",
+  "description": "1. Google Security Patch update for enhanced security and privacy\n2. General bug fixes and performance improvements\nNote: During installation, the TV screen may temporarily go black with no information displayed. Please ensure the device remains connected to the power supply and do not disconnect it until the Home screen reappears, and the update is complete.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2153,
+  "archiveUrls": []
+}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/ShadowcatPlus_00EEA/SCP_sprout:13/TP1A.220624.014/00WW_3_53U:user/release-keys|Nokia/ShadowcatPlus_00WW/SCPA_sprout:13/TP1A.220624.014/00WW_3_53U:user/release-keys|Nokia/ShadowcatPlus_00WW/SCP_sprout:13/TP1A.220624.014/00WW_3_53U:user/release-keys",
+  "postBuild": "Nokia/ShadowcatPlus_00EEA/SCP_sprout:13/TP1A.220624.014/00WW_3_53V:user/release-keys|Nokia/ShadowcatPlus_00WW/SCPA_sprout:13/TP1A.220624.014/00WW_3_53V:user/release-keys|Nokia/ShadowcatPlus_00WW/SCP_sprout:13/TP1A.220624.014/00WW_3_53V:user/release-keys",
+  "postTimestamp": 1736244424,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0ea3a086dfe790cc50fff1d60bb36b56a30200a1.zip",
+  "sizeBytes": 19989406,
+  "securityPatch": "2025-01-05",
+  "sdk": "33",
+  "device": "SCP_sprout",
+  "checkinDevice": "SCP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2025-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1466,
+  "archiveUrls": []
+}

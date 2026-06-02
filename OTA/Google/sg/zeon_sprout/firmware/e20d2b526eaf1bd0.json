@@ -1,0 +1,21 @@
+{
+  "preBuild": "SG/S5/zeon_sprout:9/S0019/01.00.00:user/release-keys",
+  "postBuild": "SG/S5/zeon_sprout:9/S0021/01.00.00:user/release-keys",
+  "postTimestamp": 1582564669,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/sg_zeonsprout_s5/82ea065a329453a38ab110e0bcadb0da2143e652.zip",
+  "sizeBytes": 83631613,
+  "securityPatch": "2020-02-01",
+  "sdk": "28",
+  "device": "zeon_sprout",
+  "checkinDevice": "zeon_sprout",
+  "title": "新しいシステムをインストールします",
+  "description": "【更新内容】 （ビルド番号：S0021）<br>\n・セキュリティの向上<br>\n<br>\n※インストール中は本機の電源を切らないでください。<br> \n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

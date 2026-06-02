@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Wasp_00WW/WSP_sprout:11/RP1A.200720.011/00WW_3_38G:user/release-keys",
+  "postBuild": "Nokia/Wasp_00WW/WSP_sprout:11/RP1A.200720.011/00WW_3_38H:user/release-keys",
+  "postTimestamp": 1653287750,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6309762fa59c623482a7f698de35b4ae48f18061.zip",
+  "sizeBytes": 28643077,
+  "securityPatch": "2022-06-05",
+  "sdk": "30",
+  "device": "WSP_sprout",
+  "checkinDevice": "WSP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2022-06<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1303,
+  "archiveUrls": []
+}

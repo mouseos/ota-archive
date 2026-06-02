@@ -11,10 +11,6 @@
   "title": "50S904_Benesse_CTL_V02_20250824_update_50S904_Benesse_CTL2_V01_20260414",
   "description": "From 20250824 to 20260414<p>",
   "otaType": "incremental",
-  "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-benesse-50s904/10c63e01f9d7a564194cdf28fdf6e6f225055fc6.zip"
-  ],
   "abType": "AB",
   "requiredCacheBytes": 0,
   "partitions": [
@@ -25,5 +21,9 @@
     "vendor_dlkm"
   ],
   "hasFirmware": false,
-  "hasApex": true
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-benesse-50s904/10c63e01f9d7a564194cdf28fdf6e6f225055fc6.zip"
+  ]
 }

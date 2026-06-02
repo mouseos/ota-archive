@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/bb1bd3f5b068e90e8a316d3c6e92b18d5aa96c60.zip",
-  "fingerprint": "FCNT/M06/M06:14/V06RM67D/M06.20250425:user/release-keys",
-  "manufacturer": "",
-  "brand": "fcnt",
-  "model": "m06",
-  "title": "システムアップデートが利用可能",
-  "description": "【更新内容】（ビルド番号：V34RM54B）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
-}

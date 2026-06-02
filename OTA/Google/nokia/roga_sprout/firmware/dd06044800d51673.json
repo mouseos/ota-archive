@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nokia/Rogue_00EEA/ROGA_sprout:13/TP1A.220624.014/00WW_3_39J:user/release-keys|Nokia/Rogue_00FD/ROGA_sprout:13/TP1A.220624.014/00WW_3_39J:user/release-keys|Nokia/Rogue_00IN/ROGA_sprout:13/TP1A.220624.014/00WW_3_39J:user/release-keys|Nokia/Rogue_00WW/ROGA:13/TP1A.220624.014/00WW_3_39J:user/release-keys|Nokia/Rogue_00WW/ROGA_sprout:13/TP1A.220624.014/00WW_3_39J:user/release-keys",
+  "postBuild": "Nokia/Rogue_00EEA/ROGA_sprout:13/TP1A.220624.014/00WW_3_39K:user/release-keys|Nokia/Rogue_00FD/ROGA_sprout:13/TP1A.220624.014/00WW_3_39K:user/release-keys|Nokia/Rogue_00IN/ROGA_sprout:13/TP1A.220624.014/00WW_3_39K:user/release-keys|Nokia/Rogue_00WW/ROGA:13/TP1A.220624.014/00WW_3_39K:user/release-keys|Nokia/Rogue_00WW/ROGA_sprout:13/TP1A.220624.014/00WW_3_39K:user/release-keys",
+  "postTimestamp": 1712557712,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7a293f56a9bf4c58243cedfb55f59f3e1b55ef42.zip",
+  "sizeBytes": 26614093,
+  "securityPatch": "2024-04-05",
+  "sdk": "33",
+  "device": "ROGA_sprout",
+  "checkinDevice": "ROGA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1289,
+  "archiveUrls": []
+}

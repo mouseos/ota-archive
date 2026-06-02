@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190828.002/00WW_5_25I:user/release-keys",
+  "postBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190828.002/00WW_5_25J:user/release-keys",
+  "postTimestamp": 1608867567,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5669b1397a78593019ca55b3f241492c5d2db41f.zip",
+  "sizeBytes": 31909415,
+  "securityPatch": "2021-01-01",
+  "sdk": "29",
+  "device": "AOP_sprout",
+  "checkinDevice": "AOP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2021-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1460,
+  "archiveUrls": []
+}

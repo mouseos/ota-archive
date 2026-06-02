@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/M06/M06:15/V31RM50D/M06.20250711:user/release-keys",
+  "postBuild": "FCNT/M06/M06:15/V34RM54B/M06.20251222:user/release-keys",
+  "postTimestamp": 1766418054,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/bb1bd3f5b068e90e8a316d3c6e92b18d5aa96c60.zip",
+  "sizeBytes": 761864879,
+  "securityPatch": "2026-01-01",
+  "sdk": "35",
+  "device": "M06",
+  "checkinDevice": "M06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V34RM54B）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

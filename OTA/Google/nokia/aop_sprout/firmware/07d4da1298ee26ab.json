@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190828.002/00WW_5_25F:user/release-keys",
+  "postBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190828.002/00WW_5_25G:user/release-keys",
+  "postTimestamp": 1601006586,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/nokia_aopsprout_beholder00ww/ab21eab17a444adf4894dd5d875910a052a96ca5.zip",
+  "sizeBytes": 32725436,
+  "securityPatch": "2020-10-01",
+  "sdk": "29",
+  "device": "AOP_sprout",
+  "checkinDevice": "AOP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2020-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1421,
+  "archiveUrls": []
+}

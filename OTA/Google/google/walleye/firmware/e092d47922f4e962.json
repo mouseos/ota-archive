@@ -11,10 +11,6 @@
   "title": "Android 11: Better messaging & controls",
   "description": "<b>Introducing Android 11</b>\n<br>Powerful device controls and easier ways to manage conversations and your privacy.\n\n<p>Your device will be updated to Android 11. Learn more at android.com/11.\n\n<p>New features include:\n<br>- Improved device & media controls\n<br>- Manage your conversations in one place\n<br>- Built-in screen recording\n<br>- More privacy controls\n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
   "otaType": "full",
-  "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-walleye/6549f27684f9d167f5d4fae48d6c33cb1fb7067a.zip"
-  ],
   "abType": "AB",
   "requiredCacheBytes": 0,
   "partitions": [
@@ -22,5 +18,9 @@
     "vendor"
   ],
   "hasFirmware": false,
-  "hasApex": false
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-walleye/6549f27684f9d167f5d4fae48d6c33cb1fb7067a.zip"
+  ]
 }
