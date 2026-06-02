@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlus9Pro_IND/OnePlus9Pro:12/SKQ1.210216.001/R.202204081955:user/release-keys",
+  "preBuild": "OnePlus/OnePlus9Pro_IND/OnePlus9Pro:12/SKQ1.210216.001/R.202203102003:user/release-keys",
   "postBuild": "OnePlus/OnePlus9Pro_IND/OnePlus9Pro:12/RKQ1.211103.002/R.202205101029:user/release-keys",
   "postTimestamp": 1652175348,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b55833cf4163bc5185a8f8869e09342c9af04bcb.zip",
-  "sizeBytes": 1567839639,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0f28e345afbd38b61db722b3a0f565af535479c3.zip",
+  "sizeBytes": 1569679918,
   "securityPatch": "2022-04-05",
   "sdk": "31",
   "device": "OnePlus9Pro",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 817,
+  "sourceId": 349,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplus9pro/b55833cf4163bc5185a8f8869e09342c9af04bcb.zip"
   ]

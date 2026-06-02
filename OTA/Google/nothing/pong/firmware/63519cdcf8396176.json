@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:15/AQ3A.240929.001/2505061805:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2505061805:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2505061805:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:15/AQ3A.240929.001/2507082227:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2507082227:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2507082227:user/release-keys",
+  "postTimestamp": 1751984839,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/18bf3f8eb03e336eba7cc4c690bf5df6648a24ea.zip",
+  "sizeBytes": 226621543,
+  "securityPatch": "2025-06-01",
+  "sdk": "35",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "NothingOS 3.2(Pong-V3.2-250708-2227)",
+  "description": "What's new in this update \n<b>New Feature</b><br> \n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n🖼️ Fixed rare issue causing the Gallery to crash when opening videos.<br>\n📱 Fixed issues where the apps’ UIs sometimes displayed incorrectly in certain situations.<br>\n🛡️ Updated to Android security patch for June.<br>\n🔧 Enhanced overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,5 +1,5 @@
 {
-  "preBuild": "",
+  "preBuild": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.1fd2bd3_18a9f1_18a3be:user/release-keys",
   "postBuild": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.250fe8f-2b9793-2d9dba:user/release-keys",
   "postTimestamp": 1769488003,
   "otaUrl": "https://android.googleapis.com/packages/ota-api/package/76cc8d5124006f2491069b5cf581282cea59fb77.zip",
@@ -29,7 +29,6 @@
   ],
   "hasFirmware": false,
   "hasApex": false,
-  "source": "otachecker",
-  "sourceId": 2143,
+  "source": "app",
   "archiveUrls": []
 }

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus9/OnePlus9:13/TP1A.220905.001/R.145500e-3ae76-3af55:user/release-keys",
+  "postTimestamp": 1698992093,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2937d9d6e8a03973c33443f809287435e44858b8.zip",
+  "sizeBytes": 5283934425,
+  "securityPatch": "2023-11-05",
+  "sdk": "33",
+  "device": "OnePlus9",
+  "checkinDevice": "OnePlus9",
+  "title": "LE2115_13.1.0.592(EX01)is available",
+  "description": "New version: LE2115_13.1.0.592(EX01)<p>This update improves system security.</p>System<p>• Integrates the November 2023 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 344,
+  "archiveUrls": []
+}

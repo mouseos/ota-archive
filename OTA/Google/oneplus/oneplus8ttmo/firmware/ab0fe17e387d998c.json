@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2108091917:user/release-keys",
+  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2109301204:user/release-keys",
   "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2205061834:user/release-keys",
   "postTimestamp": 1651833774,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/36c45a25fae47b845fbf75e2c500de5018634ce1.zip",
-  "sizeBytes": 173022499,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d75ddacc7be3e11589e929ccdecd56a823da1900.zip",
+  "sizeBytes": 147588733,
   "securityPatch": "2022-05-01",
   "sdk": "30",
   "device": "OnePlus8TTMO",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1450,
+  "sourceId": 334,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplus8ttmo/36c45a25fae47b845fbf75e2c500de5018634ce1.zip"
   ]

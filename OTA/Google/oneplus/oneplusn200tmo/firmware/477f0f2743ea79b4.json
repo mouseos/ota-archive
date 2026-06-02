@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:12/SKQ1.210216.001/R.202205192247:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:12/SKQ1.210216.001/R.202306151713:user/release-keys",
+  "postTimestamp": 1686796353,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/96cb7a5a5e93e4d5d8ee275edd8b66aeb10122ce.zip",
+  "sizeBytes": 499489935,
+  "securityPatch": "2023-06-05",
+  "sdk": "31",
+  "device": "OnePlusN200TMO",
+  "checkinDevice": "OnePlusN200TMO",
+  "title": "DE2118_11_C.23 is available",
+  "description": "New version: DE2118_11_C.23 \n \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-06-05</p>\n \nIf you choose not to update now, the update will be automatically applied between 12AM and 6AM starting on July 1st, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 383,
+  "archiveUrls": []
+}

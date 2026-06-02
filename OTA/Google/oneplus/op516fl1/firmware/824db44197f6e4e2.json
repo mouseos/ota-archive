@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/NE2215/OP516FL1:14/UKQ1.230924.001/S.173e81e-152ed-152ee:user/release-keys",
+  "postBuild": "OnePlus/NE2215/OP516FL1:14/UKQ1.230924.001/S.1acb48b-1-2:user/release-keys",
+  "postTimestamp": 1730452981,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2e36841b3beaaac0b01e1396d08939e524906eff.zip",
+  "sizeBytes": 1741512939,
+  "securityPatch": "2024-11-05",
+  "sdk": "34",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2215_11.F.77 is available",
+  "description": "New Version Available: NE2215_11.F.77_2770_202411011916<p>A new software update is now available for your Android smartphone.</p>System<p> •  Adds the feature of setting the default alarm sound in \"Clock\" for all alarms in a unified manner.</p><p> • Adds a module to Trinity Engine to optimize apps after system updates, speeding up app launches and reducing power consumption. </p><p>• Integrates the November 2024 Android security patch to enhance system security. </p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 634,
+  "archiveUrls": []
+}

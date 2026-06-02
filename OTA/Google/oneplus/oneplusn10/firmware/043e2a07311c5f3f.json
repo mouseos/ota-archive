@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN10/OnePlusN10:11/RKQ1.201217.002/2107132159:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN10/OnePlusN10:11/RKQ1.201217.002/2311081432:user/release-keys",
+  "postTimestamp": 1699429311,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f49054066080d03dec5b6ba615256dc52c4e8f45.zip",
+  "sizeBytes": 249948022,
+  "securityPatch": "2023-11-05",
+  "sdk": "30",
+  "device": "OnePlusN10",
+  "checkinDevice": "OnePlusN10",
+  "title": "11.0.16.BE86AA is available",
+  "description": "New version: 11.0.16.BE86AA \n <p>A new software update is now available for your Android smartphone.</p>\n This release includes the following:\n <p>• Updated Android security patch to 2023-11-05</p>\n If you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on November 22nd, 2023.  \nData rates may apply. Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 369,
+  "archiveUrls": []
+}

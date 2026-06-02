@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:12/SKQ1.210216.001/R.202203102003:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:12/RKQ1.211119.001/R.GDPR.202206101631:user/release-keys",
+  "postTimestamp": 1655201188,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3db8babaca604a10b65a632a4b0384280e216973.zip",
+  "sizeBytes": 1597611910,
+  "securityPatch": "2022-05-05",
+  "sdk": "31",
+  "device": "OnePlus9Pro",
+  "checkinDevice": "OnePlus9Pro",
+  "title": "LE2123_11.C.61_1610_202206141855",
+  "description": "New version: LE2123_11.C.61_1610_202206141855\nSystem\n<p>[Improved] system stability</p>\n<p>[Optimized] the fluency of system</p>\n<p>[Fixed] the issue that clearing the background worked abnormally</p>\n<p>[Updated] Android security patch to 2022.05</p>\nCamera\n<p>[Fixed] the occasional issue that camera crashed abnormally</p>\n<p>[Fixed] the issue that photos did not display the right location information</p>\nNetwork\n<p>[Fixed] the issue that the mobile data network was unstable in some scenarios</p>\nCommunication\n<p>[Fixed] the occasional issue for call dialing</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 347,
+  "archiveUrls": []
+}

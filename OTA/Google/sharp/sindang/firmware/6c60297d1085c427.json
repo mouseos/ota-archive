@@ -1,0 +1,24 @@
+{
+  "preBuild": "SHARP/tcbrae_a/sindang:ANY/ANY/ANY:user/release-keys",
+  "postBuild": "SHARP/tcbrae_a/sindang:11/RTOB.250721.001/13808904:user/release-keys",
+  "postTimestamp": 1753100628,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/de6741c2105d10a36b67858c44d28cce37fe691d.zip",
+  "sizeBytes": 1002271774,
+  "securityPatch": "2025-06-01",
+  "sdk": "30",
+  "device": "sindang",
+  "checkinDevice": "sindang",
+  "title": "A new Software Version is available",
+  "description": "We are updating a number of key security measures. Please confirm the upgrade for software safety reasons on your TV. Once the software installation process is fully completed, unplug the TV from the mains power socket for 5 seconds before plugging the TV back in. This will ensure the correct settings for your TV have been implemented. Do not power off the TV during the installation process.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

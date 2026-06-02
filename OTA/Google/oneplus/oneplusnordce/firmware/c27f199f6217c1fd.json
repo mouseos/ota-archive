@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2107220023:user/release-keys",
+  "preBuild": "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2202251534:user/release-keys",
   "postBuild": "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2207281809:user/release-keys",
   "postTimestamp": 1659007427,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fc8c4be23f4fb1528b5bed1beed5cc4bf8484ecc.zip",
-  "sizeBytes": 577851543,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/747dc2c943a67871c1a691323c7ee8c71e62efc2.zip",
+  "sizeBytes": 123123690,
   "securityPatch": "2022-07-01",
   "sdk": "30",
   "device": "OnePlusNordCE",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1492,
+  "sourceId": 670,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplusnordce/fc8c4be23f4fb1528b5bed1beed5cc4bf8484ecc.zip"
   ]

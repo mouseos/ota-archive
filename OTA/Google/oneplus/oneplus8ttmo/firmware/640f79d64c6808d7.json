@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:12/RKQ1.211119.001/R.202206041617:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:12/RKQ1.211119.001/R.202212231013:user/release-keys",
+  "postTimestamp": 1671761380,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b464c2ff68cd217b51761cf0608078570ea0764d.zip",
+  "sizeBytes": 213840561,
+  "securityPatch": "2022-12-05",
+  "sdk": "31",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "20809S_patch_2022122311120000_user",
+  "description": "New version: KB2007_11_C.44 <p>A new software update is available for your Android Smartphone.</p> This release includes the following: <p>• Android security patch upgraded to December, 2022</p> If you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting January 7, 2023.  Data rates may apply. Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 335,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.1038153-5ce-8e549:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.14fda01-1-2:user/release-keys",
+  "postTimestamp": 1701693898,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2c65dbe39667969b2eb5efe9b3d88d9856b5a9ff.zip",
+  "sizeBytes": 1553287825,
+  "securityPatch": "2023-12-05",
+  "sdk": "33",
+  "device": "OnePlus8T",
+  "checkinDevice": "OnePlus8T",
+  "title": "KB2005_13.1.0.583(EX01)is available",
+  "description": "New version: KB2005_13.1.0.583(EX01)<p>This update improves system security.</p>System<p> • Integrates the December 2023 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 331,
+  "archiveUrls": []
+}

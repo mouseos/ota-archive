@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/059bfd265ba8f85b06329834304de8e516b0d33c.zip",
-  "fingerprint": "Nothing/SpacewarEEA/Spacewar:UpsideDownCake/UKQ1.230321.002/2304282229:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "spacewar",
-  "title": "NothingOS 3.0(Spacewar-V3.0-250303-1817)",
-  "description": "<h3>What's new in this update</h3>\n<b>New features</b><br>\n🔎 Circle to Search is available now. Initiate a search from any text, image or video on your screen:<br>\n• 3-button navigation: Long-press the Home button<br>\n• Gesture navigation: Long-press the Navigation bar. (Ensure your Navigation bar is not hidden)<br>\nTo enable the settings for Circle to Search, navigate to: Settings > Special features > Gestures > Navigation mode > Circle to Search<br>\n🔒 Added power-off password verification to prevent immediate power-off if your phone is lost. Path: Search 'Power off verify' in Settings. <br>\n🖼️ Added new wallpapers.<br>\n<br>\n<b>General improvements</b><br>\n⚙️ Improved responding speed of Settings.<br>\n↔️ Optimised Quick Settings pull-down speed in landscape mode.<br>\n📶 Enhanced WiFi, Bluetooth and system stability.<br>\n🔒 Updated to February security patch.<br>\n<br>\n<b>Notes:</b><br>\nDuring the upgrade, the system will optimise in the background to enhance your user experience. The device may experience temporary overheating and increased power consumption, but will quickly return to normal after the upgrade is complete.<br>"
-}

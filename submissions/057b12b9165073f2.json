@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cdadede402604be4e8ac951218abea938dcaa15d.zip",
-  "fingerprint": "Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1657023912:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "spacewar",
-  "title": "Nothing OS 1.5.6",
-  "description": "<b>What's new:</b><br>\n🤖 Improved the performance of Face Unlock by improving the recognition accuracy in dark environments.<br>\n⚙️ Implemented RAM Expansion, allowing for the number of apps to remain open in the background to increase by 10%.<br>\n🔋 Reduced Bluetooth power consumption when device is on standby at night time.<br>\n<br>\n<b>Bug fixes:</b><br>\n🎇 Fixed an issue causing adaptive brightness to be occasionally turned off automatically.<br>\n📷 Fixed a rare issue preventing photos from being taken.<br>\n👻 Fixed various Face Unlock related issues. <br>\n👾 Other general bug fixes.<br>"
-}

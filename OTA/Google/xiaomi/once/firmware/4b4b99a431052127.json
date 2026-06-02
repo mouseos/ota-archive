@@ -1,5 +1,5 @@
 {
-  "preBuild": "Xiaomi/once/once:6.0.1/MHC19J/540:user/release-keys",
+  "preBuild": "Xiaomi/once/once:8.0.0/OPR6.170623.013/2303:user/release-keys",
   "postBuild": "Xiaomi/once/once:9/PI/3934:user/release-keys",
   "postTimestamp": 1632823636,
   "otaUrl": "https://android.googleapis.com/packages/ota-api/package/30199226c8b29962145c423a8dccd266c3800542.zip",

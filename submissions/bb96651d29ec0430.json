@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c41b056761003be3407250c142e0dcae3ddd4b52.zip",
-  "fingerprint": "MOONDROP/MD_PH_001_GL/MD_PH_001:14/UP1A.231005.007/1729054323:user/release-keys",
-  "manufacturer": "",
-  "brand": "moondrop",
-  "model": "md_ph_001",
-  "title": "GM_T2006-T2013",
-  "description": "1. Update the Android security patches to enhance device security. <br>\n2. Optimize system performance for smoother operation. <br>\n3. Improve the operational stability of the Audio Console app. <br>\n4. Enhance the overall stability across the app."
-}

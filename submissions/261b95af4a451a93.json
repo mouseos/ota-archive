@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/01de688cf9bb208edd9af196dfa184eee7a1a1ad.zip",
-  "fingerprint": "KYOCERA/KYV47_jp_kdi/KYV47:10/1.060HA.0124.a/1.060HA.0124.a:user/release-keys",
-  "manufacturer": "",
-  "brand": "kyocera",
-  "model": "kyv47",
-  "title": "ソフトウェア更新",
-  "description": "<big><font color=\"blue\">新しいソフトウェアにアップデートをお願いします。</font></big><br><br> 以下の事象が改善されます。<br> ・プロフィールが白画面表示になる場合がある。<br> ・電話帳が「応答していません」と表示されて開けない場合がある。<br><br> <small>(通信料が発生する場合がありますのでWi-Fi通信での実施をおすすめします。)</small><br>"
-}

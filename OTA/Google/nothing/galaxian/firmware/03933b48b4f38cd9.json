@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2603031710:user/release-keys",
+  "postBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys",
+  "postTimestamp": 1778224124,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/eb792cc60c97d0baec8636623f9ea827f45abd62.zip",
+  "sizeBytes": 370462259,
+  "securityPatch": "2026-05-01",
+  "sdk": "36",
+  "device": "Galaxian",
+  "checkinDevice": "Galaxian",
+  "title": "Nothing OS 4.1(Galaxian-B4.1-260508-1508)",
+  "description": "Nothing OS 4.1\nHi there. You’re now upgrading to Nothing OS 4.1, powered by Android 16. We'll be rolling out even more features for Nothing OS 4.1 in the future, so please stay tuned.<br>\nTake a look at what's included in this update:<br>\n<br>\n<b>New Features</b><br>\n<br>\n⏲️ Introduced the lock screen clock face from Phone (3a) Community Edition, co-created with the community member Jad Zock, featuring an exclusive typeface style and unique waking-up effect.<br>\n📡 Live Updates now work across various scenes, such as Always-on display, notification panel, and the status bar, tracking real-time progress from apps, like Google Maps, just at a glance.<br>\n💬 Essential Notifications settings UI has been reworked with a cleaner look and descriptions for easier use.<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification.<br>\n<br>\n<b>Notes:</b><br>\nLive Updates compatibility with apps depends on local availability and specific app integration.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Enhanced overall camera stability.<br>\n💬 Optimised the notifications and the lock screen with more stable performance in certain scenarios.<br>\n⚙️ Enhanced overall system stability and responsiveness in certain scenarios.<br>\n📱 Fixed some display errors across various cases for better consistency.<br>\n🛡️ Updated to May 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

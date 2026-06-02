@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN100/OnePlusN100:11/RKQ1.201217.002/2109272255:user/release-keys",
+  "postTimestamp": 1632754808,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f94a8e3848c8eb4f482b2c5f0cfc1361ff4ed805.zip",
+  "sizeBytes": 2553921319,
+  "securityPatch": "2021-10-01",
+  "sdk": "30",
+  "device": "OnePlusN100",
+  "checkinDevice": "OnePlusN100",
+  "title": "OnePlus Nord N100 OxygenOS 11.0.3.BE81AA",
+  "description": "OnePlus Nord N100 OxygenOS 11.0.3.BE81AA\n <p>A new software update is available for your Android Smartphone. </p>\n This release includes the following: \n <p><b>System</p></b>\n<p>• Improved system stability and general bug fixes</p> \n<p>• Updated Android Security Patch to 2021.10 </p>\n Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 360,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:UpsideDownCake/UKQ1.230321.002/2304282229:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1669043167:user/release-keys",
+  "postTimestamp": 1669045482,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/254815bb72cdbddd5c9dd7cde6d10c95becc6542.zip",
+  "sizeBytes": 2298971485,
+  "securityPatch": "2022-11-01",
+  "sdk": "31",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "Nothing OS 1.1.7",
+  "description": "What's new in this update\n<b>New features</b><br>\n🎧 Now supports battery percentage display for AirPods. You can enable it in Settings - Experimental features.<br>\n<br>\n<b>Improvements</b><br>\n👩‍💻 Updated to October / November Security Patch.<br>\n🤩 Improved OS fluidity and reduced stutters.<br>\n🌡 Adjusted the thermal threshold to better balance performance and temperature.<br>\n📸 Improved audio quality when recording videos.<br>\n🔋 More accurate battery status.<br>\n<br>\n<b>Bug fixes</b><br>\n🔒 Resolved an issue causing Whatsapp notifications to be unresponsive in lockscreen. <br>\n👾 General bug fixes. <br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

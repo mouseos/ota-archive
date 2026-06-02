@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c5b4eaace90ee7d6be8ea635e19a3af153509ee1.zip",
-  "fingerprint": "Nothing/FroggerProJPN/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2604241447:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "froggerpro",
-  "title": "Nothing OS 4.1(FroggerPro-B4.1-260522-1414-JPN)",
-  "description": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n🎥 4K 60FPS recording is now available on main and telephoto cameras, for smoother footage.<br>\n🛠️ Enhanced camera stability for smoother video zoom and time-lapse experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Optimised maximum font size display to prevent text from overlapping in the UI.<br>\n⌚ Optimised the compatibility with certain wearable devices.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to May 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
-}

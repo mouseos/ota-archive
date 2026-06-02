@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9ebd78a97ceeed8b4c06dac92810366afaf51fbe.zip",
-  "fingerprint": "xiaomi/axolotlaxie/axolotlaxie:14/AW2A.240903.001.XM121S/AW2A.240903.001.XM121S:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "axolotlaxie",
-  "title": "新しいバージョン",
-  "description": "AW2A.240903.001.XM121S\n<br>このバージョンには多数のアップデートが含まれているため、完了までに時間がかかる場合があります。\n<br>1. システムの安定性を向上させるために既知のバグを修正しました。\n<br>2. Google のセキュリティパッチが更新されました。"
-}

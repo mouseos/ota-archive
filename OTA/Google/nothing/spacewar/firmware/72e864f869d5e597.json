@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:13/TKQ1.221220.001/2311101731:user/release-keys|Nothing/SpacewarEEA/Spacewar:13/TKQ1.221220.001/2311101731:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:14/UP1A.231005.007/2402071031:user/release-keys|Nothing/SpacewarEEA/Spacewar:14/UP1A.231005.007/2402071031:user/release-keys",
+  "postTimestamp": 1707273083,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/11d4669cdf0b425d4f8e237f71edc849062365da.zip",
+  "sizeBytes": 1219414579,
+  "securityPatch": "2024-01-01",
+  "sdk": "34",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "Nothing OS 2.5.2",
+  "description": "Nothing OS 2.5\nThis update transitions you to Nothing OS 2.5, powered by Android 14 - our most significant update since the launch of OS 2.0. Full of exciting new features and improvements to enhance your everyday experience. Here’s what’s in store: <br>\n<br>\n<br>\nCustomisation\n✨ Redesigned a joint Home Screen and Lock Screen customisation page and improved the edit wallpaper flow for a more comprehensive view of options.<br>\n🌌 New Atmosphere wallpaper effect: Transform your background photo into a dynamic wallpaper that brings motion to colours on your home screen. A seamless transition between your lock and home screens.<br>\n🎨 Introduced solid colour wallpapers for a cleaner Home Screen appearance.<br>\n⚪ Added a monochrome colour theme in the basic colour section.<br>\n<br>\nGlyph Interface\n🎶 Get direct access to the Glyph Interface's Music Visualisation feature (some of you may have already discovered it).<br>\n🌟 Improved overall Glyph light playback effect when synchronising with your device's audio.<br>\n💫 Added a new Glyph animation for when NFC is being used.<br>\n🔄 Improved the experience of Flip to Glyph.<br>\n<br>\nGesture\n💡Customisable double-press power button to quickly access a chosen feature. Just head to Settings > System > Gestures.<br>\n🤖 More Lock Screen shortcut options like: Do Not Disturb, Mute, QR code scanner, video camera.<br>\n📸 Capture screenshots quickly with a three-finger swipe gesture.<br>\n✏️ New screenshot editor and menu, allowing for more advanced editing features and quick deletions.<br>\n⬅️ Refreshed the back gesture arrow visual to be more in line with Nothing's style.<br>\n<br>\nQuick Settings\n🔔 Added support for switching ring modes in Quick Settings.<br>\n📶 You can now directly set your network via Quick Settings without unlocking the device.<br>\n⚙️ Updated Quick Settings layout and support to show more devices icons.<br>\n<br>\nNew Widgets\n🚶 Pedometer Widget: Track your daily steps directly from your home screen. Set goals and monitor your progress to stay motivated.<br>\n🎵 Media Player Widget: Displays the currently playing song. Control your music easily while on-the-move.<br>\n⏳ Screen Time Widget: Monitor and manage your daily screen time to maintain a healthy digital lifestyle.<br>\n<br>\nMore improvements\n🌥️ Optimised the experience of the Weather app and improved the notification of weather alerts.<br>\n🔔 Made it possible to set ringtone and notification sound volumes separately, with an updated volume control interface. <br>\n📸 Automatically excludes the preview of the previous screenshot when taking continuous screenshots.<br>\n📷 Improved the stability of the camera.<br>\n🚀 Enhanced the overall smoothness and responsiveness of the system for a more fluid user experience.<br>\n👾 Enhanced system stability and improved battery life.<br>\n<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

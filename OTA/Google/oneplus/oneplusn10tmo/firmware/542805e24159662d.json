@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN10TMO/OnePlusN10TMO:11/RKQ1.201217.002/2110121436:user/release-keys",
+  "postTimestamp": 1634020956,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/240680600a156993855db4474abfd98e3a9f89a3.zip",
+  "sizeBytes": 2926392110,
+  "securityPatch": "2021-10-01",
+  "sdk": "30",
+  "device": "OnePlusN10TMO",
+  "checkinDevice": "OnePlusN10TMO",
+  "title": "11.0.2.BE88CB is available",
+  "description": "New version: 11.0.2.BE88CB \n<p>A new software update is available for your Android Smartphone.</p>\nThis release includes the following:\n<p>• Android security patch upgraded to October 2021</p>\n \n \n \nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting October 26th, 2021. \nData rates may apply.\nPlease do not turn off your device while the update is installing.\nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 377,
+  "archiveUrls": []
+}

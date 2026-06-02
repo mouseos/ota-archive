@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8T/OnePlus8T:12/SKQ1.210216.001/R.202203142337:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8T/OnePlus8T:12/RKQ1.211119.001/R.202206110121:user/release-keys",
+  "postTimestamp": 1654882028,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1c20399b913d224a3fa5fc08faf966a4c94856a7.zip",
+  "sizeBytes": 1088985644,
+  "securityPatch": "2022-05-05",
+  "sdk": "31",
+  "device": "OnePlus8T",
+  "checkinDevice": "OnePlus8T",
+  "title": "KB2005_11.C.21_1210_202206110231",
+  "description": "New version: KB2005_11.C.21_1210_202206110231 \n\n<p>The newest OS update is available. This update optimizes the system stability, improves camera user experience and fixes some known issues.</p>\n\nSystem\n<p>[Improved] system stability</p>\n<p>[Fixed] the issue that screen kept on abnormally in certain scenarios after locking</p>\n<p>[Fixed] the issue that some gesture operations worked abnormally after enabling the Quick launch</p>\n\nCamera\n<p>[Fixed] the issue of crash when opening Ultra Steady in certain scenarios</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 330,
+  "archiveUrls": []
+}

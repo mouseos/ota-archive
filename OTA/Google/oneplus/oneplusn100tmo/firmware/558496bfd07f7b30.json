@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2108131450:user/release-keys",
+  "preBuild": "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2109272222:user/release-keys",
   "postBuild": "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2310131958:user/release-keys",
   "postTimestamp": 1697202949,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/425ba5d0d678683d551f0cdca84d8becbc9bec90.zip",
-  "sizeBytes": 201475783,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ec2a02a52be8796c41e28d83cfe571a267687233.zip",
+  "sizeBytes": 178768943,
   "securityPatch": "2023-10-05",
   "sdk": "30",
   "device": "OnePlusN100TMO",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1484,
+  "sourceId": 367,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplusn100tmo/425ba5d0d678683d551f0cdca84d8becbc9bec90.zip"
   ]

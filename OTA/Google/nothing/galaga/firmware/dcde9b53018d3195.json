@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+  "postBuild": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys",
+  "postTimestamp": 1746589184,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2800780fa49032a870618ec026097f5a09aa805b.zip",
+  "sizeBytes": 4584169209,
+  "securityPatch": "2025-04-01",
+  "sdk": "35",
+  "device": "Galaga",
+  "checkinDevice": "Galaga",
+  "title": "Nothing OS 3.2(Galaga-V3.2-250507-1139)",
+  "description": "What's new in this update \n<b>General improvements and bug fixes</b><br>\n🚀 Optimised Launcher animations for seamless app launches.<br>\n📰 Improved fluidity of Google News Feed.<br>\n🔆 Enhanced adaptive brightness.<br>\n✂️ Smoothened use of three-finger screenshot feature.<br>\n🛠️ Increased overall system stability.<br>\n<br>\n<b>Camera enhancements</b><br>\n🎨 Optimised photo colours and clarity.<br>\n🎥 Enhanced clarity of 4K 30fps videos.<br>\n⚙️ Improved camera performance under high load conditions.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

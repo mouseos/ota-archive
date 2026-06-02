@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:13/TP1A.220905.001/R.11ede55-254d3-4:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:13/TP1A.220905.001/R.1598165-1e316-1719a4:user/release-keys",
+  "postTimestamp": 1704269810,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0e76bd8e2d13402edfcacbff8e14b1c80ddee2a2.zip",
+  "sizeBytes": 1479132523,
+  "securityPatch": "2024-01-05",
+  "sdk": "33",
+  "device": "OnePlus9ProTMO",
+  "checkinDevice": "OnePlus9ProTMO",
+  "title": "LE2127_13.1.0.525(EX01) is available",
+  "description": "New version: LE2127_13.1.0.525(EX01)  <p>A new software update is now available for your Android smartphone.</p> This release includes the following: <p>• Updated Android security patch to 2024-01-05.</p>   If you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on January 24th, 2024.  Data rates may apply. Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 661,
+  "archiveUrls": []
+}

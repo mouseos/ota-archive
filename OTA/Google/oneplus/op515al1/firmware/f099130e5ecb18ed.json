@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/GN2200/OP515AL1:12/RKQ1.211119.001/178eca8-10303-c6576:user/release-keys",
+  "postBuild": "OnePlus/GN2200/OP515AL1:12/RKQ1.211119.001/1b540b1_4439-393a85:user/release-keys",
+  "postTimestamp": 1733297297,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/47ae5f3b5985202bfdf42a5d6c41a70a1ef07b43.zip",
+  "sizeBytes": 457127199,
+  "securityPatch": "2024-12-05",
+  "sdk": "31",
+  "device": "OP515AL1",
+  "checkinDevice": "OP515AL1",
+  "title": "GN2200_11_C.25 is available",
+  "description": "New Version Available: GN2200_11_C.25<p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-12-05.</p>Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on December 24th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 807,
+  "archiveUrls": []
+}

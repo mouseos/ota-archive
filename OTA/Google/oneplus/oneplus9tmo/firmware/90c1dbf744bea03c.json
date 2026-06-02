@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus9TMO/OnePlus9TMO:13/TP1A.220905.001/R.f88e2f_1-2bde0:user/release-keys",
+  "postTimestamp": 1680871701,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/44aed2c137c3f7f7cb62d8742f0af5836143272f.zip",
+  "sizeBytes": 4974238903,
+  "securityPatch": "2023-04-05",
+  "sdk": "33",
+  "device": "OnePlus9TMO",
+  "checkinDevice": "OnePlus9TMO",
+  "title": "LE2117_11_F.27 is available",
+  "description": "New version: LE2117_11_F.27 \n<p>A new software update is available for your Android Smartphone.</p> \nThis release includes the following: \n<p>•Upgraded to Android13 OS</p>\n<p>•Android security patch updated to  2023-4-5</p>\n<p>•Enable VoNR</p>\n<p>•General bug fixes and improvements</p>\n \nIf you choose not to do so now, the update will take place AUTOMATICALLY starting May 15, 2023.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 663,
+  "archiveUrls": []
+}

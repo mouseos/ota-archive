@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlus9_IND/OnePlus9:12/SKQ1.210216.001/R.202201181959:user/release-keys",
+  "preBuild": "OnePlus/OnePlus9_IND/OnePlus9:12/SKQ1.210216.001/R.202112261201:user/release-keys",
   "postBuild": "OnePlus/OnePlus9_IND/OnePlus9:12/SKQ1.210216.001/R.202204081955:user/release-keys",
   "postTimestamp": 1649418066,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/da604e3c175725889e922fe04154f53dc9ffff5e.zip",
-  "sizeBytes": 402906875,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9fc6aaa08df9a89c8bf131f9cc27ab52032cd704.zip",
+  "sizeBytes": 500282460,
   "securityPatch": "2022-04-05",
   "sdk": "31",
   "device": "OnePlus9",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1457,
+  "sourceId": 656,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplus9/da604e3c175725889e922fe04154f53dc9ffff5e.zip"
   ]

@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2503021856:user/release-keys",
+  "postBuild": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsEEA/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsIND/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsJPN/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsPro/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProIND/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys|Nothing/AsteroidsTUR/Asteroids:15/AQ3A.241015.001/2506101841:user/release-keys",
+  "postTimestamp": 1749552097,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a0d44359189d797802d63139a5ed9f2d89b44a40.zip",
+  "sizeBytes": 742846757,
+  "securityPatch": "2025-05-01",
+  "sdk": "35",
+  "device": "Asteroids",
+  "checkinDevice": "Asteroids",
+  "title": "Nothing OS 3.1(Asteroids-V3.1-250610-1841)",
+  "description": "What's new in this update \n<b>General Improvements and Bug Fixes</b><br>\n📶 Enhanced Wi-Fi connection stability.<br>\n📡 Stabilised cellular network connections.<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

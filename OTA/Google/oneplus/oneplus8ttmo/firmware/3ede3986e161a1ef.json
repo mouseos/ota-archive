@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:13/RKQ1.211119.001/R.12ce209_1-193908:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:13/RKQ1.211119.001/R.15c03da_74d-485ad9:user/release-keys",
+  "postTimestamp": 1704957105,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0bdd14b604815ebfbfe00ccc6b621c0532135e40.zip",
+  "sizeBytes": 199445056,
+  "securityPatch": "2024-01-05",
+  "sdk": "33",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "KB2007_13.1.0.540(EX01) is available",
+  "description": "New version: KB2007_13.1.0.540(EX01)  <p>A new software update is now available for your Android smartphone.</p> This release includes the following: <p>• Updated Android security patch to 2024-01-05.</p>   If you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on January 31st, 2024.  Data rates may apply. Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 652,
+  "archiveUrls": []
+}

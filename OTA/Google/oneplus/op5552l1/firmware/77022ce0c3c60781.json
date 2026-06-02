@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2419/OP5552L1:13/TP1A.220905.001/S.fb73e9_80b4c_80b4b:user/release-keys",
+  "postBuild": "OnePlus/CPH2419/OP5552L1:13/TP1A.220905.001/S.13c8ccb_1-294e67:user/release-keys",
+  "postTimestamp": 1696942689,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9529ea87190fa042aaaebb14ef74fe4f0fe75ce4.zip",
+  "sizeBytes": 1838599072,
+  "securityPatch": "2023-10-05",
+  "sdk": "33",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "CPH2419_13.1.0.588(EX01) is available",
+  "description": "New version: CPH2419_13.1.0.588(EX01) \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-10-05.</p> \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on October 29th, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 620,
+  "archiveUrls": []
+}

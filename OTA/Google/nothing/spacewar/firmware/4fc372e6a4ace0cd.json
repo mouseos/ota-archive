@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2602061016:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2602061016:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2604161140:user/release-keys",
+  "postTimestamp": 1776310803,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/344b3931b7819dc847850861a2c9fd939c443480.zip",
+  "sizeBytes": 52580439,
+  "securityPatch": "2026-04-01",
+  "sdk": "35",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "NothingOS 3.2(Spacewar-V3.2-20260416-1140)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

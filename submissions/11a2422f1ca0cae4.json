@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8b96a9ad74c44a089a86c213103c624ee74088ae.zip",
-  "fingerprint": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2507112047:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "metroid",
-  "title": "Nothing OS 4.0(Metroid-B4.0-251224-1229)",
-  "description": "<h3>What's New in This Update</h3>\n<b>Visual Enhancements</b><br>\n<br>\n🔋 Updated the battery percentage icon with the number displayed inside.<br>\n🌑 Optimised Extra dark mode for better visual adaptation to more scenarios.<br>\n🎚️ Improved the smoothness of the volume slider animation when adjusting volume via keys.<br>\n📼 Optimised sound wave and wheel animations in Recorder for a more fluid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔔 Setting different ringtones for dual SIMs is now supported.<br>\n👀 Always-on Glyph Toy now will always stay on until manually turned off.<br>\n🚗 Fixed an issue where the in-car display could freeze when using Android Auto.<br>\n👖 Improved pocket mode detection logic for Glyph Interface.<br>\n📳 Optimised the vibration and haptic feedback across more scenarios.<br>\n🔒 Enhanced stability of lock screen and AOD for a better experience.<br>\n🤳 Improved Glyph mirror stability across more camera scenarios.<br>\n📹 Fixed an issue where the video encoding setting reverted from H.265 to H.264 when switching between shooting modes.<br>\n🚶 Fixed an issue where the Pedometer Progress widget continued animating on the lock screen while AOD was on.<br>\n🛜 Improved the searching speed for nearby available Wi-Fi networks.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🛡️ Updated to December security patch.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>"
-}

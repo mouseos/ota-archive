@@ -1,0 +1,27 @@
+{
+  "preBuild": "OnePlus/OnePlusN10TELCEL/OnePlusN10:10/QKQ1.200830.002/2302021736:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN10TELCEL/OnePlusN10:10/QKQ1.200830.002/2302281550:user/release-keys",
+  "postTimestamp": 1677573912,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c8c52e72f5d6d0067f64a2633867fdaf07892ada.zip",
+  "sizeBytes": 75087149,
+  "securityPatch": "2023-02-05",
+  "sdk": "29",
+  "device": "OnePlusN10",
+  "checkinDevice": "OnePlusN10",
+  "title": "OnePlus Nord N10 OxygenOS 10.5.27.BE86AA",
+  "description": "OnePlus Nord N10 OxygenOS 10.5.27.BE86AA \n<p>Esta actualización mejora la seguridad del sistema.</p> <p><b>【Sistema】</p></b> <p>• Se ha integrado el parche de seguridad Android de marzo de 2023 para mejorar la seguridad del sistema. </p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 376,
+  "archiveUrls": []
+}

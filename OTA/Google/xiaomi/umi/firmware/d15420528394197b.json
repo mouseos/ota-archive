@@ -1,0 +1,27 @@
+{
+  "preBuild": "Xiaomi/umi_global/umi:10/QKQ1.191117.002/V12.0.1.0.QJBMIXM:user/release-keys",
+  "postBuild": "Xiaomi/umi_global/umi:10/QKQ1.191117.002/V12.0.6.0.QJBMIXM:user/release-keys",
+  "postTimestamp": 1602949216,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5a07ca99f8437324f7c6997e15f0443098825e8f.zip",
+  "sizeBytes": 645333415,
+  "securityPatch": "2020-10-01",
+  "sdk": "29",
+  "device": "umi",
+  "checkinDevice": "umi",
+  "title": "V12.0.6.0.QJBMIXM",
+  "description": "V12.0.6.0.QJBMIXMコントロールセンター新機能: コントロールセンターの空白部分をタップすると閉じるようになりました<br>最適化: 横向きモードでのコントロールセンターレイアウト<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 134217728,
+  "partitions": [
+    "boot",
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

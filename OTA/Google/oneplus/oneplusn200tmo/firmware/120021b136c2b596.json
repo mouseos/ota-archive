@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:12/SKQ1.210216.001/R.202306151713:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:12/SKQ1.210216.001/R.202401231829:user/release-keys",
+  "postTimestamp": 1706063257,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9c90cc666a539affd60d1d2fe7490b364910bd40.zip",
+  "sizeBytes": 417593300,
+  "securityPatch": "2024-02-05",
+  "sdk": "31",
+  "device": "OnePlusN200TMO",
+  "checkinDevice": "OnePlusN200TMO",
+  "title": "DE2118_11_C.28 is available",
+  "description": "New version: DE2118_11_C.28 <p>A new software update is now available for your Android smartphone.</p> This release includes the following: <p>• Updated Android security patch to 2024-02-05.</p> If you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on February 25th, 2024.  Data rates may apply. Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 669,
+  "archiveUrls": []
+}

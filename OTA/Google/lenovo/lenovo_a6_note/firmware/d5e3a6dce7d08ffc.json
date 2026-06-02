@@ -1,0 +1,24 @@
+{
+  "preBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/48110:user/release-keys",
+  "postBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/10219:user/release-keys",
+  "postTimestamp": 1584413919,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/f799d4ced95d6a84e32605cfbc78cb112d0e2004.zip",
+  "sizeBytes": 504873974,
+  "securityPatch": "2020-03-05",
+  "sdk": "28",
+  "device": "Lenovo_A6_Note",
+  "checkinDevice": "Lenovo_A6_Note",
+  "title": "20191202 to 20200317 OTA package!",
+  "description": "<b>Release noted ：</b>\n<br>\n<br>\n<strong>1.</strong>Updated the security patch.\n<br>\n<strong>2.</strong> Updated several preload applications.\n<br>\n<strong>3.</strong> Fixed some detail problems.\n<br>\n\n<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 79982592,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN100TELCEL/OnePlusN100:10/QKQ1.200719.002/2302282254:user/release-keys",
+  "postTimestamp": 1677599187,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/65a73c5ea87398b8a22045fe6dff4c6a7dd8594b.zip",
+  "sizeBytes": 2329694851,
+  "securityPatch": "2023-02-05",
+  "sdk": "29",
+  "device": "OnePlusN100",
+  "checkinDevice": "OnePlusN100",
+  "title": "OnePlus Nord N100 OxygenOS 10.5.20.BE81AA",
+  "description": "OnePlus Nord N100 OxygenOS 10.5.20.BE81AA \n<p>Esta actualización mejora la seguridad del sistema.</p>\n<p><b>【Sistema】</p></b>\n<p>•  Se ha integrado el parche de seguridad Android de marzo de 2023 para mejorar la seguridad del sistema.\n</p>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 365,
+  "archiveUrls": []
+}

@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2503041904:user/release-keys",
+  "postBuild": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2504291922:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2504291922:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2504291922:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2504291922:user/release-keys",
+  "postTimestamp": 1745925737,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/22f105448598ae68cf6df552a8a0548dc6ec768c.zip",
+  "sizeBytes": 1035422150,
+  "securityPatch": "2025-05-01",
+  "sdk": "35",
+  "device": "Pacman",
+  "checkinDevice": "Pacman",
+  "title": "NothingOS 3.0(Pacman-V3.0-250429-1922)",
+  "description": "What's new in this update \n<b>New Feature</b><br> \n🔐 Introducing Privacy Space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy Space.<br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n🖼️ Introducing Nothing Gallery. The perfect blend of simplicity and elegance.<br>\n📳 Use the touch feedback toggle in Settings to disable the face unlock vibration for the lock screen.<br>\n<br>\n<b>Other Improvements</b><br>\n🔔 Enhanced accessibility experience for Status Bar and Notification Centre.<br>\n📡 Stabilised cellular network connections.<br>\n📶 Enhanced WiFi and system stability.<br>\n🛡️ Updated to Android security patch for May.<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

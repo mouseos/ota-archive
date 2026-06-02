@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2512292335:user/release-keys",
+  "postBuild": "Nothing/Asteroids/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsJPN/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsPro/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProIND/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys|Nothing/AsteroidsTUR/Asteroids:16/BQ2A.250721.001-BP2A.250605.031.A3/2602251824:user/release-keys",
+  "postTimestamp": 1772015077,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1d6821e76bcb9c3bb525dd9c2e6b4b1d527008e4.zip",
+  "sizeBytes": 323113842,
+  "securityPatch": "2026-03-01",
+  "sdk": "36",
+  "device": "Asteroids",
+  "checkinDevice": "Asteroids",
+  "title": "NothingOS 4.0(Asteroids-B4.0-260225-1824)",
+  "description": "What's New in This Update\n<b>Camera Enhancements</b><br>\n<br>\n🖼️ Improved watermark consistency between the preview and final photos.<br>\n🌃 Improved colour balance for rear-camera Night mode at 4× zoom and above.<br>\n📹 Optimised preview and recording stability at certain zoom levels in Video mode.<br>\n📷 Enhanced overall camera stability.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n😎 Apps in private space are now available to be updated via Google Play Store.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

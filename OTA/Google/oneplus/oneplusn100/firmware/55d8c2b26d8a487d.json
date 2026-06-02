@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN100/OnePlusN100:11/RKQ1.201217.002/2107241042:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN100/OnePlusN100:11/RKQ1.201217.002/2310091801:user/release-keys",
+  "postTimestamp": 1696849915,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fd53c655e1d4af988a968cf3e86d7ea36ca753ca.zip",
+  "sizeBytes": 241144069,
+  "securityPatch": "2023-10-05",
+  "sdk": "30",
+  "device": "OnePlusN100",
+  "checkinDevice": "OnePlusN100",
+  "title": "OnePlus Nord N100 OxygenOS 11.0.15.BE81AA",
+  "description": "OnePlus Nord N100 OxygenOS 11.0.15.BE81AA\n <p>A new software update is available for your Android Smartphone. </p>\n This release includes the following:  \n<p><b>System</p></b> <p>• Integrates the October 2023 Android security patch to enhance system security.</p>\n Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 361,
+  "archiveUrls": []
+}

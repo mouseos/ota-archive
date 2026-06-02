@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:14/UKQ1.230924.001/R.16073bf-1f879_7e575:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:14/UKQ1.230924.001/R.196ee6b-1247d-1a21ae:user/release-keys",
+  "postTimestamp": 1723194556,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1ea88bff5b13537f384066f0e5d2af5e66b9855b.zip",
+  "sizeBytes": 1390247167,
+  "securityPatch": "2024-08-05",
+  "sdk": "34",
+  "device": "OnePlus9ProTMO",
+  "checkinDevice": "OnePlus9ProTMO",
+  "title": "LE2127_14.0.0.260(EX01) is available",
+  "description": "New Version Available: LE2127_14.0.0.260(EX01)  <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-08-05.</p>  Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on August 27th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 355,
+  "archiveUrls": []
+}

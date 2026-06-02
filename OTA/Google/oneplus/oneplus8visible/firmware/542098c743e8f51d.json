@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlus8Visible/OnePlus8Visible:10/QKQ1.191222.002/2010121010:user/release-keys",
+  "preBuild": "OnePlus/OnePlus8Visible/OnePlus8Visible:11/RP1A.201005.001/2103312144:user/release-keys",
   "postBuild": "OnePlus/OnePlus8Visible/OnePlus8Visible:11/RP1A.201005.001/2301281303:user/release-keys",
   "postTimestamp": 1674886625,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/17c1c4b8322a2b13e5d3fc6bfbf363382067f3ea.zip",
-  "sizeBytes": 2306726758,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/88aa74713ecfa7e57de0798493594f6166084b56.zip",
+  "sizeBytes": 322457609,
   "securityPatch": "2023-01-01",
   "sdk": "30",
   "device": "OnePlus8Visible",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1454,
+  "sourceId": 340,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplus8visible/17c1c4b8322a2b13e5d3fc6bfbf363382067f3ea.zip"
   ]

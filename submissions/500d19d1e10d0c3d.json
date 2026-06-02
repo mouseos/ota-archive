@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/251aa268b8977286a75e49faed2182e0153fdc7f.zip",
-  "fingerprint": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/20190729:user/release-keys",
-  "manufacturer": "",
-  "brand": "lenovo",
-  "model": "lenovo_a6_note",
-  "title": "20200623_TO_20200909_OTA package",
-  "description": "<strong> Release note:</strong> <br> <strong> 1.</strong> Updated the security patch. <br>"
-}

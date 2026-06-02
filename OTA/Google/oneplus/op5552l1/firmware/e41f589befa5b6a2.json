@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2417/OP5552L1:14/UKQ1.230924.001/S.15baf3c-484e-484d:user/release-keys",
+  "postBuild": "OnePlus/CPH2417/OP5552L1:14/UKQ1.230924.001/S.1b719a4-88ff-603b8:user/release-keys",
+  "postTimestamp": 1733893446,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/41a1496c1560302cdba065ee4a9aeb971f210d4a.zip",
+  "sizeBytes": 2019930991,
+  "securityPatch": "2024-12-05",
+  "sdk": "34",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "CPH2417_14.0.0.714(EX01)",
+  "description": "New version: CPH2417_14.0.0.714(EX01)<p>A new software update is now available for your Android smartphone.</p>System<p>• Integrates the December 2024 Android security patch to enhance system security.</p><p>• Fixes an issue with time accuracy when there's no internet connection.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 619,
+  "archiveUrls": []
+}

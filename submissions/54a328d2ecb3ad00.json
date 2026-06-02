@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8ebd2971dfa9244d5aba6e8d6d845da093c4e5cf.zip",
-  "fingerprint": "Nothing/Pong/Pong:15/AQ3A.240929.001/2503041717:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "pong",
-  "title": "NothingOS 3.0(Pong-V3.0-250506-1805)",
-  "description": "<h3>What's new in this update</h3> \n<b>New Feature</b><br> \n🔐 Introducing Privacy Space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy Space.<br>\n🖼️ Introducing Nothing Gallery. The perfect blend of simplicity and elegance.<br>\n📳 Use the touch feedback toggle in Settings to disable the face unlock vibration for the lock screen.<br>\n<br>\n<b>Other Improvements</b><br>\n🚀 Optimised Launcher animations for seamless app launches.<br>\n📡 Stabilised cellular network connections.<br>\n📶 Enhanced WiFi and system stability.<br>\n🔔 Enhanced accessibility experience for Status Bar and Notification Centre.<br>\n🛡️ Updated to Android security patch for May.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>"
-}

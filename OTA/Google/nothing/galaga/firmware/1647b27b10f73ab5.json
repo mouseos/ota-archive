@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2505071139:user/release-keys",
+  "postBuild": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaJPN/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys",
+  "postTimestamp": 1756907600,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7e45972eba5847663234b8d40729bab2be7c6855.zip",
+  "sizeBytes": 472185245,
+  "securityPatch": "2025-09-01",
+  "sdk": "35",
+  "device": "Galaga",
+  "checkinDevice": "Galaga",
+  "title": "Nothing OS 3.2(Galaga-V3.2-250903-2153)",
+  "description": "What's New in This Update \n<b>General Improvements and Bug Fixes</b><br>\n🔋 Optimised power usage during WhatsApp video calls.<br>\n⚙️ Improved system stability and network performance.<br>\n<br> \n<b>Camera Enhancements</b><br>\n<br> \n📱 Reduced heating when using the camera in WhatsApp for a better experience.<br>\n🖼️ Improved image clarity in certain Facebook camera scenarios.<br>\n<br> \n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

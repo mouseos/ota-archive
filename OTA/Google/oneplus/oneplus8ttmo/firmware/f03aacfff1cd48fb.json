@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2109301204:user/release-keys",
+  "postTimestamp": 1632976493,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d514c5aaa2be67c6d4f4aab945ab3d66b4cf2ea0.zip",
+  "sizeBytes": 3025746613,
+  "securityPatch": "2021-10-01",
+  "sdk": "30",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "11.0.13.15.KB09CB is available",
+  "description": "New version: 11.0.13.15.KB09CB \n\n<p>A new software update is available for your Android Smartphone.</p>\n\nThis release includes the following:\n\n<p>• Android security patch upgraded to October 2021</p>\n\n<p>• General improvements</p>\n\n If you choose not to do so now, the update will take place AUTOMATICALLY between 2AM and 4AM starting October 20th, 2021. \n\nData rates may apply.\n\nPlease do not turn off your device while the update is installing.\n\nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 653,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:13/TP1A.220905.001/R.f88e2d_1-2bde0:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:13/TP1A.220905.001/R.11ede55-254d3-4:user/release-keys",
+  "postTimestamp": 1689302235,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/074b35cfcc77a20aa9e87bdd09f5bb4be1c43876.zip",
+  "sizeBytes": 1684111933,
+  "securityPatch": "2023-07-05",
+  "sdk": "33",
+  "device": "OnePlus9ProTMO",
+  "checkinDevice": "OnePlus9ProTMO",
+  "title": "LE2127_13.1.0.502(EX01) is available",
+  "description": "New version: LE2127_13.1.0.502(EX01) \n\n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-07-05</p>\n \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on August 2nd , 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 354,
+  "archiveUrls": []
+}

@@ -1,0 +1,24 @@
+{
+  "preBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/42123:user/release-keys",
+  "postBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/48110:user/release-keys",
+  "postTimestamp": 1575253168,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/d18993aee8f2170f79365d4b8b3d764262440b97.zip",
+  "sizeBytes": 80658001,
+  "securityPatch": "2019-10-05",
+  "sdk": "28",
+  "device": "Lenovo_A6_Note",
+  "checkinDevice": "Lenovo_A6_Note",
+  "title": "A6 Note Software update .",
+  "description": "<strong>. Release note</strong>\n<br>\n<strong> 1.</strong> Updated the security patch.\n<br>\n<strong> 2.</strong> Updated the weather application.\n<br>\n<strong> 3.</strong> Fixed the connection issues when searching network manually.\n<br>\n<strong> 4.</strong> Fixed several issues related VoWifi of the carrier network in HongKong.\n</br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 57090048,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/NE2217/OP516FL1:13/SKQ1.220617.001/S.d73291-1_9baf2:user/release-keys",
+  "postTimestamp": 1673331144,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/825a7f0c5fa83b3d62d362230d46aee063bb01f7.zip",
+  "sizeBytes": 5019773945,
+  "securityPatch": "2023-01-05",
+  "sdk": "33",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2217_11_C.26 is available",
+  "description": "New version: NE2217_11_C.26  \n<p>A new software update is available for your Android Smartphone.</p> \nThis release includes the following: \n<p>•OS upgraded to Android 13</p>\n<p>•Google Security Patch upgraded to 2023-01-05</p>\n<p>•Enable VoNR</p>\n<p>•Enable n28 and n78 SA roaming</p>\n\nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting March 11, 2023.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 635,
+  "archiveUrls": []
+}

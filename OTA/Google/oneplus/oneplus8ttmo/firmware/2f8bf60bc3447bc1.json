@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:13/RKQ1.211119.001/R.e4fd2d_7-7000:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:13/RKQ1.211119.001/R.12ce209_1-193908:user/release-keys",
+  "postTimestamp": 1692859615,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a21e122e767372edc2b0a35c874ed22086b442c8.zip",
+  "sizeBytes": 1949962599,
+  "securityPatch": "2023-08-05",
+  "sdk": "33",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "KB2007_13.1.0.514(EX01) is available",
+  "description": "New version: KB2007_13.1.0.514(EX01) \n \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-08-05</p>\n \nIf you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on September 2nd, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 337,
+  "archiveUrls": []
+}

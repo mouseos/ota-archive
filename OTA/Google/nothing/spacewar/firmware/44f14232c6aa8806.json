@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:14/UP1A.231005.007/2406122149:user/release-keys|Nothing/SpacewarEEA/Spacewar:14/UP1A.231005.007/2406122149:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:14/UP1A.231005.007/2410311818:user/release-keys|Nothing/SpacewarEEA/Spacewar:14/UP1A.231005.007/2410311818:user/release-keys",
+  "postTimestamp": 1730369902,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/50b6f7633b9ce62f3138b985912c43d1b343ecfb.zip",
+  "sizeBytes": 710056760,
+  "securityPatch": "2024-11-01",
+  "sdk": "34",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "NothingOS 2.6(Spacewar-U2.6-241031-1818)",
+  "description": "What's new in this update\n<b>General improvements and bug fixes</b><br>\n📞 Expanded support for video calling across more carriers.<br>\n📶 Fixed the issue where some devices couldn't connect to VoLTE.<br>\n🛡️ Updated security patch to November.<br>\n🔄 Fixed system lag when rapidly switching the network tile in Quick Settings.<br>\n🎧 Resolved the issue of the Bluetooth tile not refreshing device status promptly.<br>\n📷 Fixed the issue where photos taken at 2.0x zoom or higher didn't display detail information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

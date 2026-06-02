@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:11/RKQ1.201217.002/2104302154:user/release-keys",
+  "preBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:11/RKQ1.201217.002/2107132003:user/release-keys",
   "postBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:11/RKQ1.201217.002/2204291645:user/release-keys",
   "postTimestamp": 1651226037,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9050f2b5ac2969518213486e4ab469e50f719023.zip",
-  "sizeBytes": 533048277,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7e389333a0ead6b0524022b9397cda94e5dcffe4.zip",
+  "sizeBytes": 240625767,
   "securityPatch": "2022-04-01",
   "sdk": "30",
   "device": "OnePlusN200TMO",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1489,
+  "sourceId": 382,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplusn200tmo/9050f2b5ac2969518213486e4ab469e50f719023.zip"
   ]

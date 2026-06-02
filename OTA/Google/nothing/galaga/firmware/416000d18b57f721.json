@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaJPN/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2509032153:user/release-keys",
+  "postBuild": "Nothing/Galaga/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaEEA/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaIND/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaJPN/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys|Nothing/GalagaTUR/Galaga:15/AP3A.240905.015.A2/2511032121:user/release-keys",
+  "postTimestamp": 1762176112,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4d82ecba33cb1ec6127426051c95f5f15a531fce.zip",
+  "sizeBytes": 87572626,
+  "securityPatch": "2025-11-01",
+  "sdk": "35",
+  "device": "Galaga",
+  "checkinDevice": "Galaga",
+  "title": "Nothing OS 3.2(Galaga-V3.2-251103-2121)",
+  "description": "What's New in This Update \n<b>Camera Enhancements</b><br>\n<br> \n🎨 Optimised the HDR algorithm for more balanced tones and improved contrast.<br>\n🔍 Enhanced camera focus accuracy for fingerprint recognition in certain third-party apps.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

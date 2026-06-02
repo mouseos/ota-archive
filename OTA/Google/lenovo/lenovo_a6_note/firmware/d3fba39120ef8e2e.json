@@ -1,0 +1,24 @@
+{
+  "preBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/32119:user/release-keys",
+  "postBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/42123:user/release-keys",
+  "postTimestamp": 1571725320,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/a08d9b98a34da39225a065151dc7d6b440f945ad.zip",
+  "sizeBytes": 214812106,
+  "securityPatch": "2019-09-05",
+  "sdk": "28",
+  "device": "Lenovo_A6_Note",
+  "checkinDevice": "Lenovo_A6_Note",
+  "title": "0817_TO_1022 OTA  !",
+  "description": "<b>Update notes:</b>\n<br>\n<br>\n<strong>1.</strong> Updated the security patch and Google applications.\n<br>\n<strong>2.</strong> Fixed the issue which failed to set ringtones separately for dual SIM cards.\n<br>\n<strong>3.</strong> Fixed the issue of VoLTE not work in SmarTone network.\n<br>\n<strong>4.</strong> Fixed the issue of no call logs after calling 112 without a SIM card.\n<br>\n<strong>5.</strong>  Fixed the issue which failed to send sms /mms when changing a new SIM card.\n<br>\n<strong>6.</strong> Fixed some language display issues of the weather widget.\n<br>\n<strong>7.</strong> Fixed the issue of no notification when receiving the Broadcasts.\n<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 150810624,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

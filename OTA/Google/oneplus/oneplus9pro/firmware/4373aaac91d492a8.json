@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9Pro/OnePlus9Pro:14/UKQ1.230924.001/R.176a8c2_a56c-644c:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9Pro/OnePlus9Pro:14/UKQ1.230924.001/R.1b54031-8e6e-42a35:user/release-keys",
+  "postTimestamp": 1733294903,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9470f71d9ddd0a63f6e8c65bf99efff369a14bee.zip",
+  "sizeBytes": 1710070398,
+  "securityPatch": "2024-12-05",
+  "sdk": "34",
+  "device": "OnePlus9Pro",
+  "checkinDevice": "OnePlus9Pro",
+  "title": "LE2125_14.0.0.730(EX01) is available",
+  "description": "New Version Available: LE2125_14.0.0.730(EX01) <p>A new software update is now available for your Android smartphone.</p>System<p>  • Integrates the December 2024 Android security patch to enhance system security.</p><p>  • Fixes an issue with time accuracy when there's no internet connection.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 659,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusNordCE/OnePlusNordCE:13/TP1A.220905.001/R.141aa6e-1-2:user/release-keys",
+  "postBuild": "OnePlus/OnePlusNordCE/OnePlusNordCE:13/TP1A.220905.001/R.1ca54a7-1-11c47:user/release-keys",
+  "postTimestamp": 1740125549,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d5a38ef4295d998286d43ebdcbb3c42d2498a048.zip",
+  "sizeBytes": 1381606303,
+  "securityPatch": "2025-03-01",
+  "sdk": "33",
+  "device": "OnePlusNordCE",
+  "checkinDevice": "OnePlusNordCE",
+  "title": "EB2103_11.F.59 is available",
+  "description": "New Version:EB2103_11.F.59 <p>This update improves system security.</p>System<p> • Integrates the March 2025 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 673,
+  "archiveUrls": []
+}

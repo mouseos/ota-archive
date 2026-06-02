@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.14fda01-1-2:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8T/OnePlus8T:14/UKQ1.230924.001/R.171e77d-c19c-4fe22:user/release-keys",
+  "postTimestamp": 1710927263,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/dfab54513cc41e3b5dd749f010d9b700c351ffa9.zip",
+  "sizeBytes": 2531597594,
+  "securityPatch": "2024-03-05",
+  "sdk": "34",
+  "device": "OnePlus8T",
+  "checkinDevice": "OnePlus8T",
+  "title": "KB2005_14.0.0.501(EX01) is available",
+  "description": "New version: KB2005_14.0.0.501(EX01)<p>A system update is available. </p>System<p>• Reduces power consumption to extend battery life in some scenarios.</p><p>• Fixes an issue that might cause some apps to crash.</p><p>• Fixes a display issue with the status bar.</p><p>• Adds a switch for year/month/day views in Settings.</p><p>• Fixes a display issue that might occur on the Lock screen when the device is disconnected from the charger.</p><p>• Integrates the March 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 649,
+  "archiveUrls": []
+}

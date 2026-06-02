@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.182c81f-27358-2735a:user/release-keys",
+  "postBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.1a1ae71_4160-15c:user/release-keys",
+  "postTimestamp": 1726653306,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7d10b32c06d1f3ec5bb3c6a1d95927ff6ccfd9be.zip",
+  "sizeBytes": 1968857030,
+  "securityPatch": "2024-09-05",
+  "sdk": "34",
+  "device": "OP5D35L1",
+  "checkinDevice": "OP5D35L1",
+  "title": "CPH2611_14.0.0.832(EX01)",
+  "description": "New version:CPH2611_14.0.0.832(EX01)<p>A new software update is now available for your Android smartphone.</p>System<p> • Adds the feature of setting the default alarm sound in \"Clock\" for all alarms in a unified manner.</p><p> • Adds the \"App clone\" option for \"Default app to open\" of the \"App Cloner\" feature. You can set the default app that is opened using the quick functions.</p><p> • Expands the scope of fuzzy searching other apps in \"App Cloner\" for easier searching.</p><p> • Integrates the September 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 629,
+  "archiveUrls": []
+}

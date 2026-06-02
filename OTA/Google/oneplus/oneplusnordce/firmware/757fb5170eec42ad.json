@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusNordCE/OnePlusNordCE:13/TP1A.220905.001/R.141aa6e-1-2:user/release-keys",
+  "postTimestamp": 1698164373,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5817c6d63ab8f83dbd93d6c84e5a2ea91d03dc11.zip",
+  "sizeBytes": 4313743590,
+  "securityPatch": "2023-11-05",
+  "sdk": "33",
+  "device": "OnePlusNordCE",
+  "checkinDevice": "OnePlusNordCE",
+  "title": "EB2103_11.F.52_2520_202310251021 is available",
+  "description": "New version: EB2103_11.F.52_2520_202310251021<p>This update improves system security.</p>System<p> • Integrates the November 2023 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 400,
+  "archiveUrls": []
+}

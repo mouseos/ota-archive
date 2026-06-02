@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1669043167:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1673511218:user/release-keys",
+  "postTimestamp": 1673513134,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/deeb8830c86e0f9b89ae3170ada164b64de02c2c.zip",
+  "sizeBytes": 75606348,
+  "securityPatch": "2023-01-05",
+  "sdk": "31",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "Nothing OS 1.1.8",
+  "description": "What's new in this update\n🎧 The full Nothing X app will now be available in Nothing OS. <br>\n😅 Fixed an issue causing the system to stutter in some scenarios. <br>\n👾 General bug fixes. <br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

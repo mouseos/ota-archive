@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5a07ca99f8437324f7c6997e15f0443098825e8f.zip",
-  "fingerprint": "Xiaomi/umi_global/umi:10/QKQ1.191117.002/V12.0.1.0.QJBMIXM:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "umi",
-  "title": "V12.0.6.0.QJBMIXM",
-  "description": "<h3>V12.0.6.0.QJBMIXM</h3><h4>コントロールセンター</h4>新機能: コントロールセンターの空白部分をタップすると閉じるようになりました<br/>最適化: 横向きモードでのコントロールセンターレイアウト<br/>"
-}

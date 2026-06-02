@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/30199226c8b29962145c423a8dccd266c3800542.zip",
-  "fingerprint": "Xiaomi/once/once:8.0.0/OPR6.170623.013/2303:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "once",
-  "title": "Android System Update",
-  "description": "1) Improve system performance \n2) Update security patch \n3) Change boot animation\n4) The upgrade process will restart several times. Please wait and DO NOT power off\n5）We recommend upgrading to the latest version which it will guarantee your media streaming service is working"
-}

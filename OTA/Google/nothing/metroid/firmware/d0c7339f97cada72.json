@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidEEA/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidIND/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidJPN/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys|Nothing/MetroidTUR/Metroid:15/AQ3A.250226.002/2508291700:user/release-keys",
+  "postBuild": "Nothing/Metroid/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidEEA/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidIND/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidJPN/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys|Nothing/MetroidTUR/Metroid:15/AQ3A.250226.002/2509231421:user/release-keys",
+  "postTimestamp": 1758608467,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/366bed6e3522d281d66cad74fca25ce75b7e79d2.zip",
+  "sizeBytes": 280565140,
+  "securityPatch": "2025-09-01",
+  "sdk": "35",
+  "device": "Metroid",
+  "checkinDevice": "Metroid",
+  "title": "Nothing OS 3.5(Metroid-V3.5-250923-1421)",
+  "description": "What's New in This Update\n<b>Camera Bug Fix</b>\n<br>\n🎨 Fix an issue with presets causing the Camera app to crash unexpectedly.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2389/OP5547L1:13/TP1A.220905.001/S.eadc02_81b06:user/release-keys",
+  "postBuild": "OnePlus/CPH2389/OP5547L1:13/TP1A.220905.001/S.11c849c-262e6:user/release-keys",
+  "postTimestamp": 1688716248,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/dd14cd2855d12b6fdbe5612125a7f9805abc86ae.zip",
+  "sizeBytes": 1262140479,
+  "securityPatch": "2023-07-05",
+  "sdk": "33",
+  "device": "OP5547L1",
+  "checkinDevice": "OP5547L1",
+  "title": "CPH2389_11_C.16 is available",
+  "description": "New version: CPH2389_11_C.16 \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-07-05</p>\n\nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on July 25th, 2023.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 801,
+  "archiveUrls": []
+}

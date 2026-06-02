@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2508151642:user/release-keys",
+  "postBuild": "Nothing/Pacman/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanEEA/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanIND/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys|Nothing/PacmanJPN/Pacman:15/AP3A.240905.015.A2/2509041648:user/release-keys",
+  "postTimestamp": 1756975683,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2229ecaa33df35f0f4174271bb2291aabd7f5811.zip",
+  "sizeBytes": 14536908,
+  "securityPatch": "2025-09-01",
+  "sdk": "35",
+  "device": "Pacman",
+  "checkinDevice": "Pacman",
+  "title": "NothingOS 3.2(Pacman-V3.2-250904-1648)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

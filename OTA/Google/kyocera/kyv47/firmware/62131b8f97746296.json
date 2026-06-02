@@ -1,0 +1,26 @@
+{
+  "preBuild": "KYOCERA/KYV47_jp_kdi/KYV47:10/1.100HA.0139.a/1.100HA.0139.a:user/release-keys",
+  "postBuild": "KYOCERA/KYV47_jp_kdi/KYV47:10/1.111HA.0150.a/1.111HA.0150.a:user/release-keys",
+  "postTimestamp": 1626181520,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/63a7171ec41011e2188d6b64f40b7c649cd9e237.zip",
+  "sizeBytes": 25687392,
+  "securityPatch": "2021-07-01",
+  "sdk": "29",
+  "device": "KYV47",
+  "checkinDevice": "KYV47",
+  "title": "ソフトウェア更新",
+  "description": "<br> <br> 新しいソフトウェアに更新します。<br> 内部ストレージに空き容量が必要ですので警告が発生した場合はデータの消去をお願いします。<br> 通信料が発生する場合がありますのでWi-Fi通信での実施をおすすめします。<br> 更新中は緊急呼発信を含め、端末の操作はできません。<br> <br> 以下の事象が改善されます。<br> ・セキュリティ機能が向上し、より安全にお使い頂けます。<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

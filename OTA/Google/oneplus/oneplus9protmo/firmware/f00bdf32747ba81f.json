@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:12/SKQ1.210216.001/R.202203101719:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9ProTMO/OnePlus9ProTMO:12/RKQ1.211119.001/R.202303281802:user/release-keys",
+  "postTimestamp": 1679997273,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/09d62a1356349d39a7fcfca141cb1c039d49a091.zip",
+  "sizeBytes": 1790738340,
+  "securityPatch": "2023-03-05",
+  "sdk": "31",
+  "device": "OnePlus9ProTMO",
+  "checkinDevice": "OnePlus9ProTMO",
+  "title": "2085A_patch_2023032819190000_user",
+  "description": "New version: LE2127_11_C.24 <p>A new software update is available for your Android Smartphone.</p> This release includes the following: <p>• Upgrade Google security Patch to Mar 2023</p> If you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting April 10, 2023.  Data rates may apply. Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 353,
+  "archiveUrls": []
+}

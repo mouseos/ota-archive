@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN200TMO/OnePlusN200TMO:12/SKQ1.210216.001/R.202210211955:user/release-keys",
+  "postTimestamp": 1666149922,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f706ca0ab8556311d76c565135816d3873a4a15c.zip",
+  "sizeBytes": 3904115340,
+  "securityPatch": "2022-10-05",
+  "sdk": "31",
+  "device": "OnePlusN200TMO",
+  "checkinDevice": "OnePlusN200TMO",
+  "title": "DE2118_11_C.18  is available",
+  "description": "New version: DE2118_11_C.18  <p>A new software update is available for your Android Smartphone.</p> This release includes the following:<p>• Android OS upgrade to Oxygen 12/Android S</p>  <p>• Android security patch upgrade to October 2022 and general bugs fix. </p> If you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM.  Data rates may apply. Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 668,
+  "archiveUrls": []
+}

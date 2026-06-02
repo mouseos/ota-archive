@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN10/OnePlusN10:11/RKQ1.201217.002/2109301843:user/release-keys",
+  "postTimestamp": 1632999062,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/16f2c081b61912d9f484c1ebc19ed0b4eb58a087.zip",
+  "sizeBytes": 2856871711,
+  "securityPatch": "2021-10-01",
+  "sdk": "30",
+  "device": "OnePlusN10",
+  "checkinDevice": "OnePlusN10",
+  "title": "OnePlus Nord N10 OxygenOS 11.0.2.BE86AA is available",
+  "description": "OnePlus Nord N10 OxygenOS 11.0.2.BE86AA\n <p>A new software update is available for your Android Smartphone. </p>\n This release includes the following: \n <p><b>System</p></b> \n <p>• Updated Android Security Patch to 2021.10</p> \n<p><b>Network</p></b>\n <p>• Improved the stability of the communication network</p>\n Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 368,
+  "archiveUrls": []
+}

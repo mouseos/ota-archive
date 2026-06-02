@@ -1,0 +1,24 @@
+{
+  "preBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/10219:user/release-keys",
+  "postBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/25212:user/release-keys",
+  "postTimestamp": 1592885252,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/214a031e91bb2367393c8c8e277a70071786c0fb.zip",
+  "sizeBytes": 74614132,
+  "securityPatch": "2020-06-05",
+  "sdk": "28",
+  "device": "Lenovo_A6_Note",
+  "checkinDevice": "Lenovo_A6_Note",
+  "title": "20200317_TO_20200623_OTA package",
+  "description": "<strong> Release note:</strong>\n<br>\n<strong> 1.</strong> Updated the security patch.\n<br>\n<strong> 2.</strong> Fixed sometimes unreturnable to dialing interface if user killed it.\n</br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 57667584,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

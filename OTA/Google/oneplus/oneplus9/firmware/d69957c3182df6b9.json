@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9_IND/OnePlus9:12/SKQ1.210216.001/R.202109221543:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9_IND/OnePlus9:12/SKQ1.210216.001/R.202112261201:user/release-keys",
+  "postTimestamp": 1640490446,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5597f51eac3287c97bab844a0a080ca78cba4a61.zip",
+  "sizeBytes": 1179512876,
+  "securityPatch": "2021-12-05",
+  "sdk": "31",
+  "device": "OnePlus9",
+  "checkinDevice": "OnePlus9",
+  "title": "LE2111_11_C.40_202112261317",
+  "description": "New version: LE2111_11_C.40_202112261317 \n\n System\n<p>• Fixed the issue of system upgrade failure in specific scenarios </p> \n\n Network\n<p>• Fixed the issue of being unable to access the 5G network in some scenarios </p> \n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 343,
+  "archiveUrls": []
+}

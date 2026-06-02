@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1673511218:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:13/TKQ1.221220.001/2307061942:user/release-keys|Nothing/SpacewarEEA/Spacewar:13/TKQ1.221220.001/2307061942:user/release-keys",
+  "postTimestamp": 1688643722,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cdadede402604be4e8ac951218abea938dcaa15d.zip",
+  "sizeBytes": 1304986333,
+  "securityPatch": "2023-06-01",
+  "sdk": "33",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "Nothing OS 1.5.6",
+  "description": "<b>What's new:</b><br>\n🤖 Improved the performance of Face Unlock by improving the recognition accuracy in dark environments.<br>\n⚙️ Implemented RAM Expansion, allowing for the number of apps to remain open in the background to increase by 10%.<br>\n🔋 Reduced Bluetooth power consumption when device is on standby at night time.<br>\n<br>\n<b>Bug fixes:</b><br>\n🎇 Fixed an issue causing adaptive brightness to be occasionally turned off automatically.<br>\n📷 Fixed a rare issue preventing photos from being taken.<br>\n👻 Fixed various Face Unlock related issues. <br>\n👾 Other general bug fixes.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

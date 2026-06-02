@@ -1,0 +1,24 @@
+{
+  "preBuild": "Rakuten/C330/C330:9/PKQ1.190616.001/620:user/release-keys",
+  "postBuild": "Rakuten/C330/C330:9/PKQ1.190616.001/830:user/release-keys",
+  "postTimestamp": 1672371210,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ee406a768c2572cd7333d33692f8513e1f22d986.zip",
+  "sizeBytes": 208584539,
+  "securityPatch": "2022-01-05",
+  "sdk": "28",
+  "device": "C330",
+  "checkinDevice": "C330",
+  "title": "System update available",
+  "description": "This one fix and enhance performance of your phone.\nWe would recommend using a free Wi-Fi connection or an unlimited data plan to apply this update. If you download updates over the cellular network or while roaming, additional charges may apply.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 116641792,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

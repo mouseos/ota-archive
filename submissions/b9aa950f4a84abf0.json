@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9cb43ea44a7016b4f45e10b028a02615fb8e4746.zip",
-  "fingerprint": "Xiaomi/dangalFHD/dangalFHD:8.1.0/OPM1.171019.011/1637:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "dangalfhd",
-  "title": "Android System Update",
-  "description": "1. Updated Security Patch<br>\n2. Updated Widevine Key<br>\n3. Added Mi Quick Mute<br>\n4. Added Mi Quick Wake"
-}

@@ -1,5 +1,5 @@
 {
-  "preBuild": "Redmi/XIG02_jp_kdi/XIG02:13/TKQ1.220905.001/V14.0.4.0.TKRJPKD:user/release-keys",
+  "preBuild": "Redmi/XIG02_jp_kdi/XIG02:11/RKQ1.210327.001/V12.5.5.0.RKRJPKD:user/release-keys",
   "postBuild": "Redmi/XIG02_jp_kdi/XIG02:11/RKQ1.210327.001/V12.5.14.0.RKRJPKD:user/release-keys",
   "postTimestamp": 1641224163,
   "otaUrl": "https://android.googleapis.com/packages/ota-api/package/390c81b55d167247557069085b1ae9d4b1d57db7.zip",
@@ -8,13 +8,9 @@
   "sdk": "30",
   "device": "XIG02",
   "checkinDevice": "XIG02",
-  "title": "更新 5",
+  "title": "",
   "description": "",
   "otaType": "full",
-  "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-redmi-xig02/390c81b55d167247557069085b1ae9d4b1d57db7.zip"
-  ],
   "abType": "AB",
   "requiredCacheBytes": 0,
   "partitions": [
@@ -25,5 +21,9 @@
     "vendor"
   ],
   "hasFirmware": false,
-  "hasApex": false
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-redmi-xig02/390c81b55d167247557069085b1ae9d4b1d57db7.zip"
+  ]
 }

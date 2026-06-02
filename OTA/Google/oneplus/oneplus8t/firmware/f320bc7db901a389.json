@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8T/OnePlus8T:12/RKQ1.211119.001/R.202207300316:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8T/OnePlus8T:12/RKQ1.211119.001/R.202210170944:user/release-keys",
+  "postTimestamp": 1665743100,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9833c4ad7c6996660cc6bc2440da89486b41f5b7.zip",
+  "sizeBytes": 898670966,
+  "securityPatch": "2022-10-05",
+  "sdk": "31",
+  "device": "OnePlus8T",
+  "checkinDevice": "OnePlus8T",
+  "title": "KB2005_11.C.36_1360_202210171441",
+  "description": "New version: KB2005_11.C.36_1360_202210171441\n\n<p>This update enhances system security and fixes a camera issue.</p>\n\nSystem\n<p>• Integrates the October 2022 Android security patch to enhance system security.</p>\n\nCamera\n<p>• Fixes a stutter issue that affects video recording in some scenarios.</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 328,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.bc8d79_8bd3_8bd0:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8T/OnePlus8T:13/RKQ1.211119.001/R.113a31b-6826-6827:user/release-keys",
+  "postTimestamp": 1686646524,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cc64b86c6da7dacfef956b81caea9f15a4c48d03.zip",
+  "sizeBytes": 2088667711,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "OnePlus8T",
+  "checkinDevice": "OnePlus8T",
+  "title": "KB2005_13.1.0.580(EX01)",
+  "description": "New version: KB2005_13.1.0.580(EX01) <p>This update improves system security.</p>System<p>• Integrates the June 2023 Android security patch to enhance system security.</p><p>• Improves the stability and expands the compatibility of the NFC function.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 333,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus9Pro/OnePlus9Pro:13/TP1A.220905.001/R.141a199-1-e0:user/release-keys",
+  "postTimestamp": 1698121073,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/28009388f4ac028d413c9a7127b8aaccf007109d.zip",
+  "sizeBytes": 5354281091,
+  "securityPatch": "2023-11-05",
+  "sdk": "33",
+  "device": "OnePlus9Pro",
+  "checkinDevice": "OnePlus9Pro",
+  "title": "LE2125_13.1.0.592(EX01)is available",
+  "description": "New version: LE2125_13.1.0.592(EX01)<p>This update improves system security.</p>System<p>• Integrates the November 2023 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 350,
+  "archiveUrls": []
+}

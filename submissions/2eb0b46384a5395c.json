@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2813b3b383982325f5c92e821cc2dfd1411b212c.zip",
-  "fingerprint": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603091830:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "frogger",
-  "title": "Nothing OS 4.1(Frogger-B4.1-260402-1229)",
-  "description": "<h3>What's New in This Update</h3>\n<b>Camera Enhancements</b><br>\n<br>\n📹 Enhanced auto exposure stability for recording via the front camera.<br>\n🔭 Enhanced rear camera autofocus performance for better captures.<br>\n📷 Optimised HDR brightness consistency for rear camera portrait shots.<br>\n🏙️ Refined colour rendering for a more natural and vivid experience.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🫧 Notifications that are frequently interacted with may be suggested to be set as Essential Notification. <br>\n🔋 Refined the spacing of status bar icons for a more consistent and coordinated layout.<br>\n📳 Optimised haptic feedback in the Recorder app for a more tactile experience.<br>\n📱 Fixed some known issues for a smoother and more stable experience.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to April 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
-}

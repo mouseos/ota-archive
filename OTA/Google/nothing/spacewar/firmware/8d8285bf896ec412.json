@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2507011737:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2507011737:user/release-keys",
+  "postBuild": "Nothing/Spacewar/Spacewar:15/AQ3A.240929.001/2509261631:user/release-keys|Nothing/SpacewarEEA/Spacewar:15/AQ3A.240929.001/2509261631:user/release-keys",
+  "postTimestamp": 1758875469,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/370b34eb0459304c974c60cfc526f9205c9b7d32.zip",
+  "sizeBytes": 172873448,
+  "securityPatch": "2025-09-01",
+  "sdk": "35",
+  "device": "Spacewar",
+  "checkinDevice": "Spacewar",
+  "title": "NothingOS 3.2(Spacewar-V3.2-250926-1631)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🖼️ Photos widget now fills the space when resized to 4×2.<br>\n🗣️ Fixed the issue of abnormal profile picture display in Settings.<br>\n💿 Fixed album cover and song info display errors in the Media Player and widget.<br>\n🚗 Optimised compatibility with cars for more stable connections.<br>\n🔗 Improved overall Bluetooth connection stability.<br>\n⚙️ Enhanced overall system stability and smoothness.<br>\n🛡️ Updated to September security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

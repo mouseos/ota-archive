@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/NE2217/OP516FL1:13/SKQ1.221119.001/S.128b390_1-1772b8:user/release-keys",
+  "postBuild": "OnePlus/NE2217/OP516FL1:13/SKQ1.221119.001/S.150df20_2_1:user/release-keys",
+  "postTimestamp": 1701944580,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c9bc2206f91fbe037a240a20bec61ebe0e71fbae.zip",
+  "sizeBytes": 1056742628,
+  "securityPatch": "2023-12-05",
+  "sdk": "33",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2217_13.1.0.6.620(EX01) is available",
+  "description": "New version: NE2217_13.1.0.6.620(EX01) \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-12-05.</p> \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on January 10th, 2024.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 809,
+  "archiveUrls": []
+}

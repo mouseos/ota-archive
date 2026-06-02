@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b72c68d3d7816f1b42964677f0b04e400b2e1f57.zip",
-  "fingerprint": "Xiaomi/laurel_sprout/laurel_sprout:11/RKQ1.200903.002/V12.0.11.0.RFQMIXM:user/release-keys",
-  "manufacturer": "",
-  "brand": "xiaomi",
-  "model": "laurel_sprout",
-  "title": "Android System Update",
-  "description": "Fortify your Android One phone with the August 2022 security update from Google, which improves security and fixes bugs. This update improves the stability of your device and optimizes its performance. Downloading updates over a mobile network or while roaming may cause additional charges."
-}

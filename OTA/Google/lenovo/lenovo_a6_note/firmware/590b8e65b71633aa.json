@@ -1,0 +1,24 @@
+{
+  "preBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/20190729:user/release-keys",
+  "postBuild": "Lenovo/Arizona/Lenovo_A6_Note:9/PPR1.180610.011/32119:user/release-keys",
+  "postTimestamp": 1566053428,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/lenovo_lenovoa6note_arizona/3016638adad10704e52b2a1713f2fc57c35b5bb2.zip",
+  "sizeBytes": 282946371,
+  "securityPatch": "2019-07-01",
+  "sdk": "28",
+  "device": "Lenovo_A6_Note",
+  "checkinDevice": "Lenovo_A6_Note",
+  "title": "0729 to 0817 OTA package !",
+  "description": "<b>O729 to 0817 OTA package .</b>\n<br>\n<br>\n<strong>1.</strong>This update will not erase your personal data,but we recommend that you back up any important data before updating\n<br>\n<strong>2.</strong>sloved the calling time screen not wake up issue.\n<br>\n<strong>3.</strong>Your home screen layout may be rearranged slightly .\n<br>\n<strong>4.</strong>After installing this update, your system ringtones may change Go to Settings>Sounds to set new ringtones .\n<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 87805952,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

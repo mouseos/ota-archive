@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8TMO/OnePlus8TMO:13/RKQ1.211119.001/Q.12ce1d6_1-1938d8:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8TMO/OnePlus8TMO:13/RKQ1.211119.001/Q.178666b-21e44-21e46:user/release-keys",
+  "postTimestamp": 1712643560,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9b8b92a762b7388ba6b4f205880905f71961f7ad.zip",
+  "sizeBytes": 235308295,
+  "securityPatch": "2024-04-05",
+  "sdk": "33",
+  "device": "OnePlus8TMO",
+  "checkinDevice": "OnePlus8TMO",
+  "title": "IN2017_13.1.0.550(EX01) is available",
+  "description": "New Version Available: IN2017_13.1.0.550(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-04-05.</p> Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on April 28th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 645,
+  "archiveUrls": []
+}

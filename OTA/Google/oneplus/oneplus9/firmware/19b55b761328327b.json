@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9/OnePlus9:13/TP1A.220905.001/R.145500e-3ae76-3af55:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9/OnePlus9:14/UKQ1.230924.001/R.1695d68-52ce-52cd:user/release-keys",
+  "postTimestamp": 1708683141,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/63ec711dbb6057ad152d5ca126acc993f567035a.zip",
+  "sizeBytes": 2616366440,
+  "securityPatch": "2024-02-05",
+  "sdk": "34",
+  "device": "OnePlus9",
+  "checkinDevice": "OnePlus9",
+  "title": "LE2115_14.0.0.500(EX01) is available",
+  "description": "New version: LE2115_14.0.0.500(EX01)<p>A A system update is available. Your system will be upgraded to Android 14.</p>Pantanal Service<p>•Adds Fluid Cloud, a way of interacting with morphing forms that allows you to view up-to-date information at a glance.</p>Smart efficiency<p>•Adds File Dock, where you can drag and drop to transfer content between apps and devices.</p><p>•Adds Content Extraction, a feature that can recognise and extract text and images from the screen with one tap.</p>Cross-device connectivity<p>•Improves Shelf by adding more widget recommendations.</p>Security and privacy<p>•Improves photo and video-related permission management for safer access by apps.</p>Performance optimisation<p>•Improves system stability, the launch speed of apps and the smoothness of animations.</p>Aquamorphic Design<p>•Upgrades Aquamorphic Design with a natural, gentle and clearer colour style for a more comfortable colour experience.</p><p>•Adds Aquamorphic-themed ringtones and revamps the system notification sounds.</p><p>•Improves system animations by making them even smoother.</p>User Care<p>•Adds a carbon tracking AOD that visualises the carbon emissions you avoid by walking instead of driving.</p>System<p>•Removes the Background stream feature in Smart Sidebar.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 345,
+  "archiveUrls": []
+}
