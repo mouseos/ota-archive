@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Styles_04US/STM:12/SKQ1.220201.001/04US_1_630:user/release-keys",
+  "postTimestamp": 1716350388,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0693771b2867d92c98951a052dba3c94c94a9a7a.zip",
+  "sizeBytes": 2529827538,
+  "securityPatch": "2024-05-05",
+  "sdk": "31",
+  "device": "STM",
+  "checkinDevice": "STM",
+  "title": "System update available",
+  "description": "T-Mobile is pleased to inform that there is a new, free software update ready for your Android smartphone.<br>\n\n<br>This release includes various bug fixes, security and system improvements.\nIt is strongly recommended that you install this Software Update to protect your device.<br>\n \n<br>This will not consume your data.<br>\n\n<br>Please charge your device at least 40% and do not turn off the device or unplug the charger while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 234,
+  "archiveUrls": []
+}

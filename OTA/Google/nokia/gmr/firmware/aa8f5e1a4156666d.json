@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/GamoraPlus_00WW/GMR:10/QP1A.190711.020/00WW_1_170:user/release-keys",
+  "postTimestamp": 1615279968,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a488da2836c3b9302d461663abdd84dcf77e9e48.zip",
+  "sizeBytes": 2010010785,
+  "securityPatch": "2021-02-05",
+  "sdk": "29",
+  "device": "GMR",
+  "checkinDevice": "GMR",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.170)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 197,
+  "archiveUrls": []
+}

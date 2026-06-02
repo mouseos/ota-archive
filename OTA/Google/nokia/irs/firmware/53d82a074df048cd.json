@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Iris_00WW/IRS:11/RP1A.201005.001/00WW_1_23A:user/release-keys",
+  "postBuild": "Nokia/Iris_00WW/IRS:11/RP1A.201005.001/00WW_1_23B:user/release-keys",
+  "postTimestamp": 1656736430,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/53832d3107fefaa0d8576d852c01ae89b602f1c5.zip",
+  "sizeBytes": 11484165,
+  "securityPatch": "2022-07-05",
+  "sdk": "30",
+  "device": "IRS",
+  "checkinDevice": "IRS",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2022-07<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 204,
+  "archiveUrls": []
+}

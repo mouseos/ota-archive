@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Wasp_00WW/WSP_sprout:11/RP1A.200720.011/00WW_3_38A:user/release-keys",
+  "postBuild": "Nokia/Wasp_00WW/WSP_sprout:11/RP1A.200720.011/00WW_3_38B:user/release-keys",
+  "postTimestamp": 1639985547,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2e956e312aaf95ec584c4cf14b2c1fdf8c3e2146.zip",
+  "sizeBytes": 25034145,
+  "securityPatch": "2021-12-05",
+  "sdk": "30",
+  "device": "WSP_sprout",
+  "checkinDevice": "WSP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2021-12<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 795,
+  "archiveUrls": []
+}

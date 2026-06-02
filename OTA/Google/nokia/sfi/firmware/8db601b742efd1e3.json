@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nokia/Sunfire_00EEA/SFI:14/UP1A.231005.007/00WW_3_590:user/release-keys|Nokia/Sunfire_00FD/SFI:14/UP1A.231005.007/00WW_3_590:user/release-keys|Nokia/Sunfire_00WW/SFI:14/UP1A.231005.007/00WW_3_590:user/release-keys|Nokia/Sunfire_00WW/SFIA:14/UP1A.231005.007/00WW_3_590:user/release-keys",
+  "postBuild": "Nokia/Sunfire_00EEA/SFI:14/UP1A.231005.007/00WW_3_610:user/release-keys|Nokia/Sunfire_00FD/SFI:14/UP1A.231005.007/00WW_3_610:user/release-keys|Nokia/Sunfire_00WW/SFI:14/UP1A.231005.007/00WW_3_610:user/release-keys|Nokia/Sunfire_00WW/SFIA:14/UP1A.231005.007/00WW_3_610:user/release-keys",
+  "postTimestamp": 1737289286,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d04f1804a635b4f84a8a730bc8b544225c09c817.zip",
+  "sizeBytes": 75537911,
+  "securityPatch": "2025-01-05",
+  "sdk": "34",
+  "device": "SFI",
+  "checkinDevice": "SFI",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 14 (V3.610)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2025-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 792,
+  "archiveUrls": []
+}

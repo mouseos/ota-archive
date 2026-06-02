@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00IN/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_270:user/release-keys",
+  "postBuild": "Nokia/Hope_00EEA/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00FD/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00ID/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00IN/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00M0/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00RU/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_00WW/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys|Nokia/Hope_0CLA/HPE:11/RP1A.201005.001/00WW_1_27A:user/release-keys",
+  "postTimestamp": 1686233855,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/63b1792c703b6fce11820c86b8b157343e53ee4c.zip",
+  "sizeBytes": 14635596,
+  "securityPatch": "2023-06-05",
+  "sdk": "30",
+  "device": "HPE",
+  "checkinDevice": "HPE",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-06<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 583,
+  "archiveUrls": []
+}

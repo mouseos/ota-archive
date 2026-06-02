@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Iris_00WW/IRS:11/RP1A.201005.001/00WW_1_400:user/release-keys",
+  "postTimestamp": 1685527387,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c135a0c007728d2cebf2b87dda4b520fcc75a2f5.zip",
+  "sizeBytes": 1287935140,
+  "securityPatch": "2023-05-05",
+  "sdk": "30",
+  "device": "IRS",
+  "checkinDevice": "IRS",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V1.400)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 202,
+  "archiveUrls": []
+}

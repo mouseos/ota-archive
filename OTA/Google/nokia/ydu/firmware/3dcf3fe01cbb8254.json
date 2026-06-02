@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_040:user/release-keys",
+  "postBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_04A:user/release-keys",
+  "postTimestamp": 1617867700,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b57b6caf5c000709e026d8dfe7a131a2f585991d.zip",
+  "sizeBytes": 66941535,
+  "securityPatch": "2021-04-05",
+  "sdk": "29",
+  "device": "YDU",
+  "checkinDevice": "YDU",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2021-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 36700160,
+  "partitions": [
+    "boot",
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 611,
+  "archiveUrls": []
+}

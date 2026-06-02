@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Sunfire_00EEA/SFI:12/SP1A.210812.016/00WW_1_410:user/release-keys|Nokia/Sunfire_00FD/SFI:12/SP1A.210812.016/00WW_1_410:user/release-keys|Nokia/Sunfire_00WW/SFI:12/SP1A.210812.016/00WW_1_410:user/release-keys|Nokia/Sunfire_00WW/SFIA:12/SP1A.210812.016/00WW_1_410:user/release-keys",
+  "postTimestamp": 1697771137,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ee9e849d3282b0d96b57dbfd2afb8d9f00567ab4.zip",
+  "sizeBytes": 2380254496,
+  "securityPatch": "2023-10-05",
+  "sdk": "31",
+  "device": "SFI",
+  "checkinDevice": "SFI",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (V1.410)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 235,
+  "archiveUrls": []
+}

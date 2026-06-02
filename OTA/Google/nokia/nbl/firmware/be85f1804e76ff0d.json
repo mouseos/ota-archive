@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Nebula_00WW/NBL:9/PPR1.180610.011/00WW_1_140:user/release-keys",
+  "postTimestamp": 1638260619,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/76040b211579eea76393b329b3a9a016fc8a4cb1.zip",
+  "sizeBytes": 997815171,
+  "securityPatch": "2021-12-05",
+  "sdk": "28",
+  "device": "NBL",
+  "checkinDevice": "NBL",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.140)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-12<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 776,
+  "archiveUrls": []
+}

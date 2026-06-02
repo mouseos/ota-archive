@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Styles_04US/STM:12/SKQ1.220201.001/04US_1_630:user/release-keys",
+  "postBuild": "Nokia/Styles_04US/STM:12/SKQ1.220201.001/04US_1_63A:user/release-keys",
+  "postTimestamp": 1720067862,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1bf759b88900c6f80d0761a4a61c1b7e6f20ebda.zip",
+  "sizeBytes": 102205865,
+  "securityPatch": "2024-08-05",
+  "sdk": "31",
+  "device": "STM",
+  "checkinDevice": "STM",
+  "title": "System update available",
+  "description": "At T-Mobile, our customer's privacy and security is incredibly important. We pride ourselves on making sure your mobile experience is safe and secure. It is strongly recommended that you install this security patch to protect your device.<br>\n\n<br>This will not consume your data.<br>\n\n<br>Please charge your device at least 40% and do not turn off the device while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 604,
+  "archiveUrls": []
+}

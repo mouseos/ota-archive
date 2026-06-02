@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Rooster_00WW/ROO_sprout:10/QP1A.190711.020/00WW_3_15P:user/release-keys",
+  "postTimestamp": 1604582236,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0b0028b43b08c9bcc4aafff2e603f30da109cc48.zip",
+  "sizeBytes": 1263133090,
+  "securityPatch": "2020-11-05",
+  "sdk": "29",
+  "device": "ROO_sprout",
+  "checkinDevice": "ROO_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2021-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 225,
+  "archiveUrls": []
+}

@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/ShadowcatPlus_00EEA/SCP_sprout:11/RP1A.201005.001/00WW_1_340:user/release-keys|Nokia/ShadowcatPlus_00RU/SCP:11/RP1A.201005.001/00WW_1_340:user/release-keys|Nokia/ShadowcatPlus_00WW/SCPA_sprout:11/RP1A.201005.001/00WW_1_340:user/release-keys|Nokia/ShadowcatPlus_00WW/SCP_sprout:11/RP1A.201005.001/00WW_1_340:user/release-keys",
+  "postTimestamp": 1653456161,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e016adc95bfaea496c348a8594f5990a6e649329.zip",
+  "sizeBytes": 1861259276,
+  "securityPatch": "2022-05-05",
+  "sdk": "30",
+  "device": "SCP_sprout",
+  "checkinDevice": "SCP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V1.340)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2022-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 603,
+  "archiveUrls": []
+}

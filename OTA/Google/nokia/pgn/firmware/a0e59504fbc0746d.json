@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/PenguinWifi_00EEA/PGN:13/TP1A.220624.014/00WW_2_490:user/release-keys|Nokia/PenguinWifi_00WW/PGN:13/TP1A.220624.014/00WW_2_490:user/release-keys|Nokia/Penguin_00EEA/PGN:13/TP1A.220624.014/00WW_2_490:user/release-keys|Nokia/Penguin_00WV/PGN:13/TP1A.220624.014/00WW_2_490:user/release-keys|Nokia/Penguin_00WW/PGN:13/TP1A.220624.014/00WW_2_490:user/release-keys",
+  "postTimestamp": 1705579673,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/373bd6a8e2f60581f14f29b04ab0d755d82cb32f.zip",
+  "sizeBytes": 2201931154,
+  "securityPatch": "2024-01-05",
+  "sdk": "33",
+  "device": "PGN",
+  "checkinDevice": "PGN",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 13 (V2.490)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 212,
+  "archiveUrls": []
+}

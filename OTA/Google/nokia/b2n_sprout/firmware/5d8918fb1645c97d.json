@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Onyx_00WW/B2N_sprout:10/QKQ1.190828.002/00WW_4_15D:user/release-keys",
+  "postTimestamp": 1588858455,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/nokia_b2nsprout_onyx00ww/5cee5d357ef514301a4e8def6f81ad0947a353fe.zip",
+  "sizeBytes": 1505450910,
+  "securityPatch": "2020-05-01",
+  "sdk": "29",
+  "device": "B2N_sprout",
+  "checkinDevice": "B2N_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V4.15D)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2020-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 207,
+  "archiveUrls": []
+}

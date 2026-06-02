@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nokia/CaptainAmerica_00EEA/CAP_sprout:12/SKQ1.211230.001/00WW_3_490:user/release-keys",
+  "postBuild": "Nokia/CaptainAmerica_00EEA/CAP_sprout:12/SKQ1.211230.001/00WW_3_49A:user/release-keys",
+  "postTimestamp": 1679668277,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/35337a441b4db44cd25ba25fbc6352dc1bab3af9.zip",
+  "sizeBytes": 21551440,
+  "securityPatch": "2023-04-01",
+  "sdk": "31",
+  "device": "CAP_sprout",
+  "checkinDevice": "CAP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-04<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 568,
+  "archiveUrls": []
+}

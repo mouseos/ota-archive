@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Drax_00WW/DRX:11/RKQ1.200928.002/00WW_2_37A:user/release-keys",
+  "postBuild": "Nokia/Drax_00WW/DRX:11/RKQ1.200928.002/00WW_2_37B:user/release-keys",
+  "postTimestamp": 1646800492,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fb50651eccaa8bc8c30c09c2f59029eba42d409d.zip",
+  "sizeBytes": 89602021,
+  "securityPatch": "2022-03-05",
+  "sdk": "30",
+  "device": "DRX",
+  "checkinDevice": "DRX",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2022-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 33554432,
+  "partitions": [
+    "boot",
+    "custom",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 580,
+  "archiveUrls": []
+}

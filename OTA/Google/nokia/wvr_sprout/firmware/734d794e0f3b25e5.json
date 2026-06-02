@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Wolverine_00WW/WVR_sprout:11/RP1A.200720.011/00WW_2_280:user/release-keys",
+  "postTimestamp": 1637848955,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3fb3abe78107f7d4ff1dd63c0029175b8c5bd896.zip",
+  "sizeBytes": 1492065257,
+  "securityPatch": "2021-11-05",
+  "sdk": "30",
+  "device": "WVR_sprout",
+  "checkinDevice": "WVR_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V2.280)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-11<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmd_custom_amx",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 245,
+  "archiveUrls": []
+}

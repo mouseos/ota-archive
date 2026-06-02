@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190725.002/00WW_5_13D:user/release-keys",
+  "postBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190725.002/00WW_5_13E:user/release-keys",
+  "postTimestamp": 1575551314,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/nokia_aopsprout_beholder00ww/d31c0edfdfd7f2db1a24420027a26024275740df.zip",
+  "sizeBytes": 33664528,
+  "securityPatch": "2019-12-01",
+  "sdk": "29",
+  "device": "AOP_sprout",
+  "checkinDevice": "AOP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2019-12<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 759,
+  "archiveUrls": []
+}

@@ -1,0 +1,30 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Magik_00EEA/MGKA_sprout:14/UP1A.231005.007/00WW_3_500:user/release-keys|Nokia/Magik_00FD/MGKA_sprout:14/UP1A.231005.007/00WW_3_500:user/release-keys|Nokia/Magik_00WW/MGKA_sprout:14/UP1A.231005.007/00WW_3_500:user/release-keys",
+  "postTimestamp": 1730002394,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/42de9bf5a0e0ac1e7d1dad984ea74087699ad425.zip",
+  "sizeBytes": 2824528619,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "MGKA_sprout",
+  "checkinDevice": "MGKA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 14 (V3.500)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-10<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 586,
+  "archiveUrls": []
+}

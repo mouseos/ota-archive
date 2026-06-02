@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Punisher_00EEA/PHR_sprout:13/TKQ1.220807.001/00WW_3_350:user/release-keys|Nokia/Punisher_00WW/PHR_sprout:13/TKQ1.220807.001/00WW_3_350:user/release-keys",
+  "postTimestamp": 1713577609,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6295bf1358557d8053c66e544a724477388995be.zip",
+  "sizeBytes": 2302860676,
+  "securityPatch": "2024-05-05",
+  "sdk": "33",
+  "device": "PHR_sprout",
+  "checkinDevice": "PHR_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 13 (V3.350)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 215,
+  "archiveUrls": []
+}

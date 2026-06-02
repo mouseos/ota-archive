@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Shadow_00EEA/SDW:14/UKQ1.231003.002/00WW_2_350:user/release-keys|Nokia/Shadow_00IN/SDWA:14/UKQ1.231003.002/00WW_2_350:user/release-keys|Nokia/Shadow_00WW/SDW:14/UKQ1.231003.002/00WW_2_350:user/release-keys",
+  "postTimestamp": 1725651016,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/360cbbcb61a615fe630416c6497d2372d2684a75.zip",
+  "sizeBytes": 2737107854,
+  "securityPatch": "2024-09-01",
+  "sdk": "34",
+  "device": "SDW",
+  "checkinDevice": "SDW",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 14 (V2.350)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-09<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 787,
+  "archiveUrls": []
+}

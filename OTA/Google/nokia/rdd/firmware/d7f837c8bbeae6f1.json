@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/RiddlerWifi_00EEA/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys|Nokia/RiddlerWifi_00RU/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys|Nokia/RiddlerWifi_00WW/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys|Nokia/Riddler_00EEA/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys|Nokia/Riddler_00RU/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys|Nokia/Riddler_00WW/RDD:12/SP1A.210812.016/00WW_2_380:user/release-keys",
+  "postTimestamp": 1683879346,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4a70f21b0b65301ce0c03bec4b02befb2f29eb1f.zip",
+  "sizeBytes": 2240282065,
+  "securityPatch": "2023-05-05",
+  "sdk": "31",
+  "device": "RDD",
+  "checkinDevice": "RDD",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (V2.380)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 592,
+  "archiveUrls": []
+}

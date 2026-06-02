@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Iris_00WW/IRS:11/RP1A.201005.001/00WW_1_230:user/release-keys",
+  "postTimestamp": 1642824179,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/21c6d1e736443670c031a0d77ef92af8217f4557.zip",
+  "sizeBytes": 1291532036,
+  "securityPatch": "2022-01-05",
+  "sdk": "30",
+  "device": "IRS",
+  "checkinDevice": "IRS",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V1.230)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2022-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "hmdodm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 200,
+  "archiveUrls": []
+}

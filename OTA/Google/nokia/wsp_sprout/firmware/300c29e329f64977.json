@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Wasp_00EEA/WSP_sprout:11/RP1A.200720.011/00WW_3_380:user/release-keys",
+  "postTimestamp": 1631538063,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2f4878cd21c4470fa32ff59e8eb8ac34b04c6479.zip",
+  "sizeBytes": 1344175198,
+  "securityPatch": "2021-09-05",
+  "sdk": "30",
+  "device": "WSP_sprout",
+  "checkinDevice": "WSP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 11 (V3.380)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-09<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 243,
+  "archiveUrls": []
+}

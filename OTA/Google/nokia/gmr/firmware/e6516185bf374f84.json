@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/GamoraPlus_00WW/GMR:10/QP1A.190711.020/00WW_1_220:user/release-keys",
+  "postBuild": "Nokia/GamoraPlus_00WW/GMR:10/QP1A.190711.020/00WW_1_230:user/release-keys",
+  "postTimestamp": 1647949467,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/37a855cc0c5b25f9aab738c969110bf22bb21c65.zip",
+  "sizeBytes": 103722006,
+  "securityPatch": "2022-03-05",
+  "sdk": "29",
+  "device": "GMR",
+  "checkinDevice": "GMR",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.230)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2022-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 36700160,
+  "partitions": [
+    "boot",
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 773,
+  "archiveUrls": []
+}

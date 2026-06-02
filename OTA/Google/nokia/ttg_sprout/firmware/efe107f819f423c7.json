@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/TheThing_00EEA/TTG_sprout:14/UKQ1.231003.002/00WW_4_170:user/release-keys|Nokia/TheThing_00WW/TTG_sprout:14/UKQ1.231003.002/00WW_4_170:user/release-keys",
+  "postTimestamp": 1724596642,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ca02ca63f7dbd3e818a8e652bf21d7258dfa8b65.zip",
+  "sizeBytes": 2740536006,
+  "securityPatch": "2024-08-01",
+  "sdk": "34",
+  "device": "TTG_sprout",
+  "checkinDevice": "TTG_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software upgrade - Android™ 14 (V4.170)<br><br><b>What’s New</b><br>- A simple way to connect your favourite health & fitness apps and control your wellness data in one place.<br>- Proactively gives you easy-to-understand info about apps data permissions. Choose what access you grant to apps to keep you safe.<br>- Additional vision and hearing inclusive features.<br>- Google Security Patch 2024-08.<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br><br>Android is a trademark of Google LLC.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 240,
+  "archiveUrls": []
+}

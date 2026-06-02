@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Punisher_00EEA/PHR_sprout:13/TKQ1.220807.001/00WW_3_35A:user/release-keys|Nokia/Punisher_00WW/PHR_sprout:13/TKQ1.220807.001/00WW_3_35A:user/release-keys",
+  "postBuild": "Nokia/Punisher_00EEA/PHR_sprout:13/TKQ1.220807.001/00WW_3_35B:user/release-keys|Nokia/Punisher_00WW/PHR_sprout:13/TKQ1.220807.001/00WW_3_35B:user/release-keys",
+  "postTimestamp": 1718797483,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c64fdd339428c6d3335489d1c76b8aeb5188aac6.zip",
+  "sizeBytes": 90363492,
+  "securityPatch": "2024-07-05",
+  "sdk": "33",
+  "device": "PHR_sprout",
+  "checkinDevice": "PHR_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2024-07<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 780,
+  "archiveUrls": []
+}

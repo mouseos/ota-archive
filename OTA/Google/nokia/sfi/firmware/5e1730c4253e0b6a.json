@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Sunfire_00EEA/SFI:13/TP1A.220624.014/00WW_2_520:user/release-keys|Nokia/Sunfire_00FD/SFI:13/TP1A.220624.014/00WW_2_520:user/release-keys|Nokia/Sunfire_00WW/SFI:13/TP1A.220624.014/00WW_2_520:user/release-keys|Nokia/Sunfire_00WW/SFIA:13/TP1A.220624.014/00WW_2_520:user/release-keys",
+  "postTimestamp": 1715868340,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3175338deeaf9a42b1007f1cebf198ebc76d304c.zip",
+  "sizeBytes": 2539234050,
+  "securityPatch": "2024-05-05",
+  "sdk": "33",
+  "device": "SFI",
+  "checkinDevice": "SFI",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Important software update - Android 13 (V2.520)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 236,
+  "archiveUrls": []
+}

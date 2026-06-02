@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Ronin_00EEA/RNN_sprout:13/TP1A.220624.014/00WW_3_430:user/release-keys|Nokia/Ronin_00FD/RNNA_sprout:13/TP1A.220624.014/00WW_3_430:user/release-keys|Nokia/Ronin_00FD/RNN_sprout:13/TP1A.220624.014/00WW_3_430:user/release-keys|Nokia/Ronin_00WW/RNN:13/TP1A.220624.014/00WW_3_430:user/release-keys|Nokia/Ronin_00WW/RNNA_sprout:13/TP1A.220624.014/00WW_3_430:user/release-keys|Nokia/Ronin_00WW/RNN_sprout:13/TP1A.220624.014/00WW_3_430:user/release-keys",
+  "postTimestamp": 1708551212,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0e4600b5ba66ad3bcab21c85d435e4aeea0925bd.zip",
+  "sizeBytes": 1941764552,
+  "securityPatch": "2024-02-05",
+  "sdk": "33",
+  "device": "RNN_sprout",
+  "checkinDevice": "RNN_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 13 (V3.430)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2024-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 223,
+  "archiveUrls": []
+}

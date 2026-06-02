@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Cosmo_00BR/COS:11/RP1A.201005.001/00WW_1_870:user/release-keys|Nokia/Cosmo_00EEA/COS:11/RP1A.201005.001/00WW_1_870:user/release-keys|Nokia/Cosmo_00FD/COS:11/RP1A.201005.001/00WW_1_870:user/release-keys|Nokia/Cosmo_00RU/COS:11/RP1A.201005.001/00WW_1_870:user/release-keys|Nokia/Cosmo_00WW/COS:11/RP1A.201005.001/00WW_1_870:user/release-keys",
+  "postBuild": "Nokia/Cosmo_00BR/COS:11/RP1A.201005.001/00WW_1_87A:user/release-keys|Nokia/Cosmo_00EEA/COS:11/RP1A.201005.001/00WW_1_87A:user/release-keys|Nokia/Cosmo_00FD/COS:11/RP1A.201005.001/00WW_1_87A:user/release-keys|Nokia/Cosmo_00RU/COS:11/RP1A.201005.001/00WW_1_87A:user/release-keys|Nokia/Cosmo_00WW/COS:11/RP1A.201005.001/00WW_1_87A:user/release-keys",
+  "postTimestamp": 1686886146,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0ca2031b824c9751a0a1347fdf07b60f1c9de298.zip",
+  "sizeBytes": 14668805,
+  "securityPatch": "2023-06-05",
+  "sdk": "30",
+  "device": "COS",
+  "checkinDevice": "COS",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-06<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "custom1",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 762,
+  "archiveUrls": []
+}

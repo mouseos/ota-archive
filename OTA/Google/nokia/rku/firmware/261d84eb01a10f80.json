@@ -1,0 +1,26 @@
+{
+  "preBuild": "Nokia/Rocket_00WW/RKU:9/PPR1.180610.011/00WW_1_13A:user/release-keys",
+  "postBuild": "Nokia/Rocket_00WW/RKU:9/PPR1.180610.011/00WW_1_140:user/release-keys",
+  "postTimestamp": 1627099695,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a67755ce3d2b1dd7ade095d9a089d1079b37c6b5.zip",
+  "sizeBytes": 71780846,
+  "securityPatch": "2021-08-05",
+  "sdk": "28",
+  "device": "RKU",
+  "checkinDevice": "RKU",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 9 (V1.140)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-08<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 36700160,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 784,
+  "archiveUrls": []
+}

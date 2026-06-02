@@ -1,0 +1,25 @@
+{
+  "preBuild": "Nokia/Beholder_00WW/AOP_sprout:9/PPR1.180610.011/00WW_4_27G:user/release-keys",
+  "postBuild": "Nokia/Beholder_00WW/AOP_sprout:10/QKQ1.190725.002/00WW_5_13D:user/release-keys",
+  "postTimestamp": 1572961886,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/nokia_aopsprout_beholder00ww/d7ba69a557ef8b98bfe8793e9466eb08943c19cc.zip",
+  "sizeBytes": 839107566,
+  "securityPatch": "2019-11-01",
+  "sdk": "29",
+  "device": "AOP_sprout",
+  "checkinDevice": "AOP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software upgrade - Android 10 (V5.13D)<br><br><b>What’s New</b><br>- Dark mode – Take it easy on your eyes<br>- Smart reply – Save more time with recommended actions<br>- Gesture navigation – Get around with a swipe and a pull<br>- Additional controls for privacy and location<br>- Google Security Patch (2019-11)<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 567,
+  "archiveUrls": []
+}

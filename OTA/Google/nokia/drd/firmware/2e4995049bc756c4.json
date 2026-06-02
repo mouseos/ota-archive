@@ -1,0 +1,27 @@
+{
+  "preBuild": "Nokia/DoctorDoom_00WW/DRD:12/SKQ1.220119.001/00WW_3_46A:user/release-keys",
+  "postBuild": "Nokia/DoctorDoom_00WW/DRD:12/SKQ1.220119.001/00WW_3_46B:user/release-keys",
+  "postTimestamp": 1682671731,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5e6e5843d3ce20c79ed75edf222371c04a3b1cc6.zip",
+  "sizeBytes": 17222107,
+  "securityPatch": "2023-05-01",
+  "sdk": "31",
+  "device": "DRD",
+  "checkinDevice": "DRD",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2023-05<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 764,
+  "archiveUrls": []
+}

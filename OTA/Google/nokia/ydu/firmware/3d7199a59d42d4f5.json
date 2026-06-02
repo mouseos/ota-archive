@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_020:user/release-keys",
+  "postBuild": "Nokia/Yondu_00WW/YDU:10/QP1A.190711.020/00WW_1_040:user/release-keys",
+  "postTimestamp": 1611566372,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/23afe1e36b817da6477f338d958368b6b30df6f3.zip",
+  "sizeBytes": 589882660,
+  "securityPatch": "2021-01-05",
+  "sdk": "29",
+  "device": "YDU",
+  "checkinDevice": "YDU",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 10 (V1.040)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2021-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 54382592,
+  "partitions": [
+    "boot",
+    "custom1",
+    "product",
+    "socko",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 247,
+  "archiveUrls": []
+}

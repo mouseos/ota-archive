@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Shadowcat_00EEA/SCTA_sprout:12/SP1A.210812.016/00WW_2_640:user/release-keys|Nokia/Shadowcat_00EEA/SCT_sprout:12/SP1A.210812.016/00WW_2_640:user/release-keys|Nokia/Shadowcat_00WW/SCT_sprout:12/SP1A.210812.016/00WW_2_640:user/release-keys",
+  "postTimestamp": 1680074875,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e55e211a8447343ecbbe440a555e46543402b392.zip",
+  "sizeBytes": 1978629882,
+  "securityPatch": "2023-03-05",
+  "sdk": "31",
+  "device": "SCTA_sprout",
+  "checkinDevice": "SCTA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (V2.640)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-03<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 229,
+  "archiveUrls": []
+}

@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/DoctorStrange_00RU/DRS:11/RKQ1.210303.002/00WW_2_41B:user/release-keys",
+  "postBuild": "Nokia/DoctorStrange_00RU/DRS:11/RKQ1.210303.002/00WW_2_41C:user/release-keys",
+  "postTimestamp": 1639275934,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/bd82ccc845990e2ecd944a8f6f15250cf5cf8d0b.zip",
+  "sizeBytes": 21765422,
+  "securityPatch": "2021-12-01",
+  "sdk": "30",
+  "device": "DRS",
+  "checkinDevice": "DRS",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2021-12<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "custom",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 768,
+  "archiveUrls": []
+}

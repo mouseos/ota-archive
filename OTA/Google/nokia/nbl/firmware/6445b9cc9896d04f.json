@@ -1,0 +1,26 @@
+{
+  "preBuild": "Nokia/Nebula_00WW/NBL:9/PPR1.180610.011/00WW_1_140:user/release-keys",
+  "postBuild": "Nokia/Nebula_00WW/NBL:9/PPR1.180610.011/00WW_1_14A:user/release-keys",
+  "postTimestamp": 1645528937,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/28f2d1a5ae503139536cfd127e0618803201ff5f.zip",
+  "sizeBytes": 59205743,
+  "securityPatch": "2022-01-05",
+  "sdk": "28",
+  "device": "NBL",
+  "checkinDevice": "NBL",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Google Security Patch<br><br><b>What’s New</b><br>- Google Security Patch 2022-01<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 36700160,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 206,
+  "archiveUrls": []
+}

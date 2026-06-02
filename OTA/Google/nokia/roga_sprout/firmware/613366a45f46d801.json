@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/Rogue_00EEA/ROGA_sprout:13/TP1A.220624.014/00WW_3_390:user/release-keys|Nokia/Rogue_00FD/ROGA_sprout:13/TP1A.220624.014/00WW_3_390:user/release-keys|Nokia/Rogue_00IN/ROGA_sprout:13/TP1A.220624.014/00WW_3_390:user/release-keys|Nokia/Rogue_00WW/ROGA:13/TP1A.220624.014/00WW_3_390:user/release-keys|Nokia/Rogue_00WW/ROGA_sprout:13/TP1A.220624.014/00WW_3_390:user/release-keys",
+  "postTimestamp": 1691381222,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6704425eadf4657452bebd166663986a32124166.zip",
+  "sizeBytes": 1974558206,
+  "securityPatch": "2023-08-01",
+  "sdk": "33",
+  "device": "ROGA_sprout",
+  "checkinDevice": "ROGA_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 13 (V3.390)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-08<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 222,
+  "archiveUrls": []
+}
