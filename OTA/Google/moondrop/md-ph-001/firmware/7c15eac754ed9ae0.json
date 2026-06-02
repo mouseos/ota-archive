@@ -14,5 +14,15 @@
   "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-moondrop-md-ph-001/c41b056761003be3407250c142e0dcae3ddd4b52.zip"
-  ]
+  ],
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true
 }

@@ -14,5 +14,16 @@
   "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-benesse-50s904/10c63e01f9d7a564194cdf28fdf6e6f225055fc6.zip"
-  ]
+  ],
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true
 }

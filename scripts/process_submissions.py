@@ -13,7 +13,7 @@ import json
 import os
 import re
 
-from range_zip import fetch_ota_metadata
+from range_zip import fetch_ota_metadata, derive_fields
 from sanitize import sanitize_html
 
 ROOT = "OTA/Google"
@@ -51,7 +51,8 @@ def process_one(path, sub):
         os.remove(path)
         return
     try:
-        meta, size = fetch_ota_metadata(ota_url)
+        meta, size, entries = fetch_ota_metadata(ota_url)
+        extra = derive_fields(ota_url, meta, entries)
     except Exception as e:
         print(f"  verify failed (leave pending): {path}: {e}")
         return  # transient/geo: retry next run
@@ -98,6 +99,11 @@ def process_one(path, sub):
         "title": sanitize_html(sub.get("title", ""), 200),
         "description": sanitize_html(sub.get("description", ""), 4000),
         "otaType": "incremental" if meta.get("pre-build") else "full",
+        "abType": extra.get("abType"),
+        "requiredCacheBytes": extra.get("requiredCacheBytes"),
+        "partitions": extra.get("partitions", []),
+        "hasFirmware": extra.get("hasFirmware", False),
+        "hasApex": extra.get("hasApex", False),
         "source": "app",
         "archiveUrls": archive_urls,
     }

@@ -28,7 +28,7 @@ import requests
 
 from checkin_pb2 import AndroidCheckinRequest, AndroidCheckinResponse
 from logs_pb2 import AndroidCheckinProto, AndroidBuildProto
-from range_zip import fetch_ota_metadata
+from range_zip import fetch_ota_metadata, derive_fields
 from sanitize import sanitize_html
 
 ROOT = "OTA/Google"
@@ -104,7 +104,7 @@ def check_with_fallback(fp, model, device, build_utc):
     return None, None
 
 
-def write_firmware(fw_dir, pre_build, meta, size, url, result, used_dev, device):
+def write_firmware(fw_dir, pre_build, meta, size, url, result, used_dev, device, extra):
     post_build = meta.get("post-build")
     post_ts = meta.get("post-timestamp")
     if not post_build:
@@ -130,6 +130,11 @@ def write_firmware(fw_dir, pre_build, meta, size, url, result, used_dev, device)
         "title": sanitize_html(result.get("title"), 200),
         "description": sanitize_html(result.get("description"), 4000),
         "otaType": ota_type(meta),
+        "abType": extra.get("abType"),                  # AB / BLOCK / FILE
+        "requiredCacheBytes": extra.get("requiredCacheBytes"),
+        "partitions": extra.get("partitions", []),      # partitions this OTA updates
+        "hasFirmware": extra.get("hasFirmware", False),  # radio / firmware-update bundled
+        "hasApex": extra.get("hasApex", False),
         "source": "checkin",
         "archiveUrls": archive_urls,
     }
@@ -153,11 +158,12 @@ def chain_from(model_dir, props, seen):
             break
         url = result["url"]
         try:
-            meta, size = fetch_ota_metadata(url)
+            meta, size, entries = fetch_ota_metadata(url)
+            extra = derive_fields(url, meta, entries)
         except Exception as e:
             print(f"  metadata fetch failed: {e}")
             break
-        nxt = write_firmware(fw_dir, fp, meta, size, url, result, used_dev, device)
+        nxt = write_firmware(fw_dir, fp, meta, size, url, result, used_dev, device, extra)
         if not nxt:
             break
         post_build, post_ts = nxt

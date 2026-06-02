@@ -83,6 +83,7 @@ def official_name(dmap, devices, display_model, model, manufacturer, brand):
     return {}
 FW_FIELDS = ["preBuild", "postBuild", "postTimestamp", "otaUrl", "sizeBytes",
              "securityPatch", "sdk", "title", "description", "otaType", "source",
+             "abType", "requiredCacheBytes", "partitions", "hasFirmware", "hasApex",
              "archiveUrls"]
 _TAG = re.compile(r"<[^>]+>")
 
@@ -166,6 +167,7 @@ def regen_model(group, model, model_dir, dmap):
         "firmwareCount": len(firmware),
         "archivedCount": sum(1 for f in firmware if f.get("archiveUrls")),
         "otaTypes": sorted({f.get("otaType") for f in firmware if f.get("otaType")}),
+        "abTypes": sorted({f.get("abType") for f in firmware if f.get("abType")}),
         "latestBuild": latest.get("postBuild"),
         "latestBuildId": latest_build_id,
         "latestSecurityPatch": latest.get("securityPatch"),
@@ -181,6 +183,8 @@ def regen_model(group, model, model_dir, dmap):
     parts += [f.get("securityPatch") or "" for f in firmware]
     parts += [f.get("title") or "" for f in firmware]
     parts += [strip_html(f.get("description")) for f in firmware]
+    parts += [f.get("abType") or "" for f in firmware]
+    parts += [" ".join(f.get("partitions") or []) for f in firmware]
     text = " ".join(p for p in parts if p).lower()
     text = re.sub(r"\s+", " ", text).strip()
     search = {

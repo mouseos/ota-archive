@@ -14,5 +14,13 @@
   "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-bullhead/62da8e0166b9638dbd81007a2061ebcc044caaa7.zip"
-  ]
+  ],
+  "abType": "BLOCK",
+  "requiredCacheBytes": 12599296,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false
 }

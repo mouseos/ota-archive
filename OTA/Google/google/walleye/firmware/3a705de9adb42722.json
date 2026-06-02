@@ -14,5 +14,13 @@
   "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-walleye/1427dbe7cc2ba0451cc41869ca98534827b31ae2.zip"
-  ]
+  ],
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false
 }

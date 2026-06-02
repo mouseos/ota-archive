@@ -13,5 +13,15 @@
   "otaType": "incremental",
   "archiveUrls": [
     "https://archive.org/download/ota-google-sharp-sbm801fj/95d242256f071052feb0805fa723912a8ba68fba.zip"
-  ]
+  ],
+  "abType": "BLOCK",
+  "requiredCacheBytes": 69488640,
+  "partitions": [
+    "boot",
+    "recovery",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false
 }
