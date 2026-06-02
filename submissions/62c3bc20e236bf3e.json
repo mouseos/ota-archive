@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/af30545337f5e2c40600fe6eb237033467456be7.zip",
+  "fingerprint": "Nothing/SpacewarEEA/Spacewar:UpsideDownCake/UKQ1.230321.002/2304282229:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "spacewar",
+  "title": "Nothing OS 2.0.5",
+  "description": "<h3>What's new in this update</h3>\n🎧 Improved synchronisation between phone and headphone volumes.<br>\n📶 Optimised display of the VoWiFi icon in the status bar.<br>\n🛡️ Updated security patch for overall protection.<br>\n🔧 Addressed several system stability issues to provide a smoother user experience.<br>"
+}
