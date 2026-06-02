@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4484a5f47b8baba520d243132b355fd75ae7f224.zip",
+  "fingerprint": "Nothing/SpacewarEEA/Spacewar:12/SKQ1.211230.001/1657024044:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "spacewar",
+  "title": "NothingOS 3.2(Spacewar-V3.2-250701-1737)",
+  "description": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n🔐 Introducing Privacy space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy space.<br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<br>\n<b>Other Improvements</b><br>\n💡 Fixed issue with incorrect light strip display when playing music in Glyph Composer.<br>\n📳 Use the touch feedback toggle in Settings to disable the face unlock vibration for the lock screen.<br>\n🛡️ Updated to Android security patch for June.<br>\n🛠️ Fixed accessibility issues in Launcher, Gallery and other apps.<br>\n🐞 General bug fixes and stability enhancements.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>"
+}
