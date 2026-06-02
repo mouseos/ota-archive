@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:14/UKQ1.230924.001/R.163aaa4-1f72d_418a8:user/release-keys",
+  "postTimestamp": 1707033719,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/905e1a264f99f045318c0ebdf0aab58e6d544d14.zip",
+  "sizeBytes": 5313391289,
+  "securityPatch": "2024-01-05",
+  "sdk": "34",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "KB2007_14.0.0.300(EX01) is available",
+  "description": "New Version Available: KB2007_14.0.0.300(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Upgrade to Android OS U.</p><p>• Android security patch updated to January 5, 2024.</p><p>• General bug fixes.</p> Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on March 27th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 814,
+  "archiveUrls": []
+}

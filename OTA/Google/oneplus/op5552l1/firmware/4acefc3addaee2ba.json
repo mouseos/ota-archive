@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/CPH2419/OP5552L1:13/TP1A.220905.001/S.f09b70-d_bf1b:user/release-keys",
+  "postTimestamp": 1679113197,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/433f5e0f2b856ef5b4cda5c7741231c665d4acb8.zip",
+  "sizeBytes": 5451214915,
+  "securityPatch": "2023-03-05",
+  "sdk": "33",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "21845T_ALL_2023032118320000_release",
+  "description": "New version: CPH2419_11_C.28 \n<p>A new software update is available for your Android Smartphone.</p> \nThis release includes the following: \n<p>•Upgraded to Android13 OS</p>\n<p>•Android security patch updated to 2023-3-05</p>\n<p>•Enable VoNR</p>\n<p>•General bug fixes and improvements</p>\n \nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting April 25, 2023.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1828,
+  "archiveUrls": []
+}

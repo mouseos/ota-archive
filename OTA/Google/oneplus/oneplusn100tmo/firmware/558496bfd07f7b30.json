@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2108131450:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN100TMO/OnePlusN100TMO:11/RKQ1.201217.002/2310131958:user/release-keys",
+  "postTimestamp": 1697202949,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/425ba5d0d678683d551f0cdca84d8becbc9bec90.zip",
+  "sizeBytes": 201475783,
+  "securityPatch": "2023-10-05",
+  "sdk": "30",
+  "device": "OnePlusN100TMO",
+  "checkinDevice": "OnePlusN100TMO",
+  "title": "11.0.14.BE82CB is available",
+  "description": "New version: 11.0.14.BE82CB \n \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-10-05.</p> \n \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on October 31st, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1484,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.17c0d76-186ae-315a9:user/release-keys",
+  "postTimestamp": 1713892623,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0e100b5057986abe1ee7a1ffd5cb99f3ae7052bd.zip",
+  "sizeBytes": 6222879713,
+  "securityPatch": "2024-04-05",
+  "sdk": "34",
+  "device": "OP5D35L1",
+  "checkinDevice": "OP5D35L1",
+  "title": "CPH2611_14.0.0.701(EX01) is avaliable",
+  "description": "New version: CPH2611_14.0.0.701(EX01) New smooth animations<p> • Adds wallpaper zoom and seamless icon transitions during app launch and exit for a smoother visual experience.</p><p> • Adds wallpaper zoom animations and gradual brightness transitions when the screen is turned on or off.</p><p> • Adds a bounce animation effect when sliding to the bottom of the notification drawer and optimizes the layer effects of Quick Setting icons and widgets, bringing a more natural and delicate visual effect.</p><p> • Optimizes the transition animations for Home screen icons and widgets and adds wallpaper zoom animations upon device unlock.</p><p> • Optimizes the background colors and Gaussian blur effects in Quick Settings, Notification drawer, Home screen drawer, and Global Search.</p><p> • Optimizes the transition animation when the Lock screen clock and buttons disappear upon device unlock.</p><p> • Optimizes animations when entering and exiting Global Search, ensuring a smoother and more consistent visual experience.</p>New touch control experience<p> • Adds a transition animation when swiping in from one side of the screen to exit an app before it starts up.</p><p> • Adds a transition animation when swiping in from one side of the screen to go back to the previous page before a new page is opened.</p><p> • Adds a transition animation when swiping inward from a side of the screen or swiping up to exit an app in landscape mode.</p><p> • You can now tap the lower right corner of a large folder to view more apps.</p><p> • You can now pull down app icons in large folders and then open an app in just one move.</p><p> • Improves touch control responsiveness. Tapping and swiping on the Home screen and Recent tasks screen is now faster and more stable.</p><p> • Increases touch responsiveness for app usage scenarios, for example, when opening and closing apps, entering and exiting recent tasks, or swiping on the gesture guide bar to switch between apps.</p><p> • Optimizes animations when using large folders. Dragging apps on the Home screen is now smoother.</p>System<p> • You can now adjust the volume in Quick Settings.</p><p> • You can now choose not to show the track when drawing the Lock screen pattern to unlock your device.</p><p> • You can now adjust the size of a floating window by dragging its bottom and swipe up to close a mini window.</p><p> • Improves system stability.</p><p> • Integrates the April 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1023,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/CPH2419/OP5552L1:14/UKQ1.230924.001/S.15baf3c-484e-484d:user/release-keys",
+  "postTimestamp": 1704858596,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2253567292c030bc18b95e3f53e86a4241e7867f.zip",
+  "sizeBytes": 6045663612,
+  "securityPatch": "2024-01-05",
+  "sdk": "34",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "CPH2419_14.0.0.300(EX01)",
+  "description": "New Version Available: CPH2419_14.0.0.300(EX01)\n<p>A new software update is now available for your Android smartphone.</p>\nRelease Highlights:\n<p>• Upgrade to Android OS U.</p>\n<p>• General bug fixes.</p>\nAutomatic Update Schedule:\n<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on February 28th, 2024.</p>\nNote:\n<p>Data rates may apply.</p>\n<p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1022,
+  "archiveUrls": []
+}

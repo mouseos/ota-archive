@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2107220023:user/release-keys",
+  "postBuild": "OnePlus/OnePlusNordCE_EEA/OnePlusNordCE:11/RKQ1.201217.002/2207281809:user/release-keys",
+  "postTimestamp": 1659007427,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fc8c4be23f4fb1528b5bed1beed5cc4bf8484ecc.zip",
+  "sizeBytes": 577851543,
+  "securityPatch": "2022-07-01",
+  "sdk": "30",
+  "device": "OnePlusNordCE",
+  "checkinDevice": "OnePlusNordCE",
+  "title": "EB2103_11.C.07_1070_202209182345",
+  "description": "A system update is available. Your system will be upgraded to OS 12. It delivers a more stable and smoother experience with improved usability, better battery management and enhanced data privacy. <p><strong>System</strong><br> • Optimized desktop icons with improved textures, by using a design inspired by brand-new materials and uniting lights and layers<br> • Optimized AI System Booster to 2.1 to support the system to run smoothly even when the load is high<br> <strong>Dark mode</strong><br> • Newly added three adjustable levels, bringing a more personalized and comfortable user experience<br> <strong>Shelf</strong><br> • Newly added style options for Cards, making data contents more visual and easier to read<br> • Newly added access to OnePlus Scout in Shelf, allowing you to search multiple contents on your phone, including Apps, Settings, Media Data, etc<br> • Newly added OnePlus Watch Card in Shelf, to easily glance at your health status<br> <strong>Work Life Balance</strong><br> • Newly added Work Life Balance feature, allowing you to effortlessly switch between Work and Life mode via quick settings<br> • Newly supported automatic Work/Life mode switching, based on specific locations, Wi-Fi network, and time, also bringing customized App notification profiles according to the personalization<br> <strong>Gallery</strong><br> • Newly supported switching between different layouts with a two-finger pinch gesture, intelligently recognizing the best-quality pictures, and cropping the thumbnail based on the content, making the gallery layout more pleasing<br> <strong>Canvas AOD</strong><br> • Newly added diverse styles of lines and colors, for a more personalized lock screen experience with inspiring visuals<br> • Newly added multiple brushes and strokes and support for color adjustment</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1492,
+  "archiveUrls": []
+}

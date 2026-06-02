@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.223fc4c-1bf50-1:user/release-keys",
+  "postBuild": "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.2323580_1_3:user/release-keys",
+  "postTimestamp": 1774530492,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3fa8bccd7338a5c67e68a9147738684730a5d74b.zip",
+  "sizeBytes": 233186243,
+  "securityPatch": "2026-04-01",
+  "sdk": "34",
+  "device": "OP5958L1",
+  "checkinDevice": "OP5958L1",
+  "title": "CPH2513_14.0.0.3210(EX01) is available",
+  "description": "New version: CPH2513_14.0.0.3210(EX01)System<p> • Integrates the April 2026 Android security patch to enhance system security.</p><p>Please do not turn off your device while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2120,
+  "archiveUrls": []
+}

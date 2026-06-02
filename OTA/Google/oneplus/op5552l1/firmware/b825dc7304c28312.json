@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2419/OP5552L1:14/UKQ1.230924.001/S.15baf3c-484e-484d:user/release-keys",
+  "postBuild": "OnePlus/CPH2419/OP5552L1:14/UKQ1.230924.001/S.1870725-1-98a8c:user/release-keys",
+  "postTimestamp": 1717735766,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b3ee89bc497b1f2a378615c88760e75f2484e62e.zip",
+  "sizeBytes": 1571246107,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "CPH2419_14.0.0.703(EX01) is available",
+  "description": "New Version Available: CPH2419_14.0.0.703(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-06-05.</p> Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on July 1st, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1101,
+  "archiveUrls": []
+}

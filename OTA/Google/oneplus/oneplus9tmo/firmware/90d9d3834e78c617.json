@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus9TMO/OnePlus9TMO:14/UKQ1.230924.001/R.16073bd-1f888_7e577:user/release-keys",
+  "postTimestamp": 1706178749,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/28ad3775b3bdfbf45f2f587351d9b109058cca8c.zip",
+  "sizeBytes": 5526183009,
+  "securityPatch": "2024-01-05",
+  "sdk": "34",
+  "device": "OnePlus9TMO",
+  "checkinDevice": "OnePlus9TMO",
+  "title": "LE2117_14.0.0.212(EX01) is available",
+  "description": "New Version Available: LE2117_14.0.0.212(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Upgrade to Android OS U.</p><p>• Android security patch updated to January 5, 2024.</p><p>• General bug fixes.</p> Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on March 29th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 820,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlusN10METRO/OnePlusN10METRO:11/RKQ1.201217.002/2108030048:user/release-keys",
+  "postBuild": "OnePlus/OnePlusN10METRO/OnePlusN10METRO:11/RKQ1.201217.002/2311071520:user/release-keys",
+  "postTimestamp": 1699346046,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ddd607c5ccb78d33705bf989ed48a361f3f24a40.zip",
+  "sizeBytes": 195002579,
+  "securityPatch": "2023-11-05",
+  "sdk": "30",
+  "device": "OnePlusN10METRO",
+  "checkinDevice": "OnePlusN10METRO",
+  "title": "11.0.15.BE88CF is available",
+  "description": "New version: 11.0.15.BE88CF \n \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• Updated Android security patch to 2023-11-05.</p> \n \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on November 27th, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1487,
+  "archiveUrls": []
+}

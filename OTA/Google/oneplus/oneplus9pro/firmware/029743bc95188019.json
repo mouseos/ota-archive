@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9Pro/OnePlus9Pro:13/TP1A.220905.001/R.12ee130-1f9aa-ffaae:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9Pro/OnePlus9Pro:13/TP1A.220905.001/R.159cc68-4eae-182baf:user/release-keys",
+  "postTimestamp": 1704339955,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/32d84e776bbf4d69666e956c8fdf2bd8a3b4ca16.zip",
+  "sizeBytes": 1025894805,
+  "securityPatch": "2024-01-05",
+  "sdk": "33",
+  "device": "OnePlus9Pro",
+  "checkinDevice": "OnePlus9Pro",
+  "title": "LE2125_13.1.0.593(EX01) is available",
+  "description": "New version: LE2125_13.1.0.593(EX01)<p>This update improves system security.</p>System<p>• Integrates the January 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1468,
+  "archiveUrls": []
+}

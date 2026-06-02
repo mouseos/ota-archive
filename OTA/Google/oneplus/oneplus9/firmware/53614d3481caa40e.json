@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9/OnePlus9:14/UKQ1.230924.001/R.1b54031-8e6e-42a35:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9/OnePlus9:14/UKQ1.230924.001/R.1d5a0be-1-4ffee:user/release-keys",
+  "postTimestamp": 1744209527,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/28252deac84e3bc54584bd82aac4ed7f4dceb2da.zip",
+  "sizeBytes": 1006412505,
+  "securityPatch": "2025-04-01",
+  "sdk": "34",
+  "device": "OnePlus9",
+  "checkinDevice": "OnePlus9",
+  "title": "LE2115_14.0.0.1901(EX01) is available",
+  "description": "New Version Available:LE2115_14.0.0.1901(EX01)<p>A new software update is now available for your Android smartphone.</p>System<p>  • Integrates the April 2025 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 816,
+  "archiveUrls": []
+}

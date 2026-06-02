@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus6TSingle/OnePlus6TSingle:10/QKQ1.190716.003/2108261437:user/release-keys",
+  "postTimestamp": 1629961705,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a2ffa01ddc38933c10676d18e061c10dbfa878f0.zip",
+  "sizeBytes": 1764289377,
+  "securityPatch": "2021-09-01",
+  "sdk": "29",
+  "device": "OnePlus6TSingle",
+  "checkinDevice": "OnePlus6TSingle",
+  "title": "ONEPLUS A6013_34_210826 is available",
+  "description": "New version: ONEPLUS A6013_34_210826 \n\n \n\n<p>T-Mobile is pleased to provide a new, free software update for your Android Smartphone.</p>\n\nThis release includes the following:\n\n<p>• Updated Android security patch to September 2021</p>\n\n<p>Install time: 5 minutes</p>\n\n \n\nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting October 1st, 2021. \n\nThis will not consume your data.\n\nPlease do not turn off your device while the update is installing.\n\nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1363,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus9TMO/OnePlus9TMO:12/SKQ1.210216.001/R.202203101720:user/release-keys",
+  "postTimestamp": 1646903134,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/846e4e222f0848dc9da3e94896dc99adaa956496.zip",
+  "sizeBytes": 4369745993,
+  "securityPatch": "2022-02-05",
+  "sdk": "31",
+  "device": "OnePlus9TMO",
+  "checkinDevice": "OnePlus9TMO",
+  "title": "New version: LE2117_11_C.16",
+  "description": "New version: LE2117_11_C.16  \n<p>A new software update is available for your Android Smartphone.</p> \nThis release includes the following: \n\n<p>• Upgraded to Android 12 OS</p>\n<p>• Android security patch upgraded to February 2022</p>\n<p>• General improvements and fixes</p>\n \nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting April 4th, 2022.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1482,
+  "archiveUrls": []
+}

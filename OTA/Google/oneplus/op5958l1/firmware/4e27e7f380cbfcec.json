@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2515/OP5958L1:14/UKQ1.230924.001/T.R4T1.1e63a87-1-363e5d:user/release-keys",
+  "postBuild": "OnePlus/CPH2515/OP5958L1:14/UKQ1.230924.001/T.R4T1.22c3c34_1-19c62e:user/release-keys",
+  "postTimestamp": 1772244496,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a7b68de8b02838e1257915f2b45f0d4a8ab5c233.zip",
+  "sizeBytes": 202504752,
+  "securityPatch": "2026-03-01",
+  "sdk": "34",
+  "device": "OP5958L1",
+  "checkinDevice": "OP5958L1",
+  "title": "CPH2515_14.0.0.1410(EX01) is available",
+  "description": "New Version Available: CPH2515_14.0.0.1410(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>•Updated the Android security patch to March 1st, 2026. </p>Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on Mar. 27th, 2026.</p>Note:<p>Data rates may apply.</p><p>Please do not turn off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 911.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2121,
+  "archiveUrls": []
+}

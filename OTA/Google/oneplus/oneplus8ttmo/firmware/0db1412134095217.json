@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2009240808:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8TTMO/OnePlus8TTMO:11/RP1A.201005.001/2202071017:user/release-keys",
+  "postTimestamp": 1644200896,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3b899edc5963341b028b89b07bbb77e0edd0dd1a.zip",
+  "sizeBytes": 982024031,
+  "securityPatch": "2022-02-01",
+  "sdk": "30",
+  "device": "OnePlus8TTMO",
+  "checkinDevice": "OnePlus8TTMO",
+  "title": "11.0.15.17.KB09CB is available",
+  "description": "New version: 11.0.15.17.KB09CB \n<p>A new software update is available for your Android Smartphone.</p>\nThis release includes the following:\n<p>• Android security patch upgraded to February 2022</p>\n If you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting March 2nd, 2022. \nData rates may apply.\nPlease do not turn off your device while the update is installing.\nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1449,
+  "archiveUrls": []
+}

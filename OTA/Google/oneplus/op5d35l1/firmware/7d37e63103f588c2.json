@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.17c0d76-186ae-315a9:user/release-keys",
+  "postBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.1983170-881c_62e:user/release-keys",
+  "postTimestamp": 1723606107,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/15d5989620467d6831ddf1da4d7f411f8abb622e.zip",
+  "sizeBytes": 1989588005,
+  "securityPatch": "2024-08-05",
+  "sdk": "34",
+  "device": "OP5D35L1",
+  "checkinDevice": "OP5D35L1",
+  "title": "CPH2609_14.0.0.831(EX01) is available",
+  "description": "New Version Available: CPH2609_14.0.0.831(EX01) <p>A new software update is now available for your Android smartphone.</p>System<p> • Adds a switch to show or hide media playback info in the status bar.</p><p> • Improves the user experience of scrolling screenshots. Notifications and Live Alerts messages won't pop up and floating windows won't be displayed when you take a scrolling screenshot.</p><p> • Integrates the August 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1102,
+  "archiveUrls": []
+}

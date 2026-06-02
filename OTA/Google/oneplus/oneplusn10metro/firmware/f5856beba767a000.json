@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlusN10METRO/OnePlusN10METRO:11/RKQ1.201217.002/2110121510:user/release-keys",
+  "postTimestamp": 1634023040,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a51c50872e7bc30f09278fc573f767e0a93536ea.zip",
+  "sizeBytes": 2893607928,
+  "securityPatch": "2021-10-01",
+  "sdk": "30",
+  "device": "OnePlusN10METRO",
+  "checkinDevice": "OnePlusN10METRO",
+  "title": "11.0.2.BE88CF is available",
+  "description": "New version: 11.0.2.BE88CF \n<p>A new software update is available for your Android Smartphone.</p>\nThis release includes the following:\n<p>• Android security patch upgraded to October 2021</p>\n \n \n \nIf you choose not to do so now, the update will take place AUTOMATICALLY between 12AM and 6AM starting October 26th, 2021. \nData rates may apply.\nPlease do not turn off your device while the update is installing.\nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1486,
+  "archiveUrls": []
+}

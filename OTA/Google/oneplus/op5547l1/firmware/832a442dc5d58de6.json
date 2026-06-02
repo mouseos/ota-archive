@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2389/OP5547L1:13/TP1A.220905.001/S.177e55e-19fdf:user/release-keys",
+  "postBuild": "OnePlus/CPH2389/OP5547L1:13/TP1A.220905.001/S.1c753f2-49ab4:user/release-keys",
+  "postTimestamp": 1739174031,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2a127af3fc0d6ba03e45a7acab141cae9cd8171f.zip",
+  "sizeBytes": 147998546,
+  "securityPatch": "2025-02-01",
+  "sdk": "33",
+  "device": "OP5547L1",
+  "checkinDevice": "OP5547L1",
+  "title": "CPH2389_11_C.26 is available",
+  "description": "New Version Available: CPH2389_11_C.26 <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to February 1st, 2025.</p>Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on February 25th, 2025.</p>Note:<p>Data rates may apply.</p><p>Please do not turn off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 911.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1021,
+  "archiveUrls": []
+}
