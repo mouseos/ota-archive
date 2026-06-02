@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ab2c6eae60d3a1894c4612aa27f941658e099736.zip",
+  "fingerprint": "Xiaomi/laurel_sprout_eea/laurel_sprout:9/PKQ1.190416.001/V10.3.17.0.PFQEUXM:user/release-keys",
+  "manufacturer": "",
+  "brand": "xiaomi",
+  "model": "laurel_sprout",
+  "title": "Android System Update",
+  "description": "Fortify your Android One phone with the December 2020 security update from Google, which improves security and fixes bugs. This update improves the stability of your device and optimizes its performance. Downloading updates over a mobile network or while roaming may cause additional charges."
+}
