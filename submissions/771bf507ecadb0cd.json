@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/sg_zeonsprout_s5/82ea065a329453a38ab110e0bcadb0da2143e652.zip",
+  "fingerprint": "SG/S5/zeon_sprout:9/S0004/01.00.00:user/release-keys",
+  "manufacturer": "",
+  "brand": "sg",
+  "model": "zeon_sprout",
+  "title": "新しいシステムをインストールします",
+  "description": "【更新内容】 （ビルド番号：S0021）<br>\n・セキュリティの向上<br>\n<br>\n※インストール中は本機の電源を切らないでください。<br> \n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
