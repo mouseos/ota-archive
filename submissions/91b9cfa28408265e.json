@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7b1e7dc7bce5989ea8f71d09c249c2b5d74bd0d1.zip",
+  "fingerprint": "xiaomi/jasmine/jasmine_sprout:10/QKQ1.190910.002/V11.0.21.0.QDIMIXM:user/release-keys",
+  "manufacturer": "",
+  "brand": "xiaomi",
+  "model": "jasmine_sprout",
+  "title": "Android System Update",
+  "description": "Fortify your Android One phone with the July 2021 security update from Google, which improves security and fixes bugs. This update improves the stability of your device and optimizes its performance. Downloading updates over a mobile network or while roaming may cause additional charges."
+}
