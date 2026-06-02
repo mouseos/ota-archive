@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b5aa3a83281b787e766389476743d6fd883b120f.zip",
+  "fingerprint": "Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2512302052:user/release-keys",
+  "manufacturer": "nothing",
+  "brand": "nothing",
+  "model": "a142",
+  "title": "Nothing OS 4.0(Pacman-B4.0-260225-1817-JPN)",
+  "description": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n📰 Added an Essential Notifications entry in Settings for easier access. Find it via Settings > Notifications > Essential Notifications.<br>\n🪀 Essential Apps now features a recommendation section in the widget library, providing quicker access to the Nothing Playground to discover AI-powered community creations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⛅ Optimised the Weather widget location permission prompt to reduce disruption.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to March 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
+}
