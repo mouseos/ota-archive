@@ -149,7 +149,7 @@ def regen_model(group, model, model_dir, dmap):
         r = android_rel(b)
         if r:
             rels.add(r)
-    android_versions = sorted(rels, key=lambda x: [int(t) if t.isdigit() else t for t in re.split(r"(\d+)", x) if t])
+    android_versions = sorted(rels, key=lambda x: [t.zfill(10) if t.isdigit() else t for t in re.split(r"(\d+)", x) if t])
     sdks = sorted({str(f.get("sdk")) for f in firmware if f.get("sdk")},
                   key=lambda x: (len(x), x))
     tss = [f.get("postTimestamp") for f in firmware if f.get("postTimestamp")]
