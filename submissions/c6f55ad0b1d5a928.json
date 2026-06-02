@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/0140d7760144fa189e27456f275f6f94e72d41c1.zip",
+  "fingerprint": "google/husky/husky:16/CP1A.260505.005/15081906:user/release-keys",
+  "manufacturer": "google",
+  "brand": "google",
+  "model": "pixel_8_pro",
+  "title": "Android 16",
+  "description": "このアップデートでは、デバイスの重大なバグの修正、パフォーマンスと安定性の改善が行われています。詳しくは <a href=\"http://g.co/pixel/community\">g.co/pixel/community</a> をご覧ください。\n\n<p>モバイル ネットワーク経由で、またはローミング時にアップデートをダウンロードすると、追加料金が発生する場合があります。"
+}
