@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5cabec120b0378853b3d89a58c0171ac3e965046.zip",
+  "fingerprint": "Xiaomi/oneday/oneday:12/STTC.230106.001/4467:user/release-keys",
+  "manufacturer": "",
+  "brand": "xiaomi",
+  "model": "oneday",
+  "title": "system update",
+  "description": "1) Improve system performance <br>\n2) Update security patch <br>\n3) Change boot animation <br>\n4) The upgrade process will restart several times. Please wait and DO NOT power off <br>\n5）We recommend upgrading to the latest version which it will guarantee your media streaming service is working<br>"
+}
