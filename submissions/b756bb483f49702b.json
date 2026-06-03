@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/752c2a3f2b2cdc8bf55ec8d95afad8b2f77cc517.zip",
+  "fingerprint": "lge/phoenix_lgu_kr/phoenix_sprout:11/RKQ1.201123.002/212501438b8b1:user/release-keys",
+  "manufacturer": "",
+  "brand": "lge",
+  "model": "phoenix_sprout",
+  "title": "Android System Update",
+  "description": "Android OS Upgrade. Usability improvements through Google patch."
+}
