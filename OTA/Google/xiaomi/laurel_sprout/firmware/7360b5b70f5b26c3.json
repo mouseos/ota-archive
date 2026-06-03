@@ -21,5 +21,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-laurel_sprout/ab2c6eae60d3a1894c4612aa27f941658e099736.zip"
+  ]
 }
