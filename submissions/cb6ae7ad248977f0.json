@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f9e2a1b07de8f23f14bcd42d546df369e2083c91.zip",
+  "fingerprint": "T-Mobile/Bethpage/Bethpage:12/SP1A.210812.016/SW_S98122AA1_V050:user/release-keys",
+  "manufacturer": "",
+  "brand": "t-mobile",
+  "model": "bethpage",
+  "title": "Carrier Update Service. New update available",
+  "description": "Congratulations! A new software update is available for your device. Update will take approximately 10 minutes. You will not be able to use the device during this time, including the ability to call or text to 9-1-1. To begin install, select Update"
+}
