@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d856bf0bc6f7b027bf63fb6bc84bbc1f91d40abd.zip",
+  "fingerprint": "lge/phoenix_lao_com/phoenix_sprout:11/RKQ1.201123.002/210641533e0c8:user/release-keys",
+  "manufacturer": "",
+  "brand": "lge",
+  "model": "phoenix_sprout",
+  "title": "Android System Upgrade",
+  "description": "This is upgrade from 30s,40b,40c,full to 40d"
+}
