@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/440c81475cc34c55973da7e22f60deae9b1a06ea.zip",
+  "fingerprint": "lge/winglm/winglm:11/RKQ1.210420.001/2132315035b4c:user/release-keys",
+  "manufacturer": "",
+  "brand": "lge",
+  "model": "winglm",
+  "title": "Android System Update",
+  "description": "<p>At T-Mobile, our customer's privacy and security is incredibly important. We pride ourselves on making sure your mobile experience is safe and secure. It is strongly recommended that you install this security patch to protect your device. <br> <br> If you choose not to do so now, the update will take place AUTOMATICALLY between midnight and 3AM starting September 11st, 2023. <br> <br> This will not consume your data. <br> <br> Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1. </p>"
+}
