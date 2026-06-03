@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/de9a7abea93e266a6df9f9075fd072b1b80a7040.zip",
+  "fingerprint": "Rakuten/C330/C330:9/PKQ1.190616.001/253:user/release-keys",
+  "manufacturer": "",
+  "brand": "rakuten",
+  "model": "c330",
+  "title": "システム アップデートがあります",
+  "description": "このアップデートは端末の機能の修正、パフォーマンスの向上を行います。\n無料のWi-Fi通信または無制限のデータ通信プランでの更新をおすすめします。セルラー通信またはローミングでのダウンロードの場合、追加の課金が発生する場合があります。"
+}
