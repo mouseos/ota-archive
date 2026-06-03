@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6816D-RU/Infinix-X6816D:11/RP1A.201005.001/230407V8:user/release-keys",
+  "postBuild": "Infinix/X6816D-RU/Infinix-X6816D:11/RP1A.201005.001/230517V9:user/release-keys",
+  "postTimestamp": 1684304993,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e929bca1820b899fdb3e5378c13dbd52700fcc7a.zip",
+  "sizeBytes": 72832848,
+  "securityPatch": "2023-05-05",
+  "sdk": "30",
+  "device": "Infinix-X6816D",
+  "checkinDevice": "Infinix-X6816D",
+  "title": "X6816D-ST683K-R-RU-230407V8-to-X6816D-ST683K-R-RU-230517V9",
+  "description": "Caution! This update may crash rooted devices. <br> Please plug in charger to OTA upgrade when power is lower than 40%. <br> <b>Update Version: </b>X6816D-ST683K-R-RU-230517V9<br> <b>Changed Functions: </b><br> <li>1. Updated Google Security Patch to May 5, 2023.</li> <li>2. Updated Google GMS Package to 11_202203</li> <b>Optimized issue: </b><br> <li>1. Incorporate the latest google patch </li> <b>Fixed issues:</b> <br> <li>1. Update Optimize performance </li>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1664,
+  "archiveUrls": []
+}

@@ -1,0 +1,21 @@
+{
+  "preBuild": "lge/w7_tmo_us/w7:5.0.2/LRX22G/150651744a25e:user/release-keys",
+  "postBuild": "lge/w7_tmo_us/w7:5.0.2/LRX22G/152261732bf5c:user/release-keys",
+  "postTimestamp": 1439541493,
+  "otaUrl": "https://ota.googlezip.net/packages/ota/tmus_us_lge_w7/122283d098a742fab8d5228dee4aa255454491a0.zip",
+  "sizeBytes": 73446252,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "w7",
+  "checkinDevice": "w7",
+  "title": "Android System Update",
+  "description": "T-Mobile is pleased to provide a new, free software update for your Android Smartphone. This update contains important device security improvements.  To install the software, make sure the battery is fully charged, connect to Wi-Fi if prompted to download (recommended), and once downloaded select “Restart & Install” at the bottom of this screen. Please do not turn off your device while the update is installing.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

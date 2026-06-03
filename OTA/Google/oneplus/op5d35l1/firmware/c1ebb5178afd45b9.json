@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.16afb3d-1-aa4b:user/release-keys",
+  "postBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.182c81f-27358-2735a:user/release-keys",
+  "postTimestamp": 1716308270,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8a45c1f5c29601389858f99bff3aa8272c374957.zip",
+  "sizeBytes": 1539447428,
+  "securityPatch": "2024-05-05",
+  "sdk": "34",
+  "device": "OP5D35L1",
+  "checkinDevice": "OP5D35L1",
+  "title": "CPH2611_14.0.0.800(EX01)",
+  "description": "New version: CPH2611_14.0.0.800(EX01)<p>A new software update is now available for your Android smartphone.</p>System<p>  • Integrates the May 2024 Android security patch to enhance system security.</p><p>  • Improves system stability.</p><p>  • Optimizes power consumption to extend battery life.</p><p>  • Fixes an issue where the volume from the speaker and Bluetooth earphones might be low.</p><p>  • Fixes an issue that might cause the Home screen wallpaper to flicker after you close an app.</p><p>  • Fixes a display issue where an app icon on the Home screen might move slightly from where it should be after closing the app.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 272,
+  "archiveUrls": []
+}

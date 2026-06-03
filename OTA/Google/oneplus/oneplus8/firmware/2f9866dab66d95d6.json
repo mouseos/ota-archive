@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/OnePlus8/OnePlus8:12/RKQ1.211119.001/Q.202207300316:user/release-keys",
+  "preBuild": "OnePlus/OnePlus8/OnePlus8:12/RKQ1.211119.001/Q.202206110134:user/release-keys",
   "postBuild": "OnePlus/OnePlus8/OnePlus8:12/RKQ1.211119.001/Q.202210281839:user/release-keys",
   "postTimestamp": 1665743100,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a651934dd80662c63d2e38722a96ddc5ae11d952.zip",
-  "sizeBytes": 877198597,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6e713406c2b6643dc8bc733f0d78189c843a1ae7.zip",
+  "sizeBytes": 1149162587,
   "securityPatch": "2022-10-05",
   "sdk": "31",
   "device": "OnePlus8",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 811,
+  "sourceId": 303,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-oneplus8/a651934dd80662c63d2e38722a96ddc5ae11d952.zip"
   ]

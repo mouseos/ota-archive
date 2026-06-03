@@ -1,0 +1,25 @@
+{
+  "preBuild": "lge/winglm/winglm:12/SKQ1.211103.001/22221151394d9:user/release-keys",
+  "postBuild": "lge/winglm/winglm:12/SKQ1.211103.001/222861713fda7:user/release-keys",
+  "postTimestamp": 1665648661,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/dfb1066d1ad6fceeca51b8e8fac38feed24dde48.zip",
+  "sizeBytes": 71265673,
+  "securityPatch": "2022-10-01",
+  "sdk": "31",
+  "device": "winglm",
+  "checkinDevice": "winglm",
+  "title": "Android System Update",
+  "description": "<p>At T-Mobile, our customer's privacy and security is incredibly important. We pride ourselves on making sure your mobile experience is safe and secure. It is strongly recommended that you install this security patch to protect your device. \n<br> <br>\nIf you choose not to do so now, the update will take place AUTOMATICALLY between midnight and 3AM starting November 8th, 2022. \n<br> <br> \nThis will not consume your data. \n <br> <br>\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1.\n</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

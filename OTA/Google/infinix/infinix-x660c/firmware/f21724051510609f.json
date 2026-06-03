@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X660C-OP/Infinix-X660C:10/QP1A.190711.020/CF-OP-210831V426:user/release-keys",
+  "postBuild": "Infinix/X660C-OP/Infinix-X660C:10/QP1A.190711.020/CF-OP-211028V428:user/release-keys",
+  "postTimestamp": 1635412579,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/26e41fe53e6969b978ea3100ce75fe9ed3d2f7ba.zip",
+  "sizeBytes": 225491561,
+  "securityPatch": "2021-11-05",
+  "sdk": "29",
+  "device": "Infinix-X660C",
+  "checkinDevice": "Infinix-X660C",
+  "title": "X660C-H653CF-Q-OP-210831V426-211028V428_20211103164819",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X660C-H653CF-Q-OP-211028V428 <br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Nov. 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1658,
+  "archiveUrls": []
+}

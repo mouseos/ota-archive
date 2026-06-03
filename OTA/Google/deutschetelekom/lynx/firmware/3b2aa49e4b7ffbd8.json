@@ -1,0 +1,29 @@
+{
+  "preBuild": "DeutscheTelekom/Lynx_EEA/Lynx:15/AQ3A.240912.001/531AA1_V034:user/release-keys",
+  "postBuild": "DeutscheTelekom/Lynx_EEA/Lynx:16/BQ2A.250925.001/531AA1_W_V021:user/release-keys",
+  "postTimestamp": 1778683156,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/31cc7c3007188db3fb14da7028b5df40bf29e392.zip",
+  "sizeBytes": 2679772644,
+  "securityPatch": "2026-05-05",
+  "sdk": "36",
+  "device": "Lynx",
+  "checkinDevice": "Lynx",
+  "title": "System update: new update available.",
+  "description": "Update will take up to 30 minutes.<br>\nName of new SW version: Lynx_1.20.01<br>\nAndroid security patch level: 5. May 2026<br>\n<br>\nMain changes:<br>\n<li>&nbsp;Security update\n<li>&nbsp;Device improvements with minor bug fixes",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

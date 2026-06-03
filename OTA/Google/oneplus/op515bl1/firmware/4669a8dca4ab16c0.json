@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/DN2101IND/OP515BL1:12/SP1A.210812.016/R.202209241727:user/release-keys",
+  "postTimestamp": 1662732345,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/188619e1025c0657ca8407412c8a1ca826f0a44d.zip",
+  "sizeBytes": 4697719659,
+  "securityPatch": "2022-09-05",
+  "sdk": "31",
+  "device": "OP515BL1",
+  "checkinDevice": "OP515BL1",
+  "title": "DN2101_11.C.10_1100_202209250221",
+  "description": "<p><strong>System</strong></p>\n\n<p>• Newly added Smart Battery Engine, a feature that prolongs battery life based on smart algorithms and biomimetic self-restoration technology</p>\n\n<p>• Optimized AI System Booster to 2.1 for your system to run smoothly even when the load is high</p>\n\n<p>•<strong> </strong>Optimized desktop icons with improved textures, by using a design inspired by brand-new materials and uniting lights and layers</p>\n\n<p>• Optimized Extra HD, a feature that can significantly enhance image and video resolutions</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Dark mode</strong></p>\n\n<p><strong>·</strong> Dark mode now supports three adjustable levels, bringing a more personalized and comfortable user experience</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Shelf</strong></p>\n\n<p><strong>·</strong> New additional style options for Cards, making data contents more visual and easier to read</p>\n\n<p><strong>· </strong>Newly added access to OnePlus Scout in Shelf, allowing you to search multiple contents on your phone, including Apps, Settings, Media Data, etc</p>\n\n<p><strong>·</strong> Newly added OnePlus Watch Card in Shelf, to easily glance at your health status</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Work Life Balance</strong></p>\n\n<p><strong>·</strong> Work Life Balance feature is now available to all users, allowing you to effortlessly switch between Work and Life mode via quick settings</p>\n\n<p><strong>·</strong> WLB 2.0 now supports automatic Work/Life mode switching, based on specific locations, Wi-Fi network, and time, also bringing customized App notification profiles according to the personalization</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Gallery</strong></p>\n\n<p><strong>·</strong> Gallery now allows you to switch between different layouts with a two-finger pinch gesture, intelligently recognizing the best-quality pictures, and cropping the thumbnail based on the content, making the gallery layout more pleasing</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Canvas AOD</strong></p>\n\n<p><strong>·</strong> Canvas AOD brings you new diverse styles of lines and colors, for a more personalized lock screen experience with inspiring visuals</p>\n\n<p><strong>·</strong> Optimized software algorithm and improved face recognition to better identify the features and skin color of different figures</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Games</strong></p>\n\n<p><strong>·</strong> Newly added the HyperBoost end-to-end frame rate stabilizer</p>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "my_engineering",
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 273,
+  "archiveUrls": []
+}

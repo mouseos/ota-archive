@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X671B-GL/Infinix-X671B:13/TP1A.220624.014/230712V312:user/release-keys",
+  "postTimestamp": 1689175704,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/935f84ec472660d79224db5c9fd3a30fbdaf9516.zip",
+  "sizeBytes": 4722115148,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "Infinix-X671B",
+  "checkinDevice": "Infinix-X671B",
+  "title": "Tcard_X671B-H331EF-T-GL-230712V312",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X671B-H331EF-T-GL-230712V312<br>\n\nOptimized Issues:<br>\n1. Upgraded Android version from Android 12 to Android 13.<br>\n2. Upgraded XOS from XOS 10.6 to XOS 13.<br>\n3. Upgraded/added some features to improve the overall experience, including but not limited to 5G Preferred, Mobile Cloner, Lightning Multi-Window 4.0, Multiple Users, PC Connection, Notepad, and Smart Panel.<br>\n\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XCLUB (Geekbar) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1539,
+  "archiveUrls": []
+}

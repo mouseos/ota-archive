@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X657B-OP/Infinix-X657B:10/QP1A.190711.020/DFJ-OP-220215V417:user/release-keys",
+  "postBuild": "Infinix/X657B-OP/Infinix-X657B:10/QP1A.190711.020/DFJ-OP-220406V422:user/release-keys",
+  "postTimestamp": 1649235133,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e2ab0f07495cf1f7ff8ad072d09c4e6745513208.zip",
+  "sizeBytes": 88719459,
+  "securityPatch": "2022-04-05",
+  "sdk": "29",
+  "device": "Infinix-X657B",
+  "checkinDevice": "Infinix-X657B",
+  "title": "X657B-H6117DFJ-QGo-OP-220215V417-220406V422_20220407112418",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X657B-H6117DFJ-QGo-OP-220406V422<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Apr.5, 2022. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1653,
+  "archiveUrls": []
+}

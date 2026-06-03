@@ -1,0 +1,21 @@
+{
+  "preBuild": "lge/tf10_lao_com/tf10:9/PKQ1.190522.001/212141424ad50:user/release-keys",
+  "postBuild": "lge/tf10_lao_com/tf10:9/PKQ1.190522.001/212791134e4b1:user/release-keys",
+  "postTimestamp": 1633487660,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/1514cbae469703789528435935b473040abd60a7.zip",
+  "sizeBytes": 135275001,
+  "securityPatch": "2021-10-01",
+  "sdk": "28",
+  "device": "tf10",
+  "checkinDevice": "tf10",
+  "title": "Android System Update",
+  "description": "<p>T-Mobile is pleased to provide a new, free software update for your Android Smartphone.\n  <br><br>\n\nThis release includes various bug fixes, security and system improvements.\n  <br><br>\n\nIf you choose not to do so now, the update will take place AUTOMATICALLY between midnight and 3AM starting October 31th, 2021.\n  <br><br>\n\nThis will not consume your data.\n  <br><br>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1.\n</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

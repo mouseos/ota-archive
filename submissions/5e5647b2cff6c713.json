@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota/nextbit_ether_ether/fc5d57f9198f66e5321df2c84f873bc9b10d29c0.zip",
-  "fingerprint": "Nextbit/ether/ether:6.0.1/MMB29M/00WW_1_350:user/release-keys",
-  "manufacturer": "",
-  "brand": "nextbit",
-  "model": "ether",
-  "title": "Nextbit System Update October 2016",
-  "description": "This software update will improve the overall performance and security of your Nextbit Robin. This update contains the Android security patches through September 1 2016.\n<br>\nDownloading updates over a mobile network or while roaming may cause additional charges."
-}

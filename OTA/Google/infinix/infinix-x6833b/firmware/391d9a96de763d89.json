@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/241023V876:user/release-keys",
+  "postBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/241112V883:user/release-keys",
+  "postTimestamp": 1731386713,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fa00f26e13fe7d0624d354311b172fafefd88305.zip",
+  "sizeBytes": 136431680,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "X6833B-H894FH-U-RU-241023V876-241112V883_20241112200045",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br>X6833B-H894FH-U-RU-241112V883<br><br>Устраненная проблема:<br>1. Исправлена проблема неправильного отображения кнопки «Xunyou Game Turbo» в «Game Assistant».<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (https://www.infinix.club).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1680,
+  "archiveUrls": []
+}

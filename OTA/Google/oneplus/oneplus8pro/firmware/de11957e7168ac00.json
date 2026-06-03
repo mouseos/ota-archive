@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8Pro_IND/OnePlus8Pro:12/SKQ1.210216.001/Q.202202221844:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8Pro_IND/OnePlus8Pro:12/SKQ1.210216.001/Q.202204272107:user/release-keys",
+  "postTimestamp": 1651065217,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8c8e52a5b0c385bd808d7509f888a48c2664eb87.zip",
+  "sizeBytes": 851839709,
+  "securityPatch": "2022-03-05",
+  "sdk": "31",
+  "device": "OnePlus8Pro",
+  "checkinDevice": "OnePlus8Pro",
+  "title": "IN2021_11.C.17_1170_202204272227",
+  "description": "New version: IN2021_11.C.17_1170_202204272227\n\n<p>An OxygenOS update is available. This update optimizes the stability of sending and receiving messages to make the system smoother and more stable. </p>\n\nSystem\n<p>[Optimized] the stability of sending and receiving messages </p>\n<p> [Improved] system stability</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 308,
+  "archiveUrls": []
+}

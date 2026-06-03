@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/240911V845:user/release-keys",
+  "postBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/241023V876:user/release-keys",
+  "postTimestamp": 1729655399,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7d962fd2af0573e581dc6f515dce4b6a3c553810.zip",
+  "sizeBytes": 236643936,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "X6833B-H894FH-U-RU-240911V845-241023V876_20241023150901",
+  "description": "Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\n<br>\nВерсия обновления:<br>\nX6833B-H894FH-U-RU-241023V876\n<br>\n<br>\nИзменён функционал:<br>\n 1. Обновлен патч безопасности Google от 5 октября 2024 года.<br>\n<br>\nУстраненная проблема:<br>\n1. Исправлена маловероятная проблема, из-за которой настройки цвета не вступали в силу.<br>\n<br>\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (https://www.infinix.club).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1675,
+  "archiveUrls": []
+}

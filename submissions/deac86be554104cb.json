@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/28bf5edb355009124b103206ca424e5f9294279f.zip",
-  "fingerprint": "DeutscheTelekom/Lion/Lion:14/UP1A.231005.007/215AA1_U_V011:user/release-keys",
-  "manufacturer": "",
-  "brand": "deutschetelekom",
-  "model": "lion",
-  "title": "System update: new update available.",
-  "description": "Update will take up to 30 minutes.<br>\nName of new SW version: Lion_2.37.01<br>\nAndroid security patch level: 5. March 2026<br>\n<br>\nMain changes:<br>\n<li>&nbsp;Security update"
-}

@@ -1,0 +1,21 @@
+{
+  "preBuild": "essential/mata/mata:10/QP1A.190711.107/405:user/release-keys",
+  "postBuild": "essential/mata/mata:9/PQ1A.190105.112/550:user/release-keys",
+  "postTimestamp": 1564191818,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/essential_mata_mata/361702f6b904a14d951779768fcc6a896d26bd79.zip",
+  "sizeBytes": 1154446146,
+  "securityPatch": "2019-08-05",
+  "sdk": "28",
+  "device": "mata",
+  "checkinDevice": "mata",
+  "title": "",
+  "description": "",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

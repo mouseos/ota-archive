@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/GN2200/OP515AL1:11/RKQ1.211119.001/1646390532809:user/release-keys",
+  "postBuild": "OnePlus/GN2200/OP515AL1:11/RKQ1.211119.001/1665653260221:user/release-keys",
+  "postTimestamp": 1665653260,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/72b41afdf2a5d30ab0fccbdfe4be9fc1b93b031b.zip",
+  "sizeBytes": 314567658,
+  "securityPatch": "2022-10-05",
+  "sdk": "30",
+  "device": "OP515AL1",
+  "checkinDevice": "OP515AL1",
+  "title": "GN2200_11_A.08 is available",
+  "description": "Description: New version: GN2200_11_A.08 \n<p>A new software update is available for your Android Smartphone.</p> \nThis release includes the following: \n<p>Android security patch upgraded to October, 2022</p>\n \nIf you choose not to do so now, the update will take place AUTOMATICALLY between 2:00AM and 6AM starting October 30, 2022.  \nData rates may apply. \nPlease do not turn off your device while the update is installing. \nDuring Installation you cannot use your device at all, even to dial 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 276,
+  "archiveUrls": []
+}

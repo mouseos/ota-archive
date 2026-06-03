@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/NE2215/OP516FL1:13/SKQ1.221119.001/S.13cee80_3_1:user/release-keys",
+  "postTimestamp": 1697031492,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ab367b787205bffdd6057f35723bc2e2371467c2.zip",
+  "sizeBytes": 5606791136,
+  "securityPatch": "2023-10-05",
+  "sdk": "33",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2215_13.1.0.597(EX01)is available",
+  "description": "New version: NE2215_13.1.0.597(EX01)<p>This update improves system security.</p>System<p>• Integrates the October 2023 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 286,
+  "archiveUrls": []
+}

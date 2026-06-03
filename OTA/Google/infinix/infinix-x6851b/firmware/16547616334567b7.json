@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6851B-OP/Infinix-X6851B:15/AP3A.240905.015.A2/127016:user/release-keys",
+  "postBuild": "Infinix/X6851B-OP/Infinix-X6851B:15/AP3A.240905.015.A2/130004:user/release-keys",
+  "postTimestamp": 1750238017,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4a08b3a528455e4a9e7db5012354f1d3d2d7a7c6.zip",
+  "sizeBytes": 148383089,
+  "securityPatch": "2025-05-05",
+  "sdk": "35",
+  "device": "Infinix-X6851B",
+  "checkinDevice": "Infinix-X6851B",
+  "title": "X6851B-15.0.3.127SP03-OP001PF001AZ-15.0.3.130SP01-OP001PF001AZ_20250618204653",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>X6851B-15.0.3.130SP01(OP001PF001AZ)<br>\n<br>\nFixed Issues:<br>\n1. Optimized Tilt Controls in Game Mode.<br>\n2. Improved the system stability and running smoothness.<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1813,
+  "archiveUrls": []
+}

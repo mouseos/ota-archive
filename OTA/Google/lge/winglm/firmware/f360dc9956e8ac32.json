@@ -1,0 +1,25 @@
+{
+  "preBuild": "lge/winglm/winglm:11/RKQ1.210420.001/221591334ef56:user/release-keys",
+  "postBuild": "lge/winglm/winglm:12/SKQ1.211103.001/22221151394d9:user/release-keys",
+  "postTimestamp": 1660025456,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/37326c8ae5ea2fbf7fda33e6da3dc4c8c06e181c.zip",
+  "sizeBytes": 1093617588,
+  "securityPatch": "2022-08-01",
+  "sdk": "31",
+  "device": "winglm",
+  "checkinDevice": "winglm",
+  "title": "Android System Update",
+  "description": "<p>T-Mobile is pleased to provide a new, free software update for your Android Smartphone. <br><br> This release includes various bug fixes, security and system improvements. <br><br> If you choose not to do so now, the update will take place AUTOMATICALLY between midnight and 3AM starting September 18th, 2022. <br><br> This will not consume your data. <br><br> Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1. </p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

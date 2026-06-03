@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3825939d01bd0473e7580fc18d4a4c25e207e10b.zip",
-  "fingerprint": "DeutscheTelekom/Jaguar/Jaguar:14/UP1A.231005.007/317AA1_U_V011:user/release-keys",
-  "manufacturer": "",
-  "brand": "deutschetelekom",
-  "model": "jaguar",
-  "title": "System update: new update available.",
-  "description": "Update will take up to 30 minutes.<br>\nName of new SW version: Jaguar_2.37.01<br>\nAndroid security patch level: 5. March 2026<br>\n<br>\nMain changes:<br>\n<li>&nbsp;Security update"
-}

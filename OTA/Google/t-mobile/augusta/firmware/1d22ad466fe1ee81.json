@@ -1,0 +1,24 @@
+{
+  "preBuild": "T-Mobile/Augusta/Augusta:12/SP1A.210812.016/SW_S98121AA1_V066:user/release-keys",
+  "postBuild": "T-Mobile/Augusta/Augusta:13/TP1A.220624.014/SW_S98121AA1_T_V045:user/release-keys",
+  "postTimestamp": 1725867546,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b0356c29a9c6f843d97829a6a8ab8a8831bb4ae3.zip",
+  "sizeBytes": 2242524422,
+  "securityPatch": "2024-09-05",
+  "sdk": "33",
+  "device": "Augusta",
+  "checkinDevice": "Augusta",
+  "title": "Carrier Update Service. New update available",
+  "description": "Congratulations! A new software update is available for your device. Update will take approximately 10 minutes. You will not be able to use the device during this time, including the ability to call or text to 9-1-1. To begin install, select Update",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

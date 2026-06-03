@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/240703V807:user/release-keys",
+  "postBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/240911V845:user/release-keys",
+  "postTimestamp": 1726025748,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7cf74cc4f9b2f41ebad32a2f909f6ff2e95ff817.zip",
+  "sizeBytes": 321089746,
+  "securityPatch": "2024-08-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "X6833B-H894FH-U-RU-240703V807-240911V845_20240911170225",
+  "description": "Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\n<br>\n\nВерсия обновления:<br>\nX6833B-H894FH-U-RU-240911V845<br>\n<br>\n\nИзменён функционал:<br>\nОбновлен патч безопасности Google от 5 августа 2024 года.<br>\n<br>\n\nИсправлены проблемы:<br>\n1. Оптимизировано отображение содержания уведомлений на экране блокировки.<br>\n2. Оптимизированы периодические проблемы со стабильностью системы.<br>\n<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (https://www.infinix.club).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1671,
+  "archiveUrls": []
+}

@@ -1,0 +1,25 @@
+{
+  "preBuild": "lge/winglm/winglm:12/SKQ1.211103.001/222861713fda7:user/release-keys",
+  "postBuild": "lge/winglm/winglm:13/TKQ1.220829.002/2311717224ac7:user/release-keys",
+  "postTimestamp": 1682583603,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/1c91c22173ce2d408a6e63576ed0713abeb6641d.zip",
+  "sizeBytes": 1134077621,
+  "securityPatch": "2023-04-01",
+  "sdk": "33",
+  "device": "winglm",
+  "checkinDevice": "winglm",
+  "title": "Android System Update",
+  "description": "<p>At T-Mobile, our customer's privacy and security is incredibly important. We pride ourselves on making sure your mobile experience is safe and secure. It is strongly recommended that you install this security patch to protect your device. <br> <br> If you choose not to do so now, the update will take place AUTOMATICALLY between midnight and 3AM starting June 16th, 2023. <br> <br> This will not consume your data. <br> <br> Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1. </p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

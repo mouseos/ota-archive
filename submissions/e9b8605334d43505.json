@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota/tmus_us_lge_w7/f7e791f923c8187731aabc98e1350dd595e13ad2.zip",
-  "fingerprint": "lge/w7_tmo_us/w7:4.4.2/KOT49I.D41510e/D41510e.1414556519:user/release-keys",
-  "manufacturer": "",
-  "brand": "lge",
-  "model": "w7",
-  "title": "Android System Update",
-  "description": "T-Mobile is pleased to provide a new, free software update for your Android Smartphone. To install the software, make sure the battery is fully charged, connect to Wi-Fi if prompted to download, and once downloaded select “Restart & Install” at the bottom of this screen. Please do not turn off your device while the update is installing."
-}

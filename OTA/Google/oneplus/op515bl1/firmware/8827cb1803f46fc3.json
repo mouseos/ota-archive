@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/DN2103EEA/OP515BL1:11/RP1A.200720.011/1625348230441:user/release-keys",
+  "preBuild": "OnePlus/DN2103EEA/OP515BL1:11/RP1A.200720.011/1624749034409:user/release-keys",
   "postBuild": "OnePlus/DN2103EEA/OP515BL1:11/RP1A.200720.011/1649864983659:user/release-keys",
   "postTimestamp": 1649865569,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b3da0d0e596465bde592825956714c9c447fe094.zip",
-  "sizeBytes": 999142813,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3e9755e0178937628fc8e7d183e8cc05b75ffff4.zip",
+  "sizeBytes": 999151199,
   "securityPatch": "2022-04-05",
   "sdk": "30",
   "device": "OP515BL1",
@@ -25,7 +25,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1293,
+  "sourceId": 274,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op515bl1/b3da0d0e596465bde592825956714c9c447fe094.zip"
   ]

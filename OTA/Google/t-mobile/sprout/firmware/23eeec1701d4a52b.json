@@ -1,0 +1,25 @@
+{
+  "preBuild": "T-Mobile/Sprout/Sprout:11/RP1A.200720.011/SW_S98115AA1_V060:user/release-keys",
+  "postBuild": "T-Mobile/Sprout/Sprout:12/SP1A.210812.016/SW_S98115AA1_S_V110:user/release-keys",
+  "postTimestamp": 1683279890,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6f8f906e17383fe48dd06edceecc4f1f1e81d6dd.zip",
+  "sizeBytes": 1966193201,
+  "securityPatch": "2023-04-05",
+  "sdk": "31",
+  "device": "Sprout",
+  "checkinDevice": "Sprout",
+  "title": "Carrier Update Service. New update available",
+  "description": "Congratulations! A new software update is available for your device. To begin install, select Update",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "Infinix/X671B-GL/Infinix-X671B:13/TP1A.220624.014/240111V525:user/release-keys",
+  "postBuild": "Infinix/X671B-GL/Infinix-X671B:13/TP1A.220624.014/240326V643:user/release-keys",
+  "postTimestamp": 1711442124,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8896b5a6e567ee12c1894023c138dfb7915926ef.zip",
+  "sizeBytes": 177899258,
+  "securityPatch": "2024-03-05",
+  "sdk": "33",
+  "device": "Infinix-X671B",
+  "checkinDevice": "Infinix-X671B",
+  "title": "X671B-H331EF-T-GL-240111V525-240326V643_20240326174416",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X671B-H331EF-T-GL-240326V643<br>\n\nOptimized Issues:<br>\n1. Updated Google Security Patch to March.<br>\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (Geekbar) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1668,
+  "archiveUrls": []
+}

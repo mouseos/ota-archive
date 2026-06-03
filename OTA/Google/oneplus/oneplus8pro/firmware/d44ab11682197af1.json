@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus8Pro_EEA/OnePlus8Pro:12/SKQ1.210216.001/Q.GDPR.202204021758:user/release-keys",
+  "postBuild": "OnePlus/OnePlus8Pro_EEA/OnePlus8Pro:12/RKQ1.211119.001/Q.GDPR.202205172254:user/release-keys",
+  "postTimestamp": 1652798406,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ebd90252a4b05bb9bb840dcf887652c5bbd41b8c.zip",
+  "sizeBytes": 1162184745,
+  "securityPatch": "2022-05-05",
+  "sdk": "31",
+  "device": "OnePlus8Pro",
+  "checkinDevice": "OnePlus8Pro",
+  "title": "IN2023_11.C.20_1200_202205172359",
+  "description": "New version: IN2023_11.C.20_1200_202205172359\n\nSystem\n<p> [Improved] system stability</p>\n<p>[Updated] Android security patch to 2022.05</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 306,
+  "archiveUrls": []
+}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/IV2201_IND/OP555BL1:12/SP1A.210812.016/R.202209011617:user/release-keys",
+  "postTimestamp": 1662108125,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5f039aec904675438b218282888caabcef0dddd2.zip",
+  "sizeBytes": 4698449783,
+  "securityPatch": "2022-09-05",
+  "sdk": "31",
+  "device": "OP555BL1",
+  "checkinDevice": "OP555BL1",
+  "title": "IV2201_11.C.07_1070_202209081839",
+  "description": "<p>This update adds many new features, and optimizes the system design and performance.&nbsp;</p> <p><br> System<br> • Optimized desktop icons with improved textures, by using a design inspired by brand-new materials and uniting lights and layers<br> • Optimized AI System Booster to 2.1 to support the system to run smoothly even when the load is high<br> • Optimized software algorithm and improved face recognition to better identify the features and skin color of different figures<br> Dark mode<br> • Newly added three adjustable levels, bringing a more personalized and comfortable user experience<br> Shelf<br> • Newly added style options for Cards, making data contents more visual and easier to read<br> • Newly added access to OnePlus Scout in Shelf, allowing you to search multiple contents on your phone, including Apps, Settings, Media Data, etc<br> • Newly added OnePlus Watch Card in Shelf, to easily glance at your health status<br> Work Life Balance<br> • Newly added Work Life Balance feature, allowing you to effortlessly switch between Work and Life mode via quick settings<br> • Newly supported automatic Work/Life mode switching, based on specific locations, Wi-Fi network, and time, also bringing customized App notification profiles according to the personalization<br> Gallery<br> • Newly supported switching between different layouts with a two-finger pinch gesture, intelligently recognizing the best-quality pictures, and cropping the thumbnail based on the content, making the gallery layout more pleasing<br> Canvas AOD<br> • Newly added diverse styles of lines and colors, for a more personalized lock screen experience with inspiring visuals<br> • Newly added multiple brushes and strokes and support for color adjustment</p>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "my_engineering",
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 279,
+  "archiveUrls": []
+}

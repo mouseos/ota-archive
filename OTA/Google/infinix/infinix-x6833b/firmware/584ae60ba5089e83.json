@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/241210V900:user/release-keys",
+  "postBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/250217V909:user/release-keys",
+  "postTimestamp": 1739802538,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6b004356c3fab9379bafd7d654d484d578282452.zip",
+  "sizeBytes": 230116512,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "X6833B-H894FH-U-RU-241210V900-250217V909_20250228144548",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br>X6833B-H894FH-U-RU-250217V909<br><br>Изменён функционал:<br> 1. Обновлен патч безопасности Google от 5 февраля 2025 года.<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (https://www.infinix.club).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1689,
+  "archiveUrls": []
+}

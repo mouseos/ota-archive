@@ -1,0 +1,24 @@
+{
+  "preBuild": "lge/phoenix_lgu_kr/phoenix_sprout:11/RKQ1.201123.002/22005163197a5:user/release-keys",
+  "postBuild": "lge/phoenix_lgu_kr/phoenix_sprout:11/RKQ1.201123.002/8998110220201:user/release-keys",
+  "postTimestamp": 1642724895,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/2ec97727a9044802e42c904dc09173116236b9a0.zip",
+  "sizeBytes": 22120935,
+  "securityPatch": "2022-02-01",
+  "sdk": "30",
+  "device": "phoenix_sprout",
+  "checkinDevice": "phoenix_sprout",
+  "title": "Android System Update",
+  "description": "Android OS Upgrade. Usability improvements through Google patch.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/NE2217/OP516FL1:14/UKQ1.230924.001/S.15a2c47-5aee-1:user/release-keys",
+  "postBuild": "OnePlus/NE2217/OP516FL1:14/UKQ1.230924.001/S.1870727-1-98a8b:user/release-keys",
+  "postTimestamp": 1717735909,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6d3a955d3c53871d534e33c6fd1e742e33aced21.zip",
+  "sizeBytes": 1608003724,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2217_14.0.0.710(EX01) is available",
+  "description": "New Version Available: NE2217_14.0.0.710(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-06-05.</p> Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on June 29th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 290,
+  "archiveUrls": []
+}

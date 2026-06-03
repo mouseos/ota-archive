@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/NE2215/OP516FL1:13/SKQ1.221119.001/S.13cee80_3_1:user/release-keys",
+  "postBuild": "OnePlus/NE2215/OP516FL1:14/UKQ1.230924.001/S.173e81e-152ed-152ee:user/release-keys",
+  "postTimestamp": 1711446087,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/186bce4b0be22086e6ea4288486c68c058751da8.zip",
+  "sizeBytes": 2891126667,
+  "securityPatch": "2024-03-05",
+  "sdk": "34",
+  "device": "OP516FL1",
+  "checkinDevice": "OP516FL1",
+  "title": "NE2215_14.0.0.600(EX01)  is available",
+  "description": "New version: NE2215_14.0.0.600(EX01) System<p> • You can now press and hold the Volume Down button to turn the torch on when the screen is off.</p><p> • Adds a \"Partial screenshot\" option in the Smart Sidebar.</p><p> • You can now create photo collages without frames in Photos.</p><p> • You can now try out the \"app-specific volume\" feature to adjust the volume for individual apps based on your needs.</p><p> • You can now use fingerprint unlock without waking up the screen.</p><p> • Improves system performance and stability.</p><p> • Integrates the March 2024 Android security patch to enhance system security.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 287,
+  "archiveUrls": []
+}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/241022V872:user/release-keys",
+  "postBuild": "Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/241210V898:user/release-keys",
+  "postTimestamp": 1733773855,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/042b664db378592852664e4a4959d56e332c9f55.zip",
+  "sizeBytes": 645037790,
+  "securityPatch": "2024-12-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "X6833B-H894DEFGHI-U-GL-241022V872-241210V898_20241211094632",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6833B-H894DEFGHI-U-GL-241210V898<br><br>Changed Functions:<br>1. Updated Google Security Patch to December 5, 2024.<br>2. Updated Google Play System Update (GPSU) to September 1, 2024.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1670,
+  "archiveUrls": []
+}

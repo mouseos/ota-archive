@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.17c0d76-186ae-315a9:user/release-keys",
+  "preBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.1607727_9779-2:user/release-keys",
   "postBuild": "OnePlus/CPH2611/OP5D35L1:14/TP1A.220905.001/U.R4T3.1983170-881c_62e:user/release-keys",
   "postTimestamp": 1723606107,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/15d5989620467d6831ddf1da4d7f411f8abb622e.zip",
-  "sizeBytes": 1989588005,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5cf2220102ef0c391e0854bb5e9f5da42f57b24c.zip",
+  "sizeBytes": 2445507942,
   "securityPatch": "2024-08-05",
   "sdk": "34",
   "device": "OP5D35L1",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1102,
+  "sourceId": 271,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op5d35l1/15d5989620467d6831ddf1da4d7f411f8abb622e.zip"
   ]

@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/474b91035e2476794bfcc362e536b0e833b55b9d.zip",
-  "fingerprint": "lge/mdh50lm/mdh50lm:10/QKQ1.200216.002/223130451a1fb:user/release-keys",
-  "manufacturer": "",
-  "brand": "lge",
-  "model": "mdh50lm",
-  "title": "Android System Update",
-  "description": "<p>You can now download the latest software update for improved performance, security updates, and other enhancements. Please ensure your battery is fully charged before continuing. </p> <p> This update will require that your phone be rebooted and it will not be available for emergency calls while installing the software</p>"
-}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X6851B-OP/Infinix-X6851B:15/AP3A.240905.015.A2/127016:user/release-keys",
+  "postTimestamp": 1749121115,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a6bf80ab83f633131550392f4c11991a1a359af5.zip",
+  "sizeBytes": 8068119820,
+  "securityPatch": "2025-05-05",
+  "sdk": "35",
+  "device": "Infinix-X6851B",
+  "checkinDevice": "Infinix-X6851B",
+  "title": "Tcard_X6851B-15.0.3.127SP03-OP001PF001AZ",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6851B-15.0.3.127SP03(OP001PF001AZ)<br><br>Changed Functions:<br>1. Upgrade from Android 14 to Android 15 for enhanced security, more features, and a better user experience.<br>2. Upgraded from XOS14.0.0 to XOS15.0.3 for a smarter user interface and a refreshed look for your device.<br>3. Added batch processing for apps in the Edit mode, enabling users to uninstall apps or create folders in batch, enhancing app management efficiency.<br>4. Added options to resize certain app icons and folders to 1x2, 2x1, or 2x2 via long press and drag, enhancing home screen icon personalization.<br>5. Added privacy protection for lock screen notifications, showing content only after face unlock. Introduced Adaptative to Notifications that automatically reduces sound volume for high-frequency notifications over short periods.<br>6. Optimized AOD activation method by removing the Raise to Wake option and retaining Tap to Wake option to extend battery life.<br>7. Added music cards to improve the interaction experience.<br>8. Added the TransSans font for a more comfortable reading experience.<br>9. Added Vogue Portraits wallpapers, using AI to recognize the subject of a wallpaper and match it with artistic backgrounds, enriching personalization.<br>10. Added support of merging duplicate contacts and removing duplicates.<br>11. Added support for Dynamic Bar to display SMS verification codes.<br>12. Added AI-powered pixelation for screenshots to safeguard user privacy by automatically masking sensitive information, improving operational efficiency.<br>13. Added Dual System, two systems on one phone, with data isolation and support for switching between the two. The data of the main and second systems are isolated. Users can set different fingerprints and passwords for the main and second systems and switch between the two on the lock screen.<br>14. Added priority scheduling for key tasks to enhance the system running smoothness under high CPU loads.<br>15. Added Instant Transfer for quick transfer across phones and tablets of the same brand when images, videos, and files were shared, without data usage and installation.<br>16. Added a frame ratio of 16:9 for photos to achieve richer composition selections.<br>17. Added AI Ask About Screen for innovative and efficient interactions, with support for more large model features like photo-based problem solving and text-to-image generation.<br>18. Added Circle to Search: Long press the Home or navigation button to quickly search for selected content by circling, tapping, or swiping on the screen.<br>19. Upgraded AskAI to AI Writing: Provided a new cool update animation and interactive UI, and added text generation, rewriting in three styles, summarization, and spelling and grammar check, empowering every text input.<br>20. Added AI Artboard with five image generation styles including Japanese anime, American cartoons, mecha, and gaming, allowing users to save generated images as files.<br><br>Fixed Issues:<br>1. Optimized page layout and smoothness for a more refined display.<br>2. Optimized animations for unlocking the home screen and app launch/exit transitions.<br>3. Optimized screen wake intervals and animation design for notifications, balancing notification timeliness and a smooth visual experience.<br>4. Optimized the memory recycling strategy to boost app loading speed.<br>5. Optimized QR code scanning for higher accuracy and a better user experience.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1812,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus7TProNR/OnePlus7TProNR:12/SKQ1.220303.001/Q.202302251721:user/release-keys",
+  "postBuild": "OnePlus/OnePlus7TProNR/OnePlus7TProNR:12/SKQ1.220303.001/Q.202307311534:user/release-keys",
+  "postTimestamp": 1690776521,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ca27f515b4f39853d41479b12c5aa0d77335cb77.zip",
+  "sizeBytes": 83500411,
+  "securityPatch": "2022-12-05",
+  "sdk": "31",
+  "device": "OnePlus7TProNR",
+  "checkinDevice": "OnePlus7TProNR",
+  "title": "HD1925_11_F.05 is available",
+  "description": "New version: HD1925_11_F.05 \n \n<p>A new software update is now available for your Android smartphone.</p> \nThis release includes the following: \n<p>• General bugs fix. </p> \n \nIf you choose not to update now, the update will be automatically applied between 2AM and 6AM starting on September 20th, 2023.  \nData rates may apply. \nPlease refrain from turning off your device while the update is being installed. \nDuring the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 297,
+  "archiveUrls": []
+}

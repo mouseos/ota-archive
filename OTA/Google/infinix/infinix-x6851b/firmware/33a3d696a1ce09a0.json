@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6851B-OP/Infinix-X6851B:15/AP3A.240905.015.A2/138020:user/release-keys",
+  "postBuild": "Infinix/X6851B-OP/Infinix-X6851B:15/AP3A.240905.015.A2/138025:user/release-keys",
+  "postTimestamp": 1758205254,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ccc17b5a0b4d4db3e5b07e637a638e419f56799f.zip",
+  "sizeBytes": 128827036,
+  "securityPatch": "2025-08-05",
+  "sdk": "35",
+  "device": "Infinix-X6851B",
+  "checkinDevice": "Infinix-X6851B",
+  "title": "X6851B-15.1.0.138SP09-OP001PF001AZ-15.1.0.138SP11-OP001PF001AZ_20250919160100",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6851B-15.1.0.138SP11(OP001PF001AZ)<br><br>Changed Functions:<br>1. Updated Google Security Patch to August 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1815,
+  "archiveUrls": []
+}

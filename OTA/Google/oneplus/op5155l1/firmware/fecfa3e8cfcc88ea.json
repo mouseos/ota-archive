@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/MT2111_IND/OP5155L1:11/RKQ1.210614.002/1641905351162:user/release-keys",
+  "preBuild": "OnePlus/MT2111_IND/OP5155L1:11/RKQ1.210614.002/1639662456301:user/release-keys",
   "postBuild": "OnePlus/MT2111_IND/OP5155L1:11/RKQ1.210614.002/1652622201727:user/release-keys",
   "postTimestamp": 1652622985,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ade2d04c2dbc5369b4549f879682493da5f52140.zip",
-  "sizeBytes": 328040477,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/78699e2f07234855c4df1853f9108553eb8d2e25.zip",
+  "sizeBytes": 384189777,
   "securityPatch": "2022-04-05",
   "sdk": "30",
   "device": "OP5155L1",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 1302,
+  "sourceId": 281,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op5155l1/ade2d04c2dbc5369b4549f879682493da5f52140.zip"
   ]

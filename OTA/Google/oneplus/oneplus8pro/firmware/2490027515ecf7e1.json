@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus8Pro/OnePlus8Pro:13/RKQ1.211119.001/Q.d81a34_19c4c-2:user/release-keys",
+  "postTimestamp": 1673519040,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ea02b6820a3d3dea05462841aa4c9feb59bdb7cb.zip",
+  "sizeBytes": 4758920002,
+  "securityPatch": "2023-01-05",
+  "sdk": "33",
+  "device": "OnePlus8Pro",
+  "checkinDevice": "OnePlus8Pro",
+  "title": "IN2025_11.F.62_2620_202301162204",
+  "description": "New version: IN2025_11.F.62_2620_202301162204\n\n<p>A system update is available. Your system will be upgraded to Android 13. A new design philosophy, Aquamorphic Design, is adopted for this update. Highlights include vibrant theme colors, optimized task management tools, enhanced security and privacy, new Always-On Display styles, and refined visual effects.</p>\n【Aquamorphic Design】\n<p> • Adds Aquamorphic Design theme colors for enhanced visual comfort.</p>\n<p> • Applies the Aquamorphic Design philosophy to animations to make them natural and vivid.</p>\n<p> • Adds Shadow-Reflective Clock, with shadow simulating the orientation of the sun and moon.</p>\n<p> • Upgrades to Quantum Animation Engine 4.0, with a new behavior recognition feature, which recognizes complex gestures and provides optimized interactions.</p>\n<p> • Optimizes UI layers for clearer and neater visual experience.</p>\n<p> •  Applies real-world physical motions to animations to make them look more natural and intuitive.</p>\n<p> • Adapts responsive layouts to accommodate different screen sizes to improve readability.</p>\n<p> • Optimizes the widget design to make information easier and quicker to find.</p>\n<p> • Optimizes fonts for better readability.</p>\n<p> • Optimizes system icons by using the latest color scheme to make the icons easier to recognize.</p>\n<p> • Enriches and optimizes illustrations for features by incorporating multicultural and inclusive elements.</p>\n\n【Efficiency】\n<p> • Adds Meeting Assistant to enhance the meeting connecting and note-taking experience and introduces an option to make notifications more subtle and less distracting.</p>\n<p> • Adds large folders to the Home screen. You can now open an app in an enlarged folder with just one tap and turn pages in the folder with a swipe.</p>\n<p> • Adds media playback control, and optimizes the Quick Settings experience.</p>\n<p> • Adds more markup tools for screenshot editing.</p>\n<p> • Upgrades Doodle in Notes. You can now draw on graphics to take notes more efficiently.</p>\n<p> • Optimizes Shelf. Swiping down on the Home screen will bring up Shelf by default. You can search content online and on your device.</p>\n\n【Seamless interconnection】\n<p> • Optimizes earphone connectivity to deliver a more seamless experience.</p>\n\n【Personalization】\n<p> • Optimizes Bitmoji to offer more Always-On Display animations.</p>\n<p> • Adds Omoji to let you fully express yourself with customized avatars</p>\n<p> • Optimizes Insight Always-On Display, with more personalized Always-On Display settings available.</p>\n<p> • Optimizes Canvas Always-On Display, with more drawing tools and line colors available.</p>\n\n【Security & privacy】\n<p> • Adds an automatic pixelation feature for chat screenshots. The system can identify and automatically pixelate profile pictures and display names in a chat screenshot to protect your privacy.</p>\n<p> • Adds regular clearing of clipboard data for privacy protection.</p>\n<p> • Optimizes Private Safe. The Advanced Encryption Standard (AES) is used to encrypt all files for enhanced security of private files.</p>\n\n【Health & Digital wellbeing】\n<p> • Adds Kid Space, providing screen time limit, ambient light reminders and Eye-protecting display features.</p>\n\n【Gaming experience】\n<p> • Upgrades to HyperBoost GPA 4.0 to stabilize the frame rate and balance the performance and power consumption in key scenarios.</p>\n<p> • Optimizes the pre-launch capabilities of Quick startup to load games faster.</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 311,
+  "archiveUrls": []
+}

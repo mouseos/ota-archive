@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OnePlus8Pro/OnePlus8Pro:12/SKQ1.210216.001/Q.202204222155:user/release-keys",
+  "postTimestamp": 1650635166,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5d6f0d600e1070df29871ef1216e40d746ff6796.zip",
+  "sizeBytes": 4103049789,
+  "securityPatch": "2022-03-05",
+  "sdk": "31",
+  "device": "OnePlus8Pro",
+  "checkinDevice": "OnePlus8Pro",
+  "title": "IN2025_11.C.16_1160_202204222300",
+  "description": "New version: IN2025_11.C.16_1160_202204222300\n\nSystem\n<p>•Optimized desktop icons with improved textures, by using a design inspired by brand-new materials and uniting lights and layers</p>\n<p>•Fixed the issue that background applications are abnormally closed in specific scenarios</p>\n<p>•Fixed the issue with lens permissions when using third party camera applications</p>\n<p>•Fixed the issue of screen cannot respond when receiving notifications</p>\n\nDark mode\n<p>•Dark mode now supports three adjustable levels, bringing a more personalized and comfortable user experience</p>\n\nShelf\n<p>•New additional style options for Cards, making data contents more visual and easier to read</p>\n<p>•Newly added Earphone Control Card with Bluetooth earphone one-click adjustment</p>\n<p>•Newly added access to OnePlus Scout in Shelf, allowing you to search multiple contents on your phone, including Apps, Settings, Media Data, etc</p>\n<p>•Newly added OnePlus Watch Card in Shelf, to easily glance at your health stats</p>\n\nWork Life Balance\n<p>•Work Life Balance feature is now available to all users, allowing you to effortlessly switch between Work and Life mode via quick settings</p>\n<p>•WLB 2.0 now supports automatic Work/Life mode switching, based on specific locations, Wi-Fi network, and time, also bringing customized App notification profiles according to the personalization</p>\n\nGallery\n<p>•Gallery now allows you to switch between different layouts with a two-finger pinch gesture, intelligently recognizing the best-quality pictures, and cropping the thumbnail based on the content, making the gallery layout more pleasing</p>\n\nCanvas AOD\n<p>•Canvas AOD brings you new diverse styles of lines and colors, for a more personalized lock screen experience with inspiring visuals</p>\n<p>•Newly added multiple brushes and strokes and support for color adjustment</p>\n<p>•Optimized software algorithm and improved face recognition to better identify the features and skin color of different figures</p>\n\nNetwork\n<p>•Fixed the issue that unable to automatically connect to Wi-Fi</p>\n\nBluetooth\n<p>•Fixed the issue that wireless earphones cannot play sound when connecting Bluetooth in specific scenarios</p>\n\nPlease do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 309,
+  "archiveUrls": []
+}
