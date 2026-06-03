@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7c497e37c903087c1ac8929fea6089b27ad7c0d9.zip",
+  "fingerprint": "DeutscheTelekom/Lynx/Lynx:15/AQ3A.240912.001/531AA1_V034:user/release-keys",
+  "manufacturer": "",
+  "brand": "deutschetelekom",
+  "model": "lynx",
+  "title": "System update: new update available.",
+  "description": "Update will take up to 30 minutes.<br>\nName of new SW version: Lynx_1.20.01<br>\nAndroid security patch level: 5. May 2026<br>\n<br>\nMain changes:<br>\n<li>&nbsp;Security update\n<li>&nbsp;Device improvements with minor bug fixes"
+}
