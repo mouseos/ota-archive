@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c69252512efcefafde4c39870a190d968c1bcfe4.zip",
+  "fingerprint": "DeutscheTelekom/Leopard/Leopard:14/UP1A.231005.007/317CA1_U_V028:user/release-keys",
+  "manufacturer": "",
+  "brand": "deutschetelekom",
+  "model": "leopard",
+  "title": "System update: new update available.",
+  "description": "Update will take up to 30 minutes.<br>\nName of new SW version: Leopard_1.25.01<br>\nAndroid security patch level: 5. September 2025<br>\n<br>\nMain changes:<br>\n<li>&nbsp;Security update\n<li>&nbsp;Device improvements with minor bug fixes"
+}
