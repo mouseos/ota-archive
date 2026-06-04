@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/ryu/dragon:8.1.0/OPM4.171019.021.N1/4805449:user/release-keys",
+  "postBuild": "google/ryu/dragon:8.1.0/OPM4.171019.021.Y1/4903051:user/release-keys",
+  "postTimestamp": 1532047683,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_dragon_ryu/0286f5d07d359310c5739eed66edd6e4503dcab1.zip",
+  "sizeBytes": 23657911,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "dragon",
+  "checkinDevice": "dragon",
+  "title": "Android 8.1.0",
+  "description": "This update fixes critical bugs and improves the performance and stability of your Pixel C. If you download updates over the cellular network or while roaming, additional charges may apply.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 25436160,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1998,
+  "archiveUrls": []
+}

@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/hammerhead/hammerhead:6.0.1/MMB29K/2419427:user/release-keys",
+  "preBuild": "google/hammerhead/hammerhead:5.1.1/LMY48B/1863243:user/release-keys",
   "postBuild": "google/hammerhead/hammerhead:6.0.1/MOB30H/2751534:user/release-keys",
   "postTimestamp": 1460141214,
-  "otaUrl": "https://android.googleapis.com/packages/ota/google_hammerhead/a97e229fc818e3a21215a77b46a8fd5d3d2d2a2e.zip",
-  "sizeBytes": 14333179,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_hammerhead/a4dfa8925b44c9d5a6d3b417267eb16b8935000d.zip",
+  "sizeBytes": 433486046,
   "securityPatch": null,
   "sdk": null,
   "device": "hammerhead",
@@ -19,7 +19,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2090,
+  "sourceId": 1968,
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-hammerhead/a97e229fc818e3a21215a77b46a8fd5d3d2d2a2e.zip"
   ]

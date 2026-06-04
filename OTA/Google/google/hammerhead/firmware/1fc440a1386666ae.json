@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/hammerhead/hammerhead:6.0.1/MOB30Y/3067468:user/release-keys",
+  "postBuild": "google/hammerhead/hammerhead:6.0.1/MOB31E/3142026:user/release-keys",
+  "postTimestamp": 1470967237,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_hammerhead/0045320b7daea9c2ce32f45eb056baca05fbc2d2.zip",
+  "sizeBytes": 12763515,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "hammerhead",
+  "checkinDevice": "hammerhead",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Nexus 5 with the 2016-09 patches.\n\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1970,
+  "archiveUrls": []
+}

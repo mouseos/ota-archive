@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "google/angler/angler:8.0.0/OPR6.170623.019/4299446:user/release-keys",
+  "postTimestamp": 1503681036,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/google_angler_angler/fa6c32666b341b882089fc8e1207f435921723f9.zip",
+  "sizeBytes": 1039515172,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "angler",
+  "checkinDevice": "angler",
+  "title": "Android 8.0 – Smarter, faster, and more powerful than ever",
+  "description": "<strong>Android 8.0 - Oreo\n<br>Smarter, faster, and more powerful than ever.</strong>\n<p>\nThis software update will upgrade your device to Android 8.0 - Oreo. Learn more at android.com/oreo. New features include:\n<p>\n- Smart text selection, instant apps, picture-in-picture \n<br>- Faster startup and app sign-in\n<br>- Google Play Protect security scans\n<p>\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1963,
+  "archiveUrls": []
+}

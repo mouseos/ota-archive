@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "google/caiman/caiman:16/BP4A.260205.002/14624737:user/release-keys",
+  "postTimestamp": 1766294980,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/5c46d4d3ddd2872b35cf858184b66b322b6fa887.zip",
+  "sizeBytes": 3169462053,
+  "securityPatch": "2026-02-05",
+  "sdk": "36",
+  "device": "caiman",
+  "checkinDevice": "caiman",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1871,
+  "archiveUrls": []
+}

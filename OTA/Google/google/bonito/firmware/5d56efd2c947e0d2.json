@@ -1,0 +1,27 @@
+{
+  "preBuild": "google/bonito/bonito:12/SP2A.220505.006/8561491:user/release-keys",
+  "postBuild": "google/bonito/bonito:12/SP2A.220505.008/8782922:user/release-keys",
+  "postTimestamp": 1656526786,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/17582125e56b27550e9a0c2afe3151cad0f0e118.zip",
+  "sizeBytes": 23546528,
+  "securityPatch": "2022-05-05",
+  "sdk": "32",
+  "device": "bonito",
+  "checkinDevice": "bonito",
+  "title": "Android 12",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Additional charges may apply when updates are downloaded over the cellular network or while roaming.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 850,
+  "archiveUrls": []
+}

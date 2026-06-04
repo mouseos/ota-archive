@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/felix/felix:16/BP2A.250605.031.A2/13578606:user/release-keys",
+  "postBuild": "google/felix/felix:16/BP2A.250805.005/13691446:user/release-keys",
+  "postTimestamp": 1750803728,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/69735b8c07bcc8a6c10f22655cb005d32536386e.zip",
+  "sizeBytes": 25413524,
+  "securityPatch": "2025-08-05",
+  "sdk": "36",
+  "device": "felix",
+  "checkinDevice": "felix",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 508,
+  "archiveUrls": []
+}

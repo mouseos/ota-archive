@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/razor/flo:5.1.1/LMY48G/1965118:user/release-keys",
+  "postBuild": "google/razor/flo:5.1.1/LMY48I/2074855:user/release-keys",
+  "postTimestamp": 1436480418,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_razor/74b10cfb55d112878fefd6ab80a2d5fce07069c5.zip",
+  "sizeBytes": 10808625,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "flo",
+  "checkinDevice": "flo",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Nexus 7 to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2006,
+  "archiveUrls": []
+}

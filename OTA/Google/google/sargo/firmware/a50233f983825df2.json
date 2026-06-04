@@ -1,0 +1,27 @@
+{
+  "preBuild": "google/sargo/sargo:12/SQ1A.220105.002/7961164:user/release-keys",
+  "postBuild": "google/sargo/sargo:12/SP2A.220305.012/8177914:user/release-keys",
+  "postTimestamp": 1644646735,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/5fa9c6d9a0177a9efb76c496ceef78a569a6026b.zip",
+  "sizeBytes": 354972505,
+  "securityPatch": "2022-03-05",
+  "sdk": "32",
+  "device": "sargo",
+  "checkinDevice": "sargo",
+  "title": "Android 12",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Additional charges may apply when updates are downloaded over the cellular network or while roaming.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 68,
+  "archiveUrls": []
+}

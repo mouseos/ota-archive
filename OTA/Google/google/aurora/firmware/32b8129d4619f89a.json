@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "google/aurora/aurora:15/BW1A.250605.004/13473004:user/release-keys",
+  "postTimestamp": 1746820441,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/06b9cb3085be576f10ee850462a9b8f547ab29ae.zip",
+  "sizeBytes": 1467744818,
+  "securityPatch": "2025-06-05",
+  "sdk": "35",
+  "device": "aurora",
+  "checkinDevice": "aurora",
+  "title": "System update",
+  "description": "This update includes new features, critical bug fixes and improves the performance and stability of your device. \n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 501,
+  "archiveUrls": []
+}

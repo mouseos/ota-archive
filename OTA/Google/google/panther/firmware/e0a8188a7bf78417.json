@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "google/panther/panther:16/BP2A.250605.031.A2/13578606:user/release-keys",
+  "postTimestamp": 1748635665,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/bb0e55a3b7e90cd5bda20c650c5523a636dcad05.zip",
+  "sizeBytes": 2826515404,
+  "securityPatch": "2025-06-05",
+  "sdk": "36",
+  "device": "panther",
+  "checkinDevice": "panther",
+  "title": "Your Pixel update is ready.",
+  "description": "Your Pixel is getting even better…\n\nThis update includes new Pixel features and the latest from Android 16, making your device even more helpful. Learn more at g.co/pixel/community.<br>\n\n<br><b>What’s new?</b>\n\n- Elevate your closest family and friends from favorites to VIPs with the new Pixel VIPs widget.\n\n<br>- Answer questions that need further exploration with AI Mode on your home screen[1].\n\n<br>- Gemini Live can integrate with the apps you rely on every day, starting with Google Maps, Calendar, Tasks, and Keep.\n\n<br>- Try out improved haptics, button navigation, and back animations.\n\n<br>- Set up more safeguards to keep your device protected.\n\n<br><br><i>[1] Available in select countries in English only.</i><br><br>\n\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 54,
+  "archiveUrls": []
+}

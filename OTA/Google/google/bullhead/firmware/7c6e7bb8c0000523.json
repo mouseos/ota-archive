@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "google/bullhead/bullhead:8.0.0/OPR4.170623.006/4286358:user/release-keys",
+  "postTimestamp": 1503076462,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/google_bullhead_bullhead/be48a0b4a7037db42a6d8ac191a85832dd2c6bf2.zip",
+  "sizeBytes": 1035407007,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "bullhead",
+  "checkinDevice": "bullhead",
+  "title": "Android 8.0 – Smarter, faster, and more powerful than ever",
+  "description": "<strong>Android 8.0 - Oreo\n<br>Smarter, faster, and more powerful than ever.</strong>\n<p>\nThis software update will upgrade your device to Android 8.0 - Oreo. Learn more at android.com/oreo. New features include:\n<p>\n- Smart text selection, instant apps, picture-in-picture \n<br>- Faster startup and app sign-in\n<br>- Google Play Protect security scans\n<p>\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1983,
+  "archiveUrls": []
+}

@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "google/taimen/taimen:11/RP1A.200720.009/6720564:user/release-keys",
+  "postTimestamp": 1596064438,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_taimen_taimen/d984261916e03f8cfa6aae829a92bb445fe1a0ae.zip",
+  "sizeBytes": 1399059194,
+  "securityPatch": "2020-09-05",
+  "sdk": "30",
+  "device": "taimen",
+  "checkinDevice": "taimen",
+  "title": "Android 11: Better messaging & controls",
+  "description": "<b>Introducing Android 11</b>\n<br>Powerful device controls and easier ways to manage conversations and your privacy.\n\n<p>Your device will be updated to Android 11. Learn more at android.com/11.\n\n<p>New features include:\n<br>- Improved device & media controls\n<br>- Manage your conversations in one place\n<br>- Built-in screen recording\n<br>- More privacy controls\n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 73,
+  "archiveUrls": []
+}

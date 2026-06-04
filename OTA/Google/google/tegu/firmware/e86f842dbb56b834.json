@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "google/tegu/tegu:16/BP3A.251005.004.B2/14331693:user/release-keys",
+  "postTimestamp": 1761372467,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/276234c3976e6deb7460f04ff5fb31d873def156.zip",
+  "sizeBytes": 3101063539,
+  "securityPatch": "2025-10-05",
+  "sdk": "36",
+  "device": "tegu",
+  "checkinDevice": "tegu",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. It also includes new Pixel features and the latest from Android 16, making your device even more helpful. Learn more at g.co/pixel/community.<br><br>\n\nYour device will automatically install the update and restart when certain criteria are met.<br><br>\n\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1947,
+  "archiveUrls": []
+}

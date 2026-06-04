@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/angler/angler:8.1.0/OPM6.171019.030.E1/4805388:user/release-keys",
+  "postBuild": "google/angler/angler:8.1.0/OPM6.171019.030.H1/4903069:user/release-keys",
+  "postTimestamp": 1532048378,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_angler_angler/f12bd50c729ed9bba608db48371de675f595b1ad.zip",
+  "sizeBytes": 50393235,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "angler",
+  "checkinDevice": "angler",
+  "title": "Android 8.1.0",
+  "description": "This update fixes critical bugs and improves the performance and stability of your Nexus 6P. If you download updates over the cellular network or while roaming, additional charges may apply.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 13701120,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1979,
+  "archiveUrls": []
+}

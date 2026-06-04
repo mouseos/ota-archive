@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/tangorpro/tangorpro:16/BP2A.250805.005/13691446:user/release-keys",
+  "postBuild": "google/tangorpro/tangorpro:16/BP3A.250905.014.A1/13873969:user/release-keys",
+  "postTimestamp": 1754099252,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/2291e977a38819a9c448f782e5b811e17708d293.zip",
+  "sizeBytes": 774848479,
+  "securityPatch": "2025-09-05",
+  "sdk": "36",
+  "device": "tangorpro",
+  "checkinDevice": "tangorpro",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1599,
+  "archiveUrls": []
+}

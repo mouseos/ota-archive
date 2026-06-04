@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/taimen/taimen:11/RP1A.200720.009/6720564:user/release-keys",
+  "postBuild": "google/taimen/taimen:11/RP1A.201005.004/6782484:user/release-keys",
+  "postTimestamp": 1598037601,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_taimen_taimen/8037db66500a7744313385462f4c375aa7e1f9bc.zip",
+  "sizeBytes": 9166007,
+  "securityPatch": "2020-10-05",
+  "sdk": "30",
+  "device": "taimen",
+  "checkinDevice": "taimen",
+  "title": "Android 11",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Additional charges may apply when updates are downloaded over the cellular network or while roaming.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 516,
+  "archiveUrls": []
+}

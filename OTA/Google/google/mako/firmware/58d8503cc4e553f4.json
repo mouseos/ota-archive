@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/occam/mako:5.1/LMY47O/1783956:user/release-keys",
+  "postBuild": "google/occam/mako:5.1.1/LMY47V/1836172:user/release-keys",
+  "postTimestamp": 1428372492,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_mako/050356b6dd4c940b6842e36d2bd80e320c9a8a97.zip",
+  "sizeBytes": 18940421,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "mako",
+  "checkinDevice": "mako",
+  "title": "Android 5.1.1 System Update",
+  "description": "This software update will upgrade your Nexus 4 to Android 5.1.1, which improves performance and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "radio"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1991,
+  "archiveUrls": []
+}

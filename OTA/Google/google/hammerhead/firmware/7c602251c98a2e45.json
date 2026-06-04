@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/hammerhead/hammerhead:4.4.3/KTU84M/1158763:user/release-keys",
+  "postBuild": "google/hammerhead/hammerhead:4.4.4/KTU84P/1227136:user/release-keys",
+  "postTimestamp": 1402643149,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_hammerhead/c08cce45be6d759d6fd29480f01128b18f7d4a11.zip",
+  "sizeBytes": 2571501,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "hammerhead",
+  "checkinDevice": "hammerhead",
+  "title": "Android 4.4.4 System Update",
+  "description": "This software update will upgrade your Nexus 5 to 4.4.4, which improves performance, security, stability and fixes bugs.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "radio"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1975,
+  "archiveUrls": []
+}

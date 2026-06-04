@@ -1,0 +1,28 @@
+{
+  "preBuild": "google/raven/raven:16/BP2A.250605.031.A2/13578606:user/release-keys",
+  "postBuild": "google/raven/raven:16/BP2A.250605.031.A5/13701493:user/release-keys",
+  "postTimestamp": 1750959819,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/e130ccae3c7733de327f87806924bd9ddec42f1c.zip",
+  "sizeBytes": 6571742,
+  "securityPatch": "2025-08-05",
+  "sdk": "36",
+  "device": "raven",
+  "checkinDevice": "raven",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 58,
+  "archiveUrls": []
+}

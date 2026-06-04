@@ -1,0 +1,31 @@
+{
+  "preBuild": "",
+  "postBuild": "google/kirkwood/kirkwood:14/UTTK.250729.004/14066481:user/release-keys",
+  "postTimestamp": 1757387927,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/21b8ea323862944e3d2c90bc9bdd433122d52f1c.zip",
+  "sizeBytes": 776006073,
+  "securityPatch": "2025-08-01",
+  "sdk": "34",
+  "device": "kirkwood",
+  "checkinDevice": "kirkwood",
+  "title": "UTTK.250729.004",
+  "description": "",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1875,
+  "archiveUrls": []
+}

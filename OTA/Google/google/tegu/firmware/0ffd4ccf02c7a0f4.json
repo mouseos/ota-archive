@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/tegu/tegu:16/CP1A.260305.018/14887507:user/release-keys",
+  "postBuild": "google/tegu/tegu:16/CP1A.260405.005/15001963:user/release-keys",
+  "postTimestamp": 1773127229,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/74e9712a5cfd75816c43770e7d79c6bf0994f9c3.zip",
+  "sizeBytes": 63212759,
+  "securityPatch": "2026-04-05",
+  "sdk": "36",
+  "device": "tegu",
+  "checkinDevice": "tegu",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1949,
+  "archiveUrls": []
+}

@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/sailfish/sailfish:10/QP1A.190711.020/5800535:user/release-keys",
+  "postBuild": "google/sailfish/sailfish:10/QP1A.191005.007.A1/5908163:user/release-keys",
+  "postTimestamp": 1569803324,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_sailfish_sailfish/bd784947e555aece15129789316931d0bdf39ecf.zip",
+  "sizeBytes": 6553964,
+  "securityPatch": "2019-10-06",
+  "sdk": "29",
+  "device": "sailfish",
+  "checkinDevice": "sailfish",
+  "title": "Android 10",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. If you download updates over the cellular network or while roaming, additional charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1598,
+  "archiveUrls": []
+}

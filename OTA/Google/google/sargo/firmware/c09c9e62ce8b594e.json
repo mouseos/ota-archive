@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "google/sargo/sargo:12/SP2A.220505.008/8782922:user/release-keys",
+  "postTimestamp": 1656526244,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/0eababa4e1ca8d9a72930778b8b817e690b32687.zip",
+  "sizeBytes": 1521778558,
+  "securityPatch": "2022-05-05",
+  "sdk": "32",
+  "device": "sargo",
+  "checkinDevice": "sargo",
+  "title": "Get Android 12 now: More personal, safe, and effortless.",
+  "description": "<b>Introducing Android 12</b>\n<br>More personal, safe, and effortless than ever before.\n \n<p>Your device will be updated to Android 12. Learn more at android.com/12.\n \n<p>New features include:\n<br>- Personalized design that adapts to the color of your wallpaper\n<br>- A widget for your most important conversations\n<br>- Scrolling screenshots\n<br>- Status bar indicators that show when your mic or camera are being accessed\n<br>- Quick controls to turn off your mic or camera\n<br>- More privacy controls\n \n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 61,
+  "archiveUrls": []
+}

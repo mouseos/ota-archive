@@ -1,0 +1,27 @@
+{
+  "preBuild": "google/barbet/barbet:14/AP1A.240305.019.A1/11445699:user/release-keys",
+  "postBuild": "google/barbet/barbet:14/AP2A.240605.024/11860263:user/release-keys",
+  "postTimestamp": 1716016307,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/63678e2a0fe8f4dd7a7ec5973eaf87098721c321.zip",
+  "sizeBytes": 612550767,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "barbet",
+  "checkinDevice": "barbet",
+  "title": "Android 14",
+  "description": "<b>Your Pixel is getting even better…</b><br><br> It's receiving this software update as part of the latest Feature Drop, which brings new and upgraded features to your device to make it even more helpful. Learn more at g.co/pixel/community.<br><br> Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 503,
+  "archiveUrls": []
+}

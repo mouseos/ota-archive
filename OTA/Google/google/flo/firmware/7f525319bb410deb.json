@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/razor/flo:6.0.1/MOB30P/2960889:user/release-keys",
+  "preBuild": "google/razor/flo:6.0.1/MOB30J/2775141:user/release-keys",
   "postBuild": "google/razor/flo:6.0.1/MOB30X/3036618:user/release-keys",
   "postTimestamp": 1467839953,
-  "otaUrl": "https://android.googleapis.com/packages/ota/google_razor/48ff7702408a439f7cf4ce617583c161205351bb.zip",
-  "sizeBytes": 25249242,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_razor/1eec218ca759367a210f23b42a9531f9fe83dc3a.zip",
+  "sizeBytes": 25955030,
   "securityPatch": null,
   "sdk": null,
   "device": "flo",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2116,
+  "sourceId": 1982,
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-flo/48ff7702408a439f7cf4ce617583c161205351bb.zip"
   ]

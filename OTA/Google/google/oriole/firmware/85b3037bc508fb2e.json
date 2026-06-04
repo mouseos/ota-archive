@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "google/oriole/oriole:15/BP1A.250305.019/13003188:user/release-keys",
+  "postTimestamp": 1738618835,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/3bdbfc6ee605e25edce75488c37c91ab1c32af4c.zip",
+  "sizeBytes": 2405479635,
+  "securityPatch": "2025-03-05",
+  "sdk": "35",
+  "device": "oriole",
+  "checkinDevice": "oriole",
+  "title": "Get Android 15 now. More productive, protective, and intuitive.",
+  "description": "<b>Hello, Android 15</b> <br>Your devices, made to work for you. <p>Your device will update to Android 15. Learn more at android.com/15. <p>New features include: <br>- Private space allows you to keep sensitive apps and data out of sight <br>- Theft protection locks down your device when stolen <br>- Better multitasking on tablets and foldables <br>- Archive apps to save space while preserving your data <br>- Improved navigation with a new back gesture preview <p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 791,
+  "archiveUrls": []
+}

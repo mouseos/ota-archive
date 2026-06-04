@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/occam/mako:5.1.1/LMY48I/2074855:user/release-keys",
+  "postBuild": "google/occam/mako:5.1.1/LMY48M/2167285:user/release-keys",
+  "postTimestamp": 1439522132,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_mako/b84572d4664d1b06754b4313565cfcf1919094f6.zip",
+  "sizeBytes": 7949462,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "mako",
+  "checkinDevice": "mako",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Nexus 4 to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1993,
+  "archiveUrls": []
+}

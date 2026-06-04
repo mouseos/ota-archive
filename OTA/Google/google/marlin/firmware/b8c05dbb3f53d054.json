@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/marlin/marlin:10/QP1A.191005.007.A1/5908163:user/release-keys",
+  "postBuild": "google/marlin/marlin:10/QP1A.191005.007.A3/5972272:user/release-keys",
+  "postTimestamp": 1572305668,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/google_marlin_marlin/e07ecb4e090e981ee6c9ef7bbbeeebb8806eb8e0.zip",
+  "sizeBytes": 29611869,
+  "securityPatch": "2019-10-06",
+  "sdk": "29",
+  "device": "marlin",
+  "checkinDevice": "marlin",
+  "title": "Android 10",
+  "description": "This is the final software update containing improvements and bug fixes for Pixel and Pixel XL devices. For more information on your device’s ongoing support go to: https://support.google.com/pixelphone",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1641,
+  "archiveUrls": []
+}

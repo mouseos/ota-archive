@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/shiba/shiba:16/BP2A.250705.008/13578956:user/release-keys",
+  "postBuild": "google/shiba/shiba:16/BP3A.250905.014/13873947:user/release-keys",
+  "postTimestamp": 1754098700,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/4bedd71696a7f6dcef362410cc3e53c50758168a.zip",
+  "sizeBytes": 954390955,
+  "securityPatch": "2025-09-05",
+  "sdk": "36",
+  "device": "shiba",
+  "checkinDevice": "shiba",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1530,
+  "archiveUrls": []
+}

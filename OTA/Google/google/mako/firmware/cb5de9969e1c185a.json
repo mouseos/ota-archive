@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/occam/mako:4.4/KRT16S/920375:user/release-keys",
+  "postBuild": "google/occam/mako:4.4.2/KOT49H/937116:user/release-keys",
+  "postTimestamp": 1386200401,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_mako/4f6d2fc7377dbb48caecaa658bb139da2b063b33.zip",
+  "sizeBytes": 54476982,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "mako",
+  "checkinDevice": "mako",
+  "title": "Android 4.4.2 System Update",
+  "description": "This software update will upgrade your Nexus 4 to 4.4.2, which improves performance and stability and fixes bugs.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "radio"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1986,
+  "archiveUrls": []
+}
