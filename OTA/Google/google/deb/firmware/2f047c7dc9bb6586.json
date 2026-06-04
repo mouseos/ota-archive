@@ -20,5 +20,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 2083,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-deb/3bb24e70da4252b3f4474680411bfa6d78439ab6.zip"
+  ]
 }
