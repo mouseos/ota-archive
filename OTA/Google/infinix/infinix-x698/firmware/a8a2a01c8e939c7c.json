@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X698-GL/Infinix-X698:11/RP1A.200720.011/230406V972:user/release-keys",
+  "postBuild": "Infinix/X698-GL/Infinix-X698:11/RP1A.200720.011/230425V978:user/release-keys",
+  "postTimestamp": 1682432057,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/19f1458794dc5ef719fa52844ef55ab5b5fa1459.zip",
+  "sizeBytes": 222836054,
+  "securityPatch": "2023-05-05",
+  "sdk": "30",
+  "device": "Infinix-X698",
+  "checkinDevice": "Infinix-X698",
+  "title": "X698-H812HIJKLM-R-GL-230406V972-230425V978_20230506161240",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X698-H812HIJKLM-R-GL-230425V978<br>\n\nOptimized issues:<br>\n1.Update Google Security Patch to May 5,2023.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 118,
+  "archiveUrls": []
+}

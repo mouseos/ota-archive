@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H6113/Infinix-X650D:9/PPR1.180610.011/KLN-200617V138:user/release-keys",
+  "postBuild": "Infinix/H6113/Infinix-X650D:9/PPR1.180610.011/KLN-200722V141:user/release-keys",
+  "postTimestamp": 1595426615,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650d_h6113/31edfa2caaa39bda3fefe4dedb0d770d0943c836.zip",
+  "sizeBytes": 391772108,
+  "securityPatch": "2020-08-05",
+  "sdk": "28",
+  "device": "Infinix-X650D",
+  "checkinDevice": "Infinix-X650D",
+  "title": "X650D-H6113KLN-P-200617V138-200722V141_20200730152624",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:X650D-H6113KLN-P-200722V141<br> \nOptimized issues:<br> \n1.Updated Google Security Patch to August 5, 2020.<br> \nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 718,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/razor/flo:6.0.1/MMB29K/2419427:user/release-keys",
+  "postBuild": "google/razor/flo:6.0.1/MOB30J/2775141:user/release-keys",
+  "postTimestamp": 1461018176,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_razor/22da876ed292de22e0c3b63ffbb980b77a5d4d8f.zip",
+  "sizeBytes": 15786675,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "flo",
+  "checkinDevice": "flo",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Nexus 7 with the May 2016 patches.\n\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2011,
+  "archiveUrls": []
+}

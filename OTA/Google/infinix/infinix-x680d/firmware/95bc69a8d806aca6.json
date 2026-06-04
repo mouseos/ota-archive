@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-201027V225:user/release-keys",
+  "postBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-201210V239:user/release-keys",
+  "postTimestamp": 1607600094,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c022b3653b8fdb16f3f980410b6555756e834981.zip",
+  "sizeBytes": 333203707,
+  "securityPatch": "2020-12-05",
+  "sdk": "29",
+  "device": "Infinix-X680D",
+  "checkinDevice": "Infinix-X680D",
+  "title": "X680D-H6116J-Q-AS-201027V225-201210V239_20201211180104",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X680D-H6116J-Q-AS-201210V239<br>        \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Dec 5, 2020. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 692,
+  "archiveUrls": []
+}

@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X657B-OP-S2/Infinix-X657B:11/RP1A.200720.011/211202V630:user/release-keys",
+  "postBuild": "Infinix/X657B-OP-S2/Infinix-X657B:11/RP1A.200720.011/220520V1037:user/release-keys",
+  "postTimestamp": 1653006329,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e0367aad880b8853b9b595d0be807854b9273c54.zip",
+  "sizeBytes": 566720956,
+  "securityPatch": "2022-05-05",
+  "sdk": "30",
+  "device": "Infinix-X657B",
+  "checkinDevice": "Infinix-X657B",
+  "title": "X657B-H6117EIKL-RGo-OP-S2-211202V630-220520V1037_20220520092241",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X657B-H6117EIKL-RGo-OP-S2-220520V1037<br>\nFixed issues:<br>\n1.Optimized the stability issue from user feedback.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 526,
+  "archiveUrls": []
+}

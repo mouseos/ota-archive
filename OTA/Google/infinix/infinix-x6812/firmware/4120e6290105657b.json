@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/221024V746:user/release-keys",
+  "postBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/230106V768:user/release-keys",
+  "postTimestamp": 1672982610,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3f6003af83548375c37c1ae71dbb9eb5a5d63199.zip",
+  "sizeBytes": 307711147,
+  "securityPatch": "2022-12-05",
+  "sdk": "30",
+  "device": "Infinix-X6812",
+  "checkinDevice": "Infinix-X6812",
+  "title": "X6812-H6912ABCGHIJ-R-GL-221024V746-230106V768_20230107172944",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X6812-H6912ABCGHIJ-R-GL-230106V768<br>    \n\nOptimized issues:  <br>    \n1.Updated Google Security Patch to Dec. 5, 2022. <br>                              \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 537,
+  "archiveUrls": []
+}

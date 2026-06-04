@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/nakasig/tilapia:4.4.3/KTU84L/1148727:user/release-keys",
+  "postBuild": "google/nakasig/tilapia:4.4.4/KTU84P/1227136:user/release-keys",
+  "postTimestamp": 1402643010,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_nakasig/a887f6601a8d1f17dea3308c43883f3fbebd5f20.zip",
+  "sizeBytes": 2230046,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "tilapia",
+  "checkinDevice": "tilapia",
+  "title": "Android 4.4.4 System Update",
+  "description": "This software update will upgrade your Nexus 7 to 4.4.4, which improves performance, security, stability and fixes bugs.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2040,
+  "archiveUrls": []
+}

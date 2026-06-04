@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/nakasig/tilapia:5.0.2/LRX22G/1649326:user/release-keys",
+  "postBuild": "google/nakasig/tilapia:5.1/LMY47D/1743759:user/release-keys",
+  "postTimestamp": 1424327380,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_nakasig/b29343be150c287b946a74ef76d0ca5930717994.zip",
+  "sizeBytes": 106884143,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "tilapia",
+  "checkinDevice": "tilapia",
+  "title": "Android 5.1 System Update",
+  "description": "This software update will upgrade your Nexus 7 to Android 5.1, which improves performance and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2042,
+  "archiveUrls": []
+}

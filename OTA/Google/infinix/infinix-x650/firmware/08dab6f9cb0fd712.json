@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-190928V241:user/release-keys",
+  "postBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-191119V268:user/release-keys",
+  "postTimestamp": 1574155903,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650_h8029/50ee0179466a41f2194f737a1ca58c6c238e8f3b.zip",
+  "sizeBytes": 82935449,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Infinix-X650",
+  "checkinDevice": "Infinix-X650",
+  "title": "X650-H8029AB-OGo-190928V241-191119V268_20191119212427",
+  "description": "Caution! This update may crash rooted devices. <br>\nPlease plug in charger to OTA upgrade when power is lower than 50%. <br>\nUpdate Version: X650-H8029AB-OGo-191119V268 <br>\nChanged Functions: <br>\n1.Updated Google Security Patch to November 5, 2019. <br>\nReminding: <br>\n1.Optimized system stability and performance while fixing other issues. <br>\n2.Visit the XClub forum ( http://bbs.infinixmobility.com ) for more information. <br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 268435456,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 523,
+  "archiveUrls": []
+}

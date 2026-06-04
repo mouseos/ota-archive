@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X6815D-GL/Infinix-X6815D:13/TP1A.220624.014/230714V199:user/release-keys",
+  "postTimestamp": 1689335412,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0b897ac3c2155152039cac85845e511910c89c37.zip",
+  "sizeBytes": 5080603328,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "Infinix-X6815D",
+  "checkinDevice": "Infinix-X6815D",
+  "title": "Tcard_X6815D-H777BC-T-GL-230714V199",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X6815D-H777BC-T-GL-230714V199<br>\nOptimized Issues: <br>\n1.Upgraded the Android version from Android 12 to Android 13.<br>\n2.Upgraded the XOS version from XOS12.0.0 to XOS13.0.0.<br>\n3.Upgraded and added some special features to improve the overall experience, including but not limited to Mobile Cloner, Lightning Multi-Window, Multiple Users, PC Connection, Folax, and Smart Panel.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\nVisit XClub forum (Geekbar) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 104,
+  "archiveUrls": []
+}

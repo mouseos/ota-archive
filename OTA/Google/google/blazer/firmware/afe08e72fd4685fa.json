@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/blazer/blazer:16/CP1A.260305.018/14887507:user/release-keys",
+  "postBuild": "google/blazer/blazer:16/CP1A.260505.005/15081906:user/release-keys",
+  "postTimestamp": 1774400006,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/1ec4e4dcd0316783fa5bd6fc081e5129a0875c5a.zip",
+  "sizeBytes": 69063599,
+  "securityPatch": "2026-05-05",
+  "sdk": "36",
+  "device": "blazer",
+  "checkinDevice": "blazer",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2156,
+  "archiveUrls": []
+}

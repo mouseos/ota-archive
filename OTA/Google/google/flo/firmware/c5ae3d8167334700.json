@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/razor/flo:4.3/JSS15R/804956:user/release-keys",
+  "postBuild": "google/razor/flo:4.4.2/KOT49H/937116:user/release-keys",
+  "postTimestamp": 1386201442,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_razor/365f8dadebf2b788c51beb3c5413980f9a9a21b9.zip",
+  "sizeBytes": 265482777,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "flo",
+  "checkinDevice": "flo",
+  "title": "Android 4.4.2 System Update",
+  "description": "This software update will upgrade your Nexus 7 to 4.4.2, which improves performance and stability and fixes bugs.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2038,
+  "archiveUrls": []
+}

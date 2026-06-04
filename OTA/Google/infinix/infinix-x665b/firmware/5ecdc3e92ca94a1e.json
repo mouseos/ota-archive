@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X665B-OP/Infinix-X665B:11/RP1A.200720.011/220607V448:user/release-keys",
+  "postBuild": "Infinix/X665B-OP/Infinix-X665B:11/RP1A.200720.011/220720V500:user/release-keys",
+  "postTimestamp": 1658285974,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/195e3a2c0a76ba7b97260c13ebf4563e8b530b50.zip",
+  "sizeBytes": 117457214,
+  "securityPatch": "2022-06-05",
+  "sdk": "30",
+  "device": "Infinix-X665B",
+  "checkinDevice": "Infinix-X665B",
+  "title": "X665B-H6222IJKL-R-OP-220607V448-220720V500_20220720113916",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X665B-H6222IJKL-R-OP-220720V500<br>\n\nChanged Functions: <br>     \n1.Optimized system performance. <br>\n2.Updated Google Security Patch to June 5, 2022.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 529,
+  "archiveUrls": []
+}

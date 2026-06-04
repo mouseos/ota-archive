@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/220616V728:user/release-keys",
+  "postBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/220822V739:user/release-keys",
+  "postTimestamp": 1661186639,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3696a6d666ee88d36123fbf3907c381d514da313.zip",
+  "sizeBytes": 202322834,
+  "securityPatch": "2022-08-01",
+  "sdk": "30",
+  "device": "Infinix-X6812",
+  "checkinDevice": "Infinix-X6812",
+  "title": "X6812-H6912ABCGHIJ-R-GL-220616V728-220822V739_20220828214536",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6812-H6912ABCGHIJ-R-GL-220822V739<br> \n\nOptimized issues:  <br>       \n1.Updated Google Security Patch to Aug. 1, 2022. <br>                                       \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 536,
+  "archiveUrls": []
+}

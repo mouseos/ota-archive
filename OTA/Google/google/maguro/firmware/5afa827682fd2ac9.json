@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/yakju/maguro:4.2.2/JDQ39/573038:user/release-keys",
+  "postBuild": "google/yakju/maguro:4.3/JWR66Y/776638:user/release-keys",
+  "postTimestamp": 1376434811,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_maguro/0de3570719e920fd74898b262fb7d61a6ff43451.zip",
+  "sizeBytes": 146041666,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "maguro",
+  "checkinDevice": "maguro",
+  "title": "Android 4.3 System Update",
+  "description": "This software update will upgrade your Galaxy Nexus to Android 4.3 Jelly Bean, which improves performance and stability. Look up contacts right from the dial pad if you turn on the feature from phone settings. Capture your thoughts on the go with Google Keep. To find out more, visit http://www.android.com/about/jelly-bean/.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2094,
+  "archiveUrls": []
+}

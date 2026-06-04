@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230619V213:user/release-keys",
+  "postBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230720V215:user/release-keys",
+  "postTimestamp": 1689849908,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7888c59db442a706a87e19e03b72b15680480f2e.zip",
+  "sizeBytes": 293322877,
+  "securityPatch": "2023-07-05",
+  "sdk": "31",
+  "device": "Infinix-X669D",
+  "checkinDevice": "Infinix-X669D",
+  "title": "X669D-F065XAbN-S-RU-OTA-V213-V215-20230721_102113",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: X669D-F065XAbN-S-RU-20230720V215<br>\n\nИзменён функционал:<br>\n1. Обновление патча безопасности Google.<br>\n2. Редко используемое предустановленное приложение Hi Translate было удалено. Если вам все еще нужно это приложение, пожалуйста, загрузите последнюю версию из Google Play.<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (Geekbar).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 728,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X682C-GL/Infinix-X682C:10/QP1A.190711.020/210313V327:user/release-keys",
+  "postBuild": "Infinix/X682C-GL/Infinix-X682C:10/QP1A.190711.020/210517V337:user/release-keys",
+  "postTimestamp": 1621262072,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6688e95a65f2535e0ae09d2fbf93d0f66caedad2.zip",
+  "sizeBytes": 432397926,
+  "securityPatch": "2021-05-05",
+  "sdk": "29",
+  "device": "Infinix-X682C",
+  "checkinDevice": "Infinix-X682C",
+  "title": "X682C-H694CD-Q-GL-210313V327-210517V337_20210518131609",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X682C-H694CD-Q-GL-210517V337<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to May 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 113,
+  "archiveUrls": []
+}

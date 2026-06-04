@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "google/volantis/flounder:7.1.1/N9F27M/4333998:user/release-keys",
+  "postTimestamp": 1505342966,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/google_flounder_volantis/770f7dbfa0a50d8f1502f765d758bbc19a3af873.zip",
+  "sizeBytes": 817456682,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "flounder",
+  "checkinDevice": "flounder",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Nexus 9 with the 2017-10 patches.\n\nDownloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2010,
+  "archiveUrls": []
+}

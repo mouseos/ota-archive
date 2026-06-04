@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H6113/Infinix-X650D:9/PPR1.180610.011/KLN-200320V130:user/release-keys",
+  "postBuild": "Infinix/H6113/Infinix-X650D:9/PPR1.180610.011/KLN-200617V138:user/release-keys",
+  "postTimestamp": 1592400014,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650d_h6113/8964e39fb28efaa8b25911cf92d7b5bd1d868478.zip",
+  "sizeBytes": 504565632,
+  "securityPatch": "2020-06-05",
+  "sdk": "28",
+  "device": "Infinix-X650D",
+  "checkinDevice": "Infinix-X650D",
+  "title": "X650D-H6113KLN-P-200320V130-200617V138_20200618114513",
+  "description": "Caution! This update may crash rooted devices. <br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.  <br>\nUpdate Version:   X650D-H6113KLN-P-200617V138<br>\nChanged Functions: <br>\n1.Updated to the latest Google Security Patch 20200605. <br>\n\nOptimized issue (Optimized issue): <br>\n1. Imported the latest Google security patches to enhance the security and stability of system. <br>\n2. Updated the 3rd party applications to bring the ultimate user experience. <br>\n3. Improved the system running performance, make better fluency experience. <br>\n\nFixed issues: <br>\n1. Updated some strings translation. <br>\n2. Fixed the application error problem. <br>\n\nReminding:   <br>\n1. Optimized system stability and performance while fixing other issues.  <br>\n2. Visit the XCLUB forum (http://bbs.infinixmobility.com)\n for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 520,
+  "archiveUrls": []
+}

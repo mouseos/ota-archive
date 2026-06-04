@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DE-190901V209:user/release-keys",
+  "postBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DE-190916V217:user/release-keys",
+  "postTimestamp": 1568643164,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650c_h626/644f4f12367ae012298d477b709509a87e2b1c89.zip",
+  "sizeBytes": 317197699,
+  "securityPatch": "2019-09-05",
+  "sdk": "28",
+  "device": "Infinix-X650C",
+  "checkinDevice": "Infinix-X650C",
+  "title": "X650C-H626DE-P-190901V209-190916V217_20190917201016",
+  "description": "Caution! This update may crash rooted devices. <br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X650C-H626DE-P-190916V217<br>\nChanged Functions: <br>\n1. Updated to the latest Google Security Patch 20190905 <br>\n2. Updated the Yo party, Boomplay and Phone master apps <br>\n3. The XClub App just updates to V4.0.1, discover breaking news, funny jokes, and hot topics, also can gain xgold and gifts. Under workable network open XClub app to click the update button. <br>\n\nOptimized issue:  <br>\n1. Improved rear camera clarity and optimized front camera white-balance effect <br>\n\nReminding:   <br>\n1 . Optimized system stability and performance while fixing other issues.  <br>\n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 521,
+  "archiveUrls": []
+}

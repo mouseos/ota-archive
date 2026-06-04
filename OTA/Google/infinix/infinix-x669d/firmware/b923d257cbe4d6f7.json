@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230522V197:user/release-keys",
+  "postBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230619V213:user/release-keys",
+  "postTimestamp": 1687146020,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e1eb8145907d39044598b500016b0fa720c75954.zip",
+  "sizeBytes": 325876986,
+  "securityPatch": "2023-05-05",
+  "sdk": "31",
+  "device": "Infinix-X669D",
+  "checkinDevice": "Infinix-X669D",
+  "title": "X669D-F065XAbN-S-RU-OTA-V197-V213-20230619_190200",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: X669D-F065XAbN-S-RU-20230619V213<br>\n\n\nМы исправили:<br>\n1. Оптимизирована Камера для лучших эффектов фотосъемки.<br>\n2. Улучшено взаимодействие с NFC.<br>\n\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XCLUB (Geekbar).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 532,
+  "archiveUrls": []
+}

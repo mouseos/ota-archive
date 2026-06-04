@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/yakju/maguro:4.0.4/IMM76I/330937:user/release-keys",
+  "postBuild": "google/yakju/maguro:4.1.1/JRO03C/398337:user/release-keys",
+  "postTimestamp": 1341438376,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_maguro/f946a4120eb167245dacda62326c93dd35d88396.zip",
+  "sizeBytes": 151966582,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "maguro",
+  "checkinDevice": "maguro",
+  "title": "Android 4.1 System Update",
+  "description": "This software update will upgrade your Galaxy Nexus to Android 4.1 Jelly Bean, which improves performance and responsiveness system wide. Swipe up from the bottom of the screen to search on Google and get suggestions from Google Now. Organize your home screens easily even when they’re packed with apps and widgets. Expand notifications with a pinch to get more info and take action. Swipe within camera to easily view and share your photos. Jelly Bean contains many more features and improvements. To find out more, please visit http://www.android.com/whatsnew/#jelly-bean.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "radio"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2104,
+  "archiveUrls": []
+}
