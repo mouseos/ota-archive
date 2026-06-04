@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6827-OP/Infinix-X6827:12/SP1A.210812.016/240710V1972:user/release-keys",
+  "postBuild": "Infinix/X6827-OP/Infinix-X6827:12/SP1A.210812.016/240924V1980:user/release-keys",
+  "postTimestamp": 1727182666,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6bde2116fdfeb75736704a4aae42ac7b5e7b803b.zip",
+  "sizeBytes": 77393245,
+  "securityPatch": "2024-09-05",
+  "sdk": "31",
+  "device": "Infinix-X6827",
+  "checkinDevice": "Infinix-X6827",
+  "title": "X6827-H812OPQ-S-OP-240710V1972-240924V1980_20240925163425",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\n X6827-H812OPQ-S-OP-240924V1980<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to September 5, 2024.<br>\n<br>\nFixed Issues:<br>\n1. Fixed the issue that video playback on Netflix was occasionally paused to improve the user experience.<br>\n2. Fixed the issue of wallpaper display anomalies occurred after users lock and unlock the screen while using YouTube.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1132,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X663C-AS/Infinix-X663C:12/SP1A.210812.016/240115V896:user/release-keys",
+  "postBuild": "Infinix/X663C-AS/Infinix-X663C:12/SP1A.210812.016/240229V946:user/release-keys",
+  "postTimestamp": 1709219956,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a28fdf597a3b384aec651333e687c10c88b6c4a0.zip",
+  "sizeBytes": 113909726,
+  "securityPatch": "2024-03-05",
+  "sdk": "31",
+  "device": "Infinix-X663C",
+  "checkinDevice": "Infinix-X663C",
+  "title": "X663C-H6915MN-S-AS-240115V896-240229V946_20240301173026",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X663C-H6915MN-S-AS-240229V946<br>\nOptimized issues:<br>\n1.Updated Google Security Patch to March 5, 2024.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 960,
+  "archiveUrls": []
+}

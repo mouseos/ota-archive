@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6827-OP/Infinix-X6827:12/SP1A.210812.016/240517V1967:user/release-keys",
+  "postBuild": "Infinix/X6827-OP/Infinix-X6827:12/SP1A.210812.016/240710V1972:user/release-keys",
+  "postTimestamp": 1720597197,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/aeb2a1aa9c95ffdf4905d2dedd83cbc9aeeb3144.zip",
+  "sizeBytes": 134044584,
+  "securityPatch": "2024-07-05",
+  "sdk": "31",
+  "device": "Infinix-X6827",
+  "checkinDevice": "Infinix-X6827",
+  "title": "X6827-H812OPQ-S-OP-240517V1967-240710V1972_20240710162303",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6827-H812OPQ-S-OP-240710V1972<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to July 5, 2024. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1056,
+  "archiveUrls": []
+}

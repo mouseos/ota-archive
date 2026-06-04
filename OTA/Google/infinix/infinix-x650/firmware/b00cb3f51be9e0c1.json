@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-201202V424:user/release-keys",
+  "postBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-210119V440:user/release-keys",
+  "postTimestamp": 1611038185,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d2d140f3bfa79a8146c0d321853107a84a182051.zip",
+  "sizeBytes": 33438155,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Infinix-X650",
+  "checkinDevice": "Infinix-X650",
+  "title": "X650-H8029AB-OGo-201202V424-210119V440_20210204160724",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X650-H8029AB-OGo-210119V440<br>\n\nChanged Functions: <br>     \n1.Updated Google Security Patch to February 5, 2021. <br>\n\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 268435456,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1256,
+  "archiveUrls": []
+}

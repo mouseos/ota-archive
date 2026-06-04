@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-200322V331:user/release-keys",
+  "postBuild": "Infinix/H8029/Infinix-X650:8.1.0/O11019/AB-200529V345:user/release-keys",
+  "postTimestamp": 1590764314,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650_h8029/b8ee14fd89eaecc3fb9b86ea14ba59ca7f87fd81.zip",
+  "sizeBytes": 10320384,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Infinix-X650",
+  "checkinDevice": "Infinix-X650",
+  "title": "X650-H8029AB-OGo-200322V331-200529V345_20200603151851",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X650-H8029AB-OGo-200529V345<br> \nChanged Functions: <br> \n1.Updated Google Security Patch to June 5, 2020. <br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 268435456,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 956,
+  "archiveUrls": []
+}

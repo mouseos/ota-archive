@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/241212V762:user/release-keys",
+  "postBuild": "Infinix/X6739-GL/Infinix-X6739:14/UP1A.231005.007/250221V799:user/release-keys",
+  "postTimestamp": 1740107153,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ae854b5f7e9d4602c8fac4cdee6c6e7b247265cd.zip",
+  "sizeBytes": 209696486,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "Infinix-X6739",
+  "checkinDevice": "Infinix-X6739",
+  "title": "X6739-H931GH-U-GL-241212V762-250221V799_20250222154222",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6739-H931GH-U-GL-250221V799<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 731,
+  "archiveUrls": []
+}

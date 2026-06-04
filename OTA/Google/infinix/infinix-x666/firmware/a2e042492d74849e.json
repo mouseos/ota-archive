@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X666-GL/Infinix-X666:12/SP1A.210812.016/240417V1834:user/release-keys",
+  "postBuild": "Infinix/X666-GL/Infinix-X666:12/SP1A.210812.016/240611V1837:user/release-keys",
+  "postTimestamp": 1718083081,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5bb9c79ad02725f92a61fe9ec8cff93b052cd670.zip",
+  "sizeBytes": 73371205,
+  "securityPatch": "2024-06-05",
+  "sdk": "31",
+  "device": "Infinix-X666",
+  "checkinDevice": "Infinix-X666",
+  "title": "X666-P740AEBC-S-GL-240417V1834-240611V1837_20240611134202",
+  "description": "Caution! This update may crash rooted devices.<br>\n\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\n\nUpdate Version:X666-P740AEBC-S-GL-240611V1837<br>\n\nOptimized issues:<br>\n\n1.Optimized the application scan function.<br>\n\n2. Optimized translation of some strings.<br>\n\nReminding:<br>\n\n1.Optimized system stability and performance while fixing other issues.<br>\n\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1128,
+  "archiveUrls": []
+}

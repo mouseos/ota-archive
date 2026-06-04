@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X689B-GL/Infinix-X689B:11/RP1A.200720.011/220417V283:user/release-keys",
+  "postBuild": "Infinix/X689B-GL/Infinix-X689B:11/RP1A.200720.011/220609V288:user/release-keys",
+  "postTimestamp": 1654783019,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c43123db1f09c277c79a12f3c7dabef7c7cc38fb.zip",
+  "sizeBytes": 285146889,
+  "securityPatch": "2022-06-05",
+  "sdk": "30",
+  "device": "Infinix-X689B",
+  "checkinDevice": "Infinix-X689B",
+  "title": "X689B-H696JKM-R-GL-220417V283-220609V288_20220610002728",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X689B-H696JKM-R-GL-220609V288<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to June 5, 2022. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1210,
+  "archiveUrls": []
+}

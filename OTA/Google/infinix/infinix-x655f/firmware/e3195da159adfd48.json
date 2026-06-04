@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X655F-IN/Infinix-X655F:10/QP1A.190711.020/E-AS-211022V280:user/release-keys",
+  "postBuild": "Infinix/X655F-IN/Infinix-X655F:10/QP1A.190711.020/E-AS-211201V282:user/release-keys",
+  "postTimestamp": 1638364753,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/230276ae3d1d29546666b8a3bccb62f46273eeb9.zip",
+  "sizeBytes": 103781565,
+  "securityPatch": "2021-12-05",
+  "sdk": "29",
+  "device": "Infinix-X655F",
+  "checkinDevice": "Infinix-X655F",
+  "title": "X655F-H6211E-Q-AS-211022V280-211201V282_20211202175736",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X655F-H6211E-Q-AS-211201V282<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to December 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1387,
+  "archiveUrls": []
+}

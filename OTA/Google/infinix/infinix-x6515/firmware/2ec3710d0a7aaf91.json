@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/240509V1495:user/release-keys",
+  "postBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/240628V1515:user/release-keys",
+  "postTimestamp": 1719562404,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0a256e1814b42a73a327a2538a4596aad5ad40d8.zip",
+  "sizeBytes": 156779663,
+  "securityPatch": "2024-06-05",
+  "sdk": "31",
+  "device": "Infinix-X6515",
+  "checkinDevice": "Infinix-X6515",
+  "title": "X6515-H6127HIJAiAjAk-S-OP-240509V1495-240628V1515_20240701134326",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6515-H6127HIJAiAjAk-S-OP-240628V1515<br>    \n\nOptimized issues:  <br>    \n1.Updated Google Security Patch to June 5, 2024. <br>                              \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XClub forum (Geekbar) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1206,
+  "archiveUrls": []
+}

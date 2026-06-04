@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-210407V285:user/release-keys",
+  "postBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-210604V314:user/release-keys",
+  "postTimestamp": 1622792991,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/26199e34979900200dbe81cd0f560db6f4b1370f.zip",
+  "sizeBytes": 250829272,
+  "securityPatch": "2021-06-05",
+  "sdk": "29",
+  "device": "Infinix-X680D",
+  "checkinDevice": "Infinix-X680D",
+  "title": "X680D-H6116J-Q-AS-210407V285-210604V314_20210607164118",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X680D-H6116J-Q-AS-210604V314<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Jun 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1031,
+  "archiveUrls": []
+}

@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X6833B-GL/Infinix-X6833B:14/UP1A.231005.007/240703V808:user/release-keys",
+  "postTimestamp": 1719979362,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/15c6587d92b6b91b24877a8b1901737b35ca3266.zip",
+  "sizeBytes": 6608945131,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "Tcard_X6833B-H894DEFGHI-U-GL-240703V808",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X6833B-H894DEFGHI-U-GL-240703V808<br>\n\nOptimized Issues:<br>\n1. Upgraded the Android version from Android 13 to Android 14.<br>\n2. Upgraded the XOS version from XOS 13.0 to XOS 14.0.<br>\n3. Upgraded/added some special features to improve the overall experience, including but not limited to AI Voice Assistant 3.5, Dynamic Bar 2.0, and AI Smart Charge 2.0.<br>\n\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1541,
+  "archiveUrls": []
+}

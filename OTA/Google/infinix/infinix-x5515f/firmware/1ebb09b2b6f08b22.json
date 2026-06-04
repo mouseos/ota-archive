@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H398/Infinix-X5515F:9/PPR1.180610.011/F-200407V395:user/release-keys",
+  "postBuild": "Infinix/H398/Infinix-X5515F:9/PPR1.180610.011/F-200715V425:user/release-keys",
+  "postTimestamp": 1594806825,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx5515f_h398/3c718bb328b7df5a816d92dc5d4cfab64512d086.zip",
+  "sizeBytes": 77805012,
+  "securityPatch": "2020-05-05",
+  "sdk": "28",
+  "device": "Infinix-X5515F",
+  "checkinDevice": "Infinix-X5515F",
+  "title": "X5515F-H398F-P-200407V395-200715V425_20200720104812",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:X5515F-H398F-P-200715V425<br> \nChanged Functions:<br> \n1.Updated to Google Security Patch 20200505 <br> \n\nOptimized issues:<br> \n1.  Optimized system performance and stability <br> \n\nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 452984832,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1648,
+  "archiveUrls": []
+}

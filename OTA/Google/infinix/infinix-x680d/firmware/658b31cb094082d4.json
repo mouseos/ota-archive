@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-210127V255:user/release-keys",
+  "postBuild": "Infinix/X680D-IN/Infinix-X680D:10/QP1A.190711.020/J-AS-210407V285:user/release-keys",
+  "postTimestamp": 1617790569,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1013e8e659dde13e8fe5a29e40e136f9bdba54ed.zip",
+  "sizeBytes": 237850767,
+  "securityPatch": "2021-04-05",
+  "sdk": "29",
+  "device": "Infinix-X680D",
+  "checkinDevice": "Infinix-X680D",
+  "title": "X680D-H6116J-Q-AS-210127V255-210407V285_20210412141752",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: X680D-H6116J-Q-AS-210407V285<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Apr 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 937,
+  "archiveUrls": []
+}

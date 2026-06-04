@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/H398/Infinix-X5515F:9/PPR1.180610.011/F-190716V308:user/release-keys",
+  "postTimestamp": 1563290109,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx5515f_h398/84239b02e7257ba6e627a2a80c1091d1bedce73b.zip",
+  "sizeBytes": 1522612679,
+  "securityPatch": "2019-07-05",
+  "sdk": "28",
+  "device": "Infinix-X5515F",
+  "checkinDevice": "Infinix-X5515F",
+  "title": "Tcard_X5515F-H398F-P-190716V308",
+  "description": "Caution! This update may crash rooted devices. <br> \nPlease plug in charger to OTA upgrade when power is lower than 50%. <br> \nUpdate Version:  X5515F-H398F-P-190716V308 <br> \nChanged Functions: <br> \n1. Updated to the latest Google Security Patch 201907  <br> \n2. The XClub App just updated to V4.0.0, new version, new UI, new experience. Discover breaking news, funny jokes, and hot topics here, also can join in any topic you are interested in, get your news, ask for advice, discuss and share your opinions. Under workable network and open XClub app to click the update button.  <br> \n\nReminding: <br> \n1. Optimized system stability and performance while fixing other issues. <br> \n2. Visit the XClub forum (http://bbs.infinixmobility.com) for more information. <br>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1643,
+  "archiveUrls": []
+}

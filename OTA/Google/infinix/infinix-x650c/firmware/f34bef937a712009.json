@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-191023V236:user/release-keys",
+  "postBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-191127V258:user/release-keys",
+  "postTimestamp": 1574865493,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650c_h626/563502c63ca91b0249b8f0042be4144d64d6f4bc.zip",
+  "sizeBytes": 663286466,
+  "securityPatch": "2019-12-05",
+  "sdk": "28",
+  "device": "Infinix-X650C",
+  "checkinDevice": "Infinix-X650C",
+  "title": "X650C-H626DEJ-P-191023V236-191127V258_20191128100643",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.  <br>\nUpdate Version: X650C-H626DEJ-P-191127V258  <br>\nChanged Functions: <br>\n1. Updated to the latest Google Security Patch 20191205 <br>\n2. Updated to Google GMS package201910 <br>\n3. Updated XOS to v5.5 with more functions, Social Turbo, Game Assistant, Game Floating Window, Sensor call picker, Notification optimization, Magazine Preview etc. <br>\n\nOptimized issue:  <br>\n1. Optimized touch panel performance <br>\n\nReminding:   <br>\n1.Optimized system stability and performance while fixing other issues.  <br>\n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 955,
+  "archiveUrls": []
+}

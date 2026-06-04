@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6826-OP/Infinix-X6826:12/SP1A.210812.016/240122V2474:user/release-keys",
+  "postBuild": "Infinix/X6826-OP/Infinix-X6826:12/SP1A.210812.016/240517V2496:user/release-keys",
+  "postTimestamp": 1715903577,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/25192d357684ef949b0816a023966c7ffc080ed0.zip",
+  "sizeBytes": 75680806,
+  "securityPatch": "2024-05-05",
+  "sdk": "31",
+  "device": "Infinix-X6826",
+  "checkinDevice": "Infinix-X6826",
+  "title": "X6826-H6924IJKLMN-S-OP-240122V2474-240517V2496_20240517124514",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6826-H6924IJKLMN-S-OP-240517V2496<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to May 5, 2024. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 734,
+  "archiveUrls": []
+}

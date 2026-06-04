@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-200820V301:user/release-keys",
+  "postBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-200917V304:user/release-keys",
+  "postTimestamp": 1600331040,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650c_h626/3438439ba7faafb642d988208b4d418783eaeb6c.zip",
+  "sizeBytes": 242666856,
+  "securityPatch": "2020-09-05",
+  "sdk": "28",
+  "device": "Infinix-X650C",
+  "checkinDevice": "Infinix-X650C",
+  "title": "X650C-H626DEJ-P-200820V301-200917V304_20200918161253",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:X650C-H626DEJ-P-200917V304<br> \n\nChanged Functions: <br>      \n1.Optimized system performance. <br> \n\n\nReminding:<br>     \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1385,
+  "archiveUrls": []
+}

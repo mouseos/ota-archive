@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6710-GL/Infinix-X6710:14/UP1A.231005.007/240910V810:user/release-keys",
+  "postBuild": "Infinix/X6710-GL/Infinix-X6710:14/UP1A.231005.007/241029V827:user/release-keys",
+  "postTimestamp": 1730173139,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/891de531010a39ff3f74834754b4bf70e2e29aa7.zip",
+  "sizeBytes": 330101647,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "Infinix-X6710",
+  "checkinDevice": "Infinix-X6710",
+  "title": "X6710-H931DJ-U-GL-240910V810-241029V827_20241030173922",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6710-H931DJ-U-GL-241029V827<br><br>Changed Functions:<br>1. Updated Google Security Patch to October 5, 2024.<br><br>Fixed Issues:<br>1. Optimized for the occasional duplication issue of contacts occurred when they are synced in some scenarios.<br>2. Improved the smoothness of 1080P video playback on Netflix in the Eye Care mode.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 730,
+  "archiveUrls": []
+}

@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-201207V314:user/release-keys",
+  "postBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-210105V317:user/release-keys",
+  "postTimestamp": 1609853575,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4863dd872fcb9a76073d27f46c401a74b19fc0ed.zip",
+  "sizeBytes": 202859432,
+  "securityPatch": "2021-01-05",
+  "sdk": "28",
+  "device": "Infinix-X650C",
+  "checkinDevice": "Infinix-X650C",
+  "title": "X650C-H626DEJ-P-201207V314-210105V317_20210111142546",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X650C-H626DEJ-P-210105V317<br>\n\nChanged Functions: <br>     \n1.Updated Google Security Patch to January 5, 2021. <br>\n\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1445,
+  "archiveUrls": []
+}

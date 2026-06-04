@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X657B-OP/Infinix-X657B:10/QP1A.190711.020/DFJ-OP-210728V386:user/release-keys",
+  "postBuild": "Infinix/X657B-OP/Infinix-X657B:10/QP1A.190711.020/DFJ-OP-210825V388:user/release-keys",
+  "postTimestamp": 1629880489,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a55440cd04b66da3e22f9976be3de6d74e05e277.zip",
+  "sizeBytes": 112063295,
+  "securityPatch": "2021-08-05",
+  "sdk": "29",
+  "device": "Infinix-X657B",
+  "checkinDevice": "Infinix-X657B",
+  "title": "X657B-H6117DFJ-QGo-OP-210728V386-210825V388_20210826160911",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X657B-H6117DFJ-QGo-OP-210825V388<br>\n\nChanged Functions:<br>\n1.Optimized the stability issue from user feedback.<br>\n\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1536,
+  "archiveUrls": []
+}

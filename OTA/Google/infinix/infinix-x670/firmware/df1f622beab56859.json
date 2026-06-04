@@ -1,0 +1,26 @@
+{
+  "preBuild": "Infinix/X670-GL/Infinix-X670:13/TP1A.220624.014/230808V386:user/release-keys",
+  "postBuild": "Infinix/X670-GL/Infinix-X670:13/TP1A.220624.014/231013V467:user/release-keys",
+  "postTimestamp": 1697189884,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/49085ceca70cc03324bd05e94c14cf63349800d5.zip",
+  "sizeBytes": 461945363,
+  "securityPatch": "2023-10-05",
+  "sdk": "33",
+  "device": "Infinix-X670",
+  "checkinDevice": "Infinix-X670",
+  "title": "X670-H814DGHJKL-T-GL-230808V386-231013V467_20231016090332",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X670-H814DGHJKL-T-GL-231013V467<br>\n\nOptimized issues:  <br>  \n1.Updated Google Security Patch to October 5, 2023. <br>  \n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 729,
+  "archiveUrls": []
+}

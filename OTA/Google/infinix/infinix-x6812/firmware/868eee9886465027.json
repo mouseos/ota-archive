@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/230224V777:user/release-keys",
+  "postBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/230323V780:user/release-keys",
+  "postTimestamp": 1679521326,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9e77baf0f2e959f0eab9d9785e61c936fd1fdb10.zip",
+  "sizeBytes": 35138848,
+  "securityPatch": "2023-02-01",
+  "sdk": "30",
+  "device": "Infinix-X6812",
+  "checkinDevice": "Infinix-X6812",
+  "title": "X6812-H6912ABCGHIJ-R-GL-230224V777-230323V780_20230323062935",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6812-H6912ABCGHIJ-R-GL-230323V780<br>    \n\nOptimized issues:  <br>                               \n1.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 863,
+  "archiveUrls": []
+}

@@ -1,0 +1,25 @@
+{
+  "preBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-191127V258:user/release-keys",
+  "postBuild": "Infinix/H626/Infinix-X650C:9/PPR1.180610.011/DEJ-191211V264:user/release-keys",
+  "postTimestamp": 1576043544,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx650c_h626/d312e9c90440b7fe7cc87988bc951730dddc0ca8.zip",
+  "sizeBytes": 340233047,
+  "securityPatch": "2019-12-05",
+  "sdk": "28",
+  "device": "Infinix-X650C",
+  "checkinDevice": "Infinix-X650C",
+  "title": "X650C-H626DEJ-P-191127V258-191211V264_20191217194624",
+  "description": "Caution! This update may crash rooted devices.   <br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.  <br>\nUpdate Version: X650C-H626DEJ-P-191211V264  <br>\nFixed issues:   <br>\n1.Fixed preview freeze issue after video captured in TikTok <br>\n2.Optimized system stability and performance <br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.  <br>\n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1047,
+  "archiveUrls": []
+}

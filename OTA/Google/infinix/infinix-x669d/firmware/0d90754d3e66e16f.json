@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20241010V243:user/release-keys",
+  "postBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20241213V246:user/release-keys",
+  "postTimestamp": 1734064729,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5bf51f27d4ffcd51b7afc0a4efc90620d2741e47.zip",
+  "sizeBytes": 213576000,
+  "securityPatch": "2024-12-05",
+  "sdk": "31",
+  "device": "Infinix-X669D",
+  "checkinDevice": "Infinix-X669D",
+  "title": "X669D-F065XAbN-S-RU-OTA-V243-V246-20241213_145905",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br>X669D-F065XAbN-S-RU-20241213V246<br><br>Изменён функционал:<br> 1. Обновлен патч безопасности Google от 5 декабря 2024 года.<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (https://www.infinix.club).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1413,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/240815V1532:user/release-keys",
+  "postBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/241014V1575:user/release-keys",
+  "postTimestamp": 1728897169,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c60fb3f1857ff5c7916020563e5c653cbc6ebefb.zip",
+  "sizeBytes": 80243131,
+  "securityPatch": "2024-10-05",
+  "sdk": "31",
+  "device": "Infinix-X6515",
+  "checkinDevice": "Infinix-X6515",
+  "title": "X6515-H6127HIJAiAjAk-S-OP-240815V1532-241014V1575_20241014214206",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\nX6515-H6127HIJAiAjAk-S-OP-241014V1575\n<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to October 5, 2024.\n<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1319,
+  "archiveUrls": []
+}

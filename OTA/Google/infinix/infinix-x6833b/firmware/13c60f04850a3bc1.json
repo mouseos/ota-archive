@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X6833B-RU/Infinix-X6833B:14/UP1A.231005.007/240703V807:user/release-keys",
+  "postTimestamp": 1719982974,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ab55112336f34b4794619931a08f610975ea44e2.zip",
+  "sizeBytes": 5202553154,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "Infinix-X6833B",
+  "checkinDevice": "Infinix-X6833B",
+  "title": "Tcard_X6833B-H894FH-U-RU-240703V807",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: X6833B-H894FH-U-RU-240703V807<br>\n\nМы исправили:<br>\n1. Обновлена версия с Android T до Android U.<br>\n2. Обновлена версия с XOS 13.0 до XOS 14.0.<br>\n3. Проведено обновление/добавление некоторых специальных функций для улучшения общего опыта, включая, но не ограничиваясь, Dynamic Bar 2.0 и Умная зарядка AI 2.0.<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (Geekbar).<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1542,
+  "archiveUrls": []
+}

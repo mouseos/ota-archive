@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/230911V1255:user/release-keys",
+  "postBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/231116V1305:user/release-keys",
+  "postTimestamp": 1700142861,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c059711024ff19d539d067898f84151d5195c042.zip",
+  "sizeBytes": 134775187,
+  "securityPatch": "2023-11-05",
+  "sdk": "31",
+  "device": "Infinix-X6515",
+  "checkinDevice": "Infinix-X6515",
+  "title": "X6515-H6127HIJAiAjAk-S-OP-230911V1255-231116V1305_20231117114438",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6515-H6127HIJAiAjAk-S-OP-231116V1305<br>    \n\nOptimized issues:  <br>    \n1.Updated Google Security Patch to November 5, 2023. <br>                              \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XClub forum (Geekbar) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 854,
+  "archiveUrls": []
+}

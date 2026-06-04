@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20231215V225:user/release-keys",
+  "postBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20240218V234:user/release-keys",
+  "postTimestamp": 1708242091,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1f8bbc3123620479f1dcd5f6497a05b41684d2b0.zip",
+  "sizeBytes": 257827091,
+  "securityPatch": "2024-02-05",
+  "sdk": "31",
+  "device": "Infinix-X669D",
+  "checkinDevice": "Infinix-X669D",
+  "title": "X669D-F065XAbN-S-RU-OTA-V225-V234-20240219_131354",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: X669D-F065XAbN-S-RU-20240218V234<br>\n\nИсправлены проблемы:<br>\nОбновлен патч безопасности Google от 5 февраля 2024 года.<br>\nУстранены некоторые известные проблемы, улучшен пользовательский опыт.<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти в XClub (Geekbar).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1209,
+  "archiveUrls": []
+}
