@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-cat-bm1s1b/0f173b4e4eca67434c3b1f4bd82a6cd5cbc6ada8.zip"
+  ]
 }
