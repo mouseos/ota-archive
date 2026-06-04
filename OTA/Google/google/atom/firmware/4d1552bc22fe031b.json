@@ -23,5 +23,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 500,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-atom/7e663d1fc50eb6e79f80d47a8b5897d02d8999fd.zip"
+  ]
 }
