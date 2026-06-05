@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-sindang/de6741c2105d10a36b67858c44d28cce37fe691d.zip"
+  ]
 }
