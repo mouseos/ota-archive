@@ -22,5 +22,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-tianshan/145ef11e25082eae168db122c5c94dec7bfcf761.zip"
+  ]
 }
