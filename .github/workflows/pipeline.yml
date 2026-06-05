@@ -16,7 +16,7 @@ on:
       upload_batch:
         description: "Max firmware to mirror to archive.org this run"
         required: false
-        default: "80"
+        default: "150"
 
 permissions:
   contents: write
@@ -63,7 +63,7 @@ jobs:
       - name: Collect pending uploads
         id: pending
         env:
-          UPLOAD_BATCH: ${{ github.event.inputs.upload_batch || vars.UPLOAD_BATCH || '80' }}
+          UPLOAD_BATCH: ${{ github.event.inputs.upload_batch || vars.UPLOAD_BATCH || '150' }}
         # Read from origin/main (what was actually pushed) so upload matrix paths
         # match what the upload jobs will find when they checkout ref: main.
         run: |
@@ -140,3 +140,28 @@ jobs:
             sleep $((RANDOM % 8 + 3))
           done
           echo "push failed after retries" >&2; exit 1
+
+  verify:
+    needs: [resolve, finalize]
+    if: ${{ always() && needs.resolve.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install requests
+      - name: Verify archive mirrors + detect dead/missing
+        run: python scripts/verify_archives.py OTA/Google
+      - name: Commit cleared dead links
+        run: |
+          git config user.name "ota-bot"
+          git config user.email "ota-bot@users.noreply.github.com"
+          git add -A
+          git commit -m "Clear dead archiveUrls [skip ci]" || { echo "no dead links found"; exit 0; }
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0 || sleep 10
+          done
+          echo "push failed" >&2; exit 1

@@ -78,11 +78,15 @@ def main():
             or "bucket lock" in r.text.lower() or "try again" in r.text.lower() \
             or "slow down" in r.text.lower() or "cannot" in r.text.lower()
         if not transient:
-            raise RuntimeError(f"IA upload failed: {last}")
+            fw["archiveFailures"] = fw.get("archiveFailures", 0) + 1
+            json.dump(fw, open(fw_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+            raise RuntimeError(f"IA upload failed (permanent): {last}")
         wait = 10 * (attempt + 1)
         print(f"  IA transient ({last}); retry {attempt + 1}/6 in {wait}s")
         time.sleep(wait)
     else:
+        fw["archiveFailures"] = fw.get("archiveFailures", 0) + 1
+        json.dump(fw, open(fw_path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
         raise RuntimeError(f"IA upload failed after retries: {last}")
 
     fw["archiveUrls"] = [f"https://archive.org/download/{identifier}/{filename}"]

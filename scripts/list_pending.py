@@ -10,7 +10,8 @@ import json
 import os
 
 ROOT = "OTA/Google"
-BATCH = int(os.environ.get("UPLOAD_BATCH", "80"))
+BATCH = int(os.environ.get("UPLOAD_BATCH", "150"))
+MAX_FAILURES = int(os.environ.get("UPLOAD_MAX_FAILURES", "5"))
 
 pending = []
 for dirpath, _dirs, files in os.walk(ROOT):
@@ -24,7 +25,8 @@ for dirpath, _dirs, files in os.walk(ROOT):
             fw = json.load(open(p, encoding="utf-8"))
         except Exception:
             continue
-        if not fw.get("archiveUrls") and fw.get("otaUrl"):
+        if (not fw.get("archiveUrls") and fw.get("otaUrl")
+                and fw.get("archiveFailures", 0) < MAX_FAILURES):
             pending.append((fw.get("postTimestamp") or 0, p))
 
 pending.sort(key=lambda x: x[0])
