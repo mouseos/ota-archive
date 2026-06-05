@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1600,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-tegu/8330352c06a04d2c4beabb59e98893b3f25a6790.zip"
+  ]
 }
