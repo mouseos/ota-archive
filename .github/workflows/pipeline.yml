@@ -13,6 +13,10 @@ on:
         description: "Max NEW OTAs to discover/analyse this run"
         required: false
         default: "150"
+      _chain:
+        description: "Internal: set to 'verify' when auto-triggered to prevent infinite loop"
+        required: false
+        default: ""
       upload_batch:
         description: "Max firmware to mirror to archive.org this run"
         required: false
@@ -20,6 +24,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: ota-pipeline
@@ -37,6 +42,7 @@ jobs:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
       - name: Import discovered Google OTAs from otachecker
+        if: ${{ github.event.inputs._chain != 'verify' }}
         env:
           OTACHECKER_BRANDS: ${{ github.event.inputs.otachecker_brands || vars.OTACHECKER_BRANDS }}
           OTACHECKER_LIMIT: ${{ github.event.inputs.otachecker_limit || vars.OTACHECKER_LIMIT || '150' }}
@@ -145,6 +151,8 @@ jobs:
     needs: [resolve, finalize]
     if: ${{ always() && needs.resolve.result == 'success' }}
     runs-on: ubuntu-latest
+    outputs:
+      unmirrored: ${{ steps.check.outputs.unmirrored }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -154,7 +162,12 @@ jobs:
           python-version: "3.11"
       - run: pip install requests
       - name: Verify archive mirrors + detect dead/missing
-        run: python scripts/verify_archives.py OTA/Google
+        id: check
+        run: |
+          python scripts/verify_archives.py OTA/Google | tee /tmp/verify.log
+          unmirrored=$(grep -oP 'unmirrored\s*:\s*\K\d+' /tmp/verify.log || echo 0)
+          echo "unmirrored=$unmirrored" >> "$GITHUB_OUTPUT"
+          echo "unmirrored firmware: $unmirrored"
       - name: Commit cleared dead links
         run: |
           git config user.name "ota-bot"
@@ -165,3 +178,16 @@ jobs:
             git pull --rebase --autostash && git push && exit 0 || sleep 10
           done
           echo "push failed" >&2; exit 1
+      - name: Self-trigger next upload if unmirrored remain
+        # Only re-trigger from schedule or manual (not from a verify chain) to prevent infinite loops.
+        if: >
+          steps.check.outputs.unmirrored != '0' &&
+          github.event.inputs._chain != 'verify'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Still ${{ steps.check.outputs.unmirrored }} unmirrored — queuing next upload batch"
+          gh workflow run pipeline.yml \
+            --field otachecker_limit=0 \
+            --field upload_batch=150 \
+            --field _chain=verify
