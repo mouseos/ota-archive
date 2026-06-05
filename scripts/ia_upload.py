@@ -50,7 +50,8 @@ def main():
     local = os.path.join("/tmp", filename)
     print(f"downloading {url} -> {local}")
     subprocess.run(
-        ["aria2c", "-x16", "-s16", "--max-tries=3", "--retry-wait=5",
+        ["aria2c", "-x16", "-s16", "--max-tries=3", "--retry-wait=10",
+         "--connect-timeout=30", "--timeout=300",
          "-d", "/tmp", "-o", filename, url],
         check=True,
     )

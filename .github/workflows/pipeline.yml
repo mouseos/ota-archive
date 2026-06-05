@@ -191,3 +191,9 @@ jobs:
             --field otachecker_limit=0 \
             --field upload_batch=150 \
             --field _chain=verify
+      - name: Trigger web rebuild to reflect new archiveUrls
+        if: ${{ needs.finalize.result == 'success' || needs.finalize.result == 'skipped' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh workflow run deploy.yml --repo mouseos/ota-archive-web || true
