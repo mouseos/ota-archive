@@ -25,5 +25,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-asteroids/9b268ebcca32a5d1736b68e914cfadb3705e3cbd.zip"
+  ]
 }
