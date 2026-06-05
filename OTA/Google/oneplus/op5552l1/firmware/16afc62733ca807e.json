@@ -34,5 +34,6 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 1240,
-  "archiveUrls": []
+  "archiveUrls": [],
+  "archiveFailures": 5
 }
