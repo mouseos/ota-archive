@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 58,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-raven/e130ccae3c7733de327f87806924bd9ddec42f1c.zip"
+  ]
 }
