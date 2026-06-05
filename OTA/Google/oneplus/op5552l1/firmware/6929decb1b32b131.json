@@ -34,6 +34,8 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 2138,
-  "archiveUrls": [],
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-oneplus-op5552l1/71b7ed67be6ff67b63bffe42069b16f659f77ed3.zip"
+  ],
   "archiveFailures": 5
 }
