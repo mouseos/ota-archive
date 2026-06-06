@@ -1,0 +1,30 @@
+{
+  "preBuild": "OPPO/OPG01_jp_kdi/OP4BA2L1:10/QKQ1.191222.002/1608801105:user/release-keys",
+  "postBuild": "OPPO/OPG01_jp_kdi/OP4BA2L1:11/RKQ1.200710.002/1616078186090:user/release-keys",
+  "postTimestamp": 1616078198,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8885af65aa13167bf679cada88972dc555d7b21f.zip",
+  "sizeBytes": 3734206040,
+  "securityPatch": "2021-03-05",
+  "sdk": "30",
+  "device": "OP4BA2L1",
+  "checkinDevice": "OP4BA2L1",
+  "title": "System update available",
+  "description": "Android™ 11 OS update is now available.<br><br> The implementation of the OS update will add new function,improve usability,and change the name of function and items.<br> Please check the details and notes about the update on the website of au in advance,and then implement the update.<br> <br>Please back up data before implementing the OS update.<br> After implementing the OS update,you cannnot revert to the old one.<br>As the update file size is large,please use Wi-Fi®.<br><br>During the OS update,you cannnot do anything including calling to 110,119 and 118,and sending and receiving emails.<br>Please implement the OS update when the battery is fully charged.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "my_company",
+    "my_engineering",
+    "my_product",
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

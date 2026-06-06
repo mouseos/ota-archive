@@ -1,0 +1,30 @@
+{
+  "preBuild": "OPPO/OPG01_jp_kdi/OP4BA2L1:11/RKQ1.200710.002/1625710978691:user/release-keys",
+  "postBuild": "OPPO/OPG01_jp_kdi/OP4BA2L1:11/RKQ1.200710.002/1630893115884:user/release-keys",
+  "postTimestamp": 1630893129,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/90714fe20ce150bc45c54fce32efcc26b2dd4ac1.zip",
+  "sizeBytes": 619851591,
+  "securityPatch": "2021-09-05",
+  "sdk": "30",
+  "device": "OP4BA2L1",
+  "checkinDevice": "OP4BA2L1",
+  "title": "System update available",
+  "description": "Build number :OPG01_11_C.72<br>*Do not turn off the phone while the installation is running.<br>For more information, visit our website.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 100663296,
+  "partitions": [
+    "boot",
+    "my_engineering",
+    "my_product",
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}
