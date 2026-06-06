@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/KF6-GL/TECNO-KF6:11/RP1A.200720.011/220721V410:user/release-keys",
+  "postBuild": "TECNO/KF6-GL/TECNO-KF6:11/RP1A.200720.011/220820V413:user/release-keys",
+  "postTimestamp": 1660989373,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/087874c1274087bcc00a52c53c8676c214e38e8f.zip",
+  "sizeBytes": 114829440,
+  "securityPatch": "2022-08-01",
+  "sdk": "30",
+  "device": "TECNO-KF6",
+  "checkinDevice": "TECNO-KF6",
+  "title": "KF6-H6219DI-RGo-GL-220721V410-220820V413_20220821162106",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:KF6-H6219DI-RGo-GL-220820V413<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Aug. 1, 2022. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO spot forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1755,
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CI6n-OP/TECNO-CI6n:13/TP1A.220624.014/230630V428:user/release-keys",
+  "postBuild": "TECNO/CI6n-OP/TECNO-CI6n:13/TP1A.220624.014/230905V789:user/release-keys",
+  "postTimestamp": 1693878512,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9a63f932a2fd9e1a4912c9b95dd3fbc4d6604e6d.zip",
+  "sizeBytes": 613748530,
+  "securityPatch": "2023-07-05",
+  "sdk": "33",
+  "device": "TECNO-CI6n",
+  "checkinDevice": "TECNO-CI6n",
+  "title": "CI6n-H6917DE-T-OP-230630V428-230905V789_20230905195352",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: CI6n-H6917DE-T-OP-230905V789<br>\nOptimized issues:<br>\n1.Updated Google Security Patch to July 5, 2023.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1741,
+  "archiveUrls": []
+}

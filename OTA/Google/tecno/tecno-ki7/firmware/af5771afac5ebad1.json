@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/KI7-RU/TECNO-KI7:13/TP1A.220624.014/241031V5211:user/release-keys",
+  "postBuild": "TECNO/KI7-RU/TECNO-KI7:13/TP1A.220624.014/241212V5253:user/release-keys",
+  "postTimestamp": 1733965493,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/756f23091e3ebaf4872202b00e705636cbc8b344.zip",
+  "sizeBytes": 219443396,
+  "securityPatch": "2024-12-05",
+  "sdk": "33",
+  "device": "TECNO-KI7",
+  "checkinDevice": "TECNO-KI7",
+  "title": "KI7-V7510AGHJ-T-RU-241031V5211-to-KI7-V7510AGHJ-T-RU-241212V5253",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: KI7-V7510AGHJ-T-RU-241212V5253<br>\nИзменён функционал:<br>\n1. Улучшен пользовательский опыт.<br>\nМы исправили:<br>\n1.Оптимизированы безопасность и стабильность системы с последним патчем безопасности от Google.<br>\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти на форуме TECNO SPOT (TECNO SPOT).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1780,
+  "archiveUrls": []
+}

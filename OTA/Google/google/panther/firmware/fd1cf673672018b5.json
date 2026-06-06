@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/panther/panther:16/CP1A.260305.018/14887507:user/release-keys",
+  "postBuild": "google/panther/panther:16/CP1A.260405.005/15001963:user/release-keys",
+  "postTimestamp": 1773127480,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/0566e53806524a9738fcfc1c1f572fe3f6901250.zip",
+  "sizeBytes": 57645783,
+  "securityPatch": "2026-04-05",
+  "sdk": "36",
+  "device": "panther",
+  "checkinDevice": "panther",
+  "title": "Android 16",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2175,
+  "archiveUrls": []
+}

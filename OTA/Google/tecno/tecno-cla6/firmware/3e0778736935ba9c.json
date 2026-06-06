@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/CLA6-OP/TECNO-CLA6:15/AP3A.240905.015.A2/136011:user/release-keys",
+  "postBuild": "TECNO/CLA6-OP/TECNO-CLA6:15/AP3A.240905.015.A2/159007:user/release-keys",
+  "postTimestamp": 1757428455,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1f9039f937f15cb150b36c7d77aa19d522a4c106.zip",
+  "sizeBytes": 276193330,
+  "securityPatch": "2025-08-05",
+  "sdk": "35",
+  "device": "TECNO-CLA6",
+  "checkinDevice": "TECNO-CLA6",
+  "title": "CLA6-15.1.0.136SP02-OP001PF001AZ-15.1.0.159SP01-OP001PF001AZ_20250910130047",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CLA6-15.1.0.159SP01(OP001PF001AZ)<br><br>Changed Functions:<br>1. Updated Google Security Patch to August 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2075,
+  "archiveUrls": []
+}

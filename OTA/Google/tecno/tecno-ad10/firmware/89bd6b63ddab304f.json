@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/AD10-GL/TECNO-AD10:15/AP3A.240905.015.A2/115034:user/release-keys",
+  "postBuild": "TECNO/AD10-GL/TECNO-AD10:15/AP3A.240905.015.A2/122003:user/release-keys",
+  "postTimestamp": 1773698719,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6374ab68c90e90e66e3ba376e84151b66d334288.zip",
+  "sizeBytes": 165651666,
+  "securityPatch": "2026-04-01",
+  "sdk": "35",
+  "device": "TECNO-AD10",
+  "checkinDevice": "TECNO-AD10",
+  "title": "AD10-15.1.3.115SP05-GL001PF001AZ-15.1.3.122-GL001PF001AZ_20260319100957",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> AD10-15.1.3.122(GL001PF001AZ)<br><br>Changed Functions:<br>1. Updated Google Security Patch to April 1, 2026.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2073,
+  "archiveUrls": []
+}

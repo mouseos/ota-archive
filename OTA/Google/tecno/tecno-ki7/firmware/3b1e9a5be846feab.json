@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/KI7-RU/TECNO-KI7:13/TP1A.220624.014/230615V2799:user/release-keys",
+  "postBuild": "TECNO/KI7-RU/TECNO-KI7:13/TP1A.220624.014/230703V3020:user/release-keys",
+  "postTimestamp": 1688368736,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/57adf10a995792e9ff492b64ca6b323b07de52c9.zip",
+  "sizeBytes": 220376265,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "TECNO-KI7",
+  "checkinDevice": "TECNO-KI7",
+  "title": "KI7-V7510AGHJ-T-RU-230615V2799-230703V3020_20230704150231",
+  "description": "Осторожность! Это обновление может привести к сбою рутированных устройств. <br> Пожалуйста, подключите зарядное устройство для OTA-обновления, когда мощность ниже 50%. <br> <b>Обновленная версия: </b>KI7-V7510AGHJ-T-RU-230703V3020<br> <b>Измененные функции: </b><br> <li>1. Исправление безопасности Google обновлено до 5 июня 2023 года.</li> <li>2. Пакет Google GMS обновлен до 13_202301.</li> <b>Проблема с оптимизацией: </b><br> <li>1. Включите последний патч Google. </li> <b>Исправленные проблемы:</b> <br> <li>1. Обновление Оптимизация производительности </li>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1588,
+  "archiveUrls": []
+}

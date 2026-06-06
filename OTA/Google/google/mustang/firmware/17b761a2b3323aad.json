@@ -23,7 +23,8 @@
   ],
   "hasFirmware": false,
   "hasApex": true,
-  "source": "app",
+  "source": "otachecker",
+  "sourceId": 2178,
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-mustang/fed4b64c333a1249c8eaead2c8e17b81608c1a58.zip"
   ]

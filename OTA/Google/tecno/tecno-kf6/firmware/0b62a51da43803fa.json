@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/KF6-GL/TECNO-KF6:11/RP1A.200720.011/221109V430:user/release-keys",
+  "postBuild": "TECNO/KF6-GL/TECNO-KF6:11/RP1A.200720.011/230111V439:user/release-keys",
+  "postTimestamp": 1673434290,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/72b2fec6dc67487349fd825768cc8645389498aa.zip",
+  "sizeBytes": 74136252,
+  "securityPatch": "2023-01-05",
+  "sdk": "30",
+  "device": "TECNO-KF6",
+  "checkinDevice": "TECNO-KF6",
+  "title": "KF6-H6219DI-RGo-GL-221109V430-230111V439_20230111191229",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:KF6-H6219DI-RGo-GL-230111V439<br>\n\n\nChanged Functions:<br>\n1.Optimized the stability issue from user feedback.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1761,
+  "archiveUrls": []
+}

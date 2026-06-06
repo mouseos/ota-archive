@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "google/flame/flame:13/TP1A.220624.014/8819323:user/release-keys",
+  "postTimestamp": 1657588961,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/fbb177a55334d33fa812bd783e24436d14e2b0dc.zip",
+  "sizeBytes": 1959162076,
+  "securityPatch": "2022-08-05",
+  "sdk": "33",
+  "device": "flame",
+  "checkinDevice": "flame",
+  "title": "Get Android 13 now. More personalized, private, and designed to work across devices.",
+  "description": "<b>Hello, Android 13</b>\n<br>More personalized, private, and designed to work across devices.\n \n<p>Your device will be updated to Android 13. Learn more at android.com/13.\n \n<p>New features include:\n<br>- Expanded themed app icons to match your phone’s wallpaper colors\n<br>- An updated media player with album artwork and a fun playback bar\n<br>- Assign different language settings to individual apps\n<br>- More control over when apps can send you notifications\n<br>- Stream your messaging apps directly to your Chromebook\n \n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 47,
+  "archiveUrls": []
+}

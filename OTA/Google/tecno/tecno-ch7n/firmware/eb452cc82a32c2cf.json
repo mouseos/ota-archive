@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CH7n-OP/TECNO-CH7n:12/SP1A.210812.016/230609V963:user/release-keys",
+  "postBuild": "TECNO/CH7n-OP/TECNO-CH7n:12/SP1A.210812.016/230815V1094:user/release-keys",
+  "postTimestamp": 1692112810,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/80d7fcac3f69654a37a379bc0daf384697beb899.zip",
+  "sizeBytes": 169253123,
+  "securityPatch": "2023-08-05",
+  "sdk": "31",
+  "device": "TECNO-CH7n",
+  "checkinDevice": "TECNO-CH7n",
+  "title": "CH7n-H812DE-S-OP-230609V963-230815V1094_20230816100410",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: CH7n-H812DE-S-OP-230815V1094<br>\nOptimized issues:<br>\n1.Updated Google Security Patch to August 5, 2023.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1740,
+  "archiveUrls": []
+}

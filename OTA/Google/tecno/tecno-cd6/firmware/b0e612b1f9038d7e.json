@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CD6-OP/TECNO-CD6:10/QP1A.190711.020/HJO-OP-201016V268:user/release-keys",
+  "postBuild": "TECNO/CD6-OP/TECNO-CD6:10/QP1A.190711.020/HJO-OP-201218V280:user/release-keys",
+  "postTimestamp": 1608285051,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/594efdab8b208016a2d5bca2d969ac48f4a5bdf3.zip",
+  "sizeBytes": 536608683,
+  "securityPatch": "2020-12-05",
+  "sdk": "29",
+  "device": "TECNO-CD6",
+  "checkinDevice": "TECNO-CD6",
+  "title": "CD6-H6211HJO-Q-OP-201016V268-201218V280_20201218210100",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version: CD6-H6211HJO-Q-OP-201218V280<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Dec 5, 2020. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1731,
+  "archiveUrls": []
+}

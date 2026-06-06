@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/CI6n-OP/TECNO-CI6n:13/TP1A.220624.014/230630V428:user/release-keys",
+  "postTimestamp": 1688142991,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/719bccea8b7659c0c97b5fb794353fd6042b903f.zip",
+  "sizeBytes": 4486043409,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "TECNO-CI6n",
+  "checkinDevice": "TECNO-CI6n",
+  "title": "Tcard_CI6n-H6917DE-T-OP-230630V428",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:CI6n-H6917DE-T-OP-230630V428<br>\n\nUpgrade content: <br>\n1.Upgraded the Android version from Android 12 to Android 13.<br>\n2.Upgraded the HiOS version from HiOS8.6.0 to HiOS13.0.0.<br>\n3.Upgraded and added some special features to improve the overall experience, including but not limited to Lightning Multi-Window, AI Gallery, Smart Network Allocation, Smart Panel, VishaPlayer, SmartScan, Screenshot, FileManager.<br>\n4.We made the OS more fluently, Discover and Have fun ：）.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1582,
+  "archiveUrls": []
+}

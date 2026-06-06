@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CI6n-RU/TECNO-CI6n:13/TP1A.220624.014/231121V1185:user/release-keys",
+  "postBuild": "TECNO/CI6n-RU/TECNO-CI6n:13/TP1A.220624.014/240115V1462:user/release-keys",
+  "postTimestamp": 1705335309,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b664dc57499a3ac8be727f5c4b3277ccc4a23f1c.zip",
+  "sizeBytes": 240663917,
+  "securityPatch": "2024-01-01",
+  "sdk": "33",
+  "device": "TECNO-CI6n",
+  "checkinDevice": "TECNO-CI6n",
+  "title": "CI6n-H6917D-T-RU-231121V1185-240115V1462_20240116191957",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления:  CI6n-H6917D-T-RU-240115V1462<br>\nМы исправили:<br>\n1. Обновление патча безопасности Google.<br>\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти на форуме TECNO SPOT (TECNO SPOT).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1744,
+  "archiveUrls": []
+}

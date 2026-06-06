@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/AD10-GL/TECNO-AD10:15/AP3A.240905.015.A2/115034:user/release-keys",
+  "postTimestamp": 1769709237,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3fe4121d8516e0e312854d80413be558fe389398.zip",
+  "sizeBytes": 7861732521,
+  "securityPatch": "2026-01-05",
+  "sdk": "35",
+  "device": "TECNO-AD10",
+  "checkinDevice": "TECNO-AD10",
+  "title": "Tcard_AD10-15.1.3.115SP05-GL001PF001AZ",
+  "description": "It is recommended to perform OTA upgrade when the battery is over 50%.<br>\n<br>\nUpdate Version:<br>\nAD10-15.1.3.115SP05(GL001PF001AZ)<br>\n<br>\nAndroid Version:<br>\nUpgraded from Android 14 to Android 15 for enhanced security, more features, and a better user experience.<br>\n<br>\nOS Version:<br>\nUpgraded from HiOS 14.5.0 to HiOS 15.1.3 for a smarter user interface and a refreshed look for your device.<br>\n<br>\nHome Screen<br>\nSupported resizing certain app icons and folders to 1x2, 2x1, or 2x2 via long press and drag, enhancing home screen icon personalization.<br>\nSupported effect previews for home screen grid adjustment and page turn settings.<br>\nOptimized animations for unlocking the home screen and app launch/exit transitions.<br>\n<br>\nNotification Center<br>\nAdded privacy protection for lock screen notifications, showing content only after face unlock. Introduced adaptive notification settings that automatically reduce volume for high-frequency notifications over short periods.<br>\nOptimized screen wake intervals and animation design for notifications, balancing notification timeliness and a smooth visual experience.<br>\nSupported displaying silent call notifications from WhatsApp and similar apps on the lock screen; optimized notification animations.<br>\n<br>\nControl Center<br>\nAdded music cards to improve the interaction experience.<br>\nOptimized page layout and smoothness for a more refined display.<br>\n<br>\nAI Suggestions<br>\nAdded the memory card that alerts users when memory is low and offers one-tap memory cleanup.<br>\nAdded data usage suggestions to notify users when data is running low, making it easier to manage monthly data consumption.<br>\n<br>\nFont<br>\nAdded the TransSans font and supported variable font weight adjustment for a more comfortable reading experience.<br>\n<br>\nPhone<br>\nAdded support for merging duplicate contacts and removing duplicates.<br>\nOptimized Call Log to support the display of ringing time.<br>\nOptimized dual SIM call settings in the contact details interface.<br>\nAdded type identifier for missed call notifications in Do Not Disturb/Silent modes.<br>\nOptimized visuals in other aspects.<br>\n<br>\nMessages<br>\nAdded support for Dynamic Port to display SMS verification codes.<br>\n<br>\nDual System<br>\nStrong isolation: One device, two separate spaces. Data in the main and second systems is fully isolated, with independent fingerprints and passwords supported for each.<br>\nSeamless switching: You can enter the corresponding system directly from the lock screen using different fingerprints or passwords. Switching between systems is discreet and leaves no trace, striking a perfect balance between work and privacy.<br>\n<br>\nImproved system performance<br>\nOptimized the memory recycling strategy to boost app loading speed.<br>\nAdded priority scheduling for key tasks to enhance the system running smoothness under high CPU loads.<br>\n<br>\nGames<br>\nSupported voice control for Game Assistant Panel to enhance operational efficiency.<br>\nSupported setting screen refresh rates on Game Assistant Panel. <br>\n<br>\nInstant Transfer<br>\nAdded Instant Transfer for quick transfer across phones and tablets of the same brand when images, videos, and files were shared, without data usage and installation.\n<br>\n<br>\nNFC<br>\nImproved NFC accidental read prevention. If NFC card reading is triggered repeatedly within a short period, NFC will be temporarily disabled. You can also set a specific reading range for NFC. A reminder is shown when a card is detected on the back of the phone for an extended period, helping avoid interference with normal NFC use.<br>\n<br>\nApp Twin<br>\nOptimized App Twin to support dual instances of Outlook.<br>\nFixed the issue of non-cloned apps appearing in the app management list in Settings. <br>\nImproved the cross-app sharing experience for dual apps.<br>\n<br>\nApp Lock<br>\nOptimized for the issue where the App Lock unlock screen did not support floating windows.<br>\nAdded a feature to pa",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2070,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/KF6i-OP/TECNO-KF6i:11/RP1A.200720.011/210528V156:user/release-keys",
+  "postBuild": "TECNO/KF6i-OP/TECNO-KF6i:11/RP1A.200720.011/230111V244:user/release-keys",
+  "postTimestamp": 1673436497,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5c51c931354a35711f8b515ad7d0d294c8da9bcc.zip",
+  "sizeBytes": 1383931924,
+  "securityPatch": "2023-01-05",
+  "sdk": "30",
+  "device": "TECNO-KF6i",
+  "checkinDevice": "TECNO-KF6i",
+  "title": "KF6i-H6218EFK-R-OP-210528V156-230111V244_20230112201743",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:KF6i-H6218EFK-R-OP-230111V244<br>    \n\nOptimized issues:  <br> \n1.Updated Google Security Patch to Jan. 5, 2023. <br>                            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO spot forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1587,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "TECNO/KL4-OP-S2/TECNO-KL4:14/UP1A.231005.007/241220V3333:user/release-keys",
+  "postBuild": "TECNO/KL4-OP-S2/TECNO-KL4:14/UP1A.231005.007/250322V3829:user/release-keys",
+  "postTimestamp": 1742633771,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/84d6c00456f621f860cdc0e7d771f36bf7955e64.zip",
+  "sizeBytes": 174368053,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "TECNO-KL4",
+  "checkinDevice": "TECNO-KL4",
+  "title": "KL4-F201RSTYK-UGo-OP-S2-OTA-241220V3333-250322V3829-20250322_192734",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> KL4-F201RSTYK-UGo-OP-S2-250322V3829<br><br>Fixed Issues:<br>1. Optimized the translations for the power saving mode in Battery Lab.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1505,
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CH6i-GL/TECNO-CH6i:13/TP1A.220624.014/230905V832:user/release-keys",
+  "postBuild": "TECNO/CH6i-GL/TECNO-CH6i:13/TP1A.220624.014/231218V1390:user/release-keys",
+  "postTimestamp": 1702884796,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d854689c451adf483322118c137009b3b8283201.zip",
+  "sizeBytes": 913442002,
+  "securityPatch": "2023-12-01",
+  "sdk": "33",
+  "device": "TECNO-CH6i",
+  "checkinDevice": "TECNO-CH6i",
+  "title": "CH6i-H6921AB-T-GL-230905V832-231218V1390_20231219160550",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:CH6i-H6921AB-T-GL-231218V1390<br>    \n\nOptimized issues:  <br>\n1.Updated Google Security Patch to December 5, 2023. <br>   \n2.Improved user experience. <br>  \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1735,
+  "archiveUrls": []
+}

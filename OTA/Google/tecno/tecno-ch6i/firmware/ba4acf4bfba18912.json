@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CH6i-GL/TECNO-CH6i:13/TP1A.220624.014/240219V1731:user/release-keys",
+  "postBuild": "TECNO/CH6i-GL/TECNO-CH6i:13/TP1A.220624.014/240411V1976:user/release-keys",
+  "postTimestamp": 1712787357,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7abd98beb361a9a45c5587e7d06ebd36303685c1.zip",
+  "sizeBytes": 140146869,
+  "securityPatch": "2024-04-05",
+  "sdk": "33",
+  "device": "TECNO-CH6i",
+  "checkinDevice": "TECNO-CH6i",
+  "title": "CH6i-H6921AB-T-GL-240219V1731-240411V1976_20240411065548",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdateVersion:CH6i-H6921AB-T-GL-240411V1976<br>\n \n Optimized issues:<br>\n 1.Updated Google Security Patch to April 5, 2024.<br>\n2.Improved user experience. <br>\n \n Reminding:<br>\n 1.Optimized system stability and performance while fixing other issues.<br>\n 2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1737,
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CI8n-GL/TECNO-CI8n:13/TP1A.220624.014/230629V576:user/release-keys",
+  "postBuild": "TECNO/CI8n-GL/TECNO-CI8n:13/TP1A.220624.014/231016V1141:user/release-keys",
+  "postTimestamp": 1697464340,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3d4da46d9bc4b491801d224460dd610e0d5ebb06.zip",
+  "sizeBytes": 761641878,
+  "securityPatch": "2023-10-05",
+  "sdk": "33",
+  "device": "TECNO-CI8n",
+  "checkinDevice": "TECNO-CI8n",
+  "title": "CI8n-H816BC-T-GL-230629V576-231016V1141_20231018114112",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:CI8n-H816BC-T-GL-231016V1141<br>\n\nUpgrade content: <br>\n1.Updated Google Security Patch to October 5, 2023.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1745,
+  "archiveUrls": []
+}
