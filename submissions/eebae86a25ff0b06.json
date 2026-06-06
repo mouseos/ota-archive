@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8f331b7dc10a3097f644a30fb3370e81e1bf9a81.zip",
+  "fingerprint": "Nokia/SEI804NK/YYJ:14/UKG3.241022.001/4576:user/release-keys",
+  "manufacturer": "",
+  "brand": "nokia",
+  "model": "yyj",
+  "title": "New SW version - 7475",
+  "description": "1. Google Security Patch update for enhanced security and privacy\n2. General bug fixes and performance improvements\nNote: During installation, the TV screen may temporarily go black with no information displayed. Please ensure the device remains connected to the power supply and do not disconnect it until the Home screen reappears, and the update is complete."
+}
