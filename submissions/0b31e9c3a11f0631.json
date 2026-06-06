@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/razer_cheryl_cheryl/2738c5f84a3701c8f27a414a48dd6b316ec9b081.zip",
+  "fingerprint": "razer/cheryl/cheryl:8.1.0/OPM1.171019.011-RZR-180803/6033:user/release-keys",
+  "manufacturer": "",
+  "brand": "razer",
+  "model": "cheryl",
+  "title": "Razer Phone Software Update available",
+  "description": "A new software update is available for Razer Phone. This update includes:<p>\n•\tAmbient display issue fix.<br>\n•\tImproved camera stability.<br> \n•\tLatest GMS apps.<br>\n•\tSecurity updates through November, 2019.<br>"
+}
