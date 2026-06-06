@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/sharp_hh6sprout_fs803200a0/8519001eb1af35e97de385aee0ea759652d5b2d3.zip",
-  "fingerprint": "SHARP/FS8032_00A0/HH6_sprout:10/QKQ1.190828.002/FS8032T0305Q:user/release-keys",
-  "manufacturer": "",
-  "brand": "sharp",
-  "model": "hh6_sprout",
-  "title": "System update available",
-  "description": "<br><b><big>Advisory Notice</big></b><font color=\"#FF0000\"><br>- Downloading updates over mobile networks or when roaming may result in charges depending on your plan, please use Wi-Fi to download. <br></font><br><b><big>What’s New</big></b> <br>- Update Android security patch"
-}

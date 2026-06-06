@@ -1,5 +1,5 @@
 {
-  "preBuild": "",
+  "preBuild": "Nokia/SEI804NK/YYJ:14/UKG3.241022.001/4576:user/release-keys",
   "postBuild": "Nokia/SEI804NK/YYJ:14/UKG3.250803.001/7475:user/release-keys",
   "postTimestamp": 1770879381,
   "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8f331b7dc10a3097f644a30fb3370e81e1bf9a81.zip",
@@ -25,8 +25,7 @@
   ],
   "hasFirmware": false,
   "hasApex": false,
-  "source": "otachecker",
-  "sourceId": 2153,
+  "source": "app",
   "archiveUrls": [
     "https://archive.org/download/ota-google-nokia-yyj/8f331b7dc10a3097f644a30fb3370e81e1bf9a81.zip"
   ]

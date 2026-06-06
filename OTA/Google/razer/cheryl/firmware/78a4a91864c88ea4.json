@@ -1,0 +1,21 @@
+{
+  "preBuild": "razer/cheryl/cheryl:8.1.0/OPM1.171019.011-RZR-180803/6033:user/release-keys",
+  "postBuild": "razer/cheryl/cheryl:9/P-MR2-RC001-RZR-N/7083:user/release-keys",
+  "postTimestamp": 1574056047,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/razer_cheryl_cheryl/2738c5f84a3701c8f27a414a48dd6b316ec9b081.zip",
+  "sizeBytes": 1459517004,
+  "securityPatch": "2019-11-05",
+  "sdk": "28",
+  "device": "cheryl",
+  "checkinDevice": "cheryl",
+  "title": "Razer Phone Software Update available",
+  "description": "A new software update is available for Razer Phone. This update includes:<p>\n•\tAmbient display issue fix.<br>\n•\tImproved camera stability.<br> \n•\tLatest GMS apps.<br>\n•\tSecurity updates through November, 2019.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

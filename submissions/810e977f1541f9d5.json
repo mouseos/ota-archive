@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/390c81b55d167247557069085b1ae9d4b1d57db7.zip",
-  "fingerprint": "Redmi/XIG02_jp_kdi/XIG02:13/TKQ1.220905.001/V14.0.4.0.TKRJPKD:user/release-keys",
-  "manufacturer": "",
-  "brand": "redmi",
-  "model": "xig02",
-  "title": "OTA for V12.5.14.0.RKRJPKD",
-  "description": "【更新内容】 ビルド番号:MIUI Global 12.5.14 | 安定版 12.5.14.0(RKRJPKD)<br>\n ・セキュリティパッチレベルを2021-12-01に変更します  <br> <br>\n ※インストール中は本機の電源を切らないでください。 <br>\n 注意事項に関する詳細は弊社ホームページをご確認ください。"
-}

@@ -1,0 +1,24 @@
+{
+  "preBuild": "SHARP/FS8032_00A0/HH6_sprout:10/QKQ1.190828.002/FS8032T0715Q:user/release-keys",
+  "postBuild": "SHARP/FS8032_00A0/HH6_sprout:10/QKQ1.190828.002/FS8032T0813Q:user/release-keys",
+  "postTimestamp": 1597284162,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/sharp_hh6sprout_fs803200a0/8519001eb1af35e97de385aee0ea759652d5b2d3.zip",
+  "sizeBytes": 6697729,
+  "securityPatch": "2020-08-01",
+  "sdk": "29",
+  "device": "HH6_sprout",
+  "checkinDevice": "HH6_sprout",
+  "title": "System update available",
+  "description": "<br><b>Advisory Notice</b><br>- Downloading updates over mobile networks or when roaming may result in charges depending on your plan, please use Wi-Fi to download. <br><br><b>What’s New</b> <br>- Update Android security patch",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}

@@ -1,0 +1,21 @@
+{
+  "preBuild": "razer/cheryl2/linus:9/P-SMR3-RC002-CKH-200226/3132:user/release-keys",
+  "postBuild": "razer/cheryl2/linus:9/P-SMR6-RC001-CKH-201102/3150:user/release-keys",
+  "postTimestamp": 1604289019,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2a13768baaaab27a2fa72ae5c74841f2f77d2369.zip",
+  "sizeBytes": 104339668,
+  "securityPatch": "2020-11-05",
+  "sdk": "28",
+  "device": "linus",
+  "checkinDevice": "linus",
+  "title": "Razer Phone Software Update available.",
+  "description": "A new software update is available for Razer Phone 2. This update includes:<p>\n•\tSecurity updates through November, 2020.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "app",
+  "archiveUrls": []
+}
