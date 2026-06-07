@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/241211V761:user/release-keys",
+  "postBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/250218V771:user/release-keys",
+  "postTimestamp": 1739854789,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4845b6300d01281301caa392d3152071a40b8af9.zip",
+  "sizeBytes": 394277504,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "TECNO-LH7n",
+  "checkinDevice": "TECNO-LH7n",
+  "title": "LH7n-H894JKLM-U-GL-241211V761-250218V771_20250218213445",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> LH7n-H894JKLM-U-GL-250218V771<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Fixed Issues:<br>1. Fixed the issue where HD images cannot be sent in some WhatsApp versions.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1041,
+  "archiveUrls": []
+}

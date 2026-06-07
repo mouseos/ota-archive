@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/230110V728:user/release-keys",
+  "postBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/230303V748:user/release-keys",
+  "postTimestamp": 1677851499,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1cc247fa4d2263eecb1b8361e6cb32ae79eaed90.zip",
+  "sizeBytes": 55369892,
+  "securityPatch": "2023-03-05",
+  "sdk": "30",
+  "device": "TECNO-LE7",
+  "checkinDevice": "TECNO-LE7",
+  "title": "LE7-H697GHIJKL-R-GL-230110V728-230303V748_20230303235112",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:LE7-H697GHIJKL-R-GL-230303V748<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to March 5, 2023. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1384,
+  "archiveUrls": []
+}

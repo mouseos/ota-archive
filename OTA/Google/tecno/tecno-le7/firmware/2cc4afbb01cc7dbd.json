@@ -21,7 +21,8 @@
   ],
   "hasFirmware": false,
   "hasApex": false,
-  "source": "app",
+  "source": "otachecker",
+  "sourceId": 1316,
   "archiveUrls": [
     "https://archive.org/download/ota-google-tecno-tecno-le7/c5e5e4f1d1c4acb82702f6e6dd4077237ad74ba1.zip"
   ]

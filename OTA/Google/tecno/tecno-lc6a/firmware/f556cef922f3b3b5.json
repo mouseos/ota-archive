@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H619/TECNO-LC6a:9/PPR1.180610.011/ABC-210325V167:user/release-keys",
+  "postBuild": "TECNO/H619/TECNO-LC6a:9/PPR1.180610.011/ABC-210615V173:user/release-keys",
+  "postTimestamp": 1623747677,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/485dcd5543c6cbae2f11dca7e0d328e5892112ea.zip",
+  "sizeBytes": 181274097,
+  "securityPatch": "2021-06-05",
+  "sdk": "28",
+  "device": "TECNO-LC6a",
+  "checkinDevice": "TECNO-LC6a",
+  "title": "LC6a-H619ABC-PGo-210325V167-210615V173_20210616094613",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:LC6a-H619ABC-PGo-210615V173<br>\n\n\nChanged Functions:<br>\n1.Updated Google Security Patch to Jun 5,2021.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 136314880,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1348,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LH8n-GL/TECNO-LH8n:14/UP1A.231005.007/240703V659:user/release-keys",
+  "postBuild": "TECNO/LH8n-GL/TECNO-LH8n:14/UP1A.231005.007/240910V771:user/release-keys",
+  "postTimestamp": 1725967282,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/20dac65bdbd38503d415c5054c0715bd7e565e94.zip",
+  "sizeBytes": 900914637,
+  "securityPatch": "2024-08-05",
+  "sdk": "34",
+  "device": "TECNO-LH8n",
+  "checkinDevice": "TECNO-LH8n",
+  "title": "LH8n-H333MNOP-U-GL-240703V659-240910V771_20240911112646",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\nLH8n-H333MNOP-U-GL-240910V771<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to August 5, 2024.<br>\n<br>\nFixed Issues:<br>\n1. Fixed the issue that the settings menu crashed when users set up Notifications on Lock Screen.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 685,
+  "archiveUrls": []
+}

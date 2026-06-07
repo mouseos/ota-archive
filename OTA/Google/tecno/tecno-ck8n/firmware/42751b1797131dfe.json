@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CK8n-GL/TECNO-CK8n:14/UP1A.231005.007/241210V481:user/release-keys",
+  "postBuild": "TECNO/CK8n-GL/TECNO-CK8n:14/UP1A.231005.007/250217V499:user/release-keys",
+  "postTimestamp": 1739804425,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d811e904898f83cb0a49ac2028c5942c51f8bd5e.zip",
+  "sizeBytes": 369894103,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "TECNO-CK8n",
+  "checkinDevice": "TECNO-CK8n",
+  "title": "CK8n-H931ABC-U-GL-241210V481-250217V499_20250218120408",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CK8n-H931ABC-U-GL-250217V499<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Fixed Issues:<br>1. Fixed the issue where HD pictures cannot be taken and sent in some WhatsApp versions.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 939,
+  "archiveUrls": []
+}

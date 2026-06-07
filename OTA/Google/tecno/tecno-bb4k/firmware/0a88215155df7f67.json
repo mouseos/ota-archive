@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H6114/TECNO-BB4k:9/PPR1.180610.011/UVW-210311V119:user/release-keys",
+  "postBuild": "TECNO/H6114/TECNO-BB4k:9/PPR1.180610.011/UVW-210513V123:user/release-keys",
+  "postTimestamp": 1620892102,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d2a60e1bef4fc2638494d8e05e4ede81e39f0c7e.zip",
+  "sizeBytes": 179528207,
+  "securityPatch": "2021-05-05",
+  "sdk": "28",
+  "device": "TECNO-BB4k",
+  "checkinDevice": "TECNO-BB4k",
+  "title": "BB4k-H6114UVW-PGo-210311V119-210513V123_20210513202146",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:BB4k-H6114UVW-PGo-210513V123<br>\n\n\nChanged Functions:<br>\n1.Updated Google Security Patch to May 5,2021.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 209715200,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1346,
+  "archiveUrls": []
+}

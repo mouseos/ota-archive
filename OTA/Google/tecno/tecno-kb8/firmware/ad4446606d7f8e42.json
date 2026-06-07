@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200623V787:user/release-keys",
+  "postBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200821V804:user/release-keys",
+  "postTimestamp": 1598019059,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnokb8_h624/b3e4dd91d73e28170351756b40996f533444ea85.zip",
+  "sizeBytes": 338162171,
+  "securityPatch": "2020-08-05",
+  "sdk": "29",
+  "device": "TECNO-KB8",
+  "checkinDevice": "TECNO-KB8",
+  "title": "KB8-H624BNPQ-Q-200623V787-200821V804_20200824204354",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:KB8-H624BNPQ-Q-200821V804<br> \nOptimized issues:<br> \n1.Updated Google Security Patch to August 5, 2020.<br> \nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 209715200,
+  "partitions": [
+    "boot",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 945,
+  "archiveUrls": []
+}

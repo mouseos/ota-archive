@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-210226V294:user/release-keys",
+  "postBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-210513V316:user/release-keys",
+  "postTimestamp": 1620895265,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7baa0fc328d73aba8c9209b1a98705200146c77c.zip",
+  "sizeBytes": 304839866,
+  "securityPatch": "2021-05-05",
+  "sdk": "28",
+  "device": "TECNO-KC2",
+  "checkinDevice": "TECNO-KC2",
+  "title": "KC2-H6113AI-P-210226V294-210513V316_20210513223317",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:KC2-H6113AI-P-210513V316<br>\n\n\nChanged Functions:<br>\n1.Updated Google Security Patch to May 5,2021.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1345,
+  "archiveUrls": []
+}

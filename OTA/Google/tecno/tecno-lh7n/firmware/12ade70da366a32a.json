@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/240703V610:user/release-keys",
+  "postBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/241014V737:user/release-keys",
+  "postTimestamp": 1728918497,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ce5c56bdf0acf9acdaf306c86b1260c8dbde04f1.zip",
+  "sizeBytes": 1651066439,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "TECNO-LH7n",
+  "checkinDevice": "TECNO-LH7n",
+  "title": "LH7n-H894JKLM-U-GL-240703V610-241014V737_20241015142252",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\nLH7n-H894JKLM-U-GL-241014V737<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to October 5, 2024.<br>\n\n<br>\nFixed Issues:<br>\n1. Fixed the spelling error of new album in AI Gallery.<br>\n\n2. Optimized for the lagging issue when users pull down and swipe on Notification Bar.<br>\n\n3. Optimized for the lagging issue when users exit games and tap Home with Three-Button Navigation enabled.<br>\n\n4. Optimized translations in My Health.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 704,
+  "archiveUrls": []
+}

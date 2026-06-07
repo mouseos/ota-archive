@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H626/TECNO-CC9:9/PPR1.180610.011/FGH-200508V308:user/release-keys",
+  "postBuild": "TECNO/H626/TECNO-CC9:9/PPR1.180610.011/FGH-200721V348:user/release-keys",
+  "postTimestamp": 1595318389,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnocc9_h626/76577df0b3f7dee0bb21afc861e95d1dd7b7a047.zip",
+  "sizeBytes": 411203203,
+  "securityPatch": "2020-07-05",
+  "sdk": "28",
+  "device": "TECNO-CC9",
+  "checkinDevice": "TECNO-CC9",
+  "title": "CC9-H626FGH-P-200508V308-200721V348_20200721205834",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:CC9-H626FGH-P-200721V348<br> \nChanged Functions: <br> \n1. Updated Google Security Patch to July 5, 2020. <br> \nFixed issues:<br> \n1. Optimized the stability issue from user feedback.<br> \nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 840,
+  "archiveUrls": []
+}

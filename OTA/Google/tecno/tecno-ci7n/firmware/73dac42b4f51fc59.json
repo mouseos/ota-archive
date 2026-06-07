@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CI7n-GL/TECNO-CI7n:13/TP1A.220624.014/221205V1682:user/release-keys",
+  "postBuild": "TECNO/CI7n-GL/TECNO-CI7n:13/TP1A.220624.014/230313V2502:user/release-keys",
+  "postTimestamp": 1678701002,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/29800ab54e6734214386a14284493a589d85a64b.zip",
+  "sizeBytes": 237917781,
+  "securityPatch": "2023-01-05",
+  "sdk": "33",
+  "device": "TECNO-CI7n",
+  "checkinDevice": "TECNO-CI7n",
+  "title": "CI7n-H332ABCD-T-GL-221205V1682-230313V2502_20230313221842",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:CI7n-H332ABCD-T-GL-230313V2502<br>\n\n\nChanged Functions:<br>\n1.Optimized the performance issues.<br>\n2.Updated Google Security Patch to Jan. 5, 2023. <br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 691,
+  "archiveUrls": []
+}

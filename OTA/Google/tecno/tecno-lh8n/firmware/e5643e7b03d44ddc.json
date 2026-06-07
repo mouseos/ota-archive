@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LH8n-GL/TECNO-LH8n:14/UP1A.231005.007/240910V771:user/release-keys",
+  "postBuild": "TECNO/LH8n-GL/TECNO-LH8n:14/UP1A.231005.007/241017V781:user/release-keys",
+  "postTimestamp": 1729135568,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ebafe04f2b5e8db32b472c0ae92b0d628b5e6888.zip",
+  "sizeBytes": 278901508,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "TECNO-LH8n",
+  "checkinDevice": "TECNO-LH8n",
+  "title": "LH8n-H333MNOP-U-GL-240910V771-241017V781_20241017151235",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\nLH8n-H333MNOP-U-GL-241017V781<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to October 5, 2024.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 826,
+  "archiveUrls": []
+}

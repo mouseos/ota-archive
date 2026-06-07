@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H617/TECNO-LC6:9/PPR1.180610.011/CDE-200508V296:user/release-keys",
+  "postBuild": "TECNO/H617/TECNO-LC6:9/PPR1.180610.011/CDE-200628V300:user/release-keys",
+  "postTimestamp": 1593355862,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnolc6_h617/b038c966974237ce013cfda9c9bf1a2423af7e35.zip",
+  "sizeBytes": 197382732,
+  "securityPatch": "2020-07-05",
+  "sdk": "28",
+  "device": "TECNO-LC6",
+  "checkinDevice": "TECNO-LC6",
+  "title": "LC6-H617CDE-PGo-200508V296-200628V300_20200630151002",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:LC6-H617CDE-PGo-200628V300 <br> \n\nChanged Functions: <br>      \n1.Updated Google Security Patch to July 5, 2020. <br> \n\n\nReminding:<br>     \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 136314880,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1113,
+  "archiveUrls": []
+}

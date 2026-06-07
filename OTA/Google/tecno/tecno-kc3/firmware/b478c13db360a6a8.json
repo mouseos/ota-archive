@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H627/TECNO-KC3:9/PPR1.180610.011/G-201016V316:user/release-keys",
+  "postBuild": "TECNO/H627/TECNO-KC3:9/PPR1.180610.011/G-201208V318:user/release-keys",
+  "postTimestamp": 1607433092,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/820f34f8f9ebae958e5090bfd3ebcec0cf802049.zip",
+  "sizeBytes": 334130784,
+  "securityPatch": "2020-12-05",
+  "sdk": "28",
+  "device": "TECNO-KC3",
+  "checkinDevice": "TECNO-KC3",
+  "title": "KC3-H627G-P-201016V316-201208V318_20201210154353",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:KC3-H627G-P-201208V318<br>\n\nChanged Functions: <br>     \n1.Updated Google Security Patch to December 5, 2020. <br>\n\n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1251,
+  "archiveUrls": []
+}

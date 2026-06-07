@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H6113/TECNO-LB8a:9/PPR1.180610.011/GH-201030V193:user/release-keys",
+  "postBuild": "TECNO/H6113/TECNO-LB8a:9/PPR1.180610.011/GH-210105V198:user/release-keys",
+  "postTimestamp": 1609857005,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f50c15852776cafe8407c57af0c4a86c1509b33e.zip",
+  "sizeBytes": 149785511,
+  "securityPatch": "2021-01-05",
+  "sdk": "28",
+  "device": "TECNO-LB8a",
+  "checkinDevice": "TECNO-LB8a",
+  "title": "LB8a-H6113GH-P-201030V193-210105V198_20210111142933",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:LB8a-H6113GH-P-210105V198<br>\n\nChanged Functions: <br>     \n1.Updated Google Security Patch to January 5, 2021. <br>\n\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1034,
+  "archiveUrls": []
+}

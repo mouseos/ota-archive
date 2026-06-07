@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-200117V257:user/release-keys",
+  "postBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-200414V265:user/release-keys",
+  "postTimestamp": 1586850466,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnokc2_h6113/38744fe53dfa1ded897911db0988b0a33beabf65.zip",
+  "sizeBytes": 648069737,
+  "securityPatch": "2020-04-05",
+  "sdk": "28",
+  "device": "TECNO-KC2",
+  "checkinDevice": "TECNO-KC2",
+  "title": "KC2-H6113AI-P-200117V257-200414V265_20200416092552",
+  "description": "Caution! This update may crash rooted devices. <br>\nPlease plug in charger to OTA upgrade when power is lower than 50%. <br>\nUpdate Version: KC2-H6113AI-P-200414V265<br>\nChanged Functions: <br>\n1. Updated Google Security Patch to Apr. 5, 2020. <br> \n2. Updated Google GMS Package to 9_202001. <br> \n\nFixed issues:  <br>\n1. Optimized the stability issue from user feedback. <br>\n\nReminding: <br>\n1. Optimized system stability and performance while fixing other issues. <br>\n2. Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information. <br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 695,
+  "archiveUrls": []
+}

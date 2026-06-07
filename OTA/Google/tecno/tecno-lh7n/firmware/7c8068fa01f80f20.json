@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/250218V771:user/release-keys",
+  "postBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/250416V781:user/release-keys",
+  "postTimestamp": 1744812287,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/46b1f8f55dc0db165f14c49dce6db6554627c9f5.zip",
+  "sizeBytes": 396858654,
+  "securityPatch": "2025-04-05",
+  "sdk": "34",
+  "device": "TECNO-LH7n",
+  "checkinDevice": "TECNO-LH7n",
+  "title": "LH7n-H894JKLM-U-GL-250218V771-250416V781_20250417161222",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> LH7n-H894JKLM-U-GL-250416V781<br><br>Changed Functions:<br>1. Updated Google Security Patch to April 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 1118,
+  "archiveUrls": []
+}

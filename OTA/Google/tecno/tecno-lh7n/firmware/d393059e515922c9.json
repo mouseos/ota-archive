@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/241014V737:user/release-keys",
+  "postBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/241121V752:user/release-keys",
+  "postTimestamp": 1732198991,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cc9e78782b7ded0c12e77629b7b12a0b5b6c072f.zip",
+  "sizeBytes": 293037342,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "TECNO-LH7n",
+  "checkinDevice": "TECNO-LH7n",
+  "title": "LH7n-H894JKLM-U-GL-241014V737-241121V752_20241121234735",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> LH7n-H894JKLM-U-GL-241121V752<br><br>Fixed Issues:<br>1. Fixed the issue that the screen goes black and users cannot take photos when they access Camera for the second time during a WhatsApp chat.<br>2. Optimized the Serbian translations for My Health.<br>3. Optimized the Serbian translations for Launcher.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 842,
+  "archiveUrls": []
+}

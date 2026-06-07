@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/CK8n-GL/TECNO-CK8n:14/UP1A.231005.007/240702V388:user/release-keys",
+  "postTimestamp": 1719890787,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/34c86b4970285f4d37ff198a766c30649ba49506.zip",
+  "sizeBytes": 6663923566,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "TECNO-CK8n",
+  "checkinDevice": "TECNO-CK8n",
+  "title": "Tcard_CK8n-H931ABC-U-GL-240702V388",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: CK8n-H931ABC-U-GL-240702V388<br>\n\nOptimized Issues:<br>\n1. Upgraded the Android version from Android 13 to Android 14.<br>\n2. Upgraded the HiOS version from HiOS 13.0.0 to HiOS 14.0.<br>\n3. Upgraded/added some special features that users are concerned about and optimized them for more apps to improve the overall experience. These features include but are not limited to Dynamic Port, Game Assistant Panel, Clock/Weather widgets, Split-screen, Floating Windows, App Twin, AI Gallery, Clipper, Social Turbo, Large Font, Wi-Fi Hotspot Management, Find My, and Anti-theft.<br>\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 470,
+  "archiveUrls": []
+}

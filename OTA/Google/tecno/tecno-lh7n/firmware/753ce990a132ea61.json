@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/LH7n-GL/TECNO-LH7n:14/UP1A.231005.007/240703V610:user/release-keys",
+  "postTimestamp": 1719948635,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1e3ff75424c669fa17968d08e7ea08cc0a098438.zip",
+  "sizeBytes": 6127830138,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "TECNO-LH7n",
+  "checkinDevice": "TECNO-LH7n",
+  "title": "Tcard_LH7n-H894JKLM-U-GL-240703V610",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: LH7n-H894JKLM-U-GL-240703V610<br>\n\nOptimized Issues:<br>\n1. Upgraded the Android version from Android 13 to Android 14.<br>\n2. Upgraded the HiOS version from HiOS 13.0.0 to HiOS 14.0.0.<br>\n3. Upgraded/added some special features that users are concerned about and optimized them for more apps to improve the overall experience. These features include but are not limited to Dynamic Port, Game Assistant Panel, Network Enhancement, Ella Voice Assistant, and SmartComm Manager.<br>\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 482,
+  "archiveUrls": []
+}

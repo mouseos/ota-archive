@@ -1,0 +1,25 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200317V757:user/release-keys",
+  "postTimestamp": 1584446434,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnokb8_h624/bfa9fc39061aa284fac1cfa1fe0ba58b5143aff3.zip",
+  "sizeBytes": 1613603763,
+  "securityPatch": "2020-03-05",
+  "sdk": "29",
+  "device": "TECNO-KB8",
+  "checkinDevice": "TECNO-KB8",
+  "title": "Tcard_KB8-H624BNPQ-Q-200317V757",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: KB8-H624BNPQ-Q-200317V757<br>\n<br>\n<b>Key Features</b><br>\nRelease a stable version of HiOS 6.0 based on Android 10. <br>\nAdd system-wide Dark Theme to make it easier on your eyes and your phone battery too. <br>\nAdd Social Turbo to get the most out of WhatsApp. (Go to Settings > Social Turbo) <br>\nAdd Game mode to meet the needs of broader users. (Go to Settings > Game mode) <br>\nAdd Ficool, an Africa's largest online reading app with books in bulk to catch your eyes. <br>\n<br>\n<b>1.System</b><br>\nEnable system-wide Dark Theme. <br>\nAdd support for TLS 1.3 to improve performance, privacy and security. <br>\n<br>\n<b>2. Social Turbo</b><br>\nCustomize Social Turbo for WhatsApp with features of video beautification, exclusive sticker packs, reading messages recalled by the sender, hiding message read receipts, etc. Be free to start chatting in a novel way. <br>\n<br>\n<b>3. Game mode</b><br>\nAdd features like Do Not Disturb from notifications, Barrage notifications, Off-screen gaming, Parental control, etc., showing you how immersive gaming works. <br>\n<br>\n<b>4.Home screen, Wallpaper</b><br>\nAdd access to instant apps, and reminders of recently uninstalled apps and the residuals cleanup on the Home screen. <br>\nRemove Magazine lock screen <br>\n<br>\n<b>5. Calling</b><br>\nOptimize call quality, add video shows for incoming calls as well as the gesture to answer them easily. <br>\nSwipe to delete a single call log. <br>\nRemove Intelligent Voice Broadcast. <br>\n<br>\n<b>6. Settings, Security and Privacy</b><br>\nShare Wi-Fi via QR codes. <br>\nMonitor auto-start apps to prevent them from starting in the background and from further pushing disturbing notifications. <br>\nOptimize gestures navigation that enables returning to the previous level through swiping inward from the edges of the screen. Remove the two-button navigation option. <br>\nOptimize Location permissions control, limiting Location access to apps in use, for the sake of privacy. <br>\nRestrict apps' access to the device's non-resettable identifiers for the sake of privacy. <br>\n<br>\n<b>7. Others</b><br>\nCount steps via the three-party apps.\nCustomize the silent notifications feature.\nReplace Downloads with Google Files.\n<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 476,
+  "archiveUrls": []
+}

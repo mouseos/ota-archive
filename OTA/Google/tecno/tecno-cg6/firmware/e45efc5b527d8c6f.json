@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/CG6-OP/TECNO-CG6:12/SP1A.210812.016/220214V2091:user/release-keys",
+  "postTimestamp": 1644812665,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/03ab586fc3092d00e8eb788fff2876a9a3c0b276.zip",
+  "sizeBytes": 3019820381,
+  "securityPatch": "2022-02-05",
+  "sdk": "31",
+  "device": "TECNO-CG6",
+  "checkinDevice": "TECNO-CG6",
+  "title": "Tcard_CG6-H696UVWBc-S-OP-220214V2091",
+  "description": "Caution! \n1. This update may crash rooted devices. Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n2. This is a major version upgrade to Android 12. Please back up your important personal data before the upgrade to avoid data loss caused by incompatibility or other conditions after the upgrade.<br>\n3. Right now, there are still many frequently used third-party apps incompatible with Android 12. Some third-party apps might run improperly after the upgrade. Please confirm before upgrade. (If incompatible, the apps need to be optimized for Android 12).<br>\nUpdate Version: CG6-H696UVWBc-S-OP-220214V2091<br>\nKey Features: <br>\n1. Made a refreshing change based on the latest HiOS8.5 along with Android 12.<br>\n2. Added professional editing feature to AI Gallery.<br>\n3. Added scheduled off, speed mode, picture-in-picture, background mode, and loop mode to Video Player.<br>\n4. Added high-risk privacy permission usage record.<br>\n5. New interaction design of notification center & control center. <br>\n6. In notification center, long press to add shortcuts. Notifications can be muted/enabled/disabled.<br>\n7. Optimized photography effect of Camera.<br>\n8. Optimized Bluetooth function; added searching logic on the Bluetooth interface.<br>\n9. Upgraded the algorithm to fix the failure of fingerprint sensor to respond to frequent input of wet fingers.<br>\n10. Fixed the issue of no sound from the speaker after FM playback.<br>\n11. Updated Google Security Patch to February.<br>\n12. Optimized system stability.<br>\n13. Added GDPR Agreement.<br>\n14. Optimized translation for languages of some countries.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 466,
+  "archiveUrls": []
+}

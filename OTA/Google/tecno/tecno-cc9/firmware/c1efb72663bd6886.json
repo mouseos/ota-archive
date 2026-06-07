@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H626/TECNO-CC9:9/PPR1.180610.011/FGH-210224V437:user/release-keys",
+  "postBuild": "TECNO/H626/TECNO-CC9:9/PPR1.180610.011/FGH-210513V465:user/release-keys",
+  "postTimestamp": 1620893879,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/185f73663012d90506c0d1242ae167f0b4a8aec1.zip",
+  "sizeBytes": 320654912,
+  "securityPatch": "2021-05-05",
+  "sdk": "28",
+  "device": "TECNO-CC9",
+  "checkinDevice": "TECNO-CC9",
+  "title": "CC9-H626FGH-P-210224V437-210513V465_20210513213829",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:CC9-H626FGH-P-210513V465<br>\n\n\nChanged Functions:<br>\n1.Updated Google Security Patch to May 5,2021.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1250,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/211101V605:user/release-keys",
+  "postBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/211118V609:user/release-keys",
+  "postTimestamp": 1637184681,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d3b912c515ca46a35f353e526f504ce5afdcbf12.zip",
+  "sizeBytes": 81455033,
+  "securityPatch": "2021-10-05",
+  "sdk": "30",
+  "device": "TECNO-LE7",
+  "checkinDevice": "TECNO-LE7",
+  "title": "LE7-H697GHIJKL-R-GL-211101V605-211118V609_20211118062148",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:LE7-H697GHIJKL-R-GL-211118V609<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to October 5, 2021. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 846,
+  "archiveUrls": []
+}

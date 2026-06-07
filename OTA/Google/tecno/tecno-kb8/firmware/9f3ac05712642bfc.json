@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200821V804:user/release-keys",
+  "postBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-201009V822:user/release-keys",
+  "postTimestamp": 1602230803,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fe727b8eefd49f7d1e7679a5d28fd83316a7f95c.zip",
+  "sizeBytes": 293894091,
+  "securityPatch": "2020-10-05",
+  "sdk": "29",
+  "device": "TECNO-KB8",
+  "checkinDevice": "TECNO-KB8",
+  "title": "KB8-H624BNPQ-Q-200821V804-201009V822_20201013183653",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:KB8-H624BNPQ-Q-201009V822<br>\nOptimized issues:<br>\n1.Updated Google Security Patch to October 5.<br>\n2.Updated Privacy Policy.<br>\n3.Added“Android is a trademark of Google LLC”to User Manual.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 209715200,
+  "partitions": [
+    "boot",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1038,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/210518V369:user/release-keys",
+  "postBuild": "TECNO/LE7-GL/TECNO-LE7:11/RP1A.200720.011/210706V507:user/release-keys",
+  "postTimestamp": 1625559931,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2a8fe947ddb52454ee8d864d39d3f9f0b54c0397.zip",
+  "sizeBytes": 432762458,
+  "securityPatch": "2021-06-05",
+  "sdk": "30",
+  "device": "TECNO-LE7",
+  "checkinDevice": "TECNO-LE7",
+  "title": "LE7-H697GHIJKL-R-GL-210518V369-210706V507_20210706192629",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: LE7-H697GHIJKL-R-GL-210706V507<br>\nChanged Functions:<br>\n1.Updated Google Security Patch to June 5, 2021.<br>\n2.Added WeZone platform for LAN games. Have fun with your friends even if there is no network!\n\nOptimized issues:<br>\nImproved system stability and overall performance.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\nVisit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 481,
+  "archiveUrls": []
+}

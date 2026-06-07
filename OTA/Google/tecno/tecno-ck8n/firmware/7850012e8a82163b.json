@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CK8n-GL/TECNO-CK8n:14/UP1A.231005.007/241029V472:user/release-keys",
+  "postBuild": "TECNO/CK8n-GL/TECNO-CK8n:14/UP1A.231005.007/241210V481:user/release-keys",
+  "postTimestamp": 1733797657,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e0222293a35d30096bb89b4540d13db0f390c336.zip",
+  "sizeBytes": 581152648,
+  "securityPatch": "2024-12-05",
+  "sdk": "34",
+  "device": "TECNO-CK8n",
+  "checkinDevice": "TECNO-CK8n",
+  "title": "CK8n-H931ABC-U-GL-241029V472-241210V481_20241210194310",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CK8n-H931ABC-U-GL-241210V481<br><br>Changed Functions:<br>1. Updated Google Security Patch to December 5, 2024.<br><br>Fixed Issues:<br>1. Fixed the compatibility issue with Ayushman.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 833,
+  "archiveUrls": []
+}

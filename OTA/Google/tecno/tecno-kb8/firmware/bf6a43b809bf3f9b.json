@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200513V780:user/release-keys",
+  "postBuild": "TECNO/H624/TECNO-KB8:10/QP1A.190711.020/BNPQ-200623V787:user/release-keys",
+  "postTimestamp": 1592922955,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnokb8_h624/d8bee5dc6b00b0b14e71733bd915b4c4c21c566f.zip",
+  "sizeBytes": 235459254,
+  "securityPatch": "2020-06-05",
+  "sdk": "29",
+  "device": "TECNO-KB8",
+  "checkinDevice": "TECNO-KB8",
+  "title": "KB8-H624BNPQ-Q-200513V780-200623V787_20200624170315",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:KB8-H624BNPQ-Q-200623V787<br> \nOptimized issues:<br> \n1.Updated Google Security Patch to June 5, 2020.<br> \n2.Fixed unavailability of Orange network. <br> \nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 209715200,
+  "partitions": [
+    "boot",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 839,
+  "archiveUrls": []
+}

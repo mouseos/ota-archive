@@ -1,0 +1,25 @@
+{
+  "preBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-200827V278:user/release-keys",
+  "postBuild": "TECNO/H6113/TECNO-KC2:9/PPR1.180610.011/AI-200922V280:user/release-keys",
+  "postTimestamp": 1600777996,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/tecno_tecnokc2_h6113/f3c481987269b7afe9f69564ddc8848d058c9930.zip",
+  "sizeBytes": 195189302,
+  "securityPatch": "2020-09-05",
+  "sdk": "28",
+  "device": "TECNO-KC2",
+  "checkinDevice": "TECNO-KC2",
+  "title": "KC2-H6113AI-P-200827V278-200922V280_20200923174939",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:KC2-H6113AI-P-200922V280<br>\nFixed issues:<br>\n1. Optimized the stability issue from user feedback.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 1110,
+  "archiveUrls": []
+}
