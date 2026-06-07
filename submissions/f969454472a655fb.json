@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1de51455c0dad698d068130afc67a6e21595b92d.zip",
+  "fingerprint": "SHARP/SH-M31/Lockon:15/S5268/01.00.00:user/release-keys",
+  "manufacturer": "sharp",
+  "brand": "sharp",
+  "model": "sh-m31",
+  "title": "AQUOSを更新してください",
+  "description": "<big> <b><font color=\"#4ac46f\">AQUOSをOSアップデートできます</font></b>\n</big> <small> <p> ■<u><b>OSアップデートにあたって</b></u><br> \n<big> <small> <br>本アップデートでは、以下の改善が含まれます。<br> \n・特定の米国SIMをいれると緊急通報ができなくなる事象の改善。<br>\n<small> <br><big>\n・パケット通信が発生しますので、Wi-Fi通信環境下での実行をお勧めします。<br>\n・更新前の状態には戻せません。<br>\n・更新前のバックアップをおすすめします。<br>\n\n</p> <p> ■アップデート詳細は<a href=\"https://k-tai.sharp.co.jp/support/osv/osv16/index.html\">SHARP公式HP</a>をご確認ください<br>\n</p> <p> 更新できない場合はお手数ですが下記にご連絡をお願いします。<br>\nシャープデータ通信サポートセンター<br>\n電話番号 050-5846-5418<br>\n受付時間 10:00～17:00<br>\n(M)<br>"
+}
