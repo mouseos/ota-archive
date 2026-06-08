@@ -1,0 +1,27 @@
+{
+  "preBuild": "Fairphone/FP3/FP3:13/6.A.020.0/gms-88126537:user/release-keys",
+  "postBuild": "Fairphone/FP3/FP3:13/6.A.022.1/gms-6a94c7a3:user/release-keys",
+  "postTimestamp": 1694761004,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/50084a018c4ebc7121be5959b569ae15e21bc9d4.zip",
+  "sizeBytes": 23295124,
+  "securityPatch": "2023-10-05",
+  "sdk": "33",
+  "device": "FP3",
+  "checkinDevice": "FP3",
+  "title": "Fairphone 3/3+ Android 13 (6.A.022.1) Update",
+  "description": "<p> Software <strong><u>6.A.022.1</u></strong> is available for your Fairphone 3 or Fairphone 3+.<br>\nThis system update includes the following changes:\n</p>\n\nResolved issues\n<ul>\n<li>Ringing tone can be heard on outgoing phone calls.</li>\n<li>Customising your Wallpaper & Style using My Photos no longer crashes.</li>\n<li>Faster SIM card unlock for users entering their PIN after reboot.</li>\n<li>Sound Recorder app recording issue is now solved.</li>\n<li>Manual network selection, which was unavailable on certain networks, is now available again.</li>\n</ul>\n\nOther improvements\n<ul>\n<li>Security patch level: 5th of October, 2023</li>\n</ul>\n<br>\nMore information\n<br><br><br>\n\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

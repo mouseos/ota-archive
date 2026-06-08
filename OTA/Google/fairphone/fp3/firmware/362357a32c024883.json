@@ -1,0 +1,27 @@
+{
+  "preBuild": "Fairphone/FP3/FP3:11/8901.4.A.0019.1/gms-edfd6a4e:user/release-keys",
+  "postBuild": "Fairphone/FP3/FP3:11/8901.4.A.0022.0/gms-5bdac72d:user/release-keys",
+  "postTimestamp": 1679569497,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8b2464e6ff9f2077e28a871313ea8d16bb9535d0.zip",
+  "sizeBytes": 554999436,
+  "securityPatch": "2023-04-05",
+  "sdk": "30",
+  "device": "FP3",
+  "checkinDevice": "FP3",
+  "title": "Fairphone 3/3+ Android 11 (4.A.0022.0) Update",
+  "description": "<p> Software <strong><u>4.A.0022.0</u></strong> is available for your Fairphone 3 or Fairphone 3+.<br>\nThis system update includes the following changes:\n</p>\n\nOther improvements\n<ul>\n<li>Security patch level: 5th of April, 2023</li>\n</ul>\n<br>\nMore information\n<br><br><br>\n\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

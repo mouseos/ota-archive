@@ -1,0 +1,27 @@
+{
+  "preBuild": "Fairphone/FP3/FP3:13/6.A.039.4/gms-2f612659:user/release-keys",
+  "postBuild": "Fairphone/FP3/FP3:13/6.A.039.7/gms-44ba459b:user/release-keys",
+  "postTimestamp": 1762881525,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9a5c3ad9e0510e11fa656817e71368b55cd2264b.zip",
+  "sizeBytes": 18377659,
+  "securityPatch": "2025-12-05",
+  "sdk": "33",
+  "device": "FP3",
+  "checkinDevice": "FP3",
+  "title": "Fairphone 3/3+ Android 13 (6.A.039.7) Update",
+  "description": "<p> Software <strong><u>6.A.039.7</u></strong> is available for your Fairphone 3 or Fairphone 3+.<br>\nThis system update includes the following changes:\n</p>\nOther improvements\n<ul>\n<li>Security patch level: 5th of December, 2025</li>\n</ul>\n<br>\nMore information\n<br><br><br>\n\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "Fairphone/FP3/FP3:13/6.A.022.1/gms-6a94c7a3:user/release-keys",
+  "postBuild": "Fairphone/FP3/FP3:13/6.A.023.1/gms-497e9bef:user/release-keys",
+  "postTimestamp": 1700901026,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/30c6f13af7689ca40695a6419e58f61f4bb95eb0.zip",
+  "sizeBytes": 25011531,
+  "securityPatch": "2023-12-05",
+  "sdk": "33",
+  "device": "FP3",
+  "checkinDevice": "FP3",
+  "title": "Fairphone 3/3+ Android 13 (6.A.023.1) Update",
+  "description": "<p> Software <strong><u>6.A.023.1</u></strong> is available for your Fairphone 3 or Fairphone 3+.<br>\nThis system update includes the following changes:\n</p>\n\nResolved issues\n<ul>\n<li>Videos will now be saved correctly when, during a recording, an incoming call is accepted.</li>\n<li>The preview for Panorama mode has been fixed.</li>\n<li>Miracast screen casting is now available again.</li>\n</ul>\n\nOther improvements\n<ul>\n<li>Security patch level: 5th of December, 2023</li>\n</ul>\n<br>\nMore information\n<br><br><br>\n\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

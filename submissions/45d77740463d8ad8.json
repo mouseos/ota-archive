@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6013392b63d558b61a1e595e86fd8ef69924af02.zip",
-  "fingerprint": "Fairphone/FP5/FP5:13/TKQ1.230127.002/TT45:user/release-keys",
-  "manufacturer": "",
-  "brand": "fairphone",
-  "model": "fp5",
-  "title": "Fairphone 5 (VT2R.C.095) Update",
-  "description": "<p> Software <strong><u>VT2R.C.095</u></strong> is available for your Fairphone 5.<br>\nThis system update includes the following changes:\n<br>\n<h3>Resolved Issues</h3>\n<ul>\n<li>Fixed an issue where ring vibration strength was affected by other haptic settings</li>\n<li>Fixed an issue where the three button navigation disappears when changing theme</li>\n<li>General UI improvements</li>\n<h3>Other improvements</h3>\n<ul>\n<li>Security patch level: 5th of May, 2026</li>\n</ul>\n<br><a href=\"https://support.fairphone.com/hc/en-us/articles/18682800465169-Fairphone-5-OS-Release-Notes\">More information</a>\n<br><br><br>\n<hr>\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply."
-}

@@ -1,0 +1,24 @@
+{
+  "preBuild": "Fairphone/FP3/FP3:10/8901.3.A.0045.20200905/09051550:user/release-keys",
+  "postBuild": "Fairphone/FP3/FP3:11/8901.4.A.0019.1/gms-edfd6a4e:user/release-keys",
+  "postTimestamp": 1669219304,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/11587f67482200916065dcd7bf7687b72fe911da.zip",
+  "sizeBytes": 1342397164,
+  "securityPatch": "2022-12-05",
+  "sdk": "30",
+  "device": "FP3",
+  "checkinDevice": "FP3",
+  "title": "Fairphone 3/3+ Android 11 (4.A.0019.1) Update",
+  "description": "<p> Software <strong><u>4.A.0019.1</u></strong> is available for your Fairphone 3 and Fairphone 3+.</p> \n<br>\n<p> This update also includes: <br> - Security patch level: 5th of December, 2022 </p>\n<br>\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "checkin",
+  "archiveUrls": []
+}

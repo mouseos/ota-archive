@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4a2e9ac6b9cc1601892ab0d419596d0bf3d9a59a.zip",
-  "fingerprint": "Fairphone/FP3/FP3:10/8901.3.A.0045.20200905/09051550:user/release-keys",
-  "manufacturer": "",
-  "brand": "fairphone",
-  "model": "fp3",
-  "title": "Fairphone 3/3+ Android 13 (6.A.028.1) Update",
-  "description": "<p> Software <strong><u>6.A.028.1</u></strong> is available for your Fairphone 3 or Fairphone 3+.<br>\nThis system update includes the following changes:\n</p>\n\n<h3>Other improvements</h3>\n<ul>\n<li>Security patch level: 5th of April, 2024</li>\n</ul>\n<br>\n<a href=\"https://support.fairphone.com/hc/en-us/articles/360048139032-FP3-Fairphone-OS-release-notes\">More information</a>\n<br><br><br>\n<hr>\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply."
-}
