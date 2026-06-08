@@ -23,5 +23,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fairphone-fp3/f6b1e25dcc03bcb7bb4e68e7ab8bb3199da6ae2d.zip"
+  ]
 }
