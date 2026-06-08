@@ -23,5 +23,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fairphone-fp5/6013392b63d558b61a1e595e86fd8ef69924af02.zip"
+  ]
 }
