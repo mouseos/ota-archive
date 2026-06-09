@@ -27,5 +27,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 2181,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-kirkwood/1008e5413f443fd0d7e535e2d2b4de5d17195431.zip"
+  ]
 }
