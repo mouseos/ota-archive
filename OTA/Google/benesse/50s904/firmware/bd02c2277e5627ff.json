@@ -23,5 +23,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-benesse-50s904/41a8154d79bc7467da3c8d39113f4f0d4584806b.zip"
+  ]
 }
