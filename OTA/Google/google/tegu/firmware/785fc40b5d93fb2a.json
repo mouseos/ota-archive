@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/tegu/tegu:16/CP1A.260505.005/15081906:user/release-keys",
+  "postBuild": "google/tegu/tegu:17/CP2A.260605.012/15430684:user/release-keys",
+  "postTimestamp": 1778884776,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/24c6fe0c3f8e380d6f0e2e8d5ef85ad1c4d71047.zip",
+  "sizeBytes": 1483214495,
+  "securityPatch": "2026-06-05",
+  "sdk": "37",
+  "device": "tegu",
+  "checkinDevice": "tegu",
+  "title": "June Pixel Drop update available",
+  "description": "<p><b>Your Pixel is getting even better</b> with the latest features and enhancements along with Android 17.</p>\n\n<p>Learn more at our Community page.</p>\n\n<p><b>What's new?</b></p>\n<ul>\n  <li>With Screen reactions, you can now record a selfie video overlay while capturing what’s on your screen, all without needing extra apps.[1]</li>\n  <li>Gemini Omni makes creating and editing videos as easy as having a conversation. Blend text, images, and videos to bring your ideas to life.[2]</li>\n  <li>Describe an idea or upload a photo, and it’ll be transformed into a high-quality audio track with lyrics in Gemini.[3]</li>\n  <li>Easily turn your apps into floating bubbles over your main screen to check them quickly or multitask without disrupting your flow.[4]</li>\n</ul>\n\n<br>\n\n\n  <p>1 Screen reactions are only available when screen recording is set to record the entire screen.</p>\n  <p>2 Google AI subscription required. Features vary by tier and geography. 18+.</p>\n  <p>3 Limits apply. Compatibility varies. 18+. Create responsibly.</p>\n  <p>4 Limited to 5 apps at a time.</p>\n  <br>\n  <p>Downloading updates over a mobile network or while roaming may cause additional charges.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2198,
+  "archiveUrls": []
+}
