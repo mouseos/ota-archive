@@ -26,7 +26,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-xiaomi-twilight/8eebe81e9e0de636b2521f4e18ab7971c995f2b0.zip"
-  ]
+  "archiveUrls": []
 }
