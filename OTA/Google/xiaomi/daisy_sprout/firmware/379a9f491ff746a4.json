@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-daisy_sprout/5dc95833df672190cd7c3c9ecc054ffd36148c8c.zip"
+  ]
 }
