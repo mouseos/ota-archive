@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/c8d12bba02e35511a6ba1e27031acd2d1ffb6d0e.zip",
+  "fingerprint": "KYOCERA/A401KC/KY24L-ST100:15/AP3A.240905.015.A2/3.090BX.0204.a:user/release-keys",
+  "manufacturer": "kyocera",
+  "brand": "kyocera",
+  "model": "a401kc",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：3.100BX）<br>・JAPANローミング™に対応<br>・セキュリティの向上<br> ※その他の更新も含まれております。<br><br> ※インストール中は本機の電源を切らないでください。<br>注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
