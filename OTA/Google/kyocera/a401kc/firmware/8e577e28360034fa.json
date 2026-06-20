@@ -1,0 +1,30 @@
+{
+  "preBuild": "KYOCERA/A401KC/KY24L-ST100:15/AP3A.240905.015.A2/3.100BX.0213.a:user/release-keys|KYOCERA/A402KC/KY24L-ST100:15/AP3A.240905.015.A2/3.100BX.0213.a:user/release-keys|KYOCERA/A403KC/KY24L-ST100:15/AP3A.240905.015.A2/3.100BX.0213.a:user/release-keys|KYOCERA/KY24L-ST100/KY24L-ST100:15/AP3A.240905.015.A2/3.100BX.0213.a:user/release-keys",
+  "postBuild": "KYOCERA/A401KC/KY24L-ST100:15/AP3A.240905.015.A2/3.110BX.0226.a:user/release-keys|KYOCERA/A402KC/KY24L-ST100:15/AP3A.240905.015.A2/3.110BX.0226.a:user/release-keys|KYOCERA/A403KC/KY24L-ST100:15/AP3A.240905.015.A2/3.110BX.0226.a:user/release-keys|KYOCERA/KY24L-ST100/KY24L-ST100:15/AP3A.240905.015.A2/3.110BX.0226.a:user/release-keys",
+  "postTimestamp": 1774205469,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/31e1f1ac6c620ee0c968c5ee95435f6c6eab3c60.zip",
+  "sizeBytes": 71416195,
+  "securityPatch": "2026-04-01",
+  "sdk": "35",
+  "device": "KY24L-ST100",
+  "checkinDevice": "KY24L-ST100",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：3.110BX）<br>・セキュリティの向上<br> ※その他の更新も含まれております。<br><br> ※インストール中は本機の電源を切らないでください。<br>注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
