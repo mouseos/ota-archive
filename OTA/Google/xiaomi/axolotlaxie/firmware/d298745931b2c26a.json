@@ -25,5 +25,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-axolotlaxie/9ebd78a97ceeed8b4c06dac92810366afaf51fbe.zip"
+  ]
 }
