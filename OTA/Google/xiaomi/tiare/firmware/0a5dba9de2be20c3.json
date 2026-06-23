@@ -20,5 +20,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-tiare/e9eebf83106d7b1f838e0d432556837c51b09804.zip"
+  ]
 }
