@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/151009:user/release-keys",
+  "postBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/155001:user/release-keys",
+  "postTimestamp": 1768498655,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/040bda511927077bfef3c640803b8db3994bd3b0.zip",
+  "sizeBytes": 1142194264,
+  "securityPatch": "2026-02-01",
+  "sdk": "35",
+  "device": "Infinix-X6852",
+  "checkinDevice": "Infinix-X6852",
+  "title": "X6852-15.1.0.151SP02-IN001PF001AZ-15.1.2.155-IN001PF001AZ_20260116154233",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.\n<br><br>Update Version:<br>X6852-15.1.2.155(IN001PF001AZ)\n<br> <br> Update Content:<br>\nOS Version Upgraded  to XOS 15.1.2 for a smarter user interface that gives your device a new look.\n<br>Changed Functions:<br> \n1.Updated Google Security Patch to February 1, 2026.<br>\n2.Upgrades Folax Voice Assistant version.<br>\n3.AI Writing: Delivers scenario-based text polishing for social media posts.<br>\n4.Screenshot: Added a Smart Screen Recognition entry below the screenshot thumbnail to identify QR codes on the page.<br>\n5.Battery & Power Saving: Optimized visual design, simplified mode selection process and enhanced user experience.<br>\n6.Theme Store: Supports theme customization for system apps – Phone, Contacts and Message.<br>\nFixed Issues:<br>\n1.Fixes the occasional unresponsiveness issue when switching aspect ratios in Portrait Master for smoother operation.<br>\n2.Fixes the occasional compatibility issue with PC Connect for more stable collaboration.<br>\n3.Fixes the occasional stability issue during screen recording for a more reliable recording experience.<br>\n4.Fixes the occasional unlocking failure issue under specific scenarios to make the unlocking process more convenient and secure.<br>\nReminding:<br>\n1. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2207,
+  "archiveUrls": []
+}

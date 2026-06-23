@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/123011:user/release-keys",
+  "postBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/151009:user/release-keys",
+  "postTimestamp": 1755257129,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1c98185868779de417ad518ba2d400e69c4d3c7b.zip",
+  "sizeBytes": 771374315,
+  "securityPatch": "2025-07-05",
+  "sdk": "35",
+  "device": "Infinix-X6852",
+  "checkinDevice": "Infinix-X6852",
+  "title": "X6852-15.0.3.123SP01-IN001PF001AZ-15.1.0.151SP02-IN001PF001AZ_20250818160138",
+  "description": "It is recommended to perform OTA upgrade when the battery is over 50%.<br>\n<br>\nUpdate Version:<br>\nX6852-15.1.0.151SP02(IN001PF001AZ)<br>\n<br>\nFixed Issues:<br>\n1. Improved the system stability and running smoothness.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2204,
+  "archiveUrls": []
+}

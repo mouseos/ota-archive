@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/155001:user/release-keys",
+  "postBuild": "Infinix/X6852-IN/Infinix-X6852:15/AP3A.240905.015.A2/170032:user/release-keys",
+  "postTimestamp": 1777451216,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b5f0ee5ffd02a6bc0fd7a85d1f2bf5f1df1be8c6.zip",
+  "sizeBytes": 350112098,
+  "securityPatch": "2026-05-01",
+  "sdk": "35",
+  "device": "Infinix-X6852",
+  "checkinDevice": "Infinix-X6852",
+  "title": "X6852-15.1.2.155-IN001PF001AZ-15.1.2.170SP07-IN001PF001AZ_20260430144129",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.\n<br><br>Update Version:<br>X6852-15.1.2.170SP07(IN001PF001AZ)\n<br>Changed Functions:<br> \n1.Updated Google Security Patch to May 1, 2026.<br>\nFixed Issues:<br>\n1.Improved system stability and smoothness.<br>\nReminding:<br>\n1. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2209,
+  "archiveUrls": []
+}

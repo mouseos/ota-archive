@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6852-OP/Infinix-X6852:15/AP3A.240905.015.A2/138018:user/release-keys",
+  "postBuild": "Infinix/X6852-OP/Infinix-X6852:15/AP3A.240905.015.A2/128001:user/release-keys",
+  "postTimestamp": 1760115814,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c9e1c736ab24caf3dcdfbddf6cb837e9fc911039.zip",
+  "sizeBytes": 1147085744,
+  "securityPatch": "2025-10-01",
+  "sdk": "35",
+  "device": "Infinix-X6852",
+  "checkinDevice": "Infinix-X6852",
+  "title": "X6852-15.1.0.138SP06-OP001PF001AZ-15.1.2.128-OP001PF001AZ_20251011043724",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.\n<br><br>Update Version:<br>X6852-15.1.2.128(OP001PF001AZ)\n<br> <br> Update Content:<br>\nOS Version Upgraded from XOS 15.1.0 to XOS 15.1.2 for a smarter user interface that gives your device a new look.\n<br>Changed Functions:<br> \n1. Updated Google Security Patch to October 1, 2025.<br>\n2. Phone Cast: Added the feature to cast your phone screen to a tablet of the same brand. This allows you to enjoy a larger screen experience for work or entertainment, with the ability to view and operate your phone and seamlessly copy-paste text across devices.<br>\n3. AI Writing: Supported intelligent recognition of email contexts for automatic optimization of format and content. Provided scenario-based text polishing for social media posts.<br>\n4. Screenshot: Added a Smart Touch shortcut below the screenshot thumbnail, allowing easy recognition of QR codes on the page.<br>\n5. Mistouch Prevention for Pocket Mode: Optimized for the accidental touch issue in pocket mode during calls on third-party apps.<br>\n6. Battery and Power Saving: Enhanced visual design, simplified mode selection process, and improved the user experience.<br>\n7. Theme Store: Allowed changing theme designs for system apps like Phone, Contacts, and Messages.<br>\n8. Cloud Service: Added cloud storage, cloud drive, and space expansion, allowing users to upload personal data to the cloud, ensuring data security, and freeing up local storage space.<br>\nFixed Issues:<br>\n1. Improved the system stability and running smoothness.<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2211,
+  "archiveUrls": []
+}
