@@ -23,7 +23,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 50,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-flame/4dbeb5c80c03d32077a7dfa627c9009d85969bec.zip"
-  ]
+  "archiveUrls": []
 }

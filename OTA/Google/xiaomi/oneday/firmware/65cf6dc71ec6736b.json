@@ -22,7 +22,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-xiaomi-oneday/5cabec120b0378853b3d89a58c0171ac3e965046.zip"
-  ]
+  "archiveUrls": []
 }

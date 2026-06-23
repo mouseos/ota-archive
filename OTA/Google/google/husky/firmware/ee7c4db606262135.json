@@ -25,7 +25,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 51,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-husky/8b590ffe8dcd047789b35d88c26740eba729d963.zip"
-  ]
+  "archiveUrls": []
 }

@@ -21,7 +21,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-t-mobile-sprout/6f8f906e17383fe48dd06edceecc4f1f1e81d6dd.zip"
-  ]
+  "archiveUrls": []
 }

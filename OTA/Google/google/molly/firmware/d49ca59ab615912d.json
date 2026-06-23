@@ -17,7 +17,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-molly/bf4ca4a77f8ad0bf0f02cb8ff162d3d016f15dbb.zip"
-  ]
+  "archiveUrls": []
 }

@@ -23,7 +23,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-redmi-xig02/390c81b55d167247557069085b1ae9d4b1d57db7.zip"
-  ]
+  "archiveUrls": []
 }

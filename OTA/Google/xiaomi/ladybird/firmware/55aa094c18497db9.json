@@ -24,7 +24,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-xiaomi-ladybird/904596d74ece1960947b81849914c8e79d0dadc1.zip"
-  ]
+  "archiveUrls": []
 }
