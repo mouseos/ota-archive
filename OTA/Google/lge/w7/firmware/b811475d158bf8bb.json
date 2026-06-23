@@ -17,5 +17,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-lge-w7/f7e791f923c8187731aabc98e1350dd595e13ad2.zip"
+  ]
 }
