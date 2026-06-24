@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-walleye/b51fd72c9692db2e96e9316bd51063807391756c.zip"
+  ]
 }
