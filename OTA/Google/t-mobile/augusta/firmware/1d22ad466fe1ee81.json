@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-t-mobile-augusta/b0356c29a9c6f843d97829a6a8ab8a8831bb4ae3.zip"
+  ]
 }
