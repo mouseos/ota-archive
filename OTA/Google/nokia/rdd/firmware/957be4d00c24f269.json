@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 906,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-rdd/1e542d4661e8706c32e7cab12b7c08acc817d405.zip"
+  ]
 }
