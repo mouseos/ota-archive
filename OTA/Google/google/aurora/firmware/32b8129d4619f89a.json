@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 501,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-aurora/06b9cb3085be576f10ee850462a9b8f547ab29ae.zip"
+  ]
 }
