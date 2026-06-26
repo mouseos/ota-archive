@@ -23,5 +23,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-soul/012e30c4c7e80881aa23ad09c1f5922fd6e24205.zip"
+  ]
 }
