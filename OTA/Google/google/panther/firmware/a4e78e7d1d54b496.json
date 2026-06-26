@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 513,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-panther/cac6dd9eb316900a43ac742710b2a211ee274643.zip"
+  ]
 }
