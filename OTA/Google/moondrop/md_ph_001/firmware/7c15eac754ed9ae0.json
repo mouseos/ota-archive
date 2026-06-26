@@ -22,5 +22,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-moondrop-md_ph_001/c41b056761003be3407250c142e0dcae3ddd4b52.zip"
+  ]
 }
