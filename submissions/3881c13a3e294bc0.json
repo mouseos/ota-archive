@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/db40ecffc0e9e7d3498b605c8e32770db5b58a92.zip",
+  "fingerprint": "FCNT/M06/M06:14/V01RM44C/M06.20240614:user/release-keys",
+  "manufacturer": "",
+  "brand": "fcnt",
+  "model": "m06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V50RM44A）<br> \n・Androidᵀᴹ 16 OSアップデートがご利用になれます。<br> <br> OSアップデートを実施することで、新機能の追加や操作性、機能、項目名称の変更などがございます。<br>\n<br>\n<small>\nOSアップデート実施前にデータのバックアップを実施してください。<br>\nOSアップデート実施後は以前のOSバージョンには戻せません。<br>\nアップデートファイルサイズが大きいため、Wi-Fi®でのご利用をお勧めいたします。<br>\nOSアップデートは電池残量が十分な状態で実施してください。\n</small>"
+}
