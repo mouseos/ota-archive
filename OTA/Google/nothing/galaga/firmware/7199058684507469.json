@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+  "postBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys",
+  "postTimestamp": 1781513630,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/be9f18a33428eb63d616f7bc01d2a7bef494ea5d.zip",
+  "sizeBytes": 457585346,
+  "securityPatch": "2026-06-01",
+  "sdk": "36",
+  "device": "Galaga",
+  "checkinDevice": "Galaga",
+  "title": "Nothing OS 4.1(Galaga-B4.1-260615-1653)",
+  "description": "What's New in This Update\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
