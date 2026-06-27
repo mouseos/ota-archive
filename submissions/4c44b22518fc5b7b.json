@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1c78bc2541c203108f4b775b1ec8840cb44ad558.zip",
+  "fingerprint": "FCNT/M06/M06:16/V50RM44A/M06.20260312:user/release-keys",
+  "manufacturer": "fcnt",
+  "brand": "fcnt",
+  "model": "m06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V51RM45A）<br> \n・セキュリティの向上<br> \n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
