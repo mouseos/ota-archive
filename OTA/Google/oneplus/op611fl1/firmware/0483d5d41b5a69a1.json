@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.250fe8f-2b9793-2d9dba:user/release-keys",
+  "preBuild": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.16af771_d3c217_d3c216:user/release-keys",
   "postBuild": "OnePlus/CPH2749/OP611FL1:16/BP2A.250605.015/B.R4T3.2e4dd7d-a2e41f-a65541:user/release-keys",
   "postTimestamp": 1779937534,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8731fa528fa8e21acf786acb3f9ddeac65ad588d.zip",
-  "sizeBytes": 2976151100,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/748ada4f77bf17006cd11c906a14447dad85b737.zip",
+  "sizeBytes": 1331966693,
   "securityPatch": "2026-06-01",
   "sdk": "36",
   "device": "OP611FL1",
@@ -30,7 +30,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2217,
+  "sourceId": 2223,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op611fl1/8731fa528fa8e21acf786acb3f9ddeac65ad588d.zip"
   ]
