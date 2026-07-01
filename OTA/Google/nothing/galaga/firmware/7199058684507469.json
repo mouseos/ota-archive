@@ -1,5 +1,5 @@
 {
-  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
   "postBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys",
   "postTimestamp": 1781513630,
   "otaUrl": "https://android.googleapis.com/packages/ota-api/package/be9f18a33428eb63d616f7bc01d2a7bef494ea5d.zip",
