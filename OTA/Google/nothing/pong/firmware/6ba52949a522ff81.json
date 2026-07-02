@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys",
+  "postTimestamp": 1781749599,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/821762bba7df49d1648ab91eef5c98574f20e740.zip",
+  "sizeBytes": 496576224,
+  "securityPatch": "2026-06-01",
+  "sdk": "36",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "NothingOS 4.1(Pong-B4.1-260618-1026)",
+  "description": "What's New in This Update\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n📷 Enhanced overall camera stability.<br>\n🔗 Enhanced Bluetooth connection stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}

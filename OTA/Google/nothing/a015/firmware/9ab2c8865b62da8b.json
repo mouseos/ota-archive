@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2604151709:user/release-keys",
+  "preBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2602251904:user/release-keys",
   "postBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys",
   "postTimestamp": 1781513543,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fe1ba8361a2e55a36825763af51942b5d91c9ba2.zip",
-  "sizeBytes": 398254842,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2353a30163b785b46fbdd6eef7d349f5d95451af.zip",
+  "sizeBytes": 469361265,
   "securityPatch": "2026-06-01",
   "sdk": "36",
   "device": "Tetris",
