@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/KL6-RU/TECNO-KL6:14/UP1A.231005.007/241023V1176:user/release-keys",
+  "postBuild": "TECNO/KL6-RU/TECNO-KL6:14/UP1A.231005.007/241113V1250:user/release-keys",
+  "postTimestamp": 1731512501,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4062ff7f2817637133d16b9af0aa8e812831e923.zip",
+  "sizeBytes": 311294662,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "TECNO-KL6",
+  "checkinDevice": "TECNO-KL6",
+  "title": "KL6-241023-H6935AB-U-RU-241113V1250_20241114120207",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br> KL6-H6935AB-U-RU-241113V1250<br><br>Изменён функционал:<br>1. Исправлена периодически возникающая ошибка, из-за которой функция включения по расписанию не работала.<br>2. Оптимизирован просмотр в портретном режиме «Камеры» для повышения его плавности.<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти на форуме TECNO SPOT (https://tspot.tecno.com).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2234,
+  "archiveUrls": []
+}

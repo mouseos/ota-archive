@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/KL6-RU/TECNO-KL6:14/UP1A.231005.007/250805V1611:user/release-keys",
+  "postBuild": "TECNO/KL6-RU/TECNO-KL6:14/UP1A.231005.007/251014V1671:user/release-keys",
+  "postTimestamp": 1760430160,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4e5108c516ce358c0e676c5d264034ba44d3e1c0.zip",
+  "sizeBytes": 133642778,
+  "securityPatch": "2025-11-01",
+  "sdk": "34",
+  "device": "TECNO-KL6",
+  "checkinDevice": "TECNO-KL6",
+  "title": "KL6-H6935AB-U-RU-250805V1611-251014V1671_20251025150151",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br> KL6-H6935AB-U-RU-251014V1671<br><br>Версия обновления:<br>1. Обновлен патч безопасности Google от 1 ноября 2025 года.<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти на форуме TECNO SPOT (https://tspot.tecno.com).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2229,
+  "archiveUrls": []
+}
