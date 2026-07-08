@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-pixel_10_pro_xl/55f55af7dc30982cb595c5984b6e7197e3594419.zip"
+  ]
 }
