@@ -22,5 +22,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-infinix-infinix_x6739/d8d20d717ff09a1c209e30d11db043ff25643a26.zip"
+  ]
 }
