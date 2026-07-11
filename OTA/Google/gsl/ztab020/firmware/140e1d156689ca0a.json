@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-gsl-ztab020/d2f868cc60a5698998e188815c9db56825104264.zip"
+  ]
 }
