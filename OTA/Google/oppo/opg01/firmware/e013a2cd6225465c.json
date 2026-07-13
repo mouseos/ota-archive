@@ -26,5 +26,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-oppo-opg01/fc1839451bde9e2ceb7df3e0b4a3eb84d0c9e833.zip"
+  ]
 }
