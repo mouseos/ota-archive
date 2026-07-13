@@ -21,7 +21,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-celero5g-jupiter/84ffac6aebc31a5ac9d74e50957d1eea66405fcc.zip"
-  ]
+  "archiveUrls": []
 }

@@ -22,7 +22,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-kyocera-kyv47/63a7171ec41011e2188d6b64f40b7c649cd9e237.zip"
-  ]
+  "archiveUrls": []
 }

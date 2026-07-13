@@ -20,7 +20,5 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-rakuten-c330/ee406a768c2572cd7333d33692f8513e1f22d986.zip"
-  ]
+  "archiveUrls": []
 }

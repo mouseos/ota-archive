@@ -19,7 +19,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nextbit-ether/fc5d57f9198f66e5321df2c84f873bc9b10d29c0.zip"
-  ]
+  "archiveUrls": []
 }

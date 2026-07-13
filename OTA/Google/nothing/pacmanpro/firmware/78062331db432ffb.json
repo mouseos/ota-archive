@@ -26,7 +26,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nothing-pacmanpro/d9843a5573b8bc2bb0705b7c88834f8555f2689e.zip"
-  ]
+  "archiveUrls": []
 }
