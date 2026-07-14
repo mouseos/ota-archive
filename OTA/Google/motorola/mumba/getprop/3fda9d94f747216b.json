@@ -1,0 +1,6 @@
+{
+  "ro.product.model": "mumba",
+  "ro.build.fingerprint": "motorola/mumba_gn/mumba:17/A170WAAH.25/9eb5c-f285ad:user/release-keys",
+  "ro.product.brand": "motorola",
+  "ro.product.device": "mumba"
+}
