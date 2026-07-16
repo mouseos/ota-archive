@@ -1,5 +1,5 @@
 {
-  "preBuild": "google/blazer/blazer:16/BD3A.250721.001.E1/14034804:user/release-keys",
+  "preBuild": "",
   "postBuild": "google/blazer/blazer:17/CP2A.260705.006/15641320:user/release-keys",
   "postTimestamp": 1781499322,
   "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/eac8a6c9cdd12a423c3e9201b89722d9c9a524d8.zip",
@@ -23,8 +23,7 @@
   ],
   "hasFirmware": false,
   "hasApex": true,
-  "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-pixel_10_pro/207afdd824948d7af708c20c0889e4c4a94d3e6e.zip"
-  ]
+  "source": "otachecker",
+  "sourceId": 2248,
+  "archiveUrls": []
 }
