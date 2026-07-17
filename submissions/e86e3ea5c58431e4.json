@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/4b3eb07d0682e415a65e5d98e35a12f9cfe3f2e8.zip",
+  "fingerprint": "Brain/NaturalAIPhone/NaturalAIPhone:15/AQ3A.250728.001/202603010850:user/release-keys",
+  "manufacturer": "",
+  "brand": "brain",
+  "model": "naturalaiphone",
+  "title": "システムアップデート",
+  "description": "更新内容<br>\n・動作安定性の向上<br>\n・セキュリティの向上<br>\n・Natural AI機能の更新<br>\n・音声レコーダーアプリの更新"
+}
