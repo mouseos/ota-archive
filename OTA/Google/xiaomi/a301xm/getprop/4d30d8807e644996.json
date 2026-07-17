@@ -1,0 +1,8 @@
+{
+  "ro.product.model": "A301XM",
+  "ro.build.fingerprint": "Xiaomi/corot_jp/corot:13/TP1A.220624.014/\nV14.0.2.0.TMLJPSB:user/release-keys",
+  "ro.product.brand": "Xiaomi",
+  "ro.build.version.sdk": "33",
+  "ro.build.version.security_patch": "2023-10-01",
+  "ro.product.device": "corot"
+}
