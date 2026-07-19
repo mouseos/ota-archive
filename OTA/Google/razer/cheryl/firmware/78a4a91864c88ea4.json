@@ -17,7 +17,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-razer-cheryl/2738c5f84a3701c8f27a414a48dd6b316ec9b081.zip"
-  ]
+  "archiveUrls": []
 }

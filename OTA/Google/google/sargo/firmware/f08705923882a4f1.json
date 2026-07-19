@@ -23,7 +23,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 65,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-sargo/5816fb391085d49ee1dbdb46f9ee2ef0b7e0b5ee.zip"
-  ]
+  "archiveUrls": []
 }

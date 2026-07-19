@@ -24,7 +24,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 600,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nokia-sdw/c365e88d5b1633089948552a43fd0800a8633fc5.zip"
-  ]
+  "archiveUrls": []
 }

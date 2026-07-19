@@ -21,7 +21,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lge-winglm/985ebb32786c69bee31867319900c7b6c0d69d32.zip"
-  ]
+  "archiveUrls": []
 }

@@ -21,7 +21,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lge-mdh50lm/474b91035e2476794bfcc362e536b0e833b55b9d.zip"
-  ]
+  "archiveUrls": []
 }

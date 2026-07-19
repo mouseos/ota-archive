@@ -17,7 +17,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-razer-linus/2a13768baaaab27a2fa72ae5c74841f2f77d2369.zip"
-  ]
+  "archiveUrls": []
 }

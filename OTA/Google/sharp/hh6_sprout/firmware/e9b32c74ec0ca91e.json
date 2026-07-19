@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-sharp-hh6_sprout/8519001eb1af35e97de385aee0ea759652d5b2d3.zip"
-  ]
+  "archiveUrls": []
 }

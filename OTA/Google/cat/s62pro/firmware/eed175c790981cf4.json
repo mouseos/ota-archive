@@ -21,7 +21,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-cat-s62pro/7dfe02c9680ca9ce3e1c559831c38593b6e699fb.zip"
-  ]
+  "archiveUrls": []
 }

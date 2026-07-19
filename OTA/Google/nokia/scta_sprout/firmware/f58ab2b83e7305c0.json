@@ -25,7 +25,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1010,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nokia-scta_sprout/40f985a855d3c889a1539a85ada3b7b23e234b77.zip"
-  ]
+  "archiveUrls": []
 }

@@ -17,7 +17,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lge-tf10/1514cbae469703789528435935b473040abd60a7.zip"
-  ]
+  "archiveUrls": []
 }
