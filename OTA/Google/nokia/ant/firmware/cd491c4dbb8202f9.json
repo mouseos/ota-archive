@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-ant/1c9e8ac7fe5b56b5488bf628574d9adbec75ec36.zip"
+  ]
 }
