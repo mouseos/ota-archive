@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/6377502fc857a55f6ece4e1197cee6214be6992d.zip",
-  "fingerprint": "SG/SGA401SH/Orga:15/SB65C/02.00.15:user/release-keys",
-  "manufacturer": "",
-  "brand": "sg",
-  "model": "a40sh1",
-  "title": "システムアップデートが利用可能",
-  "description": "【更新内容】（ビルド番号：03.00.05）<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br> \n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
-}
