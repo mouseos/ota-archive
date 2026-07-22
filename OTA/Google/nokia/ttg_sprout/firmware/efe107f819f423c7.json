@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 240,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-ttg_sprout/ca02ca63f7dbd3e818a8e652bf21d7258dfa8b65.zip"
+  ]
 }
