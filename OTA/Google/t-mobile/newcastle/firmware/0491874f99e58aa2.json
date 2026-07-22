@@ -21,5 +21,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-t-mobile-newcastle/903615108025f828ae79573424995770b30f403c.zip"
+  ]
 }
