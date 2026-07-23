@@ -26,5 +26,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 999,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-mgka_sprout/2ef7c6f5ba6581ff16cb253693f1cee00b4a2fc9.zip"
+  ]
 }
