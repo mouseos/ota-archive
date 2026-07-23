@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-pacman/2229ecaa33df35f0f4174271bb2291aabd7f5811.zip"
+  ]
 }
