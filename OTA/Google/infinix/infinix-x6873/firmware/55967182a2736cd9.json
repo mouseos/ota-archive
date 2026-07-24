@@ -34,5 +34,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 2200,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-infinix-infinix-x6873/99421cf920e99bc81ff837483b49ee447adbf6b6.zip"
+  ]
 }
