@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-kyocera-a401kc/31e1f1ac6c620ee0c968c5ee95435f6c6eab3c60.zip"
+  ]
 }
