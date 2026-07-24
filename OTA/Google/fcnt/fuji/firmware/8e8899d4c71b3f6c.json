@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fcnt-fuji/ded7337c68ece8355e7381f553c174d6b458f729.zip"
+  ]
 }
