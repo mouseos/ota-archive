@@ -13,7 +13,13 @@
   "otaType": "incremental",
   "abType": "AB",
   "requiredCacheBytes": 0,
-  "partitions": [],
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
