@@ -1,5 +1,5 @@
 {
-  "preBuild": "",
+  "preBuild": "google/tegu_beta/tegu:CinnamonBun/CP41.260701.005/15834971:user/release-keys",
   "postBuild": "google/tegu/tegu:16/CP1A.260305.018/14887507:user/release-keys",
   "postTimestamp": 1771034106,
   "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/1f0742f4460d5ac8b70a72bf5e237fdfe3e74bc9.zip",
@@ -23,8 +23,7 @@
   ],
   "hasFirmware": false,
   "hasApex": true,
-  "source": "otachecker",
-  "sourceId": 1948,
+  "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-tegu/1f0742f4460d5ac8b70a72bf5e237fdfe3e74bc9.zip"
   ]
