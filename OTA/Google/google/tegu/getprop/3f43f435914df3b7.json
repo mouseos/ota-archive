@@ -1,0 +1,6 @@
+{
+  "ro.product.model": "tegu",
+  "ro.build.fingerprint": "google/tegu_beta/tegu:CinnamonBun/CP41.260701.005/15834971:user/release-keys",
+  "ro.product.brand": "google",
+  "ro.product.device": "tegu"
+}
