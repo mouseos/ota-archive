@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/821762bba7df49d1648ab91eef5c98574f20e740.zip",
+  "fingerprint": "Nothing/Pong/Pong:13/TKQ1.221220.001/2308011740:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "pong",
+  "title": "NothingOS 4.1(Pong-B4.1-260618-1026)",
+  "description": "<h3>What's New in This Update</h3>\n<b>New Features</b><br>\n<br>\n🪄 Lock screen customisation now supports Depth effect (Beta) and adjustable clock face sizes and alignments.<br>\n🎴 Depth effect (Beta) is now compatible with Atmosphere wallpapers.<br>\n🎧 The status bar now displays the dedicated icon of Nothing headphones when connected.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌌 Improved Launcher animations for a smoother and more fluid experience.<br>\n🔐 Added a security reminder for the face unlock method.<br>\n📱 Fixed some display glitches across various cases for better consistency.<br>\n📷 Enhanced overall camera stability.<br>\n🔗 Enhanced Bluetooth connection stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to June 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
+}
