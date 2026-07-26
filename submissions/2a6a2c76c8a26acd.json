@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/50b6f7633b9ce62f3138b985912c43d1b343ecfb.zip",
-  "fingerprint": "Nothing/SpacewarEEA/Spacewar:12/SKQ1.211230.001/1657024044:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "spacewar",
-  "title": "NothingOS 2.6(Spacewar-U2.6-241031-1818)",
-  "description": "<h3>What's new in this update</h3>\n<b>General improvements and bug fixes</b><br>\n📞 Expanded support for video calling across more carriers.<br>\n📶 Fixed the issue where some devices couldn't connect to VoLTE.<br>\n🛡️ Updated security patch to November.<br>\n🔄 Fixed system lag when rapidly switching the network tile in Quick Settings.<br>\n🎧 Resolved the issue of the Bluetooth tile not refreshing device status promptly.<br>\n📷 Fixed the issue where photos taken at 2.0x zoom or higher didn't display detail information.<br>"
-}
