@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603172043:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603172043:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603172043:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603172043:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2603172043:user/release-keys",
+  "preBuild": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2602042218:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2602042218:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2602042218:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2602042218:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2602042218:user/release-keys",
   "postBuild": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2604021229:user/release-keys",
   "postTimestamp": 1775104154,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9e6a3222e0f9a143d785302de4aeac74c03607fb.zip",
-  "sizeBytes": 155523773,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/16e7034ce12c21c3ccf04f0196d333c1ce2900bf.zip",
+  "sizeBytes": 303707982,
   "securityPatch": "2026-04-01",
   "sdk": "36",
   "device": "Frogger",

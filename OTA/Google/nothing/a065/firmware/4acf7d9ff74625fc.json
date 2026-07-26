@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:15/AQ3A.240929.001/2412262001:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2412262001:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2412262001:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:15/AQ3A.240929.001/2501131723:user/release-keys|Nothing/PongEEA/Pong:15/AQ3A.240929.001/2501131723:user/release-keys|Nothing/PongIND/Pong:15/AQ3A.240929.001/2501131723:user/release-keys",
+  "postTimestamp": 1736760205,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2d4ff3545f89bf68eca8f54f2dc6bb94da625ae3.zip",
+  "sizeBytes": 179484013,
+  "securityPatch": "2025-01-01",
+  "sdk": "35",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "NothingOS 3.0(Pong-V3.0-250113-1723)",
+  "description": "What's new in this update\n<b>General improvements</b><br>\n🔦 You can now long-press the Torch tile in Quick Settings to activate the Glyph torch.<br>\n📶 Optimised network selection to improve connection stability.<br>\n📱 Enhanced response speed for pulling down Quick Settings in landscape mode.<br>\n🛡️ Updated security patch to 2025-01.<br>\n<br>\n<b>Bug fixes</b><br>\n💡 Fixed abnormal Glyph effects in specific scenarios.<br>\n🎧 Fixed issues with connected earbuds for better performance and stability.<br>\n🔧 Resolved system stability for a more reliable experience.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
