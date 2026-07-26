@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:14/UP1A.231005.007/2404190138:user/release-keys|Nothing/PongEEA/Pong:14/UP1A.231005.007/2404190138:user/release-keys|Nothing/PongIND/Pong:14/UP1A.231005.007/2404190138:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:14/UP1A.231005.007/2408281751:user/release-keys|Nothing/PongEEA/Pong:14/UP1A.231005.007/2408281751:user/release-keys|Nothing/PongIND/Pong:14/UP1A.231005.007/2408281751:user/release-keys",
+  "postTimestamp": 1724838705,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/87bbc57f2facf4e5049987fffbe872e2437394bd.zip",
+  "sizeBytes": 739727322,
+  "securityPatch": "2024-09-01",
+  "sdk": "34",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "NothingOS 2.6(Pong-U2.6-240828-1751)",
+  "description": "What's new in this update\n\n<b>New features & improvements</b><br>\n👇 Swipe down incoming notifications to enter Pop-up view. For easy access to information without having to leave an app. Turn on via Settings > System > Pop-up view.<br>\n🔔 Enable vibration for third-party apps during calls. Turn on via Settings > Sound and vibration > Vibration.<br>\n🚶 Battery and Pedometer Widgets can now be displayed on the lock screen and Always On Display.<br>\n🤖 Introducing the News Reporter Widget. Let your daily news stories be read aloud to you by Tim, Nothing's CFO. Please note: this feature is still in beta and relies on various generative AI models, which may sometimes behave unexpectedly.<br>\n🔊 Newly refined ringtone volume for incoming calls.<br>\n⚡️  Improved the speed of the Bluetooth tile toggle in Quick Settings.<br>\n🎧 Ensured Bluetooth tile reflects correct earbud information.<br>\n🔒 Updated to September Security Patch .<br>\n<br>\n<b>Bug Fixes</b><br>\n🖼️ Optimised wallpaper preview displays.<br>\n📞 Resolved an issue preventing calls to be made on specific networks.<br>\n🚓 Fixed an issue affecting 112 calls to the police.<br>\n🔄 Resolved the problem causing some Cloned Apps to auto-rotate despite being disabled.<br>\n🎵 Fixed an issue where the Media Player Widget couldn't play music when switching from guest to main user.<br>\n✨ Optimised the Always On Display interface.<br>\n📷 Ensured consistency of information within photo details on the camera roll.<br>\n🎥 Resolved zoom slider display issues when videoing on the camera.<br>\n🔧 Fixed system stability issues.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
