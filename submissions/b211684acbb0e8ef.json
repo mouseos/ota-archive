@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2d4ff3545f89bf68eca8f54f2dc6bb94da625ae3.zip",
+  "fingerprint": "Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys",
+  "manufacturer": "nothing",
+  "brand": "nothing",
+  "model": "a065",
+  "title": "NothingOS 3.0(Pong-V3.0-250113-1723)",
+  "description": "<h3>What's new in this update</h3>\n<b>General improvements</b><br>\n🔦 You can now long-press the Torch tile in Quick Settings to activate the Glyph torch.<br>\n📶 Optimised network selection to improve connection stability.<br>\n📱 Enhanced response speed for pulling down Quick Settings in landscape mode.<br>\n🛡️ Updated security patch to 2025-01.<br>\n<br>\n<b>Bug fixes</b><br>\n💡 Fixed abnormal Glyph effects in specific scenarios.<br>\n🎧 Fixed issues with connected earbuds for better performance and stability.<br>\n🔧 Resolved system stability for a more reliable experience.<br>"
+}
