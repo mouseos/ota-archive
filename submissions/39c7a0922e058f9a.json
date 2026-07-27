@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e57db3f2ff14fa60f69fcafa345e02153c1d8890.zip",
-  "fingerprint": "Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys",
-  "manufacturer": "nothing",
-  "brand": "nothing",
-  "model": "a065",
-  "title": "NothingOS 3.2(Pong-V3.2-250917-1451)",
-  "description": "<h3>What's New in This Update</h3>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⚙️ Enhanced system stability and optimised system performance.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>"
-}
