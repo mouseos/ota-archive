@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 30,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-bonito/d2c41aeb42473c46157ab5c8c5d7811a0978a4bb.zip"
+  ]
 }
