@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/0441160b4bae8bfe6fecb7952f6324d6debcdb5a.zip",
+  "fingerprint": "SG/SGA401SH/Orga:15/SB65C/02.00.15:user/release-keys",
+  "manufacturer": "sharp",
+  "brand": "sg",
+  "model": "a401sh",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：02.00.17）<br>\n・特定の米国SIMをいれると緊急通報ができなくなる事象を改善します<br>\n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
