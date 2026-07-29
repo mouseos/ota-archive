@@ -1,0 +1,24 @@
+{
+  "preBuild": "",
+  "postBuild": "google/Mi-498/Mi-498_sprout:6.0/MRA58M/2280749:user/release-keys",
+  "postTimestamp": 1443133913,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_mi498sprout_mi498/8f805762f60e04b1a0027d81f958afd80785ddf8.zip",
+  "sizeBytes": 466460828,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Mi-498_sprout",
+  "checkinDevice": "Mi-498_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to Android 6.0, Marshmallow, which delivers major improvements to the functionality and performance of your device. To find out more, visit http://www.android.com/marshmallow. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2298,
+  "archiveUrls": []
+}

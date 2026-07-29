@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/AQ4502/AQ4502_sprout:6.0.1/MMB29O/2459718:user/release-keys",
+  "postBuild": "google/AQ4502/AQ4502_sprout:6.0.1/MMB29Q/2480792:user/release-keys",
+  "postTimestamp": 1449794603,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_aq4502sprout_aq4502/a8492a2e627311fd2bc0dfc0374a9d7d7319df2b.zip",
+  "sizeBytes": 3770362,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "AQ4502_sprout",
+  "checkinDevice": "AQ4502_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2281,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/AQ4502/AQ4502_sprout:6.0/MRA58N/2289998:user/release-keys",
+  "postBuild": "google/AQ4502/AQ4502_sprout:6.0.1/MMB29K/2419427:user/release-keys",
+  "postTimestamp": 1447281444,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_aq4502sprout_aq4502/e46ee19465c35a09df35367bf40ab9b43a970ee6.zip",
+  "sizeBytes": 79273193,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "AQ4502_sprout",
+  "checkinDevice": "AQ4502_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to Android 6.0.1 Marshmallow, which improves performance and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2276,
+  "archiveUrls": []
+}

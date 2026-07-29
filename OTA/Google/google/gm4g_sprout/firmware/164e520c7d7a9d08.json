@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/gm4g/gm4g_sprout:7.0/NRD91N/3318108:user/release-keys",
+  "postBuild": "google/gm4g/gm4g_sprout:7.1.1/NMF26F/3425388:user/release-keys",
+  "postTimestamp": 1478025378,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_gm4gsprout_gm4g/2c3c2779fc2ca99d08dfb2c99dba2fa99d6dc558.zip",
+  "sizeBytes": 252334601,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "gm4g_sprout",
+  "checkinDevice": "gm4g_sprout",
+  "title": "Android System Update (December 2016)",
+  "description": "This software update will upgrade your device to the December 2016 release of Android 7.1.1 Nougat, which improves security and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 51447296,
+  "partitions": [
+    "modem",
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2392,
+  "archiveUrls": []
+}

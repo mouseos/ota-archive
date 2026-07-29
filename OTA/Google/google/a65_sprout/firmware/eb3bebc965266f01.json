@@ -1,0 +1,24 @@
+{
+  "preBuild": "",
+  "postBuild": "google/A65/A65_sprout:6.0/MRA58M/2280749:user/release-keys",
+  "postTimestamp": 1443133312,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_a65sprout_a65/1712d22d3e396243d10fcfcc6eb9349f2e71e74c.zip",
+  "sizeBytes": 466468741,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "A65_sprout",
+  "checkinDevice": "A65_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to Android 6.0, Marshmallow, which delivers major improvements to the functionality and performance of your device. To find out more, visit http://www.android.com/marshmallow. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2289,
+  "archiveUrls": []
+}

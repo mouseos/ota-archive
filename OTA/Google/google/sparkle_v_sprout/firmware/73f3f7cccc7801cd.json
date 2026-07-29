@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/Sparkle_V/Sparkle_V_sprout:6.0.1/MMB29O/2459718:user/release-keys",
+  "postBuild": "google/Sparkle_V/Sparkle_V_sprout:6.0.1/MMB29Q/2480792:user/release-keys",
+  "postTimestamp": 1449794449,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_sparklevsprout_sparklev/7aac4fe9877fb3cd24251b791f168846c30346a7.zip",
+  "sizeBytes": 5360184,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Sparkle_V_sprout",
+  "checkinDevice": "Sparkle_V_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2312,
+  "archiveUrls": []
+}

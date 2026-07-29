@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/Sparkle_V/Sparkle_V_sprout:6.0/MRA58M/2280749:user/release-keys",
+  "postBuild": "google/Sparkle_V/Sparkle_V_sprout:6.0/MRA58N/2289998:user/release-keys",
+  "postTimestamp": 1443486609,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_sparklevsprout_sparklev/74a3b3e14028d58e2e96c8a772ff0b2a7401169e.zip",
+  "sizeBytes": 1878636,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Sparkle_V_sprout",
+  "checkinDevice": "Sparkle_V_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One with the November 2015 patches. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2283,
+  "archiveUrls": []
+}

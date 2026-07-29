@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/A1/A1_sprout:6.0.1/MMB29O/2459718:user/release-keys",
+  "postBuild": "google/A1/A1_sprout:6.0.1/MMB29Q/2480792:user/release-keys",
+  "postTimestamp": 1449794603,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_a1sprout_a1/5829e68e6859ca396127b0a42f86f8134a348f56.zip",
+  "sizeBytes": 3770358,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "A1_sprout",
+  "checkinDevice": "A1_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2366,
+  "archiveUrls": []
+}

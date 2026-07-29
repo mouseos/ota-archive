@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/H940/H940_sprout:6.0.1/MMB29Q/2480792:user/release-keys",
+  "postBuild": "google/H940/H940_sprout:6.0.1/MMB29V/2554798:user/release-keys",
+  "postTimestamp": 1453507001,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_h940sprout_h940/c8deaf8488455a9073c38b94c01085c3db6280f0.zip",
+  "sizeBytes": 17117790,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "H940_sprout",
+  "checkinDevice": "H940_sprout",
+  "title": "Android System Update (March 2016)",
+  "description": "This software update will improve the security of your Android One. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2359,
+  "archiveUrls": []
+}

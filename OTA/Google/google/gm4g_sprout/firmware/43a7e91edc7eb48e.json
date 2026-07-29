@@ -1,0 +1,24 @@
+{
+  "preBuild": "",
+  "postBuild": "google/gm4g/gm4g_sprout:7.0/NRD90M/3085278:user/release-keys",
+  "postTimestamp": 1469150918,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_gm4gsprout_gm4g/e333697e9ea1f9311450d7d690ca2219cd9744fa.zip",
+  "sizeBytes": 784143120,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "gm4g_sprout",
+  "checkinDevice": "gm4g_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to Android 7.0 Nougat. Multitask with ease with multi-window, bring your words to life with all-new emoji, and enjoy longer-lasting battery. Learn more at android.com/nougat.\n\nThis update includes the 2016-08 security patches. Future security updates may be downloaded and installed automatically, possibly using cellular data. Downloading updates over a cellular network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2317,
+  "archiveUrls": []
+}

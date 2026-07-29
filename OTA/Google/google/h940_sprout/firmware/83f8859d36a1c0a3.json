@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/H940/H940_sprout:6.0/MRA58M/2280749:user/release-keys",
+  "postBuild": "google/H940/H940_sprout:6.0/MRA58N/2289998:user/release-keys",
+  "postTimestamp": 1443486405,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_h940sprout_h940/0f37b6342a10bc0fca74b98c938bf9feb2c1c03e.zip",
+  "sizeBytes": 1908420,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "H940_sprout",
+  "checkinDevice": "H940_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One with the November 2015 patches. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2290,
+  "archiveUrls": []
+}

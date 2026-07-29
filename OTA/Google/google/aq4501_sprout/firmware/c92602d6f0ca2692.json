@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/AQ4501/AQ4501_sprout:6.0.1/MOB30D/2704746:user/release-keys",
+  "postBuild": "google/AQ4501/AQ4501_sprout:6.0.1/MOB30G/2723637:user/release-keys",
+  "postTimestamp": 1459294059,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_aq4501sprout_aq4501/142ab8d38f880ed9b5be3b138369f79267ae00f0.zip",
+  "sizeBytes": 11595280,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "AQ4501_sprout",
+  "checkinDevice": "AQ4501_sprout",
+  "title": "Android System Update (May 2016)",
+  "description": "This software update will upgrade your device to the May 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2295,
+  "archiveUrls": []
+}

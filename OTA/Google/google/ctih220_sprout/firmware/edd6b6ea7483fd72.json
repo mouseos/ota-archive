@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/ctih220/ctih220_sprout:7.1.1/NMF26F/3425388:user/release-keys",
+  "postBuild": "google/ctih220/ctih220_sprout:7.1.1/N4F26I/3532671:user/release-keys",
+  "postTimestamp": 1480536105,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_ctih220sprout_ctih220/965e966e8803683a2a76d4398bb068bf69248e42.zip",
+  "sizeBytes": 12371595,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "ctih220_sprout",
+  "checkinDevice": "ctih220_sprout",
+  "title": "Android System Update (January 2017)",
+  "description": "This software update will upgrade your device to the January 2017 release of Android 7.1.1 Nougat, which improves security and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 21389312,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2398,
+  "archiveUrls": []
+}

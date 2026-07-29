@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/Roar_A50/Roar_A50_sprout:6.0.1/MMB29O/2459718:user/release-keys",
+  "postBuild": "google/Roar_A50/Roar_A50_sprout:6.0.1/MMB29Q/2480792:user/release-keys",
+  "postTimestamp": 1449794449,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_roara50sprout_roara50/3373d73e4d7b120e0d3d9dc81ded5c26bbc6626e.zip",
+  "sizeBytes": 5360187,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Roar_A50_sprout",
+  "checkinDevice": "Roar_A50_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2342,
+  "archiveUrls": []
+}

@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/ctih220/ctih220_sprout:7.0/NRD90M/3085278:user/release-keys",
+  "postBuild": "google/ctih220/ctih220_sprout:7.0/NRD90R/3141966:user/release-keys",
+  "postTimestamp": 1470965427,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_ctih220sprout_ctih220/91d0d0936b07ce57096b9aa8cbb495b1184c7bb5.zip",
+  "sizeBytes": 30809793,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "ctih220_sprout",
+  "checkinDevice": "ctih220_sprout",
+  "title": "Android System Update (September 2016)",
+  "description": "This software update will upgrade your device to the September 2016 release of Android 7.0 Nougat, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 19660800,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2324,
+  "archiveUrls": []
+}

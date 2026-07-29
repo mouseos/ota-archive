@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/MyPhone_UNO/UNO_sprout:6.0/MRA58M/2280749:user/release-keys",
+  "postBuild": "google/MyPhone_UNO/UNO_sprout:6.0/MRA58N/2289998:user/release-keys",
+  "postTimestamp": 1443486609,
+  "otaUrl": "http://ota.googlezip.net/packages/ota/google_unosprout_myphoneuno/808c38b50a8a18e6752fdb03ac566b4c6918b112.zip",
+  "sizeBytes": 1878644,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "UNO_sprout",
+  "checkinDevice": "UNO_sprout",
+  "title": "Android System Update",
+  "description": "This software update will improve the security of your Android One with the November 2015 patches. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2311,
+  "archiveUrls": []
+}

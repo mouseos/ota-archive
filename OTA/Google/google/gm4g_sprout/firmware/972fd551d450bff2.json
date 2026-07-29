@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/gm4g/gm4g_sprout:7.0/NRD90M/3085278:user/release-keys",
+  "postBuild": "google/gm4g/gm4g_sprout:7.0/NRD90R/3141966:user/release-keys",
+  "postTimestamp": 1470965427,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_gm4gsprout_gm4g/b17d3b80f429afd34a49196357f989281f27c0db.zip",
+  "sizeBytes": 30809804,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "gm4g_sprout",
+  "checkinDevice": "gm4g_sprout",
+  "title": "Android System Update (September 2016)",
+  "description": "This software update will upgrade your device to the September 2016 release of Android 7.0 Nougat, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 19660800,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2334,
+  "archiveUrls": []
+}

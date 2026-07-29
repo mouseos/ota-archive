@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/imobileiq2/imobileiq2_sprout:7.0/NRD90R/3141966:user/release-keys",
+  "postBuild": "google/imobileiq2/imobileiq2_sprout:7.0/NRD91J/3306052:user/release-keys",
+  "postTimestamp": 1474954195,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_imobileiq2sprout_imobileiq2/0a457a1376e6645c8a1e1f0ec14af92f85641c51.zip",
+  "sizeBytes": 18917015,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "imobileiq2_sprout",
+  "checkinDevice": "imobileiq2_sprout",
+  "title": "Android System Update (October 2016)",
+  "description": "This software update will upgrade your device to the October 2016 release of Android 7.0 Nougat, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 51447296,
+  "partitions": [
+    "modem",
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2349,
+  "archiveUrls": []
+}
