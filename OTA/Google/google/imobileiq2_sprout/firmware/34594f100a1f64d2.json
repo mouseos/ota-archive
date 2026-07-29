@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/imobileiq2/imobileiq2_sprout:7.1.1/NMF26F/3425388:user/release-keys",
+  "postBuild": "google/imobileiq2/imobileiq2_sprout:7.1.1/N4F26I/3532671:user/release-keys",
+  "postTimestamp": 1480536105,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_imobileiq2sprout_imobileiq2/732e025d8a1570f955a5884c31f4d2b57fab696c.zip",
+  "sizeBytes": 12371570,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "imobileiq2_sprout",
+  "checkinDevice": "imobileiq2_sprout",
+  "title": "Android System Update (January 2017)",
+  "description": "This software update will upgrade your device to the January 2017 release of Android 7.1.1 Nougat, which improves security and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 21389312,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2403,
+  "archiveUrls": []
+}

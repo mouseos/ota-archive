@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/Mi438S/Mi438S_sprout:6.0.1/MOB30N/2915942:user/release-keys",
+  "postBuild": "google/Mi438S/Mi438S_sprout:6.0.1/MOB30Q/2975880:user/release-keys",
+  "postTimestamp": 1465950376,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_mi438ssprout_mi438s/fdc2d98610df7533975054b1ccaacfa4ebb8f2c4.zip",
+  "sizeBytes": 13765130,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Mi438S_sprout",
+  "checkinDevice": "Mi438S_sprout",
+  "title": "Android System Update (July 2016)",
+  "description": "This software update will upgrade your device to the July 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.<br><br>Update perangkat lunak ini akan meningkatkan keamanan perangkat Android One Anda. Perlu diperhatikan bahwa mengunduh update melalui jaringan seluler atau saat roaming dapat dikenakan biaya tambahan.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2456,
+  "archiveUrls": []
+}

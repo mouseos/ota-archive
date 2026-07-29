@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/MyPhone_UNO/UNO_sprout:6.0.1/MOB30D/2704746:user/release-keys",
+  "postBuild": "google/MyPhone_UNO/UNO_sprout:6.0.1/MOB30G/2723637:user/release-keys",
+  "postTimestamp": 1459294059,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_unosprout_myphoneuno/371232afbb64dfafe7254a96223b1a9d8c094e11.zip",
+  "sizeBytes": 11595295,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "UNO_sprout",
+  "checkinDevice": "UNO_sprout",
+  "title": "Android System Update (May 2016)",
+  "description": "This software update will upgrade your device to the May 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2417,
+  "archiveUrls": []
+}

@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/A10/A10_sprout:6.0.1/MOB30W/3031100:user/release-keys",
+  "postBuild": "google/A10/A10_sprout:6.0.1/MOB31E/3142026:user/release-keys",
+  "postTimestamp": 1470967455,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_a10sprout_a10/a2a4a1393d7ee569bc946adcd67139240c17f472.zip",
+  "sizeBytes": 14739773,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "A10_sprout",
+  "checkinDevice": "A10_sprout",
+  "title": "Android System Update (September 2016)",
+  "description": "This software update will upgrade your device to the September 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2471,
+  "archiveUrls": []
+}

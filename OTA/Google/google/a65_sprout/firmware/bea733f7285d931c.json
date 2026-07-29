@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/A65/A65_sprout:6.0.1/MOB30D/2704746:user/release-keys",
+  "postBuild": "google/A65/A65_sprout:6.0.1/MOB30G/2723637:user/release-keys",
+  "postTimestamp": 1459293705,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_a65sprout_a65/b15833fd01f0eb9fb6488a769344c8c6150a2f22.zip",
+  "sizeBytes": 7899438,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "A65_sprout",
+  "checkinDevice": "A65_sprout",
+  "title": "Android System Update (May 2016)",
+  "description": "This software update will upgrade your device to the May 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.<br><br>Update perangkat lunak ini akan meningkatkan keamanan perangkat Android One Anda. Perlu diperhatikan bahwa mengunduh update melalui jaringan seluler atau saat roaming dapat dikenakan biaya tambahan.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2407,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X657B-OP-S2/Infinix-X657B:11/RP1A.200720.011/211202V630:user/release-keys",
+  "postTimestamp": 1638415157,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/dfc666ea8c99dc5c0f1d29dda24a8bb4e8b1cd52.zip",
+  "sizeBytes": 1800171446,
+  "securityPatch": "2021-11-05",
+  "sdk": "30",
+  "device": "Infinix-X657B",
+  "checkinDevice": "Infinix-X657B",
+  "title": "Tcard_X657B-H6117EIK-RGo-OP-S2-211202V630",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X657B-H6117EIK-RGo-OP-S2-211202V630<br>\nFixed issues:<br>\n1.Optimized the stability issue from user feedback.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 89,
+  "archiveUrls": []
+}

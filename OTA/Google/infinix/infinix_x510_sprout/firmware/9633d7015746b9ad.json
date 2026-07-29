@@ -1,0 +1,22 @@
+{
+  "preBuild": "Infinix/Infinix_X510/Infinix_X510_sprout:6.0/MRA58K/1476672601:user/release-keys",
+  "postBuild": "Infinix/Infinix_X510/Infinix_X510_sprout:6.0/MRA58K/1481802575:user/release-keys",
+  "postTimestamp": 1481803027,
+  "otaUrl": "https://android.googleapis.com/packages/ota/infinix_infinixx510sprout_infinixx510/b7a6a50e5279077285834a03c7e4e6e3761de5b5.zip",
+  "sizeBytes": 10247136,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Infinix_X510_sprout",
+  "checkinDevice": "Infinix_X510_sprout",
+  "title": "Android System Update (December 2016)",
+  "description": "This software update will upgrade your Android One to improve stability, increase security, and fix bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2427,
+  "archiveUrls": []
+}

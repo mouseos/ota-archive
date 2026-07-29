@@ -1,0 +1,28 @@
+{
+  "preBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230407V152:user/release-keys",
+  "postBuild": "Infinix/X669D-RU/Infinix-X669D:12/SP1A.210812.016/RU-20230522V197:user/release-keys",
+  "postTimestamp": 1684691519,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0c1b7d8dd8cd2f999eff4aa985af35094bbc1f50.zip",
+  "sizeBytes": 548410320,
+  "securityPatch": "2023-04-05",
+  "sdk": "31",
+  "device": "Infinix-X669D",
+  "checkinDevice": "Infinix-X669D",
+  "title": "X669D-F065XAbN-S-RU-OTA-V152-V197-20230523_214701",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br>\nВерсия обновления: X669D-F065XAbN-S-RU-20230522V197<br>\n\n\nОптимизация:<br>\n1. Исправлены проблемы в режиме ожидания.<br>\n2. Оптимизирован фонарик для более удобной работы.<br>\n3. Улучшена производительность.<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд других проблем.<br>\n2. Подробную информацию можно найти на форуме XCLUB (Geekbar).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 96,
+  "archiveUrls": []
+}

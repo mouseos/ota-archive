@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/220416V723:user/release-keys",
+  "postBuild": "Infinix/X6812-GL/Infinix-X6812:11/RP1A.200720.011/220616V728:user/release-keys",
+  "postTimestamp": 1655349715,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/270d36974b824790849d61fe76026785b4e997de.zip",
+  "sizeBytes": 628584340,
+  "securityPatch": "2022-06-05",
+  "sdk": "30",
+  "device": "Infinix-X6812",
+  "checkinDevice": "Infinix-X6812",
+  "title": "X6812-H6912ABCGHIJ-R-GL-220416V723-220616V728_20220616120424",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X6812-H6912ABCGHIJ-R-GL-220616V728<br> \n\nChanged Functions: <br>\n1.Infinix Wallet:\nInfinix Wallet, a system-integrated, brand-exclusive, and multi-dimensional fintech service platform which covers financial services, bill payment and local life. Moreover, you can get instant credit in this app and enjoy now and pay later. With it, you can enjoy a smarter, safer, and more convenient digital life.<br>\n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to Jun. 5, 2022. <br>\n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the XCLUB(Infinix Help Station) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 102,
+  "archiveUrls": []
+}

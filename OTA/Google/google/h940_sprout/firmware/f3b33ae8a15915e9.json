@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/H940/H940_sprout:6.0.1/MOB30N/2915942:user/release-keys",
+  "postBuild": "google/H940/H940_sprout:6.0.1/MOB30Q/2975880:user/release-keys",
+  "postTimestamp": 1465950376,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_h940sprout_h940/50ad20c2a4f438322a9ebd8f889a55342de6650b.zip",
+  "sizeBytes": 13765123,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "H940_sprout",
+  "checkinDevice": "H940_sprout",
+  "title": "Android System Update (July 2016)",
+  "description": "This software update will upgrade your device to the July 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2426,
+  "archiveUrls": []
+}

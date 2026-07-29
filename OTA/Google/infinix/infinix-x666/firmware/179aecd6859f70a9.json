@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X666-GL/Infinix-X666:12/SP1A.210812.016/230508V1483:user/release-keys",
+  "postBuild": "Infinix/X666-GL/Infinix-X666:12/SP1A.210812.016/230727V1597:user/release-keys",
+  "postTimestamp": 1690452983,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/4d5703ef57dc1328f91346b0264f3eb5cdd594a9.zip",
+  "sizeBytes": 353660013,
+  "securityPatch": "2023-07-05",
+  "sdk": "31",
+  "device": "Infinix-X666",
+  "checkinDevice": "Infinix-X666",
+  "title": "X666-P740AEBC-S-GL-230508V1483-230727V1597_20230728094254",
+  "description": "Caution! This update may crash rooted devices. <br> Please plug in charger to OTA upgrade when power is lower than 50%. <br> <b>Update Version: </b>X666-P740AEBC-S-GL-230727V1597<br> <b>Changed Functions: </b><br> <li>1. Updated Google Security Patch to July 5, 2023.</li> <li>2. Updated Google GMS Package to 12_202212.go.</li> <b>Optimized issue: </b><br> <li>1. Incorporate the latest google patch </li> <b>Fixed issues:</b> <br> <li>1. Update Optimize performance </li>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 95,
+  "archiveUrls": []
+}

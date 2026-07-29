@@ -1,0 +1,26 @@
+{
+  "preBuild": "Infinix/X6815D-GL/Infinix-X6815D:13/TP1A.220624.014/230714V199:user/release-keys",
+  "postBuild": "Infinix/X6815D-GL/Infinix-X6815D:13/TP1A.220624.014/230919V325:user/release-keys",
+  "postTimestamp": 1695109365,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/530135364f614f07ce7182e9da490b32cd57079a.zip",
+  "sizeBytes": 1027953595,
+  "securityPatch": "2023-09-05",
+  "sdk": "33",
+  "device": "Infinix-X6815D",
+  "checkinDevice": "Infinix-X6815D",
+  "title": "X6815D-H777BC-T-GL-230714V199-230919V325_20230919161651",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X6815D-H777BC-T-GL-230919V325<br>\nOptimized Issues: <br>\n1. Updated Google Security Patch to September 5, 2023.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum (Geekbar) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 105,
+  "archiveUrls": []
+}

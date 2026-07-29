@@ -1,0 +1,24 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/Infinix_X510/Infinix_X510_sprout:6.0/MRA58K/1458006322:user/release-keys",
+  "postTimestamp": 1458006765,
+  "otaUrl": "https://android.googleapis.com/packages/ota/infinix_infinixx510sprout_infinixx510/e60eda3dccc849e626cb3b39dc9429072419ab97.zip",
+  "sizeBytes": 878524715,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Infinix_X510_sprout",
+  "checkinDevice": "Infinix_X510_sprout",
+  "title": "Android System Update",
+  "description": "This software update will upgrade your Android One to Android 6.0, Marshmallow, which delivers major improvements to the functionality and performance of your device. To find out more, visit http://www.android.com/marshmallow. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "full",
+  "abType": null,
+  "requiredCacheBytes": null,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2302,
+  "archiveUrls": []
+}

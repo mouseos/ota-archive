@@ -1,0 +1,24 @@
+{
+  "preBuild": "google/gm4g/gm4g_sprout:7.1.1/N4F26W/3815918:user/release-keys",
+  "postBuild": "google/gm4g/gm4g_sprout:7.1.1/N0F27E/4103848:user/release-keys",
+  "postTimestamp": 1497550941,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/google_gm4gsprout_gm4g/6b43636db8fd6834074f4b8dfee63470b190f1c3.zip",
+  "sizeBytes": 13243120,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "gm4g_sprout",
+  "checkinDevice": "gm4g_sprout",
+  "title": "Android System Update (May 2017)",
+  "description": "This software update will upgrade your device to the May 2017 release of Android 7.1.1 Nougat, which improves security and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 19865600,
+  "partitions": [
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2469,
+  "archiveUrls": []
+}

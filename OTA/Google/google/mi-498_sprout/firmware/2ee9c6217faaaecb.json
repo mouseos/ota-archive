@@ -1,0 +1,22 @@
+{
+  "preBuild": "google/Mi-498/Mi-498_sprout:6.0.1/MOB30G/2723637:user/release-keys",
+  "postBuild": "google/Mi-498/Mi-498_sprout:6.0.1/MOB30Q/2975880:user/release-keys",
+  "postTimestamp": 1465950303,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_mi498sprout_mi498/c694393ed17c079523e557ab32d93295ddbc1b38.zip",
+  "sizeBytes": 14129067,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "Mi-498_sprout",
+  "checkinDevice": "Mi-498_sprout",
+  "title": "Android System Update (July 2016)",
+  "description": "This software update will upgrade your device to the July 2016 release of Android 6.0.1 Marshmallow, which improves security and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "FILE",
+  "requiredCacheBytes": null,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2436,
+  "archiveUrls": []
+}

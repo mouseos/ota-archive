@@ -1,0 +1,26 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X670-GL/Infinix-X670:13/TP1A.220624.014/230629V298:user/release-keys",
+  "postTimestamp": 1688055393,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/16335a8ba908a053ef1b501a4f26dd69ffb93197.zip",
+  "sizeBytes": 5058285793,
+  "securityPatch": "2023-06-05",
+  "sdk": "33",
+  "device": "Infinix-X670",
+  "checkinDevice": "Infinix-X670",
+  "title": "Tcard_X670-H814DGHJKL-T-GL-230629V298",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X670-H814DGHJKL-T-GL-230629V298<br>\n\nUpgrade content: <br>\n1.Upgraded the Android version from Android 12 to Android 13.<br>\n2.Upgraded the XOS version from XOS10.6 to XOS13.<br>\n3.Upgraded and added some special features to improve the overall experience, including but not limited to Mobile Cloner, Lightning Multi-Window, Multiple Users, PC Connection, Notepad, and Smart Panel.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 97,
+  "archiveUrls": []
+}

@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/X6710-GL/Infinix-X6710:14/UP1A.231005.007/240703V777:user/release-keys",
+  "postTimestamp": 1719943679,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1d5fbf41b26577bc915a79bc55c8259018328e68.zip",
+  "sizeBytes": 6863191054,
+  "securityPatch": "2024-06-05",
+  "sdk": "34",
+  "device": "Infinix-X6710",
+  "checkinDevice": "Infinix-X6710",
+  "title": "Tcard_X6710-H931DJ-U-GL-240703V777",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: X6710-H931DJ-U-GL-240703V777<br>\n\nOptimized issues:<br>\n1. Updated Google Security Patch.<br>\n2. Improved user experience.<br>\n\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit XClub forum (Geekbar) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 99,
+  "archiveUrls": []
+}

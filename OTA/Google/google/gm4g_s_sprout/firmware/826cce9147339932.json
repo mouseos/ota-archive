@@ -1,0 +1,25 @@
+{
+  "preBuild": "google/gm4g_s/gm4g_s_sprout:7.1.1/N4F26I/3532671:user/release-keys",
+  "postBuild": "google/gm4g_s/gm4g_s_sprout:7.1.1/N4F26P/3587886:user/release-keys",
+  "postTimestamp": 1482198501,
+  "otaUrl": "https://android.googleapis.com/packages/ota/google_gm4gssprout_gm4gs/0be1318dcde3183f9544ccac0b5d50cbbf51df5e.zip",
+  "sizeBytes": 14277073,
+  "securityPatch": null,
+  "sdk": null,
+  "device": "gm4g_s_sprout",
+  "checkinDevice": "gm4g_s_sprout",
+  "title": "Android System Update (February 2017)",
+  "description": "This software update will upgrade your device to the February 2017 release of Android 7.1.1 Nougat, which improves security and stability and fixes bugs. Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 51447296,
+  "partitions": [
+    "modem",
+    "system"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2421,
+  "archiveUrls": []
+}
