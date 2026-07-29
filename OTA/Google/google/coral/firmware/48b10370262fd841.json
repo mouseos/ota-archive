@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 41,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-coral/0f8bd216167000a5c0aca975a52518168f750b99.zip"
+  ]
 }
