@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 37,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-cheetah/4ec314bc295c16d8515a5783250086d3fbb4360d.zip"
+  ]
 }
