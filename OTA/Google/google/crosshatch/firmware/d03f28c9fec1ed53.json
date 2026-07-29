@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 42,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-crosshatch/bca54a13dce85a21bc2e3731201cfb6ce1b6eef8.zip"
+  ]
 }
