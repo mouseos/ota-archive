@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/97b522065c3afbc400cffc56900a904149baecb6.zip",
+  "fingerprint": "SG/SGA401SH/Orga:15/SB65C/02.00.15:user/release-keys",
+  "manufacturer": "sharp",
+  "brand": "sg",
+  "model": "a401sh",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：02.00.16）<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br> \n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
