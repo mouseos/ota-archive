@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b281c8062dcf2a584a524b433907cfeb514df51a.zip",
+  "fingerprint": "Nothing/Pong/Pong:13/TKQ1.221220.001/2307092003:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "pong",
+  "title": "NothingOS 2.6(Pong-U2.6-241016-1700)",
+  "description": "<h3>What's new in this update</h3>\n<b>General improvements and bug fixes</b><br>\n🎮 PUBG now supports a high refresh rate of 90fps for smoother gameplay!<br>\n📶 Expanded support for VoLTE and VoWiFi across more carriers.<br>\n🔄 Fixed system lag when rapidly switching the network tile in Quick Settings.<br>\n🛡️ Update security patch to October.<br>\n🧰 Enhanced system stability."
+}
