@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/M08/fuji:16/W1VH36H.80-34-2-2-1/9cb916-8178d:user/release-keys",
+  "postBuild": "FCNT/M08/fuji:16/W1VHS36H.80-34-2-2-1-5/64c964-a8f54:user/release-keys",
+  "postTimestamp": 1782319894,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f5371cd7769c9beeb93c7564c22ba9dfe5127fe0.zip",
+  "sizeBytes": 54413426,
+  "securityPatch": "2026-07-01",
+  "sdk": "34",
+  "device": "fuji",
+  "checkinDevice": "fuji",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：W1VHS36H.80-34-2-2-1-5）<br> \n・セキュリティの向上<br> \n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a19b6780f6d8263e72df4a5b4c251a29b7b57dbc.zip",
-  "fingerprint": "FCNT/M08/fuji:15/V2VHS35.58-32-41-5/58593-71a1ce:user/release-keys",
-  "manufacturer": "",
-  "brand": "fcnt",
-  "model": "fuji",
-  "title": "システムアップデート開始",
-  "description": "【更新内容】（ビルド番号：W1VH36H.80-34-2-2-1）<br> \n・Androidᵀᴹ 16 OSアップデートがご利用になれます。<br> <br> OSアップデートを実施することで、新機能の追加や操作性、機能、項目名称の変更などがございます。<br>\n<br>\n<small>\nOSアップデート実施前にデータのバックアップを実施してください。<br>\nOSアップデート実施後は以前のOSバージョンには戻せません。<br>\nアップデートファイルサイズが大きいため、Wi-Fi®でのご利用をお勧めいたします。<br>\nOSアップデートは電池残量が十分な状態で実施してください。\n</small>"
-}
