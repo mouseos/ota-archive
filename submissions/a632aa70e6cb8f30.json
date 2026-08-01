@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9701916b6254b90a0e6353bb80fe719cff810f11.zip",
+  "fingerprint": "Nothing/Tetris/Tetris:14/UP1A.231005.007/2405241536:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "tetris",
+  "title": "NothingOS 3.2 (Tetris-V3.2-250609-2111)",
+  "description": "<h3>What's new in this update</h3> \n<b>New Features</b><br>\n🔐 Introducing Privacy space: Swipe right in the app drawer for quick and easy access to your secure zone.<br>\n🔑 You can now set a separate privacy password for both App Locker and Privacy space.<br>\n📶 Hotspot Manager: Easily manage devices connected to your hotspot.<br>\n<br>\n<b>General improvements and bug fixes</b><br>\n🎧 Fixed incorrect volume display for Bluetooth headphones in some cases.<br>\n📷 Fixed incorrect zoom bar display in the camera in some cases.<br>\n🛠️ Fixed accessibility issues in Launcher, Gallery and other apps.<br>\n🔓 Improved reliability of face and fingerprint unlocking.<br>\n🛡️ Updated to June security patch .<br>\n⚙️ Enhanced system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>"
+}
