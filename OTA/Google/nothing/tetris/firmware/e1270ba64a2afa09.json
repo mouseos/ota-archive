@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-tetris/9701916b6254b90a0e6353bb80fe719cff810f11.zip"
+  ]
 }
