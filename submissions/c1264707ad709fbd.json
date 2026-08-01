@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d8f1e8e610889705a16abaee16a6615e3e25aa3d.zip",
+  "fingerprint": "Nothing/Galaxian/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys",
+  "manufacturer": "",
+  "brand": "nothing",
+  "model": "galaxian",
+  "title": "Nothing OS 3.5(Galaxian-V3.5-251222-1801)",
+  "description": "<h3>What's New in This Update</h3> \n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Fixed an issue that prevented GCash and myAIS apps from working properly.<br>\n⚙️ Enhanced overall system stability.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>"
+}
