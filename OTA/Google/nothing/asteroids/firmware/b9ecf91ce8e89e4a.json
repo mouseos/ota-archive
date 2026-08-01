@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsEEA/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsIND/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsJPN/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsPro/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsProIND/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys|Nothing/AsteroidsTUR/Asteroids:15/AQ3A.241015.001/2504171222:user/release-keys",
+  "postBuild": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsEEA/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsIND/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsJPN/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsPro/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsProEEA/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsProIND/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsProTUR/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys|Nothing/AsteroidsTUR/Asteroids:15/AQ3A.241015.001/2507171803:user/release-keys",
+  "postTimestamp": 1752746584,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e4e9355b2352daf48ff53585d904c679a611aa5a.zip",
+  "sizeBytes": 853256940,
+  "securityPatch": "2025-08-01",
+  "sdk": "35",
+  "device": "Asteroids",
+  "checkinDevice": "Asteroids",
+  "title": "Nothing OS 3.2(Asteroids-V3.2-250717-1803)",
+  "description": "What's New in This Update \n<b>Essential Space</b><br>\n<br> \n💡 \"Flip to Record\" now available on Phone (3a) series! Place your phone face down, then press and hold the Essential Key to start recording. You can also start from the Quick Settings tile.<br>\n<br> \n<b>General Improvements and Bug Fixes</b><br>\n<br> \n📶 Updated the design of the VoNR icon in the status bar.<br>\n🔤 Fixed display issues with Inter font in some third-party apps.<br>\n🎥 Addressed rare video playback failures in the Gallery.<br>\n💡 Fixed rare cases of the Glyph lights lighting up abnormally.<br>\n🔄 Fixed issues where Flip to Glyph may fail.<br>\n🎧 Fixed system unresponsiveness when plugging USB headphones.<br>\n🔌 Resolved electrical noise issues when using certain third-party chargers.<br>\n🛡️ Updated to August security patch.<br>\n🔧 Improved overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

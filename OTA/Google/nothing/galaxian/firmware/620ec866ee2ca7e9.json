@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaxian/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys|Nothing/GalaxianEEA/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys|Nothing/GalaxianIND/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys|Nothing/GalaxianJPN/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys|Nothing/GalaxianTUR/Galaxian:15/AP3A.240905.015.A2/2508291700:user/release-keys",
+  "postBuild": "Nothing/Galaxian/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianEEA/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianIND/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianJPN/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys|Nothing/GalaxianTUR/Galaxian:15/AP3A.240905.015.A2/2512221801:user/release-keys",
+  "postTimestamp": 1766397713,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d8f1e8e610889705a16abaee16a6615e3e25aa3d.zip",
+  "sizeBytes": 1344987852,
+  "securityPatch": "2025-11-01",
+  "sdk": "35",
+  "device": "Galaxian",
+  "checkinDevice": "Galaxian",
+  "title": "Nothing OS 3.5(Galaxian-V3.5-251222-1801)",
+  "description": "What's New in This Update \n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Fixed an issue that prevented GCash and myAIS apps from working properly.<br>\n⚙️ Enhanced overall system stability.<br>\n🌐 Updated Google Mobile Services (GMS) to the December 2025 version.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}

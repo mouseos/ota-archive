@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e4e9355b2352daf48ff53585d904c679a611aa5a.zip",
-  "fingerprint": "Nothing/Asteroids/Asteroids:15/AQ3A.241015.001/2412311753:user/release-keys",
-  "manufacturer": "",
-  "brand": "nothing",
-  "model": "asteroids",
-  "title": "Nothing OS 3.2(Asteroids-V3.2-250717-1803)",
-  "description": "<h3>What's New in This Update</h3> \n<b>Essential Space</b><br>\n<br> \n💡 \"Flip to Record\" now available on Phone (3a) series! Place your phone face down, then press and hold the Essential Key to start recording. You can also start from the Quick Settings tile.<br>\n<br> \n<b>General Improvements and Bug Fixes</b><br>\n<br> \n📶 Updated the design of the VoNR icon in the status bar.<br>\n🔤 Fixed display issues with Inter font in some third-party apps.<br>\n🎥 Addressed rare video playback failures in the Gallery.<br>\n💡 Fixed rare cases of the Glyph lights lighting up abnormally.<br>\n🔄 Fixed issues where Flip to Glyph may fail.<br>\n🎧 Fixed system unresponsiveness when plugging USB headphones.<br>\n🔌 Resolved electrical noise issues when using certain third-party chargers.<br>\n🛡️ Updated to August security patch.<br>\n🔧 Improved overall system stability.<br>\n<br>\n<b>Notes:</b><br>\nThe device may experience temporary overheating and increased power consumption during the upgrade and will quickly return to normal after the upgrade is complete.<br>"
-}

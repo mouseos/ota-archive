@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/PacmanProEEA/PacmanPro:14/UP1A.231005.007/2407231102:user/release-keys",
+  "postBuild": "Nothing/PacmanPro/PacmanPro:14/UP1A.231005.007/2412171545:user/release-keys|Nothing/PacmanProEEA/PacmanPro:14/UP1A.231005.007/2412171545:user/release-keys|Nothing/PacmanProIND/PacmanPro:14/UP1A.231005.007/2412171545:user/release-keys",
+  "postTimestamp": 1734421511,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cbc24760cc9ade036b35521b3853f3a7bdc49ab6.zip",
+  "sizeBytes": 127257083,
+  "securityPatch": "2024-11-01",
+  "sdk": "34",
+  "device": "PacmanPro",
+  "checkinDevice": "PacmanPro",
+  "title": "NothingOS 2.6(PacmanPro-U2.6-241217-1545-EEA)",
+  "description": "<b>General improvements</b><br>\n⚙️ Enhanced system stability.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
