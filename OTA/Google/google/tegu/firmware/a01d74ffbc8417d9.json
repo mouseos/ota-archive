@@ -9,7 +9,7 @@
   "device": "tegu",
   "checkinDevice": "tegu",
   "title": "Android 17",
-  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "description": "﻿This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
   "otaType": "incremental",
   "abType": "AB",
   "requiredCacheBytes": 0,
@@ -23,8 +23,7 @@
   ],
   "hasFirmware": false,
   "hasApex": true,
-  "source": "otachecker",
-  "sourceId": 2490,
+  "source": "checkin",
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-tegu/45984dfd18a69272263bcd92a2ea124eaa871a67.zip"
   ]
