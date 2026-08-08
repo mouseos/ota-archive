@@ -20,5 +20,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-sh-m04/f7e8c68186c6f0460159ad2fff02f3dcf36e2896.zip"
+  ]
 }
