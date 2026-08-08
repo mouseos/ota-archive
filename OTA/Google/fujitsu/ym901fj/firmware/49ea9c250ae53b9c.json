@@ -20,5 +20,7 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fujitsu-ym901fj/35d944ea9c05aaccf2c5a7ff78b2f30036202763.zip"
+  ]
 }
