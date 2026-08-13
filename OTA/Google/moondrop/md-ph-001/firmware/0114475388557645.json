@@ -1,0 +1,26 @@
+{
+  "preBuild": "MOONDROP/MD_PH_001_GL/MD_PH_001:14/UP1A.231005.007/1765991643:user/release-keys",
+  "postBuild": "MOONDROP/MD_PH_001_GL/MD_PH_001:14/UP1A.231005.007/1783517111:user/release-keys",
+  "postTimestamp": 1783517693,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/38b4ff5b0e17b34860f1d0e5c0179720b7c34acf.zip",
+  "sizeBytes": 25973172,
+  "securityPatch": "2026-06-05",
+  "sdk": "34",
+  "device": "MD_PH_001",
+  "checkinDevice": "MD_PH_001",
+  "title": "GM_T2013-T2016",
+  "description": "1. Add JP certification information to the settings<br>\n2. Update Google security patches",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
