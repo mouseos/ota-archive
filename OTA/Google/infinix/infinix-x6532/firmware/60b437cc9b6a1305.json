@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6532-OPPJ/Infinix-X6532:14/UP1A.231005.007/260530V3265:user/release-keys",
+  "postBuild": "Infinix/X6532-OPPJ/Infinix-X6532:14/UP1A.231005.007/260710V3277:user/release-keys",
+  "postTimestamp": 1783672152,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0f9f8a3e9c4c1a84534ff8ef5d989f1f6a29a2ba.zip",
+  "sizeBytes": 92127426,
+  "securityPatch": "2026-08-01",
+  "sdk": "34",
+  "device": "Infinix-X6532",
+  "checkinDevice": "Infinix-X6532",
+  "title": "X6532-V632ADEIJNO-UGo-OPPJ-PJ-260530V3265-260710V3277_20260710211051",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6532-V632ADEIJNO-UGo-OPPJ-PJ-260710V3277<br><br>Changed Functions:<br>1. Updated Google Security Patch to August 1, 2026.<br><br>Fixed Issues:<br>1. Improved system stability.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2520,
+  "archiveUrls": []
+}
