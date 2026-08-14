@@ -1,16 +1,16 @@
 {
-  "preBuild": "google/kirkwood/kirkwood:14/UTTK.250729.004/14066481:user/release-keys",
+  "preBuild": "",
   "postBuild": "google/kirkwood/kirkwood:14/UTTK.260317.003/15205007:user/release-keys",
   "postTimestamp": 1776199182,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1008e5413f443fd0d7e535e2d2b4de5d17195431.zip",
-  "sizeBytes": 218802594,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/02c7281b7b3e35f56ac652b2e50c38ca41331da4.zip",
+  "sizeBytes": 781598639,
   "securityPatch": "2026-04-01",
   "sdk": "34",
   "device": "kirkwood",
   "checkinDevice": "kirkwood",
   "title": "UTTK.260317.003",
   "description": "",
-  "otaType": "incremental",
+  "otaType": "full",
   "abType": "AB",
   "requiredCacheBytes": 0,
   "partitions": [
@@ -26,7 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "otachecker",
-  "sourceId": 2181,
+  "sourceId": 2521,
   "archiveUrls": [
     "https://archive.org/download/ota-google-google-kirkwood/1008e5413f443fd0d7e535e2d2b4de5d17195431.zip"
   ]
