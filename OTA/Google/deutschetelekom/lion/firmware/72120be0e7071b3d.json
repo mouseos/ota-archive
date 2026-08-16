@@ -22,7 +22,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-deutschetelekom-lion/28bf5edb355009124b103206ca424e5f9294279f.zip"
-  ]
+  "archiveUrls": []
 }

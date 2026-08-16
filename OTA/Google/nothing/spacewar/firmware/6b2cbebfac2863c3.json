@@ -23,7 +23,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nothing-spacewar/4484a5f47b8baba520d243132b355fd75ae7f224.zip"
-  ]
+  "archiveUrls": []
 }

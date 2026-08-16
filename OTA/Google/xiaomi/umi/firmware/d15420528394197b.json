@@ -23,7 +23,5 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-xiaomi-umi/5a07ca99f8437324f7c6997e15f0443098825e8f.zip"
-  ]
+  "archiveUrls": []
 }

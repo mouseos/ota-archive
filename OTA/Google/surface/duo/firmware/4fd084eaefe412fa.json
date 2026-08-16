@@ -23,7 +23,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-surface-duo/7f70ec21eea94137235e0825a58dd97eda45267d.zip"
-  ]
+  "archiveUrls": []
 }
