@@ -25,7 +25,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-deutschetelekom-lynx/7c497e37c903087c1ac8929fea6089b27ad7c0d9.zip"
-  ]
+  "archiveUrls": []
 }

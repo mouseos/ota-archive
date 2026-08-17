@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lenovo-k9/bfd9b33e5ed6bb9670fba79fba7249a7eb0eb232.zip"
-  ]
+  "archiveUrls": []
 }

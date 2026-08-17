@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lge-phoenix_sprout/0cbdae7ba287b15e53764c6da77bea2cd24f45d8.zip"
-  ]
+  "archiveUrls": []
 }

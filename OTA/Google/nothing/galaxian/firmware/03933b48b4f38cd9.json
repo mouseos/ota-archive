@@ -26,7 +26,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nothing-galaxian/eb792cc60c97d0baec8636623f9ea827f45abd62.zip"
-  ]
+  "archiveUrls": []
 }

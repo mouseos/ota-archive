@@ -23,7 +23,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 46,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-bramble/bcfc9902a21e79aa3a3575976087acb687d51c2e.zip"
-  ]
+  "archiveUrls": []
 }

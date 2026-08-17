@@ -26,7 +26,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1919,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-fairphone-fp6/821ebf4c2c4cf153da08859c10dc61bfbea0c1b4.zip"
-  ]
+  "archiveUrls": []
 }

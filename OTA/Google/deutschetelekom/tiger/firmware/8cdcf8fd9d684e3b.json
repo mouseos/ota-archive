@@ -22,7 +22,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-deutschetelekom-tiger/681220f190e75e94b378bc45825de18a5d0730ca.zip"
-  ]
+  "archiveUrls": []
 }

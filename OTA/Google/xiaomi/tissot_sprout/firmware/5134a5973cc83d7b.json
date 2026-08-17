@@ -17,7 +17,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-xiaomi-tissot_sprout/85b8d41fe3eaab3155ab04a46db95d981ffb4ed1.zip"
-  ]
+  "archiveUrls": []
 }
