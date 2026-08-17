@@ -17,5 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sg-zeon_sprout/82ea065a329453a38ab110e0bcadb0da2143e652.zip"
+  ]
 }
