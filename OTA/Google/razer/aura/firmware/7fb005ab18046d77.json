@@ -17,5 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-razer-aura/e2152a2c966d6c0950ae58c5360bdf0d49f949a0.zip"
+  ]
 }
