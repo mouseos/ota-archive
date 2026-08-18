@@ -18,5 +18,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 666,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-oneplus-oneplusn100metro/150cde662f45963e62c354549fbc5d746c769a6a.zip"
+  ]
 }
