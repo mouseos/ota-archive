@@ -22,5 +22,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-dangal/becd56b4406aabfb037cfaad3e3aa64561ad7130.zip"
+  ]
 }
