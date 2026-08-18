@@ -22,5 +22,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-once/30199226c8b29962145c423a8dccd266c3800542.zip"
+  ]
 }
