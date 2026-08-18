@@ -20,5 +20,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-xiaomi-jasmine_sprout/7b1e7dc7bce5989ea8f71d09c249c2b5d74bd0d1.zip"
+  ]
 }
