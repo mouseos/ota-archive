@@ -24,5 +24,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 200,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-irs/21c6d1e736443670c031a0d77ef92af8217f4557.zip"
+  ]
 }
