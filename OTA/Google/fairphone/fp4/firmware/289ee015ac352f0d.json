@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1810,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fairphone-fp4/6dde27ba9063abcbb7d5b6da37e8174ba9d7d1f2.zip"
+  ]
 }
