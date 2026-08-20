@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-pong/743813bb1c6309f3a90b8ed4af5409de8e5385d0.zip"
+  ]
 }
