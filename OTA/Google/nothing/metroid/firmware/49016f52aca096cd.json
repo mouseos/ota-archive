@@ -25,5 +25,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-metroid/f276b64163f41969ebdc98a19f9b172c6c845828.zip"
+  ]
 }
