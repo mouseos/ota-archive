@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 511,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-lynx/c62ea950740cf3fc34e108d71ae123f55db48c03.zip"
+  ]
 }
