@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 789,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-scp_sprout/2bf9026116389637f1119e05980a4f3da5f2e703.zip"
+  ]
 }
