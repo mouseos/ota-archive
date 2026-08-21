@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 705,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-caiman/4c30b30b5a324e7366921ef9764e0bb3733ca798.zip"
+  ]
 }
