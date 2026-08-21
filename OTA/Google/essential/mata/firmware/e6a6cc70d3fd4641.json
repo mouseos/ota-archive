@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-essential-mata/0b0dbb496d59d65a369fb6ffad98e7c0b186e40e.zip"
-  ]
+  "archiveUrls": []
 }
