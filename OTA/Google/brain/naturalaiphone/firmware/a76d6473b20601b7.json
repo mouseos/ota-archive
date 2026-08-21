@@ -25,5 +25,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-brain-naturalaiphone/4b3eb07d0682e415a65e5d98e35a12f9cfe3f2e8.zip"
+  ]
 }
