@@ -30,5 +30,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-oneplus-op611fl1/76cc8d5124006f2491069b5cf581282cea59fb77.zip"
+  ]
 }
