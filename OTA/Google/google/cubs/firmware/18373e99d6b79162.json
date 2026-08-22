@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/cubs/cubs:17/CD1A.260618.001.A7/15768489:user/release-keys",
+  "postBuild": "google/cubs/cubs:17/CD1A.260714.001.A9/15938155:user/release-keys",
+  "postTimestamp": 1784919181,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/f5fa5776d02fd9f8061d425144e7d44df0c99c56.zip",
+  "sizeBytes": 620328701,
+  "securityPatch": "2026-08-05",
+  "sdk": "37",
+  "device": "cubs",
+  "checkinDevice": "cubs",
+  "title": "Android 17",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2532,
+  "archiveUrls": []
+}
