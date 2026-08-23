@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/ab4697bc86a7f4130ba3556aca28d7586b5e4b9a.zip",
-  "fingerprint": "KYOCERA/A401KC/KY24L-ST100:16/BP2A.250605.031.A3/5.120BX.0254.a:user/release-keys",
-  "manufacturer": "kyocera",
-  "brand": "kyocera",
-  "model": "a401kc",
-  "title": "システムアップデートが利用可能",
-  "description": "【更新内容】（ビルド番号：5.130BX）<br>・セキュリティの向上<br> ※その他の更新も含まれております。<br><br> ※インストール中は本機の電源を切らないでください。<br>注意事項に関する詳細は弊社ホームページをご確認ください。"
-}
