@@ -13,15 +13,7 @@
   "otaType": "incremental",
   "abType": "AB",
   "requiredCacheBytes": 0,
-  "partitions": [
-    "odm",
-    "product",
-    "system",
-    "system_dlkm",
-    "system_ext",
-    "vendor",
-    "vendor_dlkm"
-  ],
+  "partitions": [],
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",

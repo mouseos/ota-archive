@@ -13,10 +13,7 @@
   "otaType": "full",
   "abType": "AB",
   "requiredCacheBytes": 0,
-  "partitions": [
-    "system",
-    "vendor"
-  ],
+  "partitions": [],
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
