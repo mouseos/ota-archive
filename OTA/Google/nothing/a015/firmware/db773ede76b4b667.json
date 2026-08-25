@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-a015/44e2d67171cc94e24acc1ef671a6b502fbbd7662.zip"
+  ]
 }
