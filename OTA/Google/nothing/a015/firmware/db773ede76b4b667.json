@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2606151652:user/release-keys",
+  "postBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2608121726:user/release-keys",
+  "postTimestamp": 1786526760,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/44e2d67171cc94e24acc1ef671a6b502fbbd7662.zip",
+  "sizeBytes": 65908106,
+  "securityPatch": "2026-08-01",
+  "sdk": "36",
+  "device": "Tetris",
+  "checkinDevice": "Tetris",
+  "title": "NothingOS 4.1 (Tetris-B4.1-260812-1726)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
