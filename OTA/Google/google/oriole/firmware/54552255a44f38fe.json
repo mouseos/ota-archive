@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 53,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-oriole/b2e3560e82d95d0d6e82b544d601ca2918382e56.zip"
+  ]
 }
