@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+  "postBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys",
+  "postTimestamp": 1786526954,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/261736f1b93527c68dc67c17e7e610f3d4c98553.zip",
+  "sizeBytes": 482280115,
+  "securityPatch": "2026-08-01",
+  "sdk": "36",
+  "device": "Galaga",
+  "checkinDevice": "Galaga",
+  "title": "Nothing OS 4.1(Galaga-B4.1-260812-1729)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
