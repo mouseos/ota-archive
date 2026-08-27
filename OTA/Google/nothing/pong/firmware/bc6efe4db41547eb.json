@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys",
+  "postTimestamp": 1787045209,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0fabd802d4714166f47aed0104d2eb4e8fcaad9f.zip",
+  "sizeBytes": 517600539,
+  "securityPatch": "2026-08-01",
+  "sdk": "36",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "NothingOS 4.1(Pong-B4.1-260818-1726)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔆 Fixed an issue where manual exposure adjustment didn't apply to photos taken with HDR enabled.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
