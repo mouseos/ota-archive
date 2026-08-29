@@ -1,0 +1,29 @@
+{
+  "preBuild": "google/akita/akita:17/CP2A.260705.006/15641320:user/release-keys",
+  "postBuild": "google/akita/akita:17/CP2A.260805.005/15828068:user/release-keys",
+  "postTimestamp": 1783647325,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/6448e2a561c4b6b03413d291b3fa81c3b8c531cd.zip",
+  "sizeBytes": 87288434,
+  "securityPatch": "2026-08-05",
+  "sdk": "37",
+  "device": "akita",
+  "checkinDevice": "akita",
+  "title": "Android 17",
+  "description": "This update fixes critical bugs and improves the performance and stability of your device. Learn more at g.co/pixel/community. \n\n<p>Downloading updates over a mobile network or while roaming may cause additional charges.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2545,
+  "archiveUrls": []
+}
