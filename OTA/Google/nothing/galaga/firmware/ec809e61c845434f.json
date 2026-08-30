@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2604151710:user/release-keys",
+  "preBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2606151653:user/release-keys",
   "postBuild": "Nothing/Galaga/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaEEA/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaIND/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaJPN/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys|Nothing/GalagaTUR/Galaga:16/BP2A.250605.031.A3/2608121729:user/release-keys",
   "postTimestamp": 1786526954,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/261736f1b93527c68dc67c17e7e610f3d4c98553.zip",
-  "sizeBytes": 482280115,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c8f6da06442923abf54506d53536ad0ef90c7871.zip",
+  "sizeBytes": 71841204,
   "securityPatch": "2026-08-01",
   "sdk": "36",
   "device": "Galaga",

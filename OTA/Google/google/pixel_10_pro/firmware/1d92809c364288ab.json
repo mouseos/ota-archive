@@ -13,14 +13,7 @@
   "otaType": "full",
   "abType": "AB",
   "requiredCacheBytes": 0,
-  "partitions": [
-    "product",
-    "system",
-    "system_dlkm",
-    "system_ext",
-    "vendor",
-    "vendor_dlkm"
-  ],
+  "partitions": [],
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
