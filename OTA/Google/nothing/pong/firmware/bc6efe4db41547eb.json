@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2604141749:user/release-keys",
+  "preBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2606181026:user/release-keys",
   "postBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys",
   "postTimestamp": 1787045209,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0fabd802d4714166f47aed0104d2eb4e8fcaad9f.zip",
-  "sizeBytes": 517600539,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ef558d3a851f0ced392c08afb3c64e9545540845.zip",
+  "sizeBytes": 114864612,
   "securityPatch": "2026-08-01",
   "sdk": "36",
   "device": "Pong",
