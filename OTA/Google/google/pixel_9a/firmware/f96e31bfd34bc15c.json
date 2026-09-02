@@ -24,7 +24,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-pixel_9a/1f0742f4460d5ac8b70a72bf5e237fdfe3e74bc9.zip"
-  ]
+  "archiveUrls": []
 }
