@@ -8,7 +8,7 @@
   "sdk": "36",
   "device": "Asteroids",
   "checkinDevice": "Asteroids",
-  "title": "NothingOS 4.1(Asteroids-B4.1-260810-1153)",
+  "title": "NothingOS 4.1 (Asteroids-B4.1-260810-1153)",
   "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📸 Improved flash torch reliability for a more stable recording experience.<br>\n🔍 Fixed an occasional issue where the search bar could disappear from the home screen.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n📡 This update includes an adjustment related to Specific Absorption Rate (SAR) in accordance with applicable regulatory requirements. We recommend updating your device to the latest software version.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
   "otaType": "incremental",
   "abType": "AB",

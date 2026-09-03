@@ -8,7 +8,7 @@
   "sdk": "36",
   "device": "Galaga",
   "checkinDevice": "Galaga",
-  "title": "Nothing OS 4.1(Galaga-B4.1-260812-1729)",
+  "title": "Nothing OS 4.1 (Galaga-B4.1-260812-1729)",
   "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Improved lock screen stability for a more reliable unlocking experience.<br>\n💬 Fixed an issue where third-party notifications could crash unexpectedly in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
   "otaType": "incremental",
   "abType": "AB",

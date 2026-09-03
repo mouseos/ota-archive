@@ -8,7 +8,7 @@
   "sdk": "36",
   "device": "Pacman",
   "checkinDevice": "Pacman",
-  "title": "Nothing OS 4.1(Pacman-B4.1-260813-0941)",
+  "title": "Nothing OS 4.1 (Pacman-B4.1-260813-0941)",
   "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📱 Optimised display refresh rate stability in certain scenarios.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to August 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
   "otaType": "incremental",
   "abType": "AB",
