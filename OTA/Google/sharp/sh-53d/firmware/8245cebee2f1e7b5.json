@@ -23,5 +23,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-sh-53d/b62ab2d9f61f9f15395be962c22cd7a4266b9bf8.zip"
+  ]
 }
