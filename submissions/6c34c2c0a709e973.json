@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/7e50f161b7b3b38d50a67e37f05c245218c2da02.zip",
+  "fingerprint": "DOCOMO/SH-53D/SH-53D:13/TP1A.220624.014/38JP_1_30I:user/release-keys",
+  "manufacturer": "sharp",
+  "brand": "docomo",
+  "model": "sh-53d",
+  "title": "システムアップデート開始",
+  "description": "<h2><b>アップデート内容</b></h2><b>改善される事象</b><br>・より快適にご利用いただけるよう品質を改善いたします。<br>・セキュリティ更新(設定メニューのセキュリティパッチレベルが2024年9月になります。)<br><h2><b>ご注意事項</b></h2>・必要に応じてバックアップを行ってください。<br>・アップデート後は元のバージョンに戻すことはできません。<br>・アクセスポイント(APN)をdocomoに設定し、docomoをモバイルデータ通信の優先設定にした場合、本アップデートにおいて通信料金は発生しません。<br>・ソフトウェアアップデートに失敗し、ホーム画面まで起動できなくなった場合は、<a href=https://www.docomo.ne.jp/support/product_update/sh53d/index.html#p04>ソフトウェアアップデート情報</a>「ご注意事項-《復旧操作手順》」をご確認ください。<br>"
+}
