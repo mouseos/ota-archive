@@ -22,5 +22,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 576,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-drs/b2a12c9bc4687e60c3f6175109af3f054b128bbc.zip"
+  ]
 }
