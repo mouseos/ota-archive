@@ -24,5 +24,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 900,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-hpe/81fb49ed6308d2712e1c2a36e86cfaacb0a1e1b7.zip"
+  ]
 }
