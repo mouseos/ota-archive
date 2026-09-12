@@ -25,7 +25,5 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 235,
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-nokia-sfi/ee9e849d3282b0d96b57dbfd2afb8d9f00567ab4.zip"
-  ]
+  "archiveUrls": []
 }
