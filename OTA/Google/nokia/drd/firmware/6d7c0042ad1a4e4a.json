@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 990,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-drd/e79e75f71fb625e56b91d7de2b844be82b28b665.zip"
+  ]
 }
