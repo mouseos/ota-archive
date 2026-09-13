@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 234,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-stm/0693771b2867d92c98951a052dba3c94c94a9a7a.zip"
+  ]
 }
