@@ -25,5 +25,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 241,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-vsi/51a2526c70e949066a0b3e7ca26a675651b6b31e.zip"
+  ]
 }
