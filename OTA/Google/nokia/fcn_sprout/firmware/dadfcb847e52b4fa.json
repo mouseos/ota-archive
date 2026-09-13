@@ -24,5 +24,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1080,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-fcn_sprout/16df0efe43612dc5f326ed6997ab2d9c3edcaabe.zip"
+  ]
 }
