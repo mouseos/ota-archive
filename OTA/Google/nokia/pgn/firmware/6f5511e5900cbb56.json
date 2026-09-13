@@ -26,5 +26,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 1002,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-pgn/4c5d0e6e2e60697b81b6fd9c7dbd3217fa0dcdc5.zip"
+  ]
 }
