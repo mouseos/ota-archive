@@ -23,5 +23,7 @@
   "hasApex": true,
   "source": "otachecker",
   "sourceId": 223,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-rnn_sprout/0e4600b5ba66ad3bcab21c85d435e4aeea0925bd.zip"
+  ]
 }
