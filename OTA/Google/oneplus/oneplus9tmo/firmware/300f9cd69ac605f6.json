@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/OnePlus9TMO/OnePlus9TMO:14/UKQ1.230924.001/R.1c2b93f-9239-45ec82:user/release-keys",
+  "postBuild": "OnePlus/OnePlus9TMO/OnePlus9TMO:14/UKQ1.230924.001/R.206282a_225-895b6d:user/release-keys",
+  "postTimestamp": 1760523072,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1396806598c5781b787adc63c309cae58f11b68b.zip",
+  "sizeBytes": 15270244,
+  "securityPatch": "2025-02-01",
+  "sdk": "34",
+  "device": "OnePlus9TMO",
+  "checkinDevice": "OnePlus9TMO",
+  "title": "LE2117_14.0.0.900(EX01) is available",
+  "description": "New Version Available: LE2117_14.0.0.900(EX01) <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>•Fixed minor bugs and improved stability. </p>Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on Nov. 11th, 2025.</p>Note:<p>Data rates may apply.</p><p>Please do not turn off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 911.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2584,
+  "archiveUrls": []
+}
