@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/bdc017cd23cd64981c4c7b1fd8f5a67fcda7ba3b.zip",
-  "fingerprint": "SG/SGA401SH/Orga:15/SB040/02.00.16:user/release-keys",
-  "manufacturer": "sharp",
-  "brand": "sg",
-  "model": "a401sh",
-  "title": "システムアップデートが利用可能",
-  "description": "【更新内容】（ビルド番号：03.00.03）<br>\n・Android 16へのOSバージョンアップ<br>\n・「ブラウザ」や「検索エンジン」の選択画面（チョイススクリーン）の対応<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br> \n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
-}
