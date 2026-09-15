@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-sharp-a401sh/bdc017cd23cd64981c4c7b1fd8f5a67fcda7ba3b.zip"
+  ]
 }
