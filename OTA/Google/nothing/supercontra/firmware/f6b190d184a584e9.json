@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys",
+  "postBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys",
+  "postTimestamp": 1788514778,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6e4bf99ecd3105e02db8379423a5d6365386b329.zip",
+  "sizeBytes": 88474670,
+  "securityPatch": "2026-09-01",
+  "sdk": "36",
+  "device": "SuperContra",
+  "checkinDevice": "SuperContra",
+  "title": "Nothing OS 4.1 (SuperContra-B4.1-260904-1739)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎚️ Optimised the volume slider animation effect at minimum volume for a more fluid feel.<br>\n🖼️ Improved preset UI display stability and fixed known glitches.<br>\n📶 Enhanced Wi-Fi connection stability and reliability.<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to September 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
