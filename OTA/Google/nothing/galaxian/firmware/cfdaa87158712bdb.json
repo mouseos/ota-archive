@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2607021815:user/release-keys",
+  "preBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2605081508:user/release-keys",
   "postBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys",
   "postTimestamp": 1787135954,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/342be81e2c1a5dda47805a2f0c1886067a062944.zip",
-  "sizeBytes": 63285373,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/828865dbe243d06a01fe0a11f69861054846cf16.zip",
+  "sizeBytes": 403055399,
   "securityPatch": "2026-08-01",
   "sdk": "36",
   "device": "Galaxian",
