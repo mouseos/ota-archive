@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-pixel_8_pro/e1d51849dc78f05714bb1f566ea2582af42a9146.zip"
+  ]
 }
