@@ -1,9 +1,0 @@
-{
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/sg_zeonsprout_s5/78b019a8db0aa42de06ed87d02b3d638e739afe2.zip",
-  "fingerprint": "SG/S5/zeon_sprout:9/S0004/01.00.00:user/release-keys",
-  "manufacturer": "",
-  "brand": "sg",
-  "model": "zeon_sprout",
-  "title": "新しいシステムをインストールします",
-  "description": "【更新内容】 （ビルド番号：S1002）<br>\n・Android 10へのOSバージョンアップ<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br>\n※インストール中は本機の電源を切らないでください。<br> \n注意事項に関する詳細は弊社ホームページをご確認ください。"
-}
