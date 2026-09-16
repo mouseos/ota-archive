@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/92b474010181f7ebc9a9365155737b09aa69c8d5.zip",
+  "fingerprint": "SG/SGA101SH/Judau:11/S0029/01.00.06:user/release-keys",
+  "manufacturer": "",
+  "brand": "sg",
+  "model": "judau",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：03.00.03）<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br> \n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
