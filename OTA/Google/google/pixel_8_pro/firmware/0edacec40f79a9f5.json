@@ -1,0 +1,28 @@
+{
+  "preBuild": "google/husky/husky:17/CP2A.260805.005/15828068:user/release-keys",
+  "postBuild": "google/husky/husky:17/CP3A.260905.009/16091614:user/release-keys",
+  "postTimestamp": 1786738271,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/e1d51849dc78f05714bb1f566ea2582af42a9146.zip",
+  "sizeBytes": 1275934159,
+  "securityPatch": "2026-09-05",
+  "sdk": "37",
+  "device": "husky",
+  "checkinDevice": "husky",
+  "title": "September Pixel Drop update available",
+  "description": "<p><b>Your Pixel is getting better</b> with the latest features and enhancements. Learn more on our Community page.</p>\n\n<p><b>What's new?</b></p>\n<p>• With Pixel VIPs, call or text from your home screen widget, spot unread messages via glanceable notification badges and easily switch between VIPs using the bottom floating menu.</p>\n<p>• Scam Detection for your messaging apps – now in more countries and languages. [1]</p>\n<p>• Instantly customise your Pixel with Harry Potter audiobook packs to celebrate the release of Harry Potter: The Full-Cast Audio Editions on Audible. One tap changes your wallpaper, icons and sounds with elements from the audiobooks. [2]</p>\n\n<br>\n\n\n  <p>[1] Available only in selected languages and regions.</p>\n  <p>[2] Harry Potter audiobook packs available until 31 December 2026.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
