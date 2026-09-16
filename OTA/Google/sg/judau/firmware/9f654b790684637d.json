@@ -1,0 +1,23 @@
+{
+  "preBuild": "SG/SGA101SH/Judau:13/S202J/03.00.00:user/release-keys",
+  "postBuild": "SG/SGA101SH/Judau:13/S4037/03.00.03:user/release-keys",
+  "postTimestamp": 1682006797,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/92b474010181f7ebc9a9365155737b09aa69c8d5.zip",
+  "sizeBytes": 216062433,
+  "securityPatch": "2023-04-01",
+  "sdk": "33",
+  "device": "Judau",
+  "checkinDevice": "Judau",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：03.00.03）<br>\n・セキュリティの向上<br>\n<br>\n※その他の更新も含まれています。 <br> \n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
