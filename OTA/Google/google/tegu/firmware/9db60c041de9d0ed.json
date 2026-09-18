@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/tegu/tegu:17/CP2A.260805.005/15828068:user/release-keys",
+  "preBuild": "google/tegu/tegu:17/CP2A.260705.006/15641320:user/release-keys",
   "postBuild": "google/tegu/tegu:17/CP3A.260905.009/16091614:user/release-keys",
   "postTimestamp": 1786738470,
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/4746f2cc152cb95d257752e2e69a6abdeb2e7441.zip",
-  "sizeBytes": 1287629024,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/a0c84161ee089c74e4c755d7ef2a595cf8a3c643.zip",
+  "sizeBytes": 1287676289,
   "securityPatch": "2026-09-05",
   "sdk": "37",
   "device": "tegu",
