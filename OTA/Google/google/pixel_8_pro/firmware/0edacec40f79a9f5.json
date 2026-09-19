@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/husky/husky:17/CP2A.260805.005/15828068:user/release-keys",
+  "preBuild": "google/husky/husky:17/CP2A.260705.006/15641320:user/release-keys",
   "postBuild": "google/husky/husky:17/CP3A.260905.009/16091614:user/release-keys",
   "postTimestamp": 1786738271,
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/e1d51849dc78f05714bb1f566ea2582af42a9146.zip",
-  "sizeBytes": 1275934159,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/03706f0a4baf568b2d3701bdf0a048fa72158a2a.zip",
+  "sizeBytes": 1275943473,
   "securityPatch": "2026-09-05",
   "sdk": "37",
   "device": "husky",
