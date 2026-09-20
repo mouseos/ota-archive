@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2607031843:user/release-keys",
+  "preBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2608111606:user/release-keys",
   "postBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys",
   "postTimestamp": 1788514778,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/58e4d1686608e98ec4b6493065d553d6fa4264f6.zip",
-  "sizeBytes": 307341252,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6e4bf99ecd3105e02db8379423a5d6365386b329.zip",
+  "sizeBytes": 88474670,
   "securityPatch": "2026-09-01",
   "sdk": "36",
   "device": "SuperContra",
