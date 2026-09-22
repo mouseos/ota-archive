@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/tokay/tokay:17/CP2A.260705.006/15641320:user/release-keys",
+  "preBuild": "google/tokay/tokay:17/CP2A.260805.005/15828068:user/release-keys",
   "postBuild": "google/tokay/tokay:17/CP3A.260905.009/16091614:user/release-keys",
   "postTimestamp": 1786738626,
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/728c454834a092f761c8dc6d54fda5cbd85ae256.zip",
-  "sizeBytes": 1283758232,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/51712e6aca49c7c8823552d6fedbdff7b319e4f5.zip",
+  "sizeBytes": 1283740208,
   "securityPatch": "2026-09-05",
   "sdk": "37",
   "device": "tokay",
