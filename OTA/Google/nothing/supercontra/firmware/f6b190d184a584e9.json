@@ -25,5 +25,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-supercontra/58e4d1686608e98ec4b6493065d553d6fa4264f6.zip"
+  ]
 }
