@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/FroggerPro/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2605221414:user/release-keys",
+  "preBuild": "Nothing/FroggerPro/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProEEA/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProIND/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProJPN/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys|Nothing/FroggerProTUR/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2607231820:user/release-keys",
   "postBuild": "Nothing/FroggerPro/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2609071153:user/release-keys|Nothing/FroggerProEEA/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2609071153:user/release-keys|Nothing/FroggerProIND/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2609071153:user/release-keys|Nothing/FroggerProJPN/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2609071153:user/release-keys|Nothing/FroggerProTUR/FroggerPro:16/BQ2A.250913.001-BP2A.250605.031.A3/2609071153:user/release-keys",
   "postTimestamp": 1788753218,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8b0d0ba9079caa4f930e9adbed68e95247495158.zip",
-  "sizeBytes": 537256116,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/8ed3d048f0234454dddbcaa0c847bd638ee2306f.zip",
+  "sizeBytes": 304772308,
   "securityPatch": "2026-09-01",
   "sdk": "36",
   "device": "FroggerPro",
