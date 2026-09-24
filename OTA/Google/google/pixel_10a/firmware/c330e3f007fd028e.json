@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/stallion/stallion:17/CP2A.260705.006/15641320:user/release-keys",
+  "preBuild": "google/stallion/stallion:17/CP2A.260805.005/15828068:user/release-keys",
   "postBuild": "google/stallion/stallion:17/CP3A.260905.009/16091614:user/release-keys",
   "postTimestamp": 1786738667,
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/22c07fd44c65bf582bc6ba7e581dbf05df26fc20.zip",
-  "sizeBytes": 1308438731,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/09624d61398518f8cd6c0f8de606f95d1e866e09.zip",
+  "sizeBytes": 1308432966,
   "securityPatch": "2026-09-05",
   "sdk": "37",
   "device": "stallion",
