@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/CPH2583/OP595DL1:16/BP2A.250605.015/U.R4T3.d7e7e8_16617e4_1655bfc:user/release-keys",
+  "preBuild": "OnePlus/CPH2583/OP595DL1:16/BP2A.250605.015/U.R4T3.248d671-27dbe8-27dbe5:user/release-keys",
   "postBuild": "OnePlus/CPH2583/OP595DL1:16/BP2A.250605.015/U.R4T3.1bb7df3_9001b7_8f80ba:user/release-keys",
   "postTimestamp": 1783515001,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/06faff344ce826241d05ce6655994dbf34b10619.zip",
-  "sizeBytes": 1992557580,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/42fc5f898e3bde13e9686785a0ac2ce1e88d35f9.zip",
+  "sizeBytes": 3108717240,
   "securityPatch": "2026-07-01",
   "sdk": "36",
   "device": "OP595DL1",
@@ -33,7 +33,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2268,
+  "sourceId": 2597,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op595dl1/06faff344ce826241d05ce6655994dbf34b10619.zip"
   ]
