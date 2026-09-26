@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-lenovo-lenovo_a6_note/3016638adad10704e52b2a1713f2fc57c35b5bb2.zip"
-  ]
+  "archiveUrls": []
 }
