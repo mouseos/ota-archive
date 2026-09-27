@@ -24,7 +24,5 @@
   "hasFirmware": true,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-mobvoi-dace/2269bd24a774cae37adc720d3d97bd1b76846e2b.zip"
-  ]
+  "archiveUrls": []
 }
