@@ -1,0 +1,29 @@
+{
+  "preBuild": "Fairphone/FP6/FP6:16/FP6.QREL.16.100.0/WS1M:user/release-keys",
+  "postBuild": "Fairphone/FP6/FP6:16/FP6.QREL.16.111.0/WS1Q:user/release-keys",
+  "postTimestamp": 1788143156,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/6bb5e3a21b0872453907747809c32abf3519965e.zip",
+  "sizeBytes": 180079695,
+  "securityPatch": "2026-09-05",
+  "sdk": "36",
+  "device": "FP6",
+  "checkinDevice": "FP6",
+  "title": "The Fairphone (Gen. 6 / Gen. 6+) (QREL.16.111.0) Update",
+  "description": "<p>The Fairphone (Gen. 6 / Gen. 6+) software <strong><u>FP6.QREL.16.111.0</u></strong> is available.<br>\nThis system update includes the following changes:\n</p>\nResolved Issues\n<ul>\n<li>&nbsp;Fixed an issue where applications would fail to load (or load slowly) on Wi-Fi networks</li>\n<li>&nbsp;Fixed an issue where photos fail to save when using AI animal scene detection</li>\n<li>&nbsp;Fixed an issue where images shot with constant flash in 10x zoom were not saved</li>\n<li>&nbsp;Fixed an issue where camera preview stuttered when zooming quickly in low light conditions</li>\n<li>&nbsp;Fixed an issue where fingerprint sensor did not wake screen when screen is off but not yet locked</li>\n<li>&nbsp;Fixed an issue where fingerprint sensor fails to wake phone when \"Extend Unlock\" is active</li>\n<li>&nbsp;Fixed an issue where the pocket mode overlay failed to block touch interaction to lock screen contents</li>\n</ul>\nOther Improvements\n<ul>\n<li>&nbsp;Security patch level: 5th of September, 2026</li>\n<li>&nbsp;Update to MyFairphone application</li>\n<li>&nbsp;General UI improvements</li>\n</ul>\n<br>More information\n<br><br><br>\n\n<p> Note that it may take some time for the update process to complete. It will not be possible to use your device during this time. This includes not being able to make emergency calls. <p> Please note that data charges may apply.",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
