@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/221220V534:user/release-keys",
+  "postBuild": "Infinix/X6515-OP/Infinix-X6515:12/SP1A.210812.016/230202V702:user/release-keys",
+  "postTimestamp": 1675346224,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9e6fc5df6f5467b125efe2e067d9a036b27bfab2.zip",
+  "sizeBytes": 288432194,
+  "securityPatch": "2023-01-05",
+  "sdk": "31",
+  "device": "Infinix-X6515",
+  "checkinDevice": "Infinix-X6515",
+  "title": "X6515-H6127HIJAiAjAk-S-OP-221220V534-230202V702_20230204143254",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X6515-H6127HIJAiAjAk-S-OP-230202V702<br>\n\nChanged Functions:<br>\n1.Increase the call volume function<br>\n\nOptimized issues: <br>\n1.Updated Google Security Patch to January 5, 2023.<br>\n2.Improve user experience and optimize startup time <br> <br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 87,
+  "archiveUrls": []
+}

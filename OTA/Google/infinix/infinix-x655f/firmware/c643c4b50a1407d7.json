@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X655F-IN/Infinix-X655F:10/QP1A.190711.020/E-200102V108:user/release-keys",
+  "postBuild": "Infinix/X655F-IN/Infinix-X655F:10/QP1A.190711.020/E-200307V149:user/release-keys",
+  "postTimestamp": 1583575414,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx655f_x655fin/8f2f068826ba8763c91b26932d0b5c45a57b4cdb.zip",
+  "sizeBytes": 586052673,
+  "securityPatch": "2020-03-05",
+  "sdk": "29",
+  "device": "Infinix-X655F",
+  "checkinDevice": "Infinix-X655F",
+  "title": "X655F-H6211E-Q-200102V108-200307V149_20200308115727",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:X655F-H6211E-Q-200307V149<br>\n\nChanged Functions:<br>\n1.Updated Google Security Patch to March 5, 2020. <br>\n2.Updated GMS Package to 10_202001. <br>\n\nOptimized issues:<br>\n1. Optimized the capture display effect of camera. <br>\n2. Optimized translation of some strings. <br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 314572800,
+  "partitions": [
+    "boot",
+    "product",
+    "system",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 88,
+  "archiveUrls": []
+}

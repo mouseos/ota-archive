@@ -1,0 +1,22 @@
+{
+  "preBuild": "",
+  "postBuild": "Infinix/H633/Infinix-X604_sprout:9/PPR1.180610.011/H-191113V280:user/release-keys",
+  "postTimestamp": 1573630865,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/infinix_infinixx604sprout_h633/40951c7af4a946a50aab6b8c30ed60e5cfc5a414.zip",
+  "sizeBytes": 990046592,
+  "securityPatch": "2019-11-05",
+  "sdk": "28",
+  "device": "Infinix-X604_sprout",
+  "checkinDevice": "Infinix-X604_sprout",
+  "title": "Tcard_X604-H633H-P-191113V280",
+  "description": "Caution! This update may crash rooted devices.<br> \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br> \nUpdate Version:X604-H633H-P-191113V280<br> \n\nChanged Functions:<br> \n1. Updated to Google Security Patch 201911<br> \n2. Updated to Google GMS package 201910<br> \n\nReminding:<br> \n1.Optimized system stability and performance while fixing other issues.<br> \n2.Visit the XCLUB forum (http://bbs.infinixmobility.com) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 85,
+  "archiveUrls": []
+}

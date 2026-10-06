@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6731B-OP/Infinix-X6731B:14/UP1A.231005.007/241212V417:user/release-keys",
+  "postBuild": "Infinix/X6731B-OP/Infinix-X6731B:14/UP1A.231005.007/250311V461:user/release-keys",
+  "postTimestamp": 1741641575,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a3731bd54d4d92b4585a4ce55e704e2310f52c78.zip",
+  "sizeBytes": 398883904,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "Infinix-X6731B",
+  "checkinDevice": "Infinix-X6731B",
+  "title": "X6731B-H896ABC-U-OP-241212V417-250311V461_20250311102339",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6731B-H896ABC-U-OP-250311V461<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2642,
+  "archiveUrls": []
+}
