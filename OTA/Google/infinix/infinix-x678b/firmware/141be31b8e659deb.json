@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X678B-OP/Infinix-X678B:14/UP1A.231005.007/241210V820:user/release-keys",
+  "postBuild": "Infinix/X678B-OP/Infinix-X678B:14/UP1A.231005.007/250217V838:user/release-keys",
+  "postTimestamp": 1739802464,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a8ff244f556da92f7430f8ff13bd46df3c1f24dc.zip",
+  "sizeBytes": 557338716,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "Infinix-X678B",
+  "checkinDevice": "Infinix-X678B",
+  "title": "X678B-H894OPQ-U-OP-241210V820-250217V838_20250219101833",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X678B-H894OPQ-U-OP-250217V838<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Fixed Issues:<br>1. Fixed the issue where a connection countdown pop-up would appear on the phone when it was connected to an in-vehicle infotainment system with an USB cable.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2622,
+  "archiveUrls": []
+}
