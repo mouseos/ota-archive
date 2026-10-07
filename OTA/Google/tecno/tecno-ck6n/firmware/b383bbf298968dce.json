@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/240713V809:user/release-keys",
+  "postBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/241014V1061:user/release-keys",
+  "postTimestamp": 1728894714,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2a7a220c3073d9da90718709ddd886eebc23a297.zip",
+  "sizeBytes": 1592295428,
+  "securityPatch": "2024-10-05",
+  "sdk": "34",
+  "device": "TECNO-CK6n",
+  "checkinDevice": "TECNO-CK6n",
+  "title": "CK6n-H6929CD-U-OP-240713V809-241014V1061_20241015144643",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CK6n-H6929CD-U-OP-241014V1061<br><br>Changed Functions:<br>1. Updated Google Security Patch to October 5, 2024.<br><br>Fixed Issues:<br>1. Fixed the issue of crash occurred when users tap Notifications on Lock Screen (the third-level menu in Settings).<br>2. Fixed the issue that there is sound but no pictures during Netflix video playback in the Eye Care mode.<br>3. Fixed the issue of app cards jittering when users swipe up from an app to enter the Recents screen.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2660,
+  "archiveUrls": []
+}

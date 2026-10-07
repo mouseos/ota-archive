@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/241014V1061:user/release-keys",
+  "postBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/241210V1177:user/release-keys",
+  "postTimestamp": 1733843085,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d886201f8e1251ca99ba12bb6cca62c96def8e90.zip",
+  "sizeBytes": 660044779,
+  "securityPatch": "2024-12-05",
+  "sdk": "34",
+  "device": "TECNO-CK6n",
+  "checkinDevice": "TECNO-CK6n",
+  "title": "CK6n-H6929CD-U-OP-241014V1061-241210V1177_20241211100129",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CK6n-H6929CD-U-OP-241210V1177<br><br>Changed Functions:<br>1. Updated Google Security Patch to December 5, 2024.<br><br>Fixed Issues:<br>1. Fixed the issue that apps crashed in the picture-in-picture mode.<br>2. Fixed the issue where the Location setting could be toggled on and off after Ultra Power Saver was enabled on the child side within Parental Controls.<br>3. Fixed the issue that Theft Alert failed without alarm sound after Allow Repeat Callers was turned on in Do Not Disturb mode.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2661,
+  "archiveUrls": []
+}

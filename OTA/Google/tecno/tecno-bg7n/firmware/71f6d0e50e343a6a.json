@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7n-OP/TECNO-BG7n:13/TP1A.220624.014/241022V1595:user/release-keys",
+  "postBuild": "TECNO/BG7n-OP/TECNO-BG7n:13/TP1A.220624.014/241211V1625:user/release-keys",
+  "postTimestamp": 1733884306,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a727ae6f9ec0656815999c2e715772bd7633beb5.zip",
+  "sizeBytes": 309819256,
+  "securityPatch": "2024-12-05",
+  "sdk": "33",
+  "device": "TECNO-BG7n",
+  "checkinDevice": "TECNO-BG7n",
+  "title": "BG7n-XE674SGHJKOP-T-OP-241022V1595-to-BG7n-XE674SGHJKOP-T-OP-241211V1625",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7n-XE674SGHJKOP-T-OP-241211V1625<br><br>Changed Functions:<br>1. Updated Google Security Patch to December 5, 2024.<br>2. Updated Google GMS Package to 13_202406.<br><br>Fixed Issues:<br>1. Optimized for the occasional issue with switching in the Panorama mode.<br>2. Fixed the issue of incorrect Uzbek translations in some scenarios.<br>3. Fixed the issue where certain third-party apps were installed but cannot be used.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2673,
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7n-OP/TECNO-BG7n:13/TP1A.220624.014/241211V1625:user/release-keys",
+  "postBuild": "TECNO/BG7n-OP/TECNO-BG7n:13/TP1A.220624.014/250206V1679:user/release-keys",
+  "postTimestamp": 1738828174,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/38c2129d69a46f844525ff9abdf8f18a8541b958.zip",
+  "sizeBytes": 107714876,
+  "securityPatch": "2025-02-05",
+  "sdk": "33",
+  "device": "TECNO-BG7n",
+  "checkinDevice": "TECNO-BG7n",
+  "title": "BG7n-XE674SGHJKOP-T-OP-241211V1625-to-BG7n-XE674SGHJKOP-T-OP-250206V1679",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7n-XE674SGHJKOP-T-OP-250206V1679<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br>2. Updated Google GMS Package to 13_202406.<br><br>Fixed Issues:<br>1. Fixed the issue with the navigation bar's visibility when Secure Keyboard was displayed in the landscape mode.<br>2. Fixed the issue where the calling interface malfunctioned when SIM 1 was selected for calling in Call Log, with the calling card set to \"Ask Each Time\".<br>3. Fixed the rare issue of repeated restarts during OTA upgrades.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2674,
+  "archiveUrls": []
+}

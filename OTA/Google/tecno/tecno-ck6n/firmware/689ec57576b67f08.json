@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/241210V1177:user/release-keys",
+  "postBuild": "TECNO/CK6n-OP/TECNO-CK6n:14/UP1A.231005.007/250218V1310:user/release-keys",
+  "postTimestamp": 1739878367,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9aed14038aea2dedcc2644ab14531ee8f130396d.zip",
+  "sizeBytes": 419916234,
+  "securityPatch": "2025-02-05",
+  "sdk": "34",
+  "device": "TECNO-CK6n",
+  "checkinDevice": "TECNO-CK6n",
+  "title": "CK6n-H6929CD-U-OP-241210V1177-250218V1310_20250219145914",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> CK6n-H6929CD-U-OP-250218V1310<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Fixed Issues:<br>1. Fixed the compatibility issue with Secure Keyboard in the landscape mode when users logged in to Google Play.<br>2. Fixed the issue where there was a reminder of no space when XHide was used to hide photos.<br>3. Fixed the issue where HD images cannot be sent in some WhatsApp versions.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2662,
+  "archiveUrls": []
+}
