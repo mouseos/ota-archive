@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-pixel_7a/758ca4bcd3b3f97353539c58f8f91c58849f814d.zip"
+  ]
 }
