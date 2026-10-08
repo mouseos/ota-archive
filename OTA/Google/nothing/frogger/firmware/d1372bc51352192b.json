@@ -25,5 +25,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-frogger/1c80d9ae7e85539259bc7e1aef25c0de519f6c39.zip"
+  ]
 }
