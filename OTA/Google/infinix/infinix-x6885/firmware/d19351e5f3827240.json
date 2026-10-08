@@ -1,14 +1,14 @@
 {
-  "preBuild": "Infinix/X6885-OP/Infinix-X6885:16/BP2A.250605.031.A3/301450011:user/release-keys",
+  "preBuild": "Infinix/X6885-OP/Infinix-X6885:16/BP2A.250605.031.A3/301550017:user/release-keys",
   "postBuild": "Infinix/X6885-OP/Infinix-X6885:16/BP2A.250605.031.A3/301550021:user/release-keys",
   "postTimestamp": 1790941805,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5767aba862543d7545eafd270f78f5af1dc8d9ac.zip",
-  "sizeBytes": 713617412,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b4173145080fbba073513f7d9ed237bd83ae3211.zip",
+  "sizeBytes": 106818951,
   "securityPatch": "2026-09-05",
   "sdk": "36",
   "device": "Infinix-X6885",
   "checkinDevice": "Infinix-X6885",
-  "title": "X6885-16.3.0.145SP08-OP004PF001AZ-16.3.0.155SP15-OP006PF001AZ_20261002214135",
+  "title": "X6885-16.3.0.155SP08-OP004PF001AZ-16.3.0.155SP15-OP006PF001AZ_20261002214420",
   "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6885-16.3.0.155SP15(OP006PF001AZ)<br><br>Fixed Issues:<br>1. Fixed security vulnerabilities and improved system security.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
   "otaType": "incremental",
   "abType": "AB",
@@ -33,7 +33,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "otachecker",
-  "sourceId": 2630,
+  "sourceId": 2687,
   "archiveUrls": [
     "https://archive.org/download/ota-google-infinix-infinix-x6885/5767aba862543d7545eafd270f78f5af1dc8d9ac.zip"
   ]

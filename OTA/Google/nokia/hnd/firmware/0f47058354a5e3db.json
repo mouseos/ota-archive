@@ -1,0 +1,28 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/SEI600NK/HND:14/UKG3.240613.001/7620:user/release-keys",
+  "postTimestamp": 1772434915,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d6f80b48e0af99807be5373afce1d59936ad4f00.zip",
+  "sizeBytes": 1134142886,
+  "securityPatch": "2026-01-05",
+  "sdk": "34",
+  "device": "HND",
+  "checkinDevice": "HND",
+  "title": "The new version 7620 is available",
+  "description": "Release notes:<br> 1. Google security patch update, enhancing security and privacy protection. <br> Note: During installation, the TV screen may temporarily go black withno information displayed.<br> Please ensure the device remains connected to the power supply anddo not disconnect it until the Home screen reappears, and the update is complete.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2688,
+  "archiveUrls": []
+}

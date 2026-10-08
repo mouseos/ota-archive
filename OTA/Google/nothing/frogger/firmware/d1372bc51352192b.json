@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2606301839:user/release-keys",
+  "postBuild": "Nothing/Frogger/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2609110959:user/release-keys|Nothing/FroggerEEA/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2609110959:user/release-keys|Nothing/FroggerIND/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2609110959:user/release-keys|Nothing/FroggerJPN/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2609110959:user/release-keys|Nothing/FroggerTUR/Frogger:16/BQ2A.250913.001-BP2A.250605.031.A3/2609110959:user/release-keys",
+  "postTimestamp": 1789091941,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1c80d9ae7e85539259bc7e1aef25c0de519f6c39.zip",
+  "sizeBytes": 275592735,
+  "securityPatch": "2026-09-01",
+  "sdk": "36",
+  "device": "Frogger",
+  "checkinDevice": "Frogger",
+  "title": "",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n📷 Enhanced overall camera stability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to September 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
