@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-google-tegu/45984dfd18a69272263bcd92a2ea124eaa871a67.zip"
+  ]
 }
