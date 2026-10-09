@@ -1,9 +1,9 @@
 {
-  "preBuild": "google/lynx/lynx:17/CP2A.260705.006/15641320:user/release-keys",
+  "preBuild": "google/lynx/lynx:17/CP3A.260905.009/16091614:user/release-keys",
   "postBuild": "google/lynx/lynx:17/CP3A.261005.002.A1/16269273:user/release-keys",
   "postTimestamp": 1788575970,
-  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/758ca4bcd3b3f97353539c58f8f91c58849f814d.zip",
-  "sizeBytes": 1290967500,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/cf20651a1e00ee2079fb40ad78d1a1f181e3e7ef.zip",
+  "sizeBytes": 249432847,
   "securityPatch": "2026-10-05",
   "sdk": "37",
   "device": "lynx",
