@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/sg_evesprout_sg507sh/3a060c0944e6e46b5b97bd86614b48fc58508e71.zip",
+  "fingerprint": "SG/SG507SH/eve_sprout:7.1.1/S1116/01.00.00:user/release-keys",
+  "manufacturer": "",
+  "brand": "sg",
+  "model": "eve_sprout",
+  "title": "お使いのシステムを更新します",
+  "description": "【更新内容】 （ビルド番号：S2102）<br>\n・Android 8.1へのアップデート<br>\n・急速充電ができない事象の改善<br>\n・セキュリティの向上<br><br>\n※その他の更新も含まれています。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
