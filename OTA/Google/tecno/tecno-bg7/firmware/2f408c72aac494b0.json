@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/250206V2330:user/release-keys",
+  "postBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/250410V2447:user/release-keys",
+  "postTimestamp": 1744262833,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/e302ae53c49cec4bb4ef1b0722603e13df5def3e.zip",
+  "sizeBytes": 107632083,
+  "securityPatch": "2025-04-05",
+  "sdk": "33",
+  "device": "TECNO-BG7",
+  "checkinDevice": "TECNO-BG7",
+  "title": "BG7-XE674SABCDEFLMNQR-T-OP-250206V2330-to-BG7-XE674SABCDEFLMNQR-T-OP-250410V2447",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7-XE674SABCDEFLMNQR-T-OP-250410V2447<br><br>Changed Functions:<br>1. Updated Google Security Patch to April 5, 2025.<br>2. Updated global APN archiving parameter lists (MTK IMS parameters).<br>3. Updated global emergency numbers.<br><br>Fixed Issues:<br>1. Fixed the issue where the USSD pop-up window was not covered by the incoming call interface if left untapped before answering a call.<br>2. Fixed the issue where photos taken by LINE using the front camera with the flash turned on were upside down.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2701,
+  "archiveUrls": []
+}

@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/250410V2447:user/release-keys",
+  "postBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/250619V2502:user/release-keys",
+  "postTimestamp": 1750319681,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2d46abb98d5cde4d21e0a48e7e8aeab169eda3b2.zip",
+  "sizeBytes": 495767678,
+  "securityPatch": "2025-06-05",
+  "sdk": "33",
+  "device": "TECNO-BG7",
+  "checkinDevice": "TECNO-BG7",
+  "title": "BG7-XE674SABCDEFLMNQR-T-OP-250410V2447-to-BG7-XE674SABCDEFLMNQR-T-OP-250619V2502",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7-XE674SABCDEFLMNQR-T-OP-250619V2502<br><br>Changed Functions:<br>1. Updated Google Security Patch to June 5, 2025.<br>2. Updated global APN archiving parameter lists (MTK IMS parameters) to June 17, 2025.<br><br>Fixed Issues:<br>1. Fixed the issue where calls on WeChat could not be switched from a connected car system to the phone.<br>2. Fixed the issue where the ringtone had noise.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2702,
+  "archiveUrls": []
+}

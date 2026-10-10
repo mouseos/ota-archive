@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/241122V1376:user/release-keys",
+  "postBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/241209V1382:user/release-keys",
+  "postTimestamp": 1733752349,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a3a3808c668f4d8e7b0925f4daea0539fb12f97a.zip",
+  "sizeBytes": 66948672,
+  "securityPatch": "2024-11-05",
+  "sdk": "31",
+  "device": "Infinix-X669C",
+  "checkinDevice": "Infinix-X669C",
+  "title": "X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-241122V1376-241209V1382_20241210110450",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-241209V1382<br><br>Fixed Issues:<br>1. Fixed the compatibility issue with Ayushman.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2716,
+  "archiveUrls": []
+}

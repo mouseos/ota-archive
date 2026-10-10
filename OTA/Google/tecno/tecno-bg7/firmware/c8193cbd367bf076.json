@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/241018V1635:user/release-keys",
+  "postBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/241204V1885:user/release-keys",
+  "postTimestamp": 1733309444,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/c5da9cfce2b2b6cad5a11f0da5bcb8fadf6e9a33.zip",
+  "sizeBytes": 295647868,
+  "securityPatch": "2024-12-05",
+  "sdk": "33",
+  "device": "TECNO-BG7",
+  "checkinDevice": "TECNO-BG7",
+  "title": "BG7-XE674SABCDEFLMNQR-T-OP-241018V1635-to-BG7-XE674SABCDEFLMNQR-T-OP-241204V1885",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7-XE674SABCDEFLMNQR-T-OP-241204V1885<br><br>Changed Functions:<br>1. Updated Google Security Patch to December 5, 2024.<br>2. Updated Google GMS Package to 13_202406.<br><br>Fixed Issues:<br>1. Fixed the issue that Bluetooth could not be renamed normally.<br>2. Fixed the issue of incorrect Uzbek translations in some scenarios.<br>3. Fixed the issue that there is no response when users tapped on to-do items from the home screen.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2699,
+  "archiveUrls": []
+}

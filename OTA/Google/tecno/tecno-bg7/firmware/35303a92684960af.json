@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/240611V1526:user/release-keys",
+  "postBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/240823V1581:user/release-keys",
+  "postTimestamp": 1724402883,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/31b62f02ca960c225bb996a21003f5b025853caf.zip",
+  "sizeBytes": 1206573510,
+  "securityPatch": "2024-08-05",
+  "sdk": "33",
+  "device": "TECNO-BG7",
+  "checkinDevice": "TECNO-BG7",
+  "title": "BG7-XE674SABCDEFLMNQR-T-OP-240611V1526-to-BG7-XE674SABCDEFLMNQR-T-OP-240823V1581",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 40%.<br>\n<br>\nUpdate Version:<br>\nBG7-XE674SABCDEFLMNQR-T-OP-240823V1581<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to Aug. 5, 2024.<br>\n2. Updated Google GMS Package to 13_202406.<br>\n<br>\nFixed Issues:<br>\n1. Optimized the stability issue from user feedback.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2697,
+  "archiveUrls": []
+}

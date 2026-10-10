@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/240918V1357:user/release-keys",
+  "postBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/241122V1376:user/release-keys",
+  "postTimestamp": 1732241463,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ac8525c9e46ed3fa7a7ee2ee3a5e9a3131748a63.zip",
+  "sizeBytes": 100749127,
+  "securityPatch": "2024-11-05",
+  "sdk": "31",
+  "device": "Infinix-X669C",
+  "checkinDevice": "Infinix-X669C",
+  "title": "X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-240918V1357-241122V1376_20241122181536",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-241122V1376<br><br>Changed Functions:<br>1. Updated Google Security Patch to November 5, 2024.<br><br>Fixed Issues:<br>1. Fixed the issue where blocking Google Chrome in Parental Controls did not take effect.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2715,
+  "archiveUrls": []
+}

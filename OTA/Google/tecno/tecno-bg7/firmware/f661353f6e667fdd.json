@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/250728V2510:user/release-keys",
+  "postBuild": "TECNO/BG7-OP/TECNO-BG7:13/TP1A.220624.014/251031V2529:user/release-keys",
+  "postTimestamp": 1761925672,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/9d9cd85b04ec66b9d1ad847bd7f31fdc2615c8de.zip",
+  "sizeBytes": 98767106,
+  "securityPatch": "2025-11-01",
+  "sdk": "33",
+  "device": "TECNO-BG7",
+  "checkinDevice": "TECNO-BG7",
+  "title": "BG7-XE674SABCDEFLMNQR-T-OP-250728V2510-to-BG7-XE674SABCDEFLMNQR-T-OP-251031V2529",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> BG7-XE674SABCDEFLMNQR-T-OP-251031V2529<br><br>Changed Functions:<br>1. Updated Google Security Patch to November 1, 2025.<br><br>Fixed Issues:<br>1. Improved the user experience.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2704,
+  "archiveUrls": []
+}
