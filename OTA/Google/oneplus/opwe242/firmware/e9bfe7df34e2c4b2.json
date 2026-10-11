@@ -1,0 +1,29 @@
+{
+  "preBuild": "",
+  "postBuild": "OnePlus/OPWE242/OPWE242:14/AW2A.240903.001.A3.OPWE242_11_A.128.250526/01:user/release-keys",
+  "postTimestamp": 1748274522,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f598e72a340212223b0a5a35d253893d0359757b.zip",
+  "sizeBytes": 1886277504,
+  "securityPatch": "2025-05-01",
+  "sdk": "34",
+  "device": "OPWE242",
+  "checkinDevice": "OPWE242",
+  "title": "Update your watch",
+  "description": "<p>Update log:<br>This update includes bug fixes for some known issues and a security patch. Updating is recommended for optimal user experience.",
+  "otaType": "full",
+  "abType": "BLOCK",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": true,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2732,
+  "archiveUrls": []
+}
