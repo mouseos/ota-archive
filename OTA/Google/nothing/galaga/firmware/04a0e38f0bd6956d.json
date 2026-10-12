@@ -26,5 +26,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nothing-galaga/6e4cbe7d054f1f1e221fa9d09d179b5b5d698fbd.zip"
+  ]
 }
