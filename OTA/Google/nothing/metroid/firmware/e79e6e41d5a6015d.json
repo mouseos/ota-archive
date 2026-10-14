@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/Metroid/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidEEA/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidIND/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidJPN/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys|Nothing/MetroidTUR/Metroid:16/BQ2A.250721.001-BP2A.250605.031.A3/2608141733:user/release-keys",
+  "postBuild": "Nothing/Metroid/Metroid:17/CQ2A.260522.002-CP2A.260605.016/2609242115:user/release-keys|Nothing/MetroidEEA/Metroid:17/CQ2A.260522.002-CP2A.260605.016/2609242115:user/release-keys|Nothing/MetroidIND/Metroid:17/CQ2A.260522.002-CP2A.260605.016/2609242115:user/release-keys|Nothing/MetroidJPN/Metroid:17/CQ2A.260522.002-CP2A.260605.016/2609242115:user/release-keys|Nothing/MetroidTUR/Metroid:17/CQ2A.260522.002-CP2A.260605.016/2609242115:user/release-keys",
+  "postTimestamp": 1790255734,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7bc7d4c45cb45674220f0cd81414e9a9b6fb23f7.zip",
+  "sizeBytes": 2837532392,
+  "securityPatch": "2026-09-01",
+  "sdk": "37",
+  "device": "Metroid",
+  "checkinDevice": "Metroid",
+  "title": "Nothing OS 5.0 (Metroid-C5.0-20260924-2115)",
+  "description": "Nothing OS 5.0\nYou’re now upgrading to the official release of Nothing OS 5.0, powered by Android 17. Please back up your data, including photos, call logs, and contacts, before upgrading. Here's what's new:<br>\n<br>\n<b>New Features</b><br>\n<br>\n🔮 Introduced the Glyph app, designed specifically for the Glyph Interface, offering quicker access and a refreshed interactive experience. Find it in the app drawer.<br>\n🗄️ Quick Settings and the notification panel now support split, giving you a cleaner layout and easier access. Enable it in Settings > Notifications > General > Notifications and Quick Settings.<br>\n✅ Arranging home screen icons in bulk is now available. Try it out via long-pressing the home screen and tapping on \"Arrange.\"<br>\n🚥 Introduced a new three-colour status bar indicator for scenes of sensitive access, location, AI processing, letting you know device activity instantly.<br>\n<br>\n<b>Visual Enhancements</b><br>\n<br>\n🫧 Introduced the new Translucent theme for Launcher, featuring an elegant frosted-glass style and subtle accent colours inspired by the wallpaper. Set it up in Customisation > Theme & Style > Translucent.<br>\n🎨 Lock screen customisation now supports setting up a colour for your clock face.<br>\n🕰️ Added two new lock screen clock faces.<br>\n🎴 Updated the wallpaper gallery with a new style wallpaper.<br>\n🛜 Refined the status bar icons with a clearer and more consistent style and subtle animations.<br>\n🖋️ Refined the system design with the newly introduced Geist typeface and refreshed the Settings UI for clearer readability and a more cohesive look.<br>\n🌌 Improved interactions and transition animations across various scenarios for a more fluid experience.<br>\n<br>\n<b>Fresh Widgets</b><br>\n<br>\n🪆 Introduced Collector widgets, a playful new way to turn your photos into different-style decorations on your home screen.<br>\n⏱️ Away Time widgets are now available, effortlessly tracking your time away from the screen to help you gain better insights into your daily habits.<br>\n⏳ Glyph Timer is now supported in the widget drawer, offering you a handy interaction on your home screen.<br>\n<br>\n<b>Camera Enhancements</b><br>\n<br>\n🎛️ Introduced Tuning with seven adjustable effects and a reset option.<br>\n🎞️ Upgraded Presets with easier editing, richer cards, Playground integration, and a new 2×2 widget.<br>\n🎥 Enhanced video creation with support for Filters and Tuning, added Dual-view Video, and H.265 encoding.<br>\n✨ Improved recording, zoom, close-up shooting, QR scanning, Google Lens, and Motion Photo playback.<br>\n📷 Refreshed the Camera UI, controls, feedback, and animations.<br>\n<br>\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🌑 Expanded Dark theme is now available, automatically applying the Dark theme to most apps that don't support it natively. Adjust it anytime in Settings > Display > Dark theme > Use Expanded Dark theme.<br>\n🔆 Enhanced HDR brightness is now available, allowing you to customize HDR intensity for a comfortable viewing experience. Set it up in Settings > Display > Enhanced HDR brightness.<br>\n👆 Depth (Beta) wallpapers now support pinching to shrink, giving more flexibility for your operation.<br>\n💊 Refined Live Updates with an enhanced status bar experience for ongoing activities.<br>\n👻 Introduced Noto 3D Emoji in Gboard for a more vivid look and expression.<br>\n🎙️ Essential Voice transcriptions now appear faster with reduced latency.<br>\n🏠 Improved interaction with the lock screen shortcuts for a more natural experience.<br>\n🎧 The Bluetooth in Quick Settings now supports instant connection or disconnection with a single tap of the device icon.<br>\n<br>\n<b>Notes:</b><br>\nThe device may temporarily heat up and increase power consumption during the update and will quickly return to normal after the process is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
