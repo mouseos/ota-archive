@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6881-OP/Infinix-X6881:14/UP1A.231005.007/260410V935:user/release-keys",
+  "postBuild": "Infinix/X6881-OP/Infinix-X6881:14/UP1A.231005.007/260709V948:user/release-keys",
+  "postTimestamp": 1783606918,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5e83e7d3877da39de164f1689331113eef08a104.zip",
+  "sizeBytes": 149663467,
+  "securityPatch": "2026-08-01",
+  "sdk": "34",
+  "device": "Infinix-X6881",
+  "checkinDevice": "Infinix-X6881",
+  "title": "X6881-H8916ABCDEFGHIJ-U-OP-260410V935-260709V948_20260713165351",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6881-H8916ABCDEFGHIJ-U-OP-260709V948<br><br>Changed Functions:<br>1. Updated Google Security Patch to August 1, 2026.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2767,
+  "archiveUrls": []
+}
