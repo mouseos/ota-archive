@@ -1,14 +1,14 @@
 {
-  "preBuild": "Infinix/X6880-OP/Infinix-X6880:15/AP3A.240905.015.A2/185001:user/release-keys",
+  "preBuild": "Infinix/X6880-OP/Infinix-X6880:15/AP3A.240905.015.A2/165003:user/release-keys",
   "postBuild": "Infinix/X6880-OP/Infinix-X6880:15/AP3A.240905.015.A2/195001:user/release-keys",
   "postTimestamp": 1789159310,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/733564db36ea663adaef44bc2fac2e5cf0e48094.zip",
-  "sizeBytes": 179316259,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/d4b1997afb3e5289baae30ddd4bce026d261355c.zip",
+  "sizeBytes": 420899935,
   "securityPatch": "2026-09-05",
   "sdk": "35",
   "device": "Infinix-X6880",
   "checkinDevice": "Infinix-X6880",
-  "title": "X6880-15.1.2.185-OP001PF001AZ-15.1.2.195-OP001PF001AZ_20260917212413",
+  "title": "X6880-15.1.2.165SP05-OP001PF001AZ-15.1.2.195-OP001PF001AZ_20260917212413",
   "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6880-15.1.2.195(OP001PF001AZ)<br><br>Changed Functions:<br>1. Updated Google Security Patch to September 5, 2026.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
   "otaType": "incremental",
   "abType": "AB",
@@ -32,7 +32,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "otachecker",
-  "sourceId": 2765,
+  "sourceId": 2773,
   "archiveUrls": [
     "https://archive.org/download/ota-google-infinix-infinix-x6880/733564db36ea663adaef44bc2fac2e5cf0e48094.zip"
   ]
