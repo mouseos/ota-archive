@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/231011V1097:user/release-keys",
+  "postBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/240116V1248:user/release-keys",
+  "postTimestamp": 1705411369,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/61a077f401c7429df0215038f5aea371360c87e6.zip",
+  "sizeBytes": 294798567,
+  "securityPatch": "2024-01-01",
+  "sdk": "31",
+  "device": "Infinix-X669C",
+  "checkinDevice": "Infinix-X669C",
+  "title": "X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-231011V1097-240116V1248_20240220151536",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-240116V1248<br>    \n\nOptimized issues:  <br>                     \n1.Updated Google Security Patch to January 1, 2024. <br>            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit XClub forum(Geekbar)for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2794,
+  "archiveUrls": []
+}

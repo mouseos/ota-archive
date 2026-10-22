@@ -1,0 +1,27 @@
+{
+  "preBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/240717V1335:user/release-keys",
+  "postBuild": "Infinix/X669C-GL/Infinix-X669C:12/SP1A.210812.016/240918V1357:user/release-keys",
+  "postTimestamp": 1726643682,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/57cc7fa24dd0efcfec43537c7807aa20a88e4217.zip",
+  "sizeBytes": 104251210,
+  "securityPatch": "2024-09-05",
+  "sdk": "31",
+  "device": "Infinix-X669C",
+  "checkinDevice": "Infinix-X669C",
+  "title": "X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-240717V1335-240918V1357_20240919161320",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\n X669C-H6127AgAhAxAyBcBdBeBfBg-S-GL-240918V1357<br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to September 5, 2024.<br>\n<br>\nFixed Issues:<br>\n1. Added intelligent cooling strategies to improve cooling effect and game stability.<br>\n2. Fixed the out-of-memory issue occurred upon multiple times of phone startup and shutdown to improve the system stability.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2798,
+  "archiveUrls": []
+}
