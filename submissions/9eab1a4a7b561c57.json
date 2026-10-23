@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/81b30c81a8151dcb079b0f525c9cb0b2c8d8c074.zip",
+  "fingerprint": "FCNT/FCG02_jp_kdi/FCG02:14/V10RK38E/FCG02.20240612:user/release-keys",
+  "manufacturer": "",
+  "brand": "fcnt",
+  "model": "fcg02",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V37RK54D）<br> \n・セキュリティの向上<br> \n<br> ※その他の更新も含まれています。\n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
