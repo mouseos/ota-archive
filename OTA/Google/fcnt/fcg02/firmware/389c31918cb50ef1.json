@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/FCG02_jp_kdi/FCG02:15/V35RK52B/FCG02.20251029:user/release-keys",
+  "postBuild": "FCNT/FCG02_jp_kdi/FCG02:15/V37RK54D/FCG02.20251226:user/release-keys",
+  "postTimestamp": 1766724039,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/81b30c81a8151dcb079b0f525c9cb0b2c8d8c074.zip",
+  "sizeBytes": 753870685,
+  "securityPatch": "2026-01-01",
+  "sdk": "35",
+  "device": "FCG02",
+  "checkinDevice": "FCG02",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V37RK54D）<br> \n・セキュリティの向上<br> \n<br> ※その他の更新も含まれています。\n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
