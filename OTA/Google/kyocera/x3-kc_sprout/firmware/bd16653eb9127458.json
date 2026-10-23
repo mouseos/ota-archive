@@ -17,5 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-kyocera-x3-kc_sprout/cf568974641a91380e0a25887d2cdd5bc383d049.zip"
+  ]
 }
