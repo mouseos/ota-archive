@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/kyocera_x3kcsprout_x3kc/cf568974641a91380e0a25887d2cdd5bc383d049.zip",
+  "fingerprint": "KYOCERA/X3-KC/X3-KC_sprout:8.0.0/1.006MI.0077.a/1.006MI.0077.a:user/release-keys",
+  "manufacturer": "",
+  "brand": "kyocera",
+  "model": "x3-kc_sprout",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：2.220MI）<br>\n・セキュリティの向上<br>\n※その他の更新も含まれております。<br>\n※Android8.1の場合、Android9.0にバージョンアップされます。<br><br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。<br>"
+}
