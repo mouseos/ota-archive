@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6525-OP/Infinix-X6525:13/TP1A.220624.014/240625V1626:user/release-keys",
+  "postBuild": "Infinix/X6525-OP/Infinix-X6525:13/TP1A.220624.014/240918V1749:user/release-keys",
+  "postTimestamp": 1726642502,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/81baab22cd530cdd16c8fb9c3d1f3fadab58acf1.zip",
+  "sizeBytes": 265950205,
+  "securityPatch": "2024-09-05",
+  "sdk": "33",
+  "device": "Infinix-X6525",
+  "checkinDevice": "Infinix-X6525",
+  "title": "X6525-F069ABCDEFGHIGaGbGcGdGeGfGgGhGiGmGnGoGq-TGo-OP-OTA-V1626-V1749-20240918_220859",
+  "description": "Please plug in charger to OTA upgrade when power is lower than 50%.<br>\n<br>\nUpdate Version:<br>\n X6525-F069ABCDEFGHIGaGbGcGdGeGfGgGhGiGmGnGoGq-TGo-OP-240918V1749 <br>\n<br>\nChanged Functions:<br>\n1. Updated Google Security Patch to September 5, 2024.<br>\n<br>\nFixed Issues:<br>\n1. Fixed the issue of failing to connect to some Wi-Fi networks encrypted with advanced standards.<br>\n2. Enhanced the smooth running of the system in strong light environments.<br>\n3. Fixed the issue that AI Gallery crashed after User Experience Program is turned off.<br>\n<br>\nReminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2800,
+  "archiveUrls": []
+}

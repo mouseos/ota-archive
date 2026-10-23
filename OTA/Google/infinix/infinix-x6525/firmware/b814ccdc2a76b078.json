@@ -1,0 +1,29 @@
+{
+  "preBuild": "Infinix/X6525-OP/Infinix-X6525:13/TP1A.220624.014/250107V1894:user/release-keys",
+  "postBuild": "Infinix/X6525-OP/Infinix-X6525:13/TP1A.220624.014/250213V1913:user/release-keys",
+  "postTimestamp": 1739453930,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/2e8213741822c9639bf7b68b27cfb931037c343e.zip",
+  "sizeBytes": 67806300,
+  "securityPatch": "2025-02-05",
+  "sdk": "33",
+  "device": "Infinix-X6525",
+  "checkinDevice": "Infinix-X6525",
+  "title": "X6525-F069ABCDEFGHIGaGbGcGdGeGfGgGhGiGmGnGoGq-TGo-OP-OTA-V1894-V1913-20250217_143522",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br>X6525-F069ABCDEFGHIGaGbGcGdGeGfGgGhGiGmGnGoGq-TGo-OP-250213V1913<br><br>Changed Functions:<br>1. Updated Google Security Patch to February 5, 2025.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the XClub forum (https://www.infinix.club) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2803,
+  "archiveUrls": []
+}
