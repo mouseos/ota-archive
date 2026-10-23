@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fcnt-fcg02/81b30c81a8151dcb079b0f525c9cb0b2c8d8c074.zip"
+  ]
 }
