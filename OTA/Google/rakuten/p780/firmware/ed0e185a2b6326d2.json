@@ -17,5 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-rakuten-p780/480c486f62489e8fa01d0e2bc129c027e0090aae.zip"
+  ]
 }
