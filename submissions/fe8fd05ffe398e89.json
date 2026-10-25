@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/480c486f62489e8fa01d0e2bc129c027e0090aae.zip",
+  "fingerprint": "Rakuten/P780/P780:11/RKQ1.210715.001/242:user/release-keys",
+  "manufacturer": "",
+  "brand": "rakuten",
+  "model": "p780",
+  "title": "システムアップデート利用可能",
+  "description": "端末を快適にご利用いただくためのシステムアップデートが利用可能です。<br><p>\nバージョン<br>\nP780AE_11.0_RMN_JP_161\n<br><p>\n注意事項<br>\n・モバイル通信でのダウンロードはデータ通信費が掛かるため、Wi-Fi通信環境での更新をおすすめします。<br>\n・インストール中は、本機の電源を切らないでください。"
+}
