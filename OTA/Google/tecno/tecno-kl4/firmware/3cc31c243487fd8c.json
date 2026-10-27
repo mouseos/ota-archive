@@ -1,0 +1,22 @@
+{
+  "preBuild": "TECNO/KL4-OPPJ/TECNO-KL4:14/UP1A.231005.007/260128V469:user/release-keys",
+  "postBuild": "TECNO/KL4-OPPJ/TECNO-KL4:14/UP1A.231005.007/260414V481:user/release-keys",
+  "postTimestamp": 1776154401,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/7efa15b6825ec97b604c7499980e490e635b4927.zip",
+  "sizeBytes": 93625379,
+  "securityPatch": "2026-05-01",
+  "sdk": "34",
+  "device": "TECNO-KL4",
+  "checkinDevice": "TECNO-KL4",
+  "title": "KL4-F201JKLW-UGo-OPPJ-PJ-OTA-260128V469-260414V481_20260422_141614",
+  "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> KL4-F201JKLW-UGo-OPPJ-PJ-260414V481<br><br>Changed Functions:<br>1. Updated Google Security Patch to May 1, 2026.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2830,
+  "archiveUrls": []
+}
