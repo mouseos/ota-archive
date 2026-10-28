@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2608181726:user/release-keys",
+  "postBuild": "Nothing/Pong/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2610141615:user/release-keys|Nothing/PongEEA/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2610141615:user/release-keys|Nothing/PongIND/Pong:16/BQ2A.250721.001-BP2A.250605.031.A3/2610141615:user/release-keys",
+  "postTimestamp": 1791965736,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fbe96e185535d2f3c3ebd1aad8a6d6ccdcdd867a.zip",
+  "sizeBytes": 107350202,
+  "securityPatch": "2026-10-01",
+  "sdk": "36",
+  "device": "Pong",
+  "checkinDevice": "Pong",
+  "title": "Nothing OS 4.1 (Pong-B4.1-261014-1615)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🎞️ Improved playback smoothness for videos recorded at 1080P 60FPS.<br>\n🔗 Optimised Bluetooth connection stability when activating the voice assistant.<br>\n🛜 Fixed an issue where the Wi-Fi hotspot frequency did not match the selection in certain cases.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to October 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
