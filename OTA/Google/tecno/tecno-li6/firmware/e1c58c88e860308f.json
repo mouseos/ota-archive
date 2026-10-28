@@ -1,14 +1,14 @@
 {
-  "preBuild": "TECNO/LI6-OP/TECNO-LI6:15/AP3A.240905.015.A2/155001:user/release-keys",
+  "preBuild": "TECNO/LI6-OP/TECNO-LI6:15/AP3A.240905.015.A2/128004:user/release-keys",
   "postBuild": "TECNO/LI6-OP/TECNO-LI6:15/AP3A.240905.015.A2/170004:user/release-keys",
   "postTimestamp": 1776793462,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/63eccd108c86867bb3d3affa4f5fcbc5d6c423c7.zip",
-  "sizeBytes": 278384351,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/016a4bc2bb59e574c946f83380e06bc747753c71.zip",
+  "sizeBytes": 462422700,
   "securityPatch": "2026-05-01",
   "sdk": "35",
   "device": "TECNO-LI6",
   "checkinDevice": "TECNO-LI6",
-  "title": "LI6-15.1.2.155-OP001PF001AZ-15.1.2.170SP05-OP001PF001AZ_20260422162044",
+  "title": "LI6-15.1.2.128SP01-OP001PF001AZ-15.1.2.170SP05-OP001PF001AZ_20260422154820",
   "description": "<br>Please plug in charger to OTA upgrade when power is lower than 50%.<br><br>Update Version:<br> LI6-15.1.2.170SP05(OP001PF001AZ)<br><br>Changed Functions:<br>1. Updated Google Security Patch to May 1, 2026.<br><br>Reminding:<br>\n1. Optimized system stability and performance while fixing other issues.<br>\n2. Visit the TECNO SPOT forum (https://tspot.tecno.com) for more information.<br>",
   "otaType": "incremental",
   "abType": "AB",
@@ -32,7 +32,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "otachecker",
-  "sourceId": 2633,
+  "sourceId": 2842,
   "archiveUrls": [
     "https://archive.org/download/ota-google-tecno-tecno-li6/63eccd108c86867bb3d3affa4f5fcbc5d6c423c7.zip"
   ]
