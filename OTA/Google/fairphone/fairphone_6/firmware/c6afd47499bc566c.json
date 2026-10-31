@@ -25,7 +25,5 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-fairphone-fairphone_6/3f14f504f2967a961be5e98f52fe1fe067492bfc.zip"
-  ]
+  "archiveUrls": []
 }
