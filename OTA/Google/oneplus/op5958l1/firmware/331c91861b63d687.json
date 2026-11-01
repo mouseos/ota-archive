@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2515/OP5958L1:14/RKQ1.211119.001/T.R4T1.1712fcc_5d06-10bca:user/release-keys",
+  "postBuild": "OnePlus/CPH2515/OP5958L1:14/UKQ1.230924.001/T.R4T1.1ac7077-1-2fea26:user/release-keys",
+  "postTimestamp": 1730362833,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0d11553d060bbcf10ecd4118dfb1debaa34720dc.zip",
+  "sizeBytes": 1550945571,
+  "securityPatch": "2024-11-05",
+  "sdk": "34",
+  "device": "OP5958L1",
+  "checkinDevice": "OP5958L1",
+  "title": "CPH2515_14.0.0.940(EX01) is available",
+  "description": "New Version Available: CPH2515_14.0.0.940(EX01)  <p>A new software update is now available for your Android smartphone.</p>Release Highlights:<p>• Updated Android security patch to 2024-11-05.</p>  Automatic Update Schedule:<p>If you choose not to update now, the update will be automatically applied between 2 AM and 6 AM starting on November 26th, 2024.</p>Note:<p>Data rates may apply.</p><p>Please refrain from turning off your device while the update is being installed. During the installation, your device will be temporarily unavailable, even for emergency calls to 9-1-1.</p>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 268,
+  "archiveUrls": []
+}

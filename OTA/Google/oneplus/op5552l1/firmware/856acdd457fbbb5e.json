@@ -1,0 +1,22 @@
+{
+  "preBuild": "OnePlus/CPH2417/OP5552L1:13/TP1A.220905.001/S.13c269b_1-113b41:user/release-keys",
+  "postBuild": "OnePlus/CPH2417/OP5552L1:14/UKQ1.230924.001/S.15baf3c-484e-484d:user/release-keys",
+  "postTimestamp": 1704858596,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f97c23ab8041a48300294bf1aa63536e7954901e.zip",
+  "sizeBytes": 2791404299,
+  "securityPatch": "2024-01-05",
+  "sdk": "34",
+  "device": "OP5552L1",
+  "checkinDevice": "OP5552L1",
+  "title": "CPH2417_14.0.0.300(EX01)  is available",
+  "description": "New version: CPH2417_14.0.0.300(EX01)<p>A system update is available. Your system will be upgraded to Android 14.</p>Pantanal Service<p>•Adds Fluid Cloud, a way of interaction with morphing forms that allows you to view up-to-date information at a glance.</p>Smart efficiency<p>• Adds File Dock, where you can drag and drop to transfer content between apps and devices.</p><p>• Adds Content Extraction, a feature that can recognize and extract text and images from the screen with one tap.</p><p>• Adds Smart Cutout, a feature that can separate multiple subjects in a photo from the background for copying or sharing.</p>Cross-device connectivity<p>• Improves Shelf by adding more widget recommendations.</p>Security and privacy<p>• Improves photo and video-related permission management for safer access by apps.</p>Performance optimization<p>• Improves system stability, the launch speed of apps, and the smoothness of animations.</p>Aquamorphic Design<p>• Upgrades Aquamorphic Design with a natural, gentle, and clearer color style for a more comfortable color experience.</p><p>• Adds Aquamorphic-themed ringtones and revamps the system notification sounds.</p><p>• Improves system animations by making them even smoother.</p>User Care<p>• Adds a carbon tracking AOD that visualizes the carbon emissions you avoid by walking instead of driving.</p>System<p>• Removes the Background stream feature in Smart Sidebar.</p><p>• Upgrades ROM vitalization and optimizes app compression to improve function stability.</p>Please do not turn off your device while the update is installing. During Installation you cannot use your device at all, even to dial 9-1-1",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 262,
+  "archiveUrls": []
+}

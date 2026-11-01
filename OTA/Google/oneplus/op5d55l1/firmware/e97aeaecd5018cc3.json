@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/CPH2655/OP5D55L1:16/BP2A.250605.015/V.R4T3.1a9033a_879ae6_82ff1d:user/release-keys",
+  "preBuild": "OnePlus/CPH2655/OP5D55L1:16/BP2A.250605.015/V.R4T3.4238478-2049671-2049673:user/release-keys",
   "postBuild": "OnePlus/CPH2655/OP5D55L1:16/BP2A.250605.015/V.R4T3.26073a0-1df561-1f78cb:user/release-keys",
   "postTimestamp": 1780491741,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/5b7d8e940a52ea726e513c77e29cab3f78790f36.zip",
-  "sizeBytes": 2693069884,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3405e6f57690878097a63b1791ce9bd910e9a70e.zip",
+  "sizeBytes": 2977500928,
   "securityPatch": "2026-06-01",
   "sdk": "36",
   "device": "OP5D55L1",
@@ -30,7 +30,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2224,
+  "sourceId": 2867,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op5d55l1/5b7d8e940a52ea726e513c77e29cab3f78790f36.zip"
   ]
