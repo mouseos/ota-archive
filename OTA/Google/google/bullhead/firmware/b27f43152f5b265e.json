@@ -20,7 +20,5 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "checkin",
-  "archiveUrls": [
-    "https://archive.org/download/ota-google-google-bullhead/1be93622202543f982bc5d82467cc689a20c04f8.zip"
-  ]
+  "archiveUrls": []
 }
