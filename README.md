@@ -35,7 +35,10 @@ against `firmware[].preBuild`, follow `postBuild` → next.
   `ia_upload.py` (archive.org). `checkin*.py` / `*_pb2.py` are the android-checkin
   reference protobufs.
 - `.github/workflows/pipeline.yml` — cron (6h): resolve → regen index → commit → purge
-  jsDelivr; then a matrix job uploads pending firmware to archive.org.
+  jsDelivr; then a matrix job uploads pending firmware to archive.org. The web site
+  (mouseos/ota-archive-web) polls this repo on its own schedule — there is no
+  cross-repo trigger (GITHUB_TOKEN gets 403 on other repos) — and the verify job
+  fails visibly if the published web snapshot is older than 30 hours.
 
 ---
 

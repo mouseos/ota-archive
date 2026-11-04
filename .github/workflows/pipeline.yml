@@ -191,9 +191,27 @@ jobs:
             --field otachecker_limit=0 \
             --field upload_batch=150 \
             --field _chain=verify
-      - name: Trigger web rebuild to reflect new archiveUrls
-        if: ${{ needs.finalize.result == 'success' || needs.finalize.result == 'skipped' }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check web publication freshness
+        # The web site (mouseos/ota-archive-web) polls this repo on its own
+        # 6h schedule; GITHUB_TOKEN cannot dispatch another repository's
+        # workflow (403), so there is deliberately no cross-repo trigger.
+        # Instead, fail visibly when the published snapshot goes stale.
         run: |
-          gh workflow run deploy.yml --repo mouseos/ota-archive-web || true
+          python3 - <<'PYEOF'
+          import datetime, json, sys
+          from urllib.request import Request, urlopen
+          url = "https://mouseos.github.io/ota-archive-web/build-info.json"
+          try:
+              req = Request(url, headers={"Cache-Control": "no-cache"})
+              with urlopen(req, timeout=30) as r:
+                  info = json.load(r)
+              built = datetime.datetime.fromisoformat(info["builtAt"])
+          except Exception as e:
+              print(f"::error::Cannot read published web snapshot manifest: {e}")
+              sys.exit(1)
+          age_h = (datetime.datetime.now(datetime.timezone.utc) - built).total_seconds() / 3600
+          print(f"Web snapshot: dataSha={info.get('dataSha')} builtAt={info['builtAt']} age={age_h:.1f}h devices={info.get('deviceCount')}")
+          if age_h > 30 or age_h < -1:
+              print("::error::Published web site is stale (>30h) - check the ota-archive-web workflow state")
+              sys.exit(1)
+          PYEOF
