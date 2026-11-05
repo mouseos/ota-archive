@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/AC8-GL/TECNO-AC8:11/RP1A.200720.011/230224V2274:user/release-keys",
+  "postBuild": "TECNO/AC8-GL/TECNO-AC8:11/RP1A.200720.011/230417V2296:user/release-keys",
+  "postTimestamp": 1681746839,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/48f431836e3b9ff7f60dbfe144db22f999a9cd13.zip",
+  "sizeBytes": 91738949,
+  "securityPatch": "2023-04-05",
+  "sdk": "30",
+  "device": "TECNO-AC8",
+  "checkinDevice": "TECNO-AC8",
+  "title": "AC8-H853A-R-GL-230224V2274-230417V2296_20230418003810",
+  "description": "Caution! This update may crash rooted devices.<br>    \nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>    \nUpdate Version:AC8-H853A-R-GL-230417V2296<br>    \n\nOptimized issues:  <br> \n1.Updated Google Security Patch to Apr. 5, 2023. <br>                            \n2.Improved user experience. <br>          \n\nReminding:<br>    \n1.Optimized system stability and performance while fixing other issues.<br>     \n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2908,
+  "archiveUrls": []
+}

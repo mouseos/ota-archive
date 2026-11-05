@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "TECNO/AC8-GL/TECNO-AC8:11/RP1A.200720.011/211202V1955:user/release-keys",
+  "postTimestamp": 1638421351,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/a33db175c199e33b682cd5397dde2eec3a6a0397.zip",
+  "sizeBytes": 4078210192,
+  "securityPatch": "2021-10-05",
+  "sdk": "30",
+  "device": "TECNO-AC8",
+  "checkinDevice": "TECNO-AC8",
+  "title": "Tcard_AC8-H853A-R-OP-211202V1955",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version: AC8-H853A-R-OP-211202V1955<br>\nChanged Functions:<br>\n1.Upgraded OS visual and interactive experience, with 1700+ optimized points.<br>\n2.Added smart OS features to achieve quick app start and convenient message reminders.<br>\n3.Upgraded Phone Cloner, with features like background transfer and synchronization of Settings, Home screen, and app data. It applies to more third-party apps.<br>\n4.Upgraded XArena and Dar-link to bring more lively game experience.<br>\n5.Upgraded Video Player to support more file formats and optimize layout and playing effect.<br>\n6.Added usage records of apps with sensitive permissions in Privacy, and optimized the display of calling sensitive permissions in background.<br>\n7.Upgraded App twin to support WeChat and Line.<br>\n8.Supported multitasking scenes in multitasking windows.<br>\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO spot forum (http://bbs.tecno-mobile.com) for more information.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2910,
+  "archiveUrls": []
+}

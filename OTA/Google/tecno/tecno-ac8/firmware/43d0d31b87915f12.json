@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/AC8-GL/TECNO-AC8:11/RP1A.200720.011/220823V2225:user/release-keys",
+  "postBuild": "TECNO/AC8-GL/TECNO-AC8:11/RP1A.200720.011/230111V2265:user/release-keys",
+  "postTimestamp": 1673391697,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/add8b18b474b7e349a4a80c23b2293c368f944c7.zip",
+  "sizeBytes": 422257816,
+  "securityPatch": "2022-12-05",
+  "sdk": "30",
+  "device": "TECNO-AC8",
+  "checkinDevice": "TECNO-AC8",
+  "title": "AC8-H853A-R-GL-220823V2225-230111V2265_20230111074857",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdate Version:AC8-H853A-R-GL-230111V2265<br>\n\n\nChanged Functions:<br>\n1.Optimized the stability issue from user feedback.<br>\n\nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 2906,
+  "archiveUrls": []
+}
