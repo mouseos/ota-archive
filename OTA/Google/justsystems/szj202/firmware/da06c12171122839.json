@@ -12,7 +12,9 @@
   "description": "1. security patch 2020-09<br>2. stability",
   "otaType": "incremental",
   "source": "app",
-  "archiveUrls": [],
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-justsystems-szj202/69b8ae7a2a6fd4a64f6588be3e9399309bb86def.zip"
+  ],
   "abType": "BLOCK",
   "requiredCacheBytes": 376967168,
   "partitions": [
