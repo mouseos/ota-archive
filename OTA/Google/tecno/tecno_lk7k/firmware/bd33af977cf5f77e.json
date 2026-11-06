@@ -33,5 +33,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "checkin",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-tecno-tecno_lk7k/87324fc78dc92caefa2fe17fec15f8d69ceab5f7.zip"
+  ]
 }
