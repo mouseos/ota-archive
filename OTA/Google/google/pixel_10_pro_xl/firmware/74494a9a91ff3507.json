@@ -1,0 +1,28 @@
+{
+  "preBuild": "google/mustang/mustang:16/CP1A.260505.005/15081906:user/release-keys",
+  "postBuild": "google/mustang/mustang:17/CP4A.261105.040.A1/16581829:user/release-keys",
+  "postTimestamp": 1791850585,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/5b8125b2929ab26959fd8374659e34d940a486f2.zip",
+  "sizeBytes": 3616533055,
+  "securityPatch": "2026-11-05",
+  "sdk": "37",
+  "device": "mustang",
+  "checkinDevice": "mustang",
+  "title": "November Pixel Drop update available",
+  "description": "<p><b>Your Pixel is getting better</b> with the latest features and enhancements. Learn more on our Community page.</p>\n<p><b>What's new?</b></p>\n<p>• Voice typing just got a major upgrade. Rambler can automatically remove filler words like “um,” and format your thoughts into clear, polished text. [1]</p>\n<p>• Pixel 10 designed for Gemini Intelligence. Get personalized help with everyday tasks so you can easily find info, take action, and brainstorm ideas. [1]</p>\n<p>• Your phone can even anticipate more of your needs and help you take action with a tap. Offload routine tasks to Gemini – like booking a ride and summarizing text. [2]</p>\n<p>• Create custom widgets, like a spending tracker or a game day widget with team colors. Your home screen can be as personalized as you want it to be. [2]</p>\n<p>• Give your phone a makeover with brand-new custom icon styles. Redesign all your home screen icons with a consistent look.</p>\n<p>• Transit Mode now can turn on automatically when your phone detects you’re on a train. It adjusts your sound, turns on Bluetooth, and can turn on Motion Assist for smoother browsing. [3]</p>\n<p>• Pixel search helps you find what you need across your phone, from vacation photos and recent emails to messages, calendar events, and device settings. [4]</p>\n<p>• Extreme Charging Mode now supported on more devices. [5]</p>\n<p>• Message notification summaries and organizer now in more countries and languages. [6]</p>\n<br>\n\n  <p>[1] Available for select countries and languages to users 18+. Feature availability will vary; some features may require subscription for higher usage. Some features available on Gemini app. Check responses. Not available on Pixel 10a phones.</p>\n  <p>[2] Available for select devices, countries, and languages to users 18+. Feature availability will vary; may require subscription for higher usage. Check responses.</p>\n  <p>[3] Automatic train detection and Motion Assist in Transit Mode are off by default and can be turned on in Settings.</p>\n  <p>[4] Available for select devices, countries, and languages to users 18+. Feature availability will vary; may require subscription for higher usage. Some features require setup or connected apps. Check responses.</p>\n  <p>[5] Available on Pixel 10 and newer except Pixel 10a.</p>\n  <p>[6] Available on Pixel 9 and newer phones (excluding Pixel 9a and Pixel 10a) in select countries and languages.</p>\n  <br>\n  <p>Downloading updates over a cellular network, metered Wi-Fi, or while roaming may cause additional charges.</p>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
