@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2608191839:user/release-keys",
+  "postBuild": "Nothing/Galaxian/Galaxian:16/BP2A.250605.031.A3/2610291756:user/release-keys|Nothing/GalaxianEEA/Galaxian:16/BP2A.250605.031.A3/2610291756:user/release-keys|Nothing/GalaxianIND/Galaxian:16/BP2A.250605.031.A3/2610291756:user/release-keys|Nothing/GalaxianJPN/Galaxian:16/BP2A.250605.031.A3/2610291756:user/release-keys|Nothing/GalaxianTUR/Galaxian:16/BP2A.250605.031.A3/2610291756:user/release-keys",
+  "postTimestamp": 1793267793,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/fb90fdd981411d06c97063fd72a093da36e9b3d0.zip",
+  "sizeBytes": 88136616,
+  "securityPatch": "2026-11-01",
+  "sdk": "36",
+  "device": "Galaxian",
+  "checkinDevice": "Galaxian",
+  "title": "Nothing OS 4.1 (Galaxian-B4.0-261029-1756)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔗 Optimised Bluetooth connection stability when activating the voice assistant.<br>\n📲 Improved Bluetooth reliability when sending and receiving files.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to November 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
