@@ -1,9 +1,9 @@
 {
-  "preBuild": "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.223fc4c-1bf50-1:user/release-keys",
+  "preBuild": "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.1e8a248-40dee-40ded:user/release-keys",
   "postBuild": "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T1.2323580_1_3:user/release-keys",
   "postTimestamp": 1774530492,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/3fa8bccd7338a5c67e68a9147738684730a5d74b.zip",
-  "sizeBytes": 233186243,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/789bd262730fcb273139c7b6cef78d0efd014055.zip",
+  "sizeBytes": 466740713,
   "securityPatch": "2026-04-01",
   "sdk": "34",
   "device": "OP5958L1",
@@ -17,7 +17,7 @@
   "hasFirmware": false,
   "hasApex": false,
   "source": "otachecker",
-  "sourceId": 2120,
+  "sourceId": 2942,
   "archiveUrls": [
     "https://archive.org/download/ota-google-oneplus-op5958l1/3fa8bccd7338a5c67e68a9147738684730a5d74b.zip"
   ]
