@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/eaa2f845320035e05a61a26bd659e483e0517484.zip",
+  "fingerprint": "FCNT/M06/M06:16/V53RM47A/M06.20260820:user/release-keys",
+  "manufacturer": "fcnt",
+  "brand": "fcnt",
+  "model": "m06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V06RM67D）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
