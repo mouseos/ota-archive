@@ -24,5 +24,7 @@
   "hasFirmware": false,
   "hasApex": true,
   "source": "app",
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-fcnt-m06/eaa2f845320035e05a61a26bd659e483e0517484.zip"
+  ]
 }
