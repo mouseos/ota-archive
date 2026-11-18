@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/M06/M06:14/V05RM65B/M06.20250209:user/release-keys",
+  "postBuild": "FCNT/M06/M06:14/V06RM67D/M06.20250425:user/release-keys",
+  "postTimestamp": 1745517425,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/eaa2f845320035e05a61a26bd659e483e0517484.zip",
+  "sizeBytes": 53512909,
+  "securityPatch": "2025-04-01",
+  "sdk": "34",
+  "device": "M06",
+  "checkinDevice": "M06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V06RM67D）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
