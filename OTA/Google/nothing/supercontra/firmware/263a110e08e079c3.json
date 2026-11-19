@@ -1,0 +1,29 @@
+{
+  "preBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2609041739:user/release-keys",
+  "postBuild": "Nothing/SuperContra/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2611111740:user/release-keys|Nothing/SuperContraEEA/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2611111740:user/release-keys|Nothing/SuperContraIND/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2611111740:user/release-keys|Nothing/SuperContraJPN/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2611111740:user/release-keys|Nothing/SuperContraTUR/SuperContra:16/BQ2A.260210.001-BP2A.250705.008/2611111740:user/release-keys",
+  "postTimestamp": 1794390008,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/11860df9811468029f87e3d39d7a2625c86e0da7.zip",
+  "sizeBytes": 1356601524,
+  "securityPatch": "2026-11-01",
+  "sdk": "36",
+  "device": "SuperContra",
+  "checkinDevice": "SuperContra",
+  "title": "Nothing OS 4.1 (SuperContra-B4.1-261111-1740)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n⛓️‍💥 Fixed an issue where Wi-Fi could unexpectedly disconnect and fail to reconnect.<br>\n🌐 Enhanced overall network performance and stability.<br>\n⚙️ Enhanced overall system stability and resolved occasional crashes.<br>\n🛡️ Updated to November 2026 security patch.<br>\n<br> \n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
