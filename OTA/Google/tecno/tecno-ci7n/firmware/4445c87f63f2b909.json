@@ -1,0 +1,26 @@
+{
+  "preBuild": "TECNO/CI7n-GL/TECNO-CI7n:13/TP1A.220624.014/231101V3770:user/release-keys",
+  "postBuild": "TECNO/CI7n-GL/TECNO-CI7n:13/TP1A.220624.014/240429V4239:user/release-keys",
+  "postTimestamp": 1714413144,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/f454466d51546257a5e605e47bf1754becb95c43.zip",
+  "sizeBytes": 288326949,
+  "securityPatch": "2024-03-05",
+  "sdk": "33",
+  "device": "TECNO-CI7n",
+  "checkinDevice": "TECNO-CI7n",
+  "title": "CI7n-H332ABCD-T-GL-231101V3770-240429V4239_20240430095954",
+  "description": "Caution! This update may crash rooted devices.<br>\nPlease plug in charger to OTA upgrade when power is lower than 50%.<br>\nUpdateVersion:CI7n-H332ABCD-T-GL-240429V4239<br>\n \nOptimized issues:<br>\n1.Updated Google Security Patch to March 5, 2024.<br>\n2.Improved user experience. <br>\n \nReminding:<br>\n1.Optimized system stability and performance while fixing other issues.<br>\n2.Visit the TECNO SPOT forum (TECNO SPOT) for more information.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2960,
+  "archiveUrls": []
+}
