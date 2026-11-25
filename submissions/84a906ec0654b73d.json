@@ -1,0 +1,9 @@
+{
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0fb193f991595a9c8a5aeb47f0fa02925337afec.zip",
+  "fingerprint": "FCNT/M06/M06:16/V54RM49B/M06.20261020:user/release-keys",
+  "manufacturer": "fcnt",
+  "brand": "fcnt",
+  "model": "m06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V35RM55A）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。"
+}
