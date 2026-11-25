@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/M06/M06:15/V34RM54B/M06.20251222:user/release-keys",
+  "postBuild": "FCNT/M06/M06:15/V35RM55A/M06.20260126:user/release-keys",
+  "postTimestamp": 1769363655,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/0fb193f991595a9c8a5aeb47f0fa02925337afec.zip",
+  "sizeBytes": 64737084,
+  "securityPatch": "2026-02-01",
+  "sdk": "35",
+  "device": "M06",
+  "checkinDevice": "M06",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V35RM55A）<br> \n・セキュリティの向上<br> \n ※その他の更新も含まれております。<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
