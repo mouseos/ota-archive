@@ -1,0 +1,28 @@
+{
+  "preBuild": "FCNT/FCG02_jp_kdi/FCG02:14/V10RK38E/FCG02.20240612:user/release-keys",
+  "postBuild": "FCNT/FCG02_jp_kdi/FCG02:14/V15RK71C/FCG02.20241018:user/release-keys",
+  "postTimestamp": 1729223716,
+  "otaUrl": "https://ota.googlezip.net/packages/ota-api/package/107b6d5f9f086d1be3430805c14a5827f42bc017.zip",
+  "sizeBytes": 493997312,
+  "securityPatch": "2024-10-01",
+  "sdk": "34",
+  "device": "FCG02",
+  "checkinDevice": "FCG02",
+  "title": "システムアップデートが利用可能",
+  "description": "【更新内容】（ビルド番号：V15RK71C）<br> \n・セキュリティの向上<br> \n<br>\n※インストール中は本機の電源を切らないでください。<br>\n注意事項に関する詳細は弊社ホームページをご確認ください。",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "app",
+  "archiveUrls": []
+}
