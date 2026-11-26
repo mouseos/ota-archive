@@ -1,0 +1,28 @@
+{
+  "preBuild": "Nokia/Deadmau5_04US/DM5:11/RKQ1.210528.001/04US_1_650:user/release-keys",
+  "postBuild": "Nokia/Deadmau5_04US/DM5:11/RKQ1.210528.001/04US_1_65C:user/release-keys",
+  "postTimestamp": 1694515716,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/054d7a43f01614521241fcd36169ad82bfdacdab.zip",
+  "sizeBytes": 98730957,
+  "securityPatch": "2023-10-05",
+  "sdk": "30",
+  "device": "DM5",
+  "checkinDevice": "DM5",
+  "title": "System update available",
+  "description": "At T-Mobile, our customer's privacy and security is incredibly important. We pride ourselves on making sure your mobile experience is safe and secure. It is strongly recommended that you install this security patch to protect your device.<br>\n\n<br>This will not consume your data.<br>\n\n<br>Please charge your device at least 40% and do not turn off the device while the update is installing. During installation you cannot use your device at all, even to dial 9-1-1.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 179,
+  "archiveUrls": []
+}

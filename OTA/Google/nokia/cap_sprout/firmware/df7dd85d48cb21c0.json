@@ -1,0 +1,27 @@
+{
+  "preBuild": "",
+  "postBuild": "Nokia/CaptainAmerica_00EEA/CAP_sprout:12/SKQ1.211230.001/00WW_3_490:user/release-keys",
+  "postTimestamp": 1677034597,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/554e5407c5d9bf14e8912abf4d0e2b37c5f5e534.zip",
+  "sizeBytes": 1805980306,
+  "securityPatch": "2023-02-01",
+  "sdk": "31",
+  "device": "CAP_sprout",
+  "checkinDevice": "CAP_sprout",
+  "title": "System update available",
+  "description": "<br><b>Notification</b><br>- Software update - Android 12 (V3.490)<br><br><b>What’s New</b><br>- Improved system stability<br>- User interface enhancements<br>- Google Security Patch 2023-02<br><br><b>Advisory Notice</b><br>- It is recommended that Users use Wi-Fi wherever possible in order to download updates. If you wish to use Cellular Mobile connection, please note that downloading data over a Cellular Mobile Network (including when in a Roaming environment), may incur additional charges - check with your Network Provider should you have any concerns.<br>",
+  "otaType": "full",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": false,
+  "source": "otachecker",
+  "sourceId": 165,
+  "archiveUrls": []
+}
