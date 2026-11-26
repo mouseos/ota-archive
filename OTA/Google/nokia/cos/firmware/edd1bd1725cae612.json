@@ -24,5 +24,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 172,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-cos/d42cdc53af98408aa8077f3987af494bab71046c.zip"
+  ]
 }
