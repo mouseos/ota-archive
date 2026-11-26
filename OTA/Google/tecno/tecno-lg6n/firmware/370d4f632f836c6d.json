@@ -1,0 +1,27 @@
+{
+  "preBuild": "TECNO/LG6n-RU/TECNO-LG6n:12/SP1A.210812.016/230307V1170:user/release-keys",
+  "postBuild": "TECNO/LG6n-RU/TECNO-LG6n:12/SP1A.210812.016/230510V1294:user/release-keys",
+  "postTimestamp": 1683735114,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/1577ba3458d5e253b87aa91989da2ad9cec15f8b.zip",
+  "sizeBytes": 182264660,
+  "securityPatch": "2023-05-05",
+  "sdk": "31",
+  "device": "TECNO-LG6n",
+  "checkinDevice": "TECNO-LG6n",
+  "title": "LG6n-H6924CER-S-RU-230307V1170-230510V1294_20230512111004",
+  "description": "Внимание! Рутованное устройство после этого обновления может перестать работать.<br>\nЕсли заряд аккумулятора ниже 50%, перед началом обновления подключите телефон к зарядному устройству.<br>\nВерсия обновления: LG6n-H6924CER-S-RU-230510V1294 <br>\n\nИзменения в функциях:<br>\n1.Обновлен патч безопасности Google от 5 мая 2023 года.<br>\n\nЗаключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд других проблем.<br>\n2. Подробную информацию можно найти на форуме XCLUB (Geekbar).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "product",
+    "system",
+    "system_ext",
+    "vendor"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 2993,
+  "archiveUrls": []
+}

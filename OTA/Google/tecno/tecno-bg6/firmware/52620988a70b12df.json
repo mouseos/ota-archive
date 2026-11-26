@@ -1,0 +1,29 @@
+{
+  "preBuild": "TECNO/BG6-RU/TECNO-BG6:13/TP1A.220624.014/250411V222:user/release-keys",
+  "postBuild": "TECNO/BG6-RU/TECNO-BG6:13/TP1A.220624.014/250610V231:user/release-keys",
+  "postTimestamp": 1749567082,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/cf783a79a797683f5a381cee64aa46bfe291fb35.zip",
+  "sizeBytes": 92592546,
+  "securityPatch": "2025-06-05",
+  "sdk": "33",
+  "device": "TECNO-BG6",
+  "checkinDevice": "TECNO-BG6",
+  "title": "BG6-F069AlAmAnFjFkFl-TGo-RU-OTA-250411V222-250610V231_20250620_141600",
+  "description": "<br>Если заряд аккумулятора ниже 50%, перед началом обновления по беспроводной сети подключите телефон к зарядному устройству.<br><br>Версия обновления:<br> BG6-F069AlAmAnFjFkFl-TGo-RU-250610V231<br><br>Версия обновления:<br>1. Обновлен патч безопасности Google от 5 июня 2025 года.<br><br>Заключение:<br>\n1. Оптимизированы стабильность и быстродействие системы, а также устранен ряд проблем.<br>\n2. Подробную информацию можно найти на форуме TECNO SPOT (https://tspot.tecno.com).<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "product",
+    "system",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "otachecker",
+  "sourceId": 3001,
+  "archiveUrls": []
+}
