@@ -20,5 +20,7 @@
   "hasApex": false,
   "source": "otachecker",
   "sourceId": 192,
-  "archiveUrls": []
+  "archiveUrls": [
+    "https://archive.org/download/ota-google-nokia-e1m/be2c07966d184eca67df3e11def1e0b9341afdee.zip"
+  ]
 }
