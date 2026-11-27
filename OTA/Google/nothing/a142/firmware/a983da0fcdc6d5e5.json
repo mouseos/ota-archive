@@ -1,9 +1,9 @@
 {
-  "preBuild": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2609281157:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2609281157:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2609281157:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2609281157:user/release-keys",
+  "preBuild": "Nothing/Pacman/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanEEA/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanIND/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys|Nothing/PacmanJPN/Pacman:16/BP2A.250605.031.A3/2608130941:user/release-keys",
   "postBuild": "Nothing/Pacman/Pacman:17/CP2A.260605.016/2611121938:user/release-keys|Nothing/PacmanEEA/Pacman:17/CP2A.260605.016/2611121938:user/release-keys|Nothing/PacmanIND/Pacman:17/CP2A.260605.016/2611121938:user/release-keys|Nothing/PacmanJPN/Pacman:17/CP2A.260605.016/2611121938:user/release-keys",
   "postTimestamp": 1794483480,
-  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/ed3bf2f262e3f5e7490fc8efc3f9777e5b955560.zip",
-  "sizeBytes": 3151836529,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/b5636413c84b5209f99d3b155f6666ca328530c9.zip",
+  "sizeBytes": 3151514231,
   "securityPatch": "2026-11-01",
   "sdk": "37",
   "device": "Pacman",
