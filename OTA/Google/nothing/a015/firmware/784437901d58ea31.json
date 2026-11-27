@@ -1,0 +1,30 @@
+{
+  "preBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2609281140:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2609281140:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2609281140:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2609281140:user/release-keys",
+  "postBuild": "Nothing/Tetris/Tetris:16/BP2A.250605.031.A3/2610281606:user/release-keys|Nothing/TetrisEEA/Tetris:16/BP2A.250605.031.A3/2610281606:user/release-keys|Nothing/TetrisIND/Tetris:16/BP2A.250605.031.A3/2610281606:user/release-keys|Nothing/TetrisTUR/Tetris:16/BP2A.250605.031.A3/2610281606:user/release-keys",
+  "postTimestamp": 1793174778,
+  "otaUrl": "https://android.googleapis.com/packages/ota-api/package/844fd74a01f12d2f3eaf487ebfd9831b838c16f4.zip",
+  "sizeBytes": 57292145,
+  "securityPatch": "2026-11-01",
+  "sdk": "36",
+  "device": "Tetris",
+  "checkinDevice": "Tetris",
+  "title": "Nothing OS 4.1 (Tetris-B4.1-261028-1606)",
+  "description": "What's New in This Update\n<b>General Improvements and Bug Fixes</b><br>\n<br>\n🔗 Enhanced Bluetooth reliability.<br>\n⚙️ Enhanced overall system stability.<br>\n🛡️ Updated to November 2026 security patch.<br>\n<br>\n<b>Notes:</b><br>\nYour device may use more power and feel warmer during installation. Performance will return to normal after the update is complete.<br>",
+  "otaType": "incremental",
+  "abType": "AB",
+  "requiredCacheBytes": 0,
+  "partitions": [
+    "odm",
+    "odm_dlkm",
+    "product",
+    "system",
+    "system_dlkm",
+    "system_ext",
+    "vendor",
+    "vendor_dlkm"
+  ],
+  "hasFirmware": false,
+  "hasApex": true,
+  "source": "checkin",
+  "archiveUrls": []
+}
